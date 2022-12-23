@@ -1,0 +1,640 @@
+﻿<base href="http://en.ca.msn.stats.com/nba/playerstats.asp?id=3750"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xml:lang="en-ca" lang="en-ca" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="urn:schemas-microsoft-com/web"><head><meta http-equiv="X-UA-Compatible" content="IE=7" /><title> NBA Player Stats - Mo Williams - Cleveland Cavaliers - Sports - MSN CA</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="SHORTCUT ICON" href="http://blstc.msn.com/br/csl/img/1/favicon.ico" type="image/x-icon" /><meta name="description" content="[[description]]" /><meta name="keywords" content="" /><meta http-equiv="pics-label" content="(pics-1.1 &quot;http://www.icra.org/ratingsv02.html&quot; comment &quot;Single file v2.0&quot; l gen true for &quot;http://sports.ca.msn.com&quot; r (nz 1 vz 1 lz 1 oz 1 cz 1) &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true for &quot;http://sports.ca.msn.com&quot; r (n 0 s 0 v 0 l 0)" /><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/9/gtl_sitegeneric.css");@import url("http://blstc.msn.com/br/gbl/css/8/01.css");@import url("http://blstc.msn.com/br/csl/css/4c0ac779b66e62f82b576cec54403cb1/css.css");@import url("http://blstc.msn.com/br/intl/css/custom_h1.css ");@import url("http://blstc.msn.com/br/csl/css/themes/1/theme01.css");</style><!--[if IE]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/9/ie.css");@import url("http://blstc.msn.com/br/csl/css/1/mni_longhorizontal_ie.css");</style><![endif]--><!--[if IE 6]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/2/ie6.css");</style><![endif]--><!--[if lt IE 5.5000]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/8/ie5.css");</style><![endif]--><!--[if !IE]>--><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/mozcompat.js"></script><!--<![endif]--><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/core.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/2/report.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/1/jquery-1.3.2.min.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/1/navigation.js"></script><script type="text/javascript" src="http://ads1.msn.com/library/dap.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/d120335c0f0829d1f2ed9fce2851acaf/js.js"></script><script type="text/javascript">/*<![CDATA[*/(function($){function isNumber(obj,min,max){return(typeof obj=="number")&&(isNumber(min)?obj>=min:true)&&(isNumber(max)?obj<=max:true)}
+function isString(obj,minLength){return(typeof obj=="string")&&(isNumber(minLength)?obj.length>=minLength:true);}
+var $isArray=$.isArray;var urlRegExp=/^((ht|f)tps?\:\/\/)((([a-z0-9\-]+\.)+[a-z]{2,4})|((\d{1,3}\.){3}\d{1,3})(:[0-9]+)?)(\/([a-z0-9\-_\.\?!~\*\'\(\);\/\?:@&=\+\$,%#])*|\/?)$/i;function getObjectWithNamespace(objName){var ns=objName.split('.'),o=window,i,len=ns.length;for(i=0;i<len;i++){o=o[ns[i]];if(o==null)
+return null;}
+return o;}
+$.extend({isNumber:isNumber,isString:isString,isAbsoluteUrl:function(obj){return isString(obj)&&urlRegExp.test(obj);},isObject:function(obj){return(typeof obj=="object")&&(obj!==null);},isDefined:function(obj){return(typeof obj!="undefined");},isArray:function(obj,minLength){return $isArray(obj)&&(isNumber(minLength)?obj.length>=minLength:true);},getObjectWithNamespace:getObjectWithNamespace});})(jQuery);(function($){var defaults={timeout:250};var pending={};var pollList=[];var timerId;var $isString=$.isString;var $isFunction=$.isFunction;var w=window;function async(test,action,url){var canary;if($isString(test,1)&&(canary=(this[test])||$.getObjectWithNamespace(test))){if($isFunction(action)){action.apply(this);}
+else if($isFunction(canary)){if($.isArray(action)){canary.apply(this,action);}
+else if(!$.isDefined(action)){canary.apply(this);}}}
+else if($isString(url)){var testQueue=pending[url];if(testQueue){testQueue.push(new testItem(test,action,this));}
+else{pending[url]=[new testItem(test,action,this)];$.ajax({url:url,dataType:"script",cache:1,success:function(){testQueue=pending[url];for(var item,ndx=0;(item=testQueue[ndx]);++ndx){retryTest(item);}}});}}
+else if($isString(test,1)){pollList.push(new testItem(test,action,this));if(!timerId){timerId=w.setTimeout(pollCallback,defaults.timeout);}}}
+function pollCallback(){var list=pollList;pollList=[];for(var item,ndx=0;(item=list[ndx]);++ndx){retryTest(item);}
+timerId=(pollList.length==0?0:w.setTimeout(pollCallback,defaults.timeout));}
+function retryTest(item){async.call(item.callee,item.test,item.action);}
+function testItem(test,action,callee){this.test=test;this.action=action;this.callee=callee;}
+$.async=$.fn.async=w.async=async;$.async.defaults=defaults;})(jQuery);//]]></script></head><body class="wide"><div id="reporting"><img id="ctag" width="1" height="1" alt="" src="http://c.msn.com/c.gif?di=13995&amp;pi=11654&amp;ps=10300&amp;tp=http://sports.ca.msn.com/Partner/NBA_Player_Stats.aspx&amp;rf=" /><div id="omni"><script type="text/javascript">var s_account='msnportalsportsenca';</script><script type="text/javascript" src="http://blstj.msn.com/br/om/js/s_code.js"></script><script type="text/javascript">s.charSet='UTF-8';s.linkInternalFilters='javascript:,sports.ca.msn.com';s.pageName='PlayerStats|NBA|Sports';s.server='sports.ca.msn.com';s.prop1='Sports';s.prop2='en-ca';s.channel='Sports';s.prop22='False';s.prop25='';s.prop26='';s.prop3='NBA';s.prop4='PlayerStats';s.prop49='';s.prop50=escape(document.URL);s.eVar1=s.getQueryParam('cp-documentid');s.prop11='';s.prop37='';var s_code=s.t();if(s_code)document.write(s_code);</script><script type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script><noscript><div><img src="http://msnportalsportsenca.112.2O7.net/b/ss/msnportalsportsenca/1/H.1--NS/0" height="1" width="1" alt="" /></div></noscript></div><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/6/linktracking.js"></script></div><div id="wrapper" class="page6 region9"><div id="head"><div id="banner" class="parent chrome1 single1"><div class="child c1 first"><div class="advertisement"><script type="text/javascript">dap("&amp;PG=CESNB7&amp;AP=1390",728,90);</script></div></div></div><div class="parent chrome6 single1"><div class="child c1 first"><div class="msnhead1 cf"><ul id="big3" class="linklist9"><li class="first"><a href="javascript:if(!window.innerHeight){document.getElementById('optlinks').getElementsByTagName('a')[0].style.behavior='url(#default#homepage)';document.getElementById('optlinks').getElementsByTagName('a')[0].setHomePage('http://ca.msn.com/')};">Make MSN.ca your homepage</a></li><li><a href="http://www.hotmail.com">Hotmail</a></li><li class="last"><a href="http://video.msn.com/video.aspx?mkt=en-ca">Video</a></li></ul><ul id="xnav"><li class="first selected"><a href="http://autos.ca.msn.com">Autos</a></li><li><a href="http://money.ca.msn.com">Money</a></li><li><a href="http://entertainment.ca.msn.com">Entertainment</a></li><li><a href="http://lifestyle.ca.msn.com">Lifestyle</a></li></ul><div id="more" class="col5 cf"><ul class="linkedimglinklist1 cf"><li class="first"><a href="http://go.microsoft.com/?linkid=9670787"><img src="http://col.stb.s-msn.com/i/B6/32E46DE281A68B9C33FC582D2569D.gif" width="25" height="20" alt="Envelope" /><span>Hotmail</span></a></li><li><a href="http://go.microsoft.com/?linkid=9652686"><img src="http://col.stb.s-msn.com/i/E3/6C1DD5E3386DEAE0954D8340F25A.gif" width="25" height="20" alt="Two people figures" /><span>Messenger</span></a></li><li><a href="http://ca.my.msn.com/?lang=en-ca"><img src="http://col.stb.s-msn.com/i/48/6CDE404B4BFEC334D023E5422081E0.gif" width="25" height="20" alt="Figure of person in front of computer monitor" /><span>My MSN</span></a></li><li class="last"><a href="http://ca.msn.com/directory.aspx"><img src="http://col.stb.s-msn.com/i/78/7CE57843948D6DF13E79A2DE4E15C.gif" width="25" height="20" alt="Figure of an arrow pointing to screen" /><span>MSN Directory</span></a></li></ul><ul class="linklist1"><li class="first"><a href="http://autos.ca.msn.com/">Autos</a></li><li><a href="http://toolbar.msn.com/default.aspx?loc=en-ca">Bing Toolbar</a></li><li><a href="http://msn.careerbuilder.ca/ca/custom/msn/default.aspx?lr=int_camsn&amp;siteid=camsnen">Careers</a></li><li><a href="http://entertainment.ca.msn.com/celebs/">Celebs</a></li><li class="last"><a href="http://dating.ca.msn.com/matchus/index.aspx?TrackingID=525768&amp;BannerID=666406">Dating</a></li></ul><ul class="linklist1"><li class="first"><a href="http://entertainment.ca.msn.com/">Entertainment</a></li><li><a href="http://games.ca.zone.msn.com/">Games</a></li><li><a href="http://lifestyle.ca.msn.com/health-fitness/">Health &amp; Fitness</a></li><li><a href="http://astrology.ca.msn.com/">Horoscopes</a></li><li class="last"><a href="http://lifestyle.ca.msn.com/">Lifestyle</a></li></ul><ul class="linklist1"><li class="first"><a href="http://windowsliveformobile.com/en-ca/home/default.aspx">Mobile</a></li><li><a href="http://money.ca.msn.com/">Money</a></li><li><a href="http://entertainment.ca.msn.com/movies/">Movies</a></li><li><a href="http://entertainment.ca.msn.com/music/">Music</a></li><li class="last"><a href="http://news.ca.msn.com/">News</a></li></ul><ul class="linklist1"><li class="first"><a href="http://shopping.ca.msn.com/">Shopping</a></li><li><a href="http://sports.ca.msn.com/">Sports</a></li><li><a href="http://tech.ca.msn.com/">Tech &amp; Gadgets</a></li><li><a href="http://travel.ca.msn.com/">Travel</a></li><li class="last"><a href="http://video.msn.com/video.aspx?mkt=en-ca">Video</a></li></ul><ul class="linklist1"><li class="first"><a href="http://weather.ca.msn.com/">Weather</a></li><li><a href="http://www.msn.yellowpages.ca/">Yellow Pages ™</a></li><li class="last"><a href="http://ca.msn.com/directory.aspx"><strong>MORE…</strong></a></li></ul><script type="text/javascript">Msn.Header.bind("#head",{more:"more"});</script></div><div id="brand" class="gtl_01"><div id="logo"><a href="http://ca.msn.com/?lang=en-ca"><img src="http://blstj.msn.com/br/gbl/lg/1/m/msft.gif" alt="Go to MSN.ca" width="118" height="35" /></a><a class="name" href="http://sports.ca.msn.com">Sports</a></div><form id="search" action="http://www.bing.com/search" method="get" onsubmit="return Msn.Report.TrackForm(this)"><div><label accesskey="s" for="q">Live search:</label><input type="hidden" name="FORM" value="SBSPOR" /><input type="hidden" name="mkt" value="en-ca" /><div id="ntwscopes"></div><div id="leftcorner"></div><div id="searchform"><div class="searchinputarea"><div class="searchinput"><input type="text" id="q" name="q" class="typing" maxlength="215" title="Search for" /></div><div class="searchsubmit"><input type="image" id="spyglass" src="http://blstc.msn.com/br/gbl/css/9/decoration/searchicon_22x22.gif" alt="Search" /></div></div></div><div id="ntwlogo"><input type="image" id="logoimg" src="http://blstc.msn.com/br/gbl/css/9/decoration/logo_56x29.png" alt="bing.com" /></div><div id="rightcorner"></div></div></form><script type="text/javascript">Msn.SiteSearch.bind("#search",{searchParam:"q",searchParams:"mkt=en-ca&amp;nav-msnchannelsnavigator=Sports",searchUrl:"http://search.ca.msn.com/sports/",sitetext:"Search Sports",webtext:"Web",siteSearchOn:"true",helpertext:"",onepxgif:"http://blstc.msn.com/br/gbl/css/9/decoration/t.gif"});</script><div id="optlinks" class="link"><a href="http://sport.ca.msn.com">français</a></div></div></div></div></div></div><div id="page"><div id="nav"><div class="parent chrome6 single1"><div class="child c1 first"><div class="nav3 cf"><ul><li class="first"><a href="http://sports.ca.msn.com/ ">Home</a></li><li class="pretab"><a href="http://sports.ca.msn.com/nhl/">NHL</a></li><li class="expanded notselected"><a href="http://sports.ca.msn.com/nba/">NBA</a><ul><li class="first"><a href="http://en.ca.msn.stats.com/nba/scoreboard.asp">Scores</a></li><li><a href="http://en.ca.msn.stats.com/nba/league.asp?type=stand">Standings</a></li><li class="selected"><a href="http://en.ca.msn.stats.com/nba/players.asp"><strong>Player Stats</strong></a></li><li class="last"><a href="http://en.ca.msn.stats.com/nba/teams.asp">Team Stats and Schedules</a></li></ul></li><li><a href="http://sports.ca.msn.com/mlb/">MLB</a></li><li><a href="http://sports.ca.msn.com/cfl/">CFL</a></li><li class="last"><a href="http://sports.ca.msn.com/nfl/">NFL</a></li></ul></div></div></div></div><div id="content"><div id="subhead" class="ca"></div><div id="mediapage4"><div id="mediapage4column1and3"><div id="infotop" class="ca mpreg5"><!----><div class="child c1 first"><div class="child c1 first">
+<link rel="stylesheet" type="text/css" href="/config/shsdefault.css">
+<link rel="stylesheet" type="text/css" href="/shs.css">
+<link rel="stylesheet" type="text/css" href="/config/nbadefault.css">
+<link rel="stylesheet" type="text/css" href="/nba.css">
+<table cellspacing="0" id="shsNavTable"><tr><th colspan="19">NBA Basketball</th></tr><tr><td><a href="/nba/scoreboard.asp">Scoreboard</a></td><td>|</td><td><a href="/nba/index.asp?season=reg">Stats</a></td><td>|</td><td><a href="/nba/standings.asp">Standings</a></td><td>|</td><td><a href="/nba/teams.asp">Teams</a></td><td>|</td><td><a href="/nba/players.asp">Players</a></td><td>|</td><td><a href="/nba/notes.asp?type=news">Player News</a></td><td>|</td><td><a href="/nba/notes.asp?type=inj">Injuries</a></td><td>|</td><td><a href="/nba/notes.asp?type=trans">Transactions</a></td><td class="shsHomeLink">|</td><td class="shsHomeLink"><a href="/nba/front.asp">Home</a></td></tr></table>
+
+<div id="shsBody">
+<div id="shsNBAPlayerStats">
+
+
+<!--
+	<div style="clear: both; height: 160px">
+		<div style="width: 40%; float: left"></div>
+		<div style="width: 58%; height: 150px; float: right; padding: 5px">
+			<script language="JavaScript" src="/api/nba_player.js.asp?id=3750"></script>
+		</div>
+	</div>
+-->
+	<table cellspacing="1" class="shsSportMastHead"><tr><!-- HEADSHOT 
+<td class="shsPlayerHeadShot"><img src="http://hosted.stats.com/nba/graphics/headshots/nba_3750.jpg" class="shsHeadshot"></td> HEADSHOT -->
+
+
+<td><table cellspacing="1" class="shsTable" style="width: 100%"><tr><td class="shsTeamLogo" style="width: 50px;"><span class="team5lg_trans"></span></td><td class="shsPlayerBasicInfo">#2<br><strong class="shsPlayerName">Mo Williams</strong></td><td class="shsPlayerStatBoxTD shsNumD" style="width: 180px;"><div class="shsPlayerStatBoxContainer"><table width="100%" cellspacing="0" cellpadding="0" border="0" class="shsTable shsBorderTable" id="shsPlayerStatBox"><tbody><tr class="shsColTtlRow">
+<td class="shsTotD" width="33%">PPG</td>
+<td class="shsTotD" width="33%">RPG</td>
+<td class="shsTotD" width="33%">APG</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsTotD" style="text-align: center">
+14.7
+</td>
+<td class="shsTotD" style="text-align: center">
+2.6
+</td>
+<td class="shsTotD" style="text-align: center">
+5.6
+</td>
+</tr>
+</tbody></table></div></td></tr></table><div class="shsContentDivider"></div><table cellspacing="1" class="shsTable shsPlayerBioInfo"><tr><td class="shsNamD"><strong>Team: </strong><a href="/nba/teamstats.asp?teamno=05&amp;type=teamhome">Cleveland Cavaliers</a></td><td class="shsNamD"><strong>Height: </strong>6-1</td>
+<td class="shsNamD"><strong>Born: </strong>12/19/1982      </td>
+</tr><tr>
+<td class="shsNamD"><strong>Position: </strong>PG</td><td class="shsNamD"><strong>Weight: </strong>195</td>
+<td class="shsNamD"><strong>Birthplace: </strong>Jackson, Mississippi</td>
+</tr>
+<tr>
+<td class="shsNamD"><strong>College: </strong>Alabama</td><td class="shsNamD" colspan="2"><strong>Draft: </strong>2nd Round 18th pick by Jazz (2003)</td>
+</tr>
+</table></td></tr></table><br><!--TITLE PLAYER: Mo Williams - Cleveland Cavaliers-->
+<br /><div class="shsPlayerPageNav"><div class="shsPlayerStatsTab" ><strong>Stats</strong></div><div class="shsPlayerSplitsTab" ><a href="/nba/playerstats.asp?id=3750&page=splits">Splits</a></div><div class="shsPlayerLogsTab" ><a href="/nba/playerstats.asp?id=3750&page=logs">Game Logs</a></div><div class="shsPlayerNewsTab" ><a href="/nba/playerstats.asp?id=3750&page=news">News</a></div></div>
+<div class="shsTopPlayerNews"><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow"><td colspan="2" class="shsTotD">Latest News</td></tr><tr class="shsRow0Row shsTopNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 27 <span class="shsTimezone shsPTZone">8:23 PM PT</span><span class="shsTimezone shsMTZone">9:23 PM MT</span><span class="shsTimezone shsCTZone">10:23 PM CT</span><span class="shsTimezone shsETZone">11:23 PM ET</span><span class="shsTimezone shsGMTZone">4:23 GMT</span><span class="shsTimezone shsCSTZone">12:23 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:23 PM MST</span><span class="shsTimezone shsESTZone">11:23 PM EST</span><span class="shsTimezone shsUAEZone">8:23 UAE</span><span class="shsTimezone shsCETZone">04:23 CET</span> - </b></i>Williams scored 25 and dished out a season-high 12 assists in Saturday night's 92-86 win over Memphis.<br><b>Analysis: </b>Williams has caught fire, averaging 23.3 points over his previous three games. He has connected on 8-of-15 (53.3 percent) from three-point range over that span.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 24 <span class="shsTimezone shsPTZone">6:09 PM PT</span><span class="shsTimezone shsMTZone">7:09 PM MT</span><span class="shsTimezone shsCTZone">8:09 PM CT</span><span class="shsTimezone shsETZone">9:09 PM ET</span><span class="shsTimezone shsGMTZone">2:09 GMT</span><span class="shsTimezone shsCSTZone">10:09 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">7:09 PM MST</span><span class="shsTimezone shsESTZone">9:09 PM EST</span><span class="shsTimezone shsUAEZone">6:09 UAE</span><span class="shsTimezone shsCETZone">02:09 CET</span> - </b></i>Williams nailed a 15-foot jumper as time expired to give Cleveland an 83-81 victory over the Milwaukee Bucks on Wednesday night, snapping the Cavaliers&rsquo; three-game losing streak.<br><b>Analysis: </b>Williams ran and jumped up on the scorer&rsquo;s table to celebrate hitting a game-winning shot against his former team. Williams leads the team in scoring with 14.8 points per game.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 21 <span class="shsTimezone shsPTZone">10:21 PM PT</span><span class="shsTimezone shsMTZone">11:21 PM MT</span><span class="shsTimezone shsCTZone">12:21 AM CT</span><span class="shsTimezone shsETZone">1:21 AM ET</span><span class="shsTimezone shsGMTZone">6:21 GMT</span><span class="shsTimezone shsCSTZone">2:21 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">11:21 PM MST</span><span class="shsTimezone shsESTZone">1:21 AM EST</span><span class="shsTimezone shsUAEZone">10:21 UAE</span><span class="shsTimezone shsCETZone">06:21 CET</span> - </b></i>Williams scored a team-high 21 points in Saturday night's 116-92 loss to San Antonio.<br><b>Analysis: </b>Williams is clearly Cleveland's No. 1 option on offense, and if he can stay healthy, should enjoy more nights like this as the season progresses.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 10 <span class="shsTimezone shsPTZone">7:19 PM PT</span><span class="shsTimezone shsMTZone">8:19 PM MT</span><span class="shsTimezone shsCTZone">9:19 PM CT</span><span class="shsTimezone shsETZone">10:19 PM ET</span><span class="shsTimezone shsGMTZone">3:19 GMT</span><span class="shsTimezone shsCSTZone">11:19 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">8:19 PM MST</span><span class="shsTimezone shsESTZone">10:19 PM EST</span><span class="shsTimezone shsUAEZone">7:19 UAE</span><span class="shsTimezone shsCETZone">03:19 CET</span> - </b></i>Williams has a strained left groin and remains out of action for the defending Central Division champions.<br><b>Analysis: </b>Williams missed most of training camp and Cleveland&rsquo;s first three games with a groin injury, but the team said his new injury is not in the same spot as his previous one. He's averaging 14.6 points and is shooting 36 percent from the field in five games.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 7 <span class="shsTimezone shsPTZone">9:24 PM PT</span><span class="shsTimezone shsMTZone">10:24 PM MT</span><span class="shsTimezone shsCTZone">11:24 PM CT</span><span class="shsTimezone shsETZone">12:24 AM ET</span><span class="shsTimezone shsGMTZone">5:24 GMT</span><span class="shsTimezone shsCSTZone">1:24 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:24 PM MST</span><span class="shsTimezone shsESTZone">12:24 AM EST</span><span class="shsTimezone shsUAEZone">9:24 UAE</span><span class="shsTimezone shsCETZone">05:24 CET</span> - </b></i>Williams put up a season-high 28 points on 10-of-19 from the floor in Saturday night's 107-102 win over Washington.<br><b>Analysis: </b>Williams is clearly Cleveland's No. 1 option on offense and should continue to put up stats like these on a consistent basis.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 5 <span class="shsTimezone shsPTZone">5:52 PM PT</span><span class="shsTimezone shsMTZone">6:52 PM MT</span><span class="shsTimezone shsCTZone">7:52 PM CT</span><span class="shsTimezone shsETZone">8:52 PM ET</span><span class="shsTimezone shsGMTZone">0:52 GMT</span><span class="shsTimezone shsCSTZone">8:52 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">5:52 PM MST</span><span class="shsTimezone shsESTZone">7:52 PM EST</span><span class="shsTimezone shsUAEZone">4:52 UAE</span><span class="shsTimezone shsCETZone">00:52 CET</span> - </b></i>In his second game back from a groin injury, Williams scored 22 points in a 123-116 victory in Philadelphia on Friday night.<br><b>Analysis: </b>After missing three games, Williams scored 12 points on 4-of-12 shooting in his return Tuesday night against Atlanta. He made six of 15 shots versus the 76ers but was 0 for 5 from 3-point range.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 27 <span class="shsTimezone shsPTZone">2:45 PM PT</span><span class="shsTimezone shsMTZone">3:45 PM MT</span><span class="shsTimezone shsCTZone">4:45 PM CT</span><span class="shsTimezone shsETZone">5:45 PM ET</span><span class="shsTimezone shsGMTZone">21:45 GMT</span><span class="shsTimezone shsCSTZone">5:45 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">2:45 PM MST</span><span class="shsTimezone shsESTZone">4:45 PM EST</span><span class="shsTimezone shsUAEZone">1:45 UAE</span><span class="shsTimezone shsCETZone">22:45 CET</span> - </b></i>Williams is expected to make his season debut on Tuesday against the Atlanta Hawks.<br><b>Analysis: </b>Williams missed much of training camp and was held out of Cleveland's first three games because of a groin injury.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 21 <span class="shsTimezone shsPTZone">2:59 PM PT</span><span class="shsTimezone shsMTZone">3:59 PM MT</span><span class="shsTimezone shsCTZone">4:59 PM CT</span><span class="shsTimezone shsETZone">5:59 PM ET</span><span class="shsTimezone shsGMTZone">21:59 GMT</span><span class="shsTimezone shsCSTZone">5:59 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">2:59 PM MST</span><span class="shsTimezone shsESTZone">4:59 PM EST</span><span class="shsTimezone shsUAEZone">1:59 UAE</span><span class="shsTimezone shsCETZone">22:59 CET</span> - </b></i>Williams missed the Cavaliers' exhibition game Thursday night against Milwaukee because of his father-in-law's death.<br><b>Analysis: </b>Williams had 11 points and seven assists Tuesday night in a 111-95 victory over Philadelphia in Cincinnati after missing the first six games of the preseason because of a groin injury. He is still a solid fantasy option at guard, especially with LeBron James out of town.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 13 <span class="shsTimezone shsPTZone">6:28 PM PT</span><span class="shsTimezone shsMTZone">7:28 PM MT</span><span class="shsTimezone shsCTZone">8:28 PM CT</span><span class="shsTimezone shsETZone">9:28 PM ET</span><span class="shsTimezone shsGMTZone">1:28 GMT</span><span class="shsTimezone shsCSTZone">9:28 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:28 PM MST</span><span class="shsTimezone shsESTZone">8:28 PM EST</span><span class="shsTimezone shsUAEZone">5:28 UAE</span><span class="shsTimezone shsCETZone">02:28 CET</span> - </b></i>Williams made it through his first full practice of the preseason Wednesday after being slowed by a groin injury.<br><b>Analysis: </b>Williams strained his groin shortly before the Cavs opened training camp. Scott wants Williams to get through another ``four of five practices'' before he decides when the former All-Star will play.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 24 <span class="shsTimezone shsPTZone">1:59 PM PT</span><span class="shsTimezone shsMTZone">2:59 PM MT</span><span class="shsTimezone shsCTZone">3:59 PM CT</span><span class="shsTimezone shsETZone">4:59 PM ET</span><span class="shsTimezone shsGMTZone">20:59 GMT</span><span class="shsTimezone shsCSTZone">4:59 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">1:59 PM MST</span><span class="shsTimezone shsESTZone">3:59 PM EST</span><span class="shsTimezone shsUAEZone">0:59 UAE</span><span class="shsTimezone shsCETZone">21:59 CET</span> - </b></i>Williams has injured his groin working out and will be limited in practice for several weeks.<br><b>Analysis: </b>The team said Williams "experienced right groin pain'' on Friday during a workout at Cleveland Clinic Courts, the team's suburban training facility. After he was examined by Dr. Richard Parker, Williams underwent an MRI that revealed inflammation. Williams will begin immediate rehab and treatment. The Cavs expect Williams to participate in low-impact activities when training camp opens next week. But Williams will not be at full speed until mid-October.</td>
+</tr></table>
+</div><div id="shsNBAPlayerStats"><h2 class="shsTableTitle">Regular Season Stats</h2><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="18">Per Game</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">MPG</td>
+<td class="shsNumD">PPG</td>
+<td class="shsNumD">RPG</td>
+<td class="shsNumD">APG</td>
+<td class="shsNumD">SPG</td>
+<td class="shsNumD">BPG</td>
+<td class="shsNumD">TOPG</td>
+<td class="shsNumD">FG%</td>
+<td class="shsNumD">3P%</td>
+<td class="shsNumD">FT%</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>03-04</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team26sm_trans"></span></span>Uta</td>
+<td class="shsNumD">57</td>
+<td class="shsNumD">13.5</td>
+<td class="shsNumD">5.0</td>
+<td class="shsNumD">1.3</td>
+<td class="shsNumD">1.3</td>
+<td class="shsNumD">0.5</td>
+<td class="shsNumD">0.0</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">.380</td>
+<td class="shsNumD">.256</td>
+<td class="shsNumD">.786</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>04-05</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil</td>
+<td class="shsNumD">80</td>
+<td class="shsNumD">28.2</td>
+<td class="shsNumD">10.2</td>
+<td class="shsNumD">3.1</td>
+<td class="shsNumD">6.1</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">2.5</td>
+<td class="shsNumD">.438</td>
+<td class="shsNumD">.323</td>
+<td class="shsNumD">.850</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil</td>
+<td class="shsNumD">58</td>
+<td class="shsNumD">26.4</td>
+<td class="shsNumD">12.1</td>
+<td class="shsNumD">2.5</td>
+<td class="shsNumD">4.0</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">1.8</td>
+<td class="shsNumD">.424</td>
+<td class="shsNumD">.382</td>
+<td class="shsNumD">.850</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil</td>
+<td class="shsNumD">68</td>
+<td class="shsNumD">36.3</td>
+<td class="shsNumD">17.3</td>
+<td class="shsNumD">4.8</td>
+<td class="shsNumD">6.1</td>
+<td class="shsNumD">1.3</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">3.0</td>
+<td class="shsNumD">.446</td>
+<td class="shsNumD">.346</td>
+<td class="shsNumD">.855</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil</td>
+<td class="shsNumD">66</td>
+<td class="shsNumD">36.5</td>
+<td class="shsNumD">17.2</td>
+<td class="shsNumD">3.5</td>
+<td class="shsNumD">6.3</td>
+<td class="shsNumD">1.2</td>
+<td class="shsNumD">0.2</td>
+<td class="shsNumD">2.8</td>
+<td class="shsNumD">.480</td>
+<td class="shsNumD">.385</td>
+<td class="shsNumD">.856</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">35.0</td>
+<td class="shsNumD">17.8</td>
+<td class="shsNumD">3.4</td>
+<td class="shsNumD">4.1</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">2.2</td>
+<td class="shsNumD">.467</td>
+<td class="shsNumD">.436</td>
+<td class="shsNumD">.912</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">69</td>
+<td class="shsNumD">34.2</td>
+<td class="shsNumD">15.8</td>
+<td class="shsNumD">3.0</td>
+<td class="shsNumD">5.3</td>
+<td class="shsNumD">1.0</td>
+<td class="shsNumD">0.3</td>
+<td class="shsNumD">2.5</td>
+<td class="shsNumD">.442</td>
+<td class="shsNumD">.429</td>
+<td class="shsNumD">.894</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>10-11</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">16</td>
+<td class="shsNumD">27.5</td>
+<td class="shsNumD">14.7</td>
+<td class="shsNumD">2.6</td>
+<td class="shsNumD">5.6</td>
+<td class="shsNumD">1.1</td>
+<td class="shsNumD">0.4</td>
+<td class="shsNumD">2.6</td>
+<td class="shsNumD">.416</td>
+<td class="shsNumD">.291</td>
+<td class="shsNumD">.804</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">495</td>
+<td class="shsNumD">30.4</td>
+<td class="shsNumD">13.9</td>
+<td class="shsNumD">3.1</td>
+<td class="shsNumD">4.9</td>
+<td class="shsNumD">1.0</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">2.3</td>
+<td class="shsNumD">.447</td>
+<td class="shsNumD">.392</td>
+<td class="shsNumD">.866</td>
+</tr>
+</table>
+<br>
+<table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="17">Totals</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">Min</td>
+<td class="shsNumD">FGM</td>
+<td class="shsNumD">FGA</td>
+<td class="shsNumD">3PM</td>
+<td class="shsNumD">3PA</td>
+<td class="shsNumD">FTM</td>
+<td class="shsNumD">FTA</td>
+<td class="shsNumD">OR</td>
+<td class="shsNumD">TR</td>
+<td class="shsNumD">A</td>
+<td class="shsNumD">Stl</td>
+<td class="shsNumD">Blk</td>
+<td class="shsNumD">TO</td>
+<td class="shsNumD">Pts</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>03-04</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team26sm_trans"></span></span>Uta&nbsp;</td>
+<td class="shsNumD">57</td>
+<td class="shsNumD">772</td>
+<td class="shsNumD">115</td>
+<td class="shsNumD">303</td>
+<td class="shsNumD">10</td>
+<td class="shsNumD">39</td>
+<td class="shsNumD">44</td>
+<td class="shsNumD">56</td>
+<td class="shsNumD">23</td>
+<td class="shsNumD">72</td>
+<td class="shsNumD">76</td>
+<td class="shsNumD">28</td>
+<td class="shsNumD">2</td>
+<td class="shsNumD">51</td>
+<td class="shsNumD">284</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>04-05</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil&nbsp;</td>
+<td class="shsNumD">80</td>
+<td class="shsNumD">2254</td>
+<td class="shsNumD">323</td>
+<td class="shsNumD">737</td>
+<td class="shsNumD">32</td>
+<td class="shsNumD">99</td>
+<td class="shsNumD">136</td>
+<td class="shsNumD">160</td>
+<td class="shsNumD">50</td>
+<td class="shsNumD">244</td>
+<td class="shsNumD">484</td>
+<td class="shsNumD">74</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">196</td>
+<td class="shsNumD">814</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil&nbsp;</td>
+<td class="shsNumD">58</td>
+<td class="shsNumD">1531</td>
+<td class="shsNumD">267</td>
+<td class="shsNumD">629</td>
+<td class="shsNumD">73</td>
+<td class="shsNumD">191</td>
+<td class="shsNumD">96</td>
+<td class="shsNumD">113</td>
+<td class="shsNumD">30</td>
+<td class="shsNumD">143</td>
+<td class="shsNumD">230</td>
+<td class="shsNumD">52</td>
+<td class="shsNumD">7</td>
+<td class="shsNumD">105</td>
+<td class="shsNumD">703</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil&nbsp;</td>
+<td class="shsNumD">68</td>
+<td class="shsNumD">2471</td>
+<td class="shsNumD">468</td>
+<td class="shsNumD">1049</td>
+<td class="shsNumD">79</td>
+<td class="shsNumD">228</td>
+<td class="shsNumD">159</td>
+<td class="shsNumD">186</td>
+<td class="shsNumD">54</td>
+<td class="shsNumD">329</td>
+<td class="shsNumD">416</td>
+<td class="shsNumD">85</td>
+<td class="shsNumD">6</td>
+<td class="shsNumD">202</td>
+<td class="shsNumD">1174</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm_trans"></span></span>Mil&nbsp;</td>
+<td class="shsNumD">66</td>
+<td class="shsNumD">2410</td>
+<td class="shsNumD">441</td>
+<td class="shsNumD">919</td>
+<td class="shsNumD">89</td>
+<td class="shsNumD">231</td>
+<td class="shsNumD">166</td>
+<td class="shsNumD">194</td>
+<td class="shsNumD">37</td>
+<td class="shsNumD">230</td>
+<td class="shsNumD">419</td>
+<td class="shsNumD">78</td>
+<td class="shsNumD">10</td>
+<td class="shsNumD">182</td>
+<td class="shsNumD">1137</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">2834</td>
+<td class="shsNumD">526</td>
+<td class="shsNumD">1126</td>
+<td class="shsNumD">183</td>
+<td class="shsNumD">420</td>
+<td class="shsNumD">208</td>
+<td class="shsNumD">228</td>
+<td class="shsNumD">47</td>
+<td class="shsNumD">279</td>
+<td class="shsNumD">329</td>
+<td class="shsNumD">69</td>
+<td class="shsNumD">9</td>
+<td class="shsNumD">179</td>
+<td class="shsNumD">1443</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">69</td>
+<td class="shsNumD">2359</td>
+<td class="shsNumD">378</td>
+<td class="shsNumD">855</td>
+<td class="shsNumD">159</td>
+<td class="shsNumD">371</td>
+<td class="shsNumD">177</td>
+<td class="shsNumD">198</td>
+<td class="shsNumD">28</td>
+<td class="shsNumD">206</td>
+<td class="shsNumD">368</td>
+<td class="shsNumD">70</td>
+<td class="shsNumD">21</td>
+<td class="shsNumD">173</td>
+<td class="shsNumD">1092</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>10-11</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">16</td>
+<td class="shsNumD">440</td>
+<td class="shsNumD">87</td>
+<td class="shsNumD">209</td>
+<td class="shsNumD">16</td>
+<td class="shsNumD">55</td>
+<td class="shsNumD">45</td>
+<td class="shsNumD">56</td>
+<td class="shsNumD">5</td>
+<td class="shsNumD">41</td>
+<td class="shsNumD">90</td>
+<td class="shsNumD">18</td>
+<td class="shsNumD">6</td>
+<td class="shsNumD">42</td>
+<td class="shsNumD">235</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">495</td>
+<td class="shsNumD">15071</td>
+<td class="shsNumD">2605</td>
+<td class="shsNumD">5827</td>
+<td class="shsNumD">641</td>
+<td class="shsNumD">1634</td>
+<td class="shsNumD">1031</td>
+<td class="shsNumD">1191</td>
+<td class="shsNumD">274</td>
+<td class="shsNumD">1544</td>
+<td class="shsNumD">2412</td>
+<td class="shsNumD">474</td>
+<td class="shsNumD">72</td>
+<td class="shsNumD">1130</td>
+<td class="shsNumD">6882</td>
+</tr>
+</table>
+</div>
+<br/><div id="shsNBAPlayerStats"><h2 class="shsTableTitle">Postseason Stats</h2><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="18">Per Game</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">MPG</td>
+<td class="shsNumD">PPG</td>
+<td class="shsNumD">RPG</td>
+<td class="shsNumD">APG</td>
+<td class="shsNumD">SPG</td>
+<td class="shsNumD">BPG</td>
+<td class="shsNumD">TOPG</td>
+<td class="shsNumD">FG%</td>
+<td class="shsNumD">3P%</td>
+<td class="shsNumD">FT%</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm"></span></span>Mil</td>
+<td class="shsNumD">5</td>
+<td class="shsNumD">15.0</td>
+<td class="shsNumD">7.2</td>
+<td class="shsNumD">0.6</td>
+<td class="shsNumD">2.0</td>
+<td class="shsNumD">0.2</td>
+<td class="shsNumD">0.0</td>
+<td class="shsNumD">1.2</td>
+<td class="shsNumD">.500</td>
+<td class="shsNumD">.182</td>
+<td class="shsNumD">-</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">14</td>
+<td class="shsNumD">38.6</td>
+<td class="shsNumD">16.3</td>
+<td class="shsNumD">3.2</td>
+<td class="shsNumD">4.1</td>
+<td class="shsNumD">0.7</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">2.1</td>
+<td class="shsNumD">.408</td>
+<td class="shsNumD">.372</td>
+<td class="shsNumD">.767</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">37.4</td>
+<td class="shsNumD">14.4</td>
+<td class="shsNumD">3.1</td>
+<td class="shsNumD">5.4</td>
+<td class="shsNumD">0.5</td>
+<td class="shsNumD">0.2</td>
+<td class="shsNumD">2.1</td>
+<td class="shsNumD">.409</td>
+<td class="shsNumD">.327</td>
+<td class="shsNumD">.804</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">30</td>
+<td class="shsNumD">34.2</td>
+<td class="shsNumD">14.1</td>
+<td class="shsNumD">2.7</td>
+<td class="shsNumD">4.2</td>
+<td class="shsNumD">0.6</td>
+<td class="shsNumD">0.1</td>
+<td class="shsNumD">2.0</td>
+<td class="shsNumD">.417</td>
+<td class="shsNumD">.344</td>
+<td class="shsNumD">.787</td>
+</tr>
+</table>
+<br>
+<table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="17">Totals</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">Min</td>
+<td class="shsNumD">FGM</td>
+<td class="shsNumD">FGA</td>
+<td class="shsNumD">3PM</td>
+<td class="shsNumD">3PA</td>
+<td class="shsNumD">FTM</td>
+<td class="shsNumD">FTA</td>
+<td class="shsNumD">OR</td>
+<td class="shsNumD">TR</td>
+<td class="shsNumD">A</td>
+<td class="shsNumD">Stl</td>
+<td class="shsNumD">Blk</td>
+<td class="shsNumD">TO</td>
+<td class="shsNumD">Pts</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team15sm"></span></span>Mil&nbsp;</td>
+<td class="shsNumD">5</td>
+<td class="shsNumD">75</td>
+<td class="shsNumD">17</td>
+<td class="shsNumD">34</td>
+<td class="shsNumD">2</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">0</td>
+<td class="shsNumD">0</td>
+<td class="shsNumD">0</td>
+<td class="shsNumD">3</td>
+<td class="shsNumD">10</td>
+<td class="shsNumD">1</td>
+<td class="shsNumD">0</td>
+<td class="shsNumD">6</td>
+<td class="shsNumD">36</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">14</td>
+<td class="shsNumD">541</td>
+<td class="shsNumD">80</td>
+<td class="shsNumD">196</td>
+<td class="shsNumD">35</td>
+<td class="shsNumD">94</td>
+<td class="shsNumD">33</td>
+<td class="shsNumD">43</td>
+<td class="shsNumD">9</td>
+<td class="shsNumD">45</td>
+<td class="shsNumD">58</td>
+<td class="shsNumD">10</td>
+<td class="shsNumD">1</td>
+<td class="shsNumD">30</td>
+<td class="shsNumD">228</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">411</td>
+<td class="shsNumD">52</td>
+<td class="shsNumD">127</td>
+<td class="shsNumD">17</td>
+<td class="shsNumD">52</td>
+<td class="shsNumD">37</td>
+<td class="shsNumD">46</td>
+<td class="shsNumD">3</td>
+<td class="shsNumD">34</td>
+<td class="shsNumD">59</td>
+<td class="shsNumD">6</td>
+<td class="shsNumD">2</td>
+<td class="shsNumD">23</td>
+<td class="shsNumD">158</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">30</td>
+<td class="shsNumD">1027</td>
+<td class="shsNumD">149</td>
+<td class="shsNumD">357</td>
+<td class="shsNumD">54</td>
+<td class="shsNumD">157</td>
+<td class="shsNumD">70</td>
+<td class="shsNumD">89</td>
+<td class="shsNumD">12</td>
+<td class="shsNumD">82</td>
+<td class="shsNumD">127</td>
+<td class="shsNumD">17</td>
+<td class="shsNumD">3</td>
+<td class="shsNumD">59</td>
+<td class="shsNumD">422</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+
+</div>
+</div>
+
+<div class="shsCopyrightText">
+<a href="http://www.stats.com/" target="_new"><img src="http://hosted.stats.com/config/v2_02_01.gif" border="0" style="float: left" alt="w4" title="w4 12/8/2010 5:49:03 AM"></a>
+
+
+		&copy; 2010 by STATS LLC.<br/>Any commercial use or distribution without the express written consent of STATS LLC is strictly prohibited.
+	
+<div>
+<br style="clear: both"/>
+<!-- GOOGLE ANALYTICS -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+  _uacct = "UA-831911-1";
+  urchinTracker();
+  _uff = 0; 
+</script>
+</div>
+</div>
+</div></div></div><div id="area3" class="ca mpreg2"><!----></div><div id="area1" class="ca mpreg1"><!----></div><div id="infobtm" class="ca mpreg5"><!----></div></div><div id="area2" class="ca mpreg4"><!----><div class="parent chrome26 customcontainer black"><div class="heading alignright"><!----></div><div class="content"><div class="adcenter"><span>advertisement</span><div class="advertisement"><script type="text/javascript">dap("&amp;PG=CESNB3&amp;AP=1089",300,250);</script></div></div></div></div></div><div id="area6" class="ca mpreg6"><!----></div><div id="mediapage4column7to9"><div id="area7" class="ca mpreg2"><!----></div><div id="area8" class="ca mpreg1"><!----></div><div id="area9" class="ca mpreg4"><!----></div></div></div><div id="subfoot" class="ca"><div class="parent chrome23 single1  sitemapcontainerclass customcontainer black"><div class="heading alignright"><span class="text">MSN Sports Site Map</span></div><div class="content"><div class="child c1 first"><div class="sitemapfooter first"><ul class="sitemapfooterul first c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nhl/" rel="nofollow">NHL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/standings_conference.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/nhl/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nba/" rel="nofollow">NBA</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/standings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/nba/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/mlb/" rel="nofollow">MLB</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/standings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/mlb/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/cfl/" rel="nofollow">CFL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/totalstandings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/leaders.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/cfl/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul last c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nfl/" rel="nofollow">NFL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/totalstandings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/fb/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul>
+        </div>
+      <div class="sitemapfooter item"><ul class="sitemapfooterul first c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/" rel="nofollow">Sports</a></li><li class="sitemapfooterlinkitem"><a href="http://sports.ca.msn.com/video/default.aspx" rel="nofollow">Video</a></li><li class="sitemapfooterlinkitem"><a href="http://sports.ca.msn.com/olympics" rel="nofollow">Vancouver 2010</a></li><li class="sitemapfooterlinklast"><a href="http://sports.ca.msn.com/rss/cbctopstories.aspx" rel="nofollow">RSS</a></li></ul><ul class="sitemapfooterul item c5"></ul><ul class="sitemapfooterul item c5"></ul>
+        </div>
+      </div></div></div></div></div></div><div id="foot"><div class="parent chrome6 single1"><div class="child c1 first"><div class="msnfoot1 cf"><ul class="primary"><li class="first"><a href="http://g.msn.ca/0TO_/enca">Terms of use</a></li><li><a href="http://advertising.microsoft.ca">Advertise</a></li><li><a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy Statement</a></li><li class="last"><a href="http://g.msn.ca/2privacy/as-enca">Anti-Spam</a></li></ul><ul class="secondary"><li class="first"><a href="http://sports.ca.msn.com/rss/">RSS</a></li><li><a onclick="return Msn.Navigation.OpenPopup(event,this,'width=400,height=200,resizeable=no,status=no,titlebar=no,toolbar=no')" href="https://secure.opinionlab.com/ccc01/o.asp?id=xrCWCxEr">Feedback</a></li><li class="last"><a href="http://support.msn.com/default.aspx?locale=en-ca">Support</a></li></ul><div class="copyright"><span>© 2010 Microsoft</span></div></div></div></div></div></div><script type="text/javascript" src=""></script><!--[if lt IE 7]><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/ieminwidth.js"></script><![endif]--></body></html>

@@ -1,0 +1,1587 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Hong Kong Bakery, Albany - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Hong Kong Bakery, Albany, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Hong Kong Bakery, Albany: See 2 unbiased reviews of Hong Kong Bakery, rated 4.0 of 5 on TripAdvisor and ranked #107 of 474 restaurants in Albany."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "A";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "967598";
+var modelGeoId = "29786";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d967598-treviews.xml"/>
+<!-- web05b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Albany Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Hong Kong Bakery, Albany</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g29786-d967598-e__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html-Hong_Kong_Bakery-Albany_New_York.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="29786"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Albany</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g29786-Albany_New_York-Vacations.html">
+Albany Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g29786-Albany_New_York-Hotels.html">
+Albany Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWyXAkv3WxfWbcHJCgQZVuQq8iE9WqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g29786-Albany_New_York-Cheap_Discount_Airfares.html">
+Flights to Albany</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g29786-Albany_New_York-Hotel-Deals.html">
+Albany Deals</a>
+</li>
+<li class=" navTitle">
+More On Albany
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWyXAkv3WbcHJCgQZVuQq8iE9B',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Hong Kong Bakery</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWyXAkv3WbnISsSISVtWbcHJCgQZVuQq8iE9B',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g29786-i558-Albany_New_York.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWyXAkv3WbcHJCgQZVuQq8iE9B',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g29786-Albany_New_York.html">
+Photos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Albany Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g29786-Albany_New_York.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g29786-Albany_New_York.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g29786-Vacation-Package-Discount-Albany_New_York.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Albany</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Albany</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-A"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="29786"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd967598" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html#savessd967598'},{flow: 'SAVES'});">Save Hong Kong Bakery</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIacWxE5iCyjxbiCyj7J9VEg6XfjbcHJCgjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ny.albany
+PageType=Restaurant_Review
+pool=A
+kw=Hong+Kong+Bakery
+geo=29786
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Hong+Kong+Bakery
+gname=Albany
+sz=160X80
+tile=4
+ord=1500931
+area=NA.United_States.New_York.Albany
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ny.albany+80+160+NA.United_States.New_York.Albany+PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X80;tile=4;ord=1500931"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X80;tile=4;ord=1500931?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X80;tile=4;ord=1500931?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ny.albany
+PageType=Restaurant_Review
+pool=A
+kw=Hong+Kong+Bakery
+geo=29786
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Hong+Kong+Bakery
+gname=Albany
+sz=160X600
+tile=2
+ord=1500931
+area=NA.United_States.New_York.Albany
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ny.albany+600+160+NA.United_States.New_York.Albany+PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X600;tile=2;ord=1500931"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X600;tile=2;ord=1500931?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=160X600;tile=2;ord=1500931?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Albany restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g29786-d1309157-Reviews-Cheesecake_Machismo-Albany_New_York.html">Cheesecake Machismo</a></li>
+<li><a href="/Restaurant_Review-g29786-d1491810-Reviews-Katrinella_s_Bistro-Albany_New_York.html">Katrinella's Bistro</a></li>
+<li><a href="/Restaurant_Review-g29786-d420192-Reviews-Caffe_Italia-Albany_New_York.html">Caffe Italia</a></li>
+<li><a href="/Restaurant_Review-g29786-d420169-Reviews-Emperor_s-Albany_New_York.html">Emperor's</a></li>
+<li><a href="/Restaurant_Review-g29786-d1188548-Reviews-Creo_Restaurant-Albany_New_York.html">Creo Restaurant</a></li>
+<li><a href="/Restaurant_Review-g29786-d785225-Reviews-Mr_PIO_PIO-Albany_New_York.html">Mr PIO PIO</a></li>
+<li><a href="/Restaurant_Review-g29786-d898845-Reviews-Phoenicians_Restaurant-Albany_New_York.html">Phoenicians Restaurant</a></li>
+<li><a href="/Restaurant_Review-g29786-d1025001-Reviews-Sushi_Tei_Restaurant-Albany_New_York.html">Sushi Tei Restaurant</a></li>
+<li><a href="/Restaurant_Review-g29786-d1515170-Reviews-New_World_Bistro_Bar-Albany_New_York.html">New World Bistro Bar</a></li>
+<li><a href="/Restaurant_Review-g29786-d420248-Reviews-Delmonico_s_Italian_Steakhouse-Albany_New_York.html">Delmonico's Italian Steakhouse</a></li>
+<li><a href="/Restaurant_Review-g29786-d912246-Reviews-The_Cheesecake_Factory-Albany_New_York.html">The Cheesecake Factory</a></li>
+<li><a href="/Restaurant_Review-g29786-d420204-Reviews-Ristorante_Paradiso-Albany_New_York.html">Ristorante Paradiso</a></li>
+<li><a href="/Restaurant_Review-g29786-d420146-Reviews-Madison_s_End_Cafe-Albany_New_York.html">Madison's End Cafe</a></li>
+<li><a href="/Restaurant_Review-g29786-d820626-Reviews-Orchard_Tavern-Albany_New_York.html">Orchard Tavern</a></li>
+<li><a href="/Restaurant_Review-g29786-d829073-Reviews-Angelo_s_677_Prime-Albany_New_York.html">Angelo's 677 Prime</a></li>
+<li><a href="/Restaurant_Review-g29786-d893767-Reviews-Ultra_Violet_Cafe-Albany_New_York.html">Ultra Violet Cafe</a></li>
+<li><a href="/Restaurant_Review-g29786-d420133-Reviews-Ichiban_Restaurant-Albany_New_York.html">Ichiban Restaurant</a></li>
+<li><a href="/Restaurant_Review-g29786-d420140-Reviews-Debbie_s_Kitchen-Albany_New_York.html">Debbie's Kitchen</a></li>
+<li><a href="/Restaurant_Review-g29786-d420174-Reviews-Cafe_Capriccio-Albany_New_York.html">Cafe Capriccio</a></li>
+<li><a href="/Restaurant_Review-g29786-d420487-Reviews-Andy_Sons_Importing_Co-Albany_New_York.html">Andy & Sons Importing Co</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g29786-Albany_New_York.html">Albany restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g29786-oa20-Albany_New_York.html">Albany restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g29786-oa70-Albany_New_York.html">Albany restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g29786-oa120-Albany_New_York.html">Albany restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g29786-oa170-Albany_New_York.html">Albany restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g29786-oa220-Albany_New_York.html">Albany restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g29786-oa270-Albany_New_York.html">Albany restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g29786-oa320-Albany_New_York.html">Albany restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g29786-oa370-Albany_New_York.html">Albany restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g29786-oa420-Albany_New_York.html">Albany restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g29786-oa470-Albany_New_York.html">Albany restaurants: 471 - 474</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g29786-Albany_New_York-Hotels.html">Hotels around Albany</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g29812-d123822-Reviews-Super_8_Amsterdam-Amsterdam_New_York.html">Super 8 Amsterdam</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>19 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#1 of 3 hotels in Amsterdam, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d114521-Reviews-The_Morgan_State_House_Inn-Albany_New_York.html">The Morgan State House Inn</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>89 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#1 of 6 B&amp;Bs / inns in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d121751-Reviews-Cocca_s_Inn_Suites_Albany_Airport-Albany_New_York.html">Cocca's Inn & Suites, Albany Airport</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>35 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#21 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g48035-d1139068-Reviews-Hotel_Indigo_Albany_Latham-Latham_New_York.html">Hotel Indigo Albany-Latham</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>35 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#6 of 16 hotels in Latham, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d629060-Reviews-Ramada_Albany-Albany_New_York.html">Ramada Albany</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>2 Reviews</em>
+<div class="posted">Last reviewed Aug 6, 2010</div>
+</div>
+#32 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d226026-Reviews-CrestHill_Suites_Albany-Albany_New_York.html">CrestHill Suites Albany</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>51 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#20 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d223301-Reviews-Crowne_Plaza_Albany_City_Center-Albany_New_York.html">Crowne Plaza Albany City Center</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>101 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#26 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d99681-Reviews-Holiday_Inn_Express_Albany_Western_Ave_University-Albany_New_York.html">Holiday Inn Express Albany-Western Ave University</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>81 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#1 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g48035-d99658-Reviews-Super_8_Latham_Albany-Latham_New_York.html">Super 8 Latham/Albany</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>29 Reviews</em>
+<div class="posted">Last reviewed Jul 1, 2010</div>
+</div>
+#8 of 16 hotels in Latham, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d615701-Reviews-74_State_an_Ascend_Collection_Hotel-Albany_New_York.html">74 State, an Ascend Collection Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>31 Reviews</em>
+<div class="posted">Last reviewed Jun 24, 2010</div>
+</div>
+#22 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d675582-Reviews-Hilton_Garden_Inn_Albany_SUNY_Area-Albany_New_York.html">Hilton Garden Inn Albany / SUNY Area</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>25 Reviews</em>
+<div class="posted">Last reviewed Jun 19, 2010</div>
+</div>
+#9 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d99687-Reviews-Super_8_Albany-Albany_New_York.html">Super 8 Albany</a>
+<div class="rating">
+<span class="rate ss20"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.0 of 5"/></span>
+<em>18 Reviews</em>
+<div class="posted">Last reviewed May 24, 2010</div>
+</div>
+#42 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g48480-d99652-Reviews-Econo_Lodge_Inn_Suites_Downtown-Rensselaer_New_York.html">Econo Lodge Inn & Suites Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>13 Reviews</em>
+<div class="posted">Last reviewed Dec 8, 2009</div>
+</div>
+#1 of 2 hotels in Rensselaer, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g29786-d99686-Reviews-Courtyard_by_Marriott_Albany_Thruway-Albany_New_York.html">Courtyard by Marriott Albany Thruway</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>9 Reviews</em>
+<div class="posted">Last reviewed Nov 15, 2009</div>
+</div>
+#16 of 50 hotels in Albany, NY<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g47797-d276110-Reviews-Econo_Lodge-Glenmont_New_York.html">Econo Lodge</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>7 Reviews</em>
+<div class="posted">Last reviewed Oct 28, 2009</div>
+</div>
+#2 of 3 hotels in Glenmont, NY<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g187454-d1165900-Reviews-Restaaurante_Harrobia-Bilbao_Vizcaya_Province_Basque_Country.html">Restaaurante Harrobia in Bilbao, Spain</a></li>
+<li><a href="/Restaurant_Review-g298574-d1134833-Reviews-Tokyo_Cafe-Quezon_City_National_Capital_Region_Luzon.html">Tokyo Cafe in Quezon City, Philippines</a></li>
+<li><a href="/Restaurant_Review-g35904-d427134-Reviews-Dan_s_Pizza-Downers_Grove_DuPage_County_Illinois.html">Dan&#39;s Pizza in Downers Grove, IL</a></li>
+<li><a href="/Restaurant_Review-g60890-d323311-Reviews-The_Blue_Room-Cambridge_Massachusetts.html">The Blue Room in Cambridge, MA</a></li>
+<li><a href="/Restaurant_Review-g261607-d738091-Reviews-Blue_Fin_Sushi-Chatswood_New_South_Wales.html">Blue Fin Sushi in Chatswood, Australia</a></li>
+<li><a href="/Restaurant_Review-g54946-d394084-Reviews-Bellagio-Chattanooga_Tennessee.html">Bellagio in Chattanooga, TN</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g580212-d1016793-Reviews-Hotel_Magnolia-Casamicciola_Terme_Ischia_Campania.html">Hotel Magnolia in Casamicciola Terme, Italy</a></li>
+<li><a href="/Hotel_Review-g32414-d225580-Reviews-Econo_Lodge_North_Parkway_Drive-Fresno_California.html">Econo Lodge Fresno</a></li>
+<li><a href="/Hotel_Review-g57686-d120605-Reviews-Holiday_Inn_Washington_Dulles_Int_l_Airport-Dulles_Loudoun_County_Virginia.html">Holiday Inn Washington-Dulles Int&#39;l Airport in Dulles, VA</a></li>
+<li><a href="/Hotel_Review-g294220-d609950-Reviews-Jinling_Resort_Nanjing-Nanjing_Jiangsu.html">Jinling Resort Nanjing in Nanjing, China</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Albany resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g29786-Reviews-Albany_New_York-Vacation_Rentals.html">Albany Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g29786-Albany_New_York.html" onclick="return setOneTimeCookie('mcreset','true')">Albany Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g29786-Activities-Albany_New_York.html">Things to Do in Albany</a>
+</li>
+<li>
+<a href="/AllReviews-g29786-Albany_New_York.html">Albany Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g29786-Albany-Area.html">Albany Maps</a>
+</li>
+<li>
+<a href="/Travel-g29786-s208/Albany:New-York:Weather.And.When.To.Go.html">Albany Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolA" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ny.albany
+PageType=Restaurant_Review
+pool=A
+kw=Hong+Kong+Bakery
+geo=29786
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Hong+Kong+Bakery
+gname=Albany
+sz=728X90
+tile=1
+ord=1500931
+area=NA.United_States.New_York.Albany
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=728X90;tile=1;ord=1500931?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=728X90;tile=1;ord=1500931?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=728X90;tile=1;ord=1500931?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28953-New_York-Vacations.html">New York (NY)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g29786-Albany_New_York-Vacations.html">Albany</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g29786-Albany_New_York.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Hong Kong Bakery </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "C9CC9F399AB16E094A794EF0B56602F6";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g29786-d967598-Hong_Kong_Bakery-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 42.662384,
+lng: -73.769775,
+locId: 967598,
+title: "Hong Kong Bakery",
+url: "/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Hong Kong Bakery</span>
+<div class="addr">
+<span>212 Central Ave</span>
+<div>
+<span> Albany, NY 12206</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=212+Central+Ave+Albany%2C+NY+12206' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281948649201?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g29786-d967598-Hong_Kong_Bakery-Area.html" class="pid1103">view map of Hong Kong Bakery</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Albany.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="bx01 quickguide">
+<div class="content">
+<div class="h19">Free Albany Guide</div>
+<p>Get your quick guide to the top hotels, restaurants and things to do.</p>
+<div class="wrap">
+<div class="button">
+<span onclick="ta.overlays.registration.request('SIGNUP',{pid:826},{flow: 'QUICK_GUIDE_CALLOUT'});">Grab it and Go!</span>
+</div>
+</div>
+</div>
+</div>
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ny.albany
+PageType=Restaurant_Review
+pool=A
+kw=Hong+Kong+Bakery
+pos=top
+geo=29786
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Hong+Kong+Bakery
+gname=Albany
+sz=300X250
+tile=3
+ord=1500931
+area=NA.United_States.New_York.Albany
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ny.albany+250+300+NA.United_States.New_York.Albany+PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;pos=top;geo=29786;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=300X250;tile=3;ord=1500931"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;pos=top;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=300X250;tile=3;ord=1500931?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ny.albany;PageType=Restaurant_Review;pool=A;kw=Hong+Kong+Bakery;pos=top;geo=29786;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Hong+Kong+Bakery;gname=Albany;sz=300X250;tile=3;ord=1500931?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Hong Kong Bakery</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g29786-d645564-Reviews-Hilton_Garden_Inn_at_Albany_Medical_Center-Albany_New_York.html" class="pid907">Hilton Garden Inn at Albany Medical Center</a></td>
+<td class="priceColumn">
+$154
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g29786-d1200649-Reviews-TownePlace_Suites_Albany_Empire_State_Plaza_University_Heights-Albany_New_York.html" class="pid907">TownePlace Suites Albany Empire State Plaza / University Heights</a></td>
+<td class="priceColumn">
+$149
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.8 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g29786-d575648-Reviews-Hampton_Inn_Suites_Albany_Downtown-Albany_New_York.html" class="pid907">Hampton Inn & Suites Albany - Downtown</a></td>
+<td class="priceColumn">
+$174
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g29786-d99679-Reviews-Holiday_Inn_Express_Albany_Downtown-Albany_New_York.html" class="pid907">Holiday Inn Express Albany - Downtown</a></td>
+<td class="priceColumn">
+$154
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.9 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g47797-d93194-Reviews-Comfort_Inn_Albany_Glenmont-Glenmont_New_York.html" class="pid907">Comfort Inn Albany / Glenmont</a></td>
+<td class="priceColumn">
+$138
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g29786-Albany_New_York-Hotels.html">All Hotels in Albany<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g29786-d420162-Reviews-Saso_s_Japanese_Noodle_House-Albany_New_York.html" rel="nofollow" class="pid908">Saso's Japanese Noodle House</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g29786-d785225-Reviews-Mr_PIO_PIO-Albany_New_York.html" rel="nofollow" class="pid908">Mr PIO PIO</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g29786-d1309157-Reviews-Cheesecake_Machismo-Albany_New_York.html" rel="nofollow" class="pid908">Cheesecake Machismo</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g29786-Albany_New_York.html" rel="nofollow">All Restaurants in Albany<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g29786-d282090-Reviews-New_York_State_Capitol-Albany_New_York.html" rel="nofollow" class="pid909">New York State Capitol</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g29786-d277177-Reviews-Washington_Park-Albany_New_York.html" rel="nofollow" class="pid909">Washington Park</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g29786-d277179-Reviews-Historic_Cherry_Hill-Albany_New_York.html" rel="nofollow" class="pid909">Historic Cherry Hill</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g29786-Activities-Albany_New_York.html" rel="nofollow">All Things to Do in Albany<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Hong Kong Bakery</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 5 posts on Albany from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g29786-i558-Albany_New_York.html">Go to Albany Forum &#xbb;</a></li></ul> </dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>107</b></var> <span>of 474 <i><a href="/Restaurants-g29786-Albany_New_York.html">restaurants in Albany</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">2</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g29786-d967598-e__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html-fbefirst_Restaurant_Review_writeareview_top-Hong_Kong_Bakery-Albany_New_York.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: Chinese, Bakery
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">212 Central Ave</span>, <span class="locality"><span property="v:locality">Albany</span>, <span property="v:region">NY</span> <span property="v:postal-code">12206</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(518) 431-6520</span>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $5-$10 </li><!--/ price-->
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>Rating summary</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:40px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:40px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row disabled">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-2</span> <i>of</i> 2</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g29786__2D__d967598__2D__Reviews__2D__Hong__5F__Kong__5F__Bakery__2D__Albany__5F__New__5F__York__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g29786-d967598-r16241608-Hong_Kong_Bakery-Albany_New_York.html" class="pid2168" id="r16241608" rel="nofollow">A little bit of everything</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd16241608" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html#savessd16241608'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_2' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+May 14, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+A little bit of everything
+<span class="fkLnk hvrIE6 tr16241608" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g29786-d967598-r15726322-Hong_Kong_Bakery-Albany_New_York.html" class="pid2168" id="r15726322" rel="nofollow">Small family run restaurant with DELICIOUS pastry, EXCELLENT good, and SUPER FRIENDLY staff!!! Just a little small and...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15726322" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html#savessd15726322'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_3' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Feb 3, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Small family run restaurant with DELICIOUS pastry, EXCELLENT good, and SUPER FRIENDLY staff!!! Just a little small and no delivery :(
+<span class="fkLnk hvrIE6 tr15726322" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-2</span> <i>of</i> 2</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Hong Kong Bakery? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWyXAkv3WMA3koAvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2W5iCyQxbiCyQ7J9VEgWbcHJCgQZVuQq8iE9B')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WyXAkv3WMA3koAvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2W5iCyQxbiCyQ7J9VEgWbcHJCgQZVuQq8iE9B')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWyXAkv3WMA3koAvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2W5iCyQxbiCyQ7J9VEgWbcHJCgQZVuQq8iE9B')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Albany</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134609&amp;geo=29786&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Albany: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5571133&amp;geo=29786&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Albany: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO6&amp;src=1524172&amp;geo=29786&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Albany: Great Rates on Hotels</var><br/>
+<span><b>Expedia.com</b> Get the lowest price on hotels with our Best Price Guarantee</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaVacationsGEO&amp;src=677895&amp;geo=29786&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Albany: Save on Travel</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g29786-Vacation-Package-Discount-Albany_New_York.html">
+<b>View all deals for Albany</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Hong Kong Bakery? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWyXAkv3WMA3koAvW5iCyQxbiCyQ7J9VEgWbcHJCgQZVuQq8iE9B')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g29786-d967598-Hong_Kong_Bakery-Albany_New_York.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Hong Kong Bakery Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">212 Central Ave</span>, <span class="locality"><span property="v:locality">Albany</span>, <span property="v:region">NY</span> <span property="v:postal-code">12206</span></span> </address>
+<span class="tel"><b>Tel:</b> (518) 431-6520</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Hong Kong Bakery</b>, Albany.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.co.uk/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.ca/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.it/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.es/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.de/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.fr/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Hong Kong Bakery, アルバニー" href="http://www.tripadvisor.jp/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, アルバニー"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Hong Kong Bakery, 奥尔巴尼" href="http://www.daodao.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, 奥尔巴尼"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.in/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.se/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Hong Kong Bakery, Albany" href="http://nl.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.com.br/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.com.tr/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.dk/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.com.mx/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.ie/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.com.au/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Hong Kong Bakery, Albany" href="http://www.tripadvisor.com.sg/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Hong Kong Bakery, Albany" href="http://no.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Hong Kong Bakery, Albany" href="http://pl.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, Albany"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Hong Kong Bakery, ออลบานี" href="http://th.tripadvisor.com/Restaurant_Review-g29786-d967598-Reviews-Hong_Kong_Bakery-Albany_New_York.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Hong Kong Bakery, ออลบานี"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Albany! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Albany? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyXAkv3qHMA3koAvqHxfqH5iCyQQoqnQQxbiCyQQoqnQQ7J9VEgqHbcHJCgQQoqnQQZVuQQoqnQQq8iE9xiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=42.662384,-73.769775&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "29786");
+ta.store('page.location', "967598");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 136 dc: 2 sc: 9 -->
+</html>

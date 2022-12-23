@@ -1,0 +1,2100 @@
+﻿<base href="http://www.waterstones.com/waterstonesweb/products/julie+mackenzie/horse+law/6433709/"/>
+  
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="CACHE-CONTROL" content="NO-CACHE"/>
+		<meta http-equiv="PRAGMA" content="NO-CACHE"/>
+		
+		
+
+
+
+
+
+
+
+
+
+<title>Horse Law (Book) by Julie MacKenzie (2011): Waterstones.com</title>
+
+<meta name="description" content="Horse Law (Book) by Julie MacKenzie (2011)"/>
+<meta name="keywords" content="Horse Law Hardback Julie MacKenzie null J.A.Allen & Co Ltd"/>
+<link rel="canonical" href="http://www.waterstones.com/waterstonesweb/products/julie+mackenzie/horse+law/6433709/" />	
+ 
+
+
+		
+		<link rel="search" type="application/opensearchdescription+xml" title="Waterstone's Search" href="http://www.waterstones.com/waterstonesweb/scripts/openSearch.xml"/>
+	
+		<!-- INSTANCE: WS -->
+		<!-- WEB-HOST: WATXWAS2 -->
+		<link href="/waterstonesweb/favicon.ico" rel="Shortcut Icon" type="image/x-icon" />
+		<link href="http://www.waterstones.com/waterstonesweb/theme/screen.css" rel="stylesheet" type="text/css" media="screen,projection" />
+		
+		
+		
+		<!--[if lte IE 6]><link href="http://www.waterstones.com/waterstonesweb/theme/ie.css" rel="stylesheet" type="text/css" media="screen,projection" /><![endif]-->
+		<!--[if IE 7]><link href="http://www.waterstones.com/waterstonesweb/theme/ie7.css" rel="stylesheet" type="text/css" media="screen,projection" /><![endif]-->
+		<link href="http://www.waterstones.com/waterstonesweb/theme/disabled.css" rel="stylesheet" type="text/css" media="screen,projection" />
+		<link href="http://www.waterstones.com/waterstonesweb/theme/print.css" rel="stylesheet" type="text/css" media="print" />
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/jQuery/jquery.js"></script>		
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/global.js"></script>
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/waterstones.js"></script>
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/swfobject.js"></script>
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/functions.js"></script>
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/type_ahead.js"></script>
+		<script language="JavaScript" src="http://www.waterstones.com/waterstonesweb/scripts/tooltips.js"></script>
+		
+		
+
+
+<script type="text/javascript">
+
+// global variables
+var KC_ENTER = 13;
+var validEmailChars    = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-.@";
+
+function isEmailValid( eAddr ) {
+	var i;
+  	var c;
+ 	var elen = eAddr.length;
+  
+  	if (	(eAddr.indexOf("@") == -1) || 
+  			(eAddr.indexOf(".") == -1) || 
+  			(eAddr.indexOf(".") == elen-1) )  {
+  			return false;
+  	}
+
+  	for (i = 0; i < elen; i++) {   
+    	c = eAddr.charAt(i);
+    	if (validEmailChars.indexOf(c) == -1) {
+    		return false;
+    	}
+    	
+    	if (c == "@" || c == ".")
+		{
+			if ((i == 0) ||
+           		(i == (elen -1)) ||
+           		(validEmailChars.indexOf(eAddr.charAt((i - 1))) >= 64) ||
+           		(validEmailChars.indexOf(eAddr.charAt((i + 1))) >= 64) ) {
+           		return false;
+           	}
+		}
+   	}
+
+  	return true;	
+}
+
+function showAddressFinder(frm, searchPostcode, searchHouse) {
+	var url = "http://www.waterstones.com/waterstonesweb/displayAddressFinder.do?frm=";
+
+	if(searchPostcode) {
+		url = "http://www.waterstones.com/waterstonesweb/doAddressSearch.do?frm=";	
+	}
+		
+	url = url + frm;
+	
+	if(searchPostcode) {
+		if(removeSpaces) {
+			url = url + "&txtPostcode=" + escape(removeSpaces(searchPostcode));	
+		}
+		else {
+			url = url + "&txtPostcode=" + escape(searchPostcode);			
+		}
+		url = url + "&txtHouse=" + escape(searchHouse);			
+		url = url + "&resultsOnly=true";	
+	}	
+	
+	var features = "height=400, width=800, status";
+	var finderWindow = window.open( url, "winAddressFinder", features );
+	finderWindow.focus();
+}
+
+
+/*	-------------------------------------------------------------
+	function getYears()
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Description:	outputs all years as a drop down select
+	
+	difference = the suplied value is the difference to apply to start year
+	direction = 1 is ascending, 0 is descending
+	name - select field name and id
+	startYear - first year in list
+	selected - pre-selected value
+	
+	returns : currentYear  to (currentYear - difference)
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+	function getYears( difference, direction, name, startYear, selected)
+	{	
+		var curdate = new Date();
+		if(startYear == null || startYear == ""){
+			var thisYear = curdate.getFullYear();	
+		}else{
+			var thisYear = startYear;
+		}
+		
+		text = '<select name="' + name + '" id="' + name +'"><option value="" >Year</option>';
+		if(difference > 0){
+			if ( direction == 1 )
+				for (i=thisYear; i > thisYear - difference; i--) 		
+				{
+			   		text += '\n<option value="' + i + '"';
+			   		if(selected != null && selected == i) text += "selected";
+			   		text += '>'+ i +'</option>';
+				}
+			else
+				for (i=thisYear - difference ; i <= thisYear ; i++) 		
+				{
+			   		text += '\n<option value="' + i + '"'
+			   		if(selected != null && selected == i) text += "selected";
+			   		text += '>'+ i +'</option>';
+				}
+		}else{
+			if ( direction == 1 )
+				for (i=thisYear; i < thisYear + Math.abs(difference); i++) 		
+				{
+			   		text += '\n<option value="' + i + '"';
+			   		if(selected != null && selected == i) text += "selected";
+			   		text += '>'+ i +'</option>';
+				}
+			else
+				for (i=thisYear + Math.abs(difference) ; i > thisYear ; i--) 		
+				{
+			   		text += '\n<option value="' + i + '"';
+			   		if(selected != null && selected == i) text += "selected";
+			   		text += '>'+ i +'</option>';
+				}		
+		}
+		text += '</select>';
+		document.write(text);			
+	}									
+	
+/*	-------------------------------------------------------------
+	function getDayOfTheMonth()
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Description:	gets the days of the month
+	name: field name and id
+	selected: pre-selected value
+	returns : 1 to 31
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+	function getDayOfTheMonth(name, selected)
+	{	
+		text = '<select name="' + name + '"id="' + name + '"><option value="" >Day</option>';
+		for (i=1;i<32;i+=1) 
+		{
+			if ( i < 10 ) {
+		   		text += '\n<option value="0' + i + '"' ;
+		   		if(selected != null && selected == i) text += "selected";
+		   		text +=  '>0'+ i+'</option>';
+		   	}
+		   	else{
+		   		text += '\n<option value="' + i + '"' ;
+		   		if(selected != null && selected == i) text += "selected";
+		   		text +=  '>'+ i+'</option>';
+		   	}
+		}
+		text += '</select>';
+		document.write(text);			
+	}
+
+/*	-------------------------------------------------------------
+	function getMonthsOfTheYear()
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Description:	outputs all the months of the year as a drop down select
+	name: field name and id
+	selected: pre-selected value
+	returns : 1 to 12
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+	function getMonthsOfTheYear( sizeToShow,name, selected)
+	{	
+	
+		var months = new Array("January", "February", "March", "April","May", "June", "July", "August", "September","October", "November", "December");				
+		text = '<select name="' + name + '" id="' + name + '"><option value="" >Month</option>';
+		for (i=1;i<13;i+=1) 
+		{
+			if (sizeToShow > 0)
+			{
+				thisMonth = months[i-1].substring( 0, sizeToShow );
+			}
+		
+			if ( i < 10 ){ 
+		   		text += '\n<option value="0' + i + '"' ;
+		   		if(selected != null && selected == i) text += "selected";
+		   		text +=  '>'+ thisMonth+'</option>';
+		   	}
+		   	else{
+		   		text += '\n<option value="' + i + '"' ;
+		   		if(selected != null && selected == i) text += "selected";
+		   		text +=  '>'+ thisMonth +'</option>';
+		   	}
+		}
+		text += '</select>';
+		document.write(text);			
+	}
+
+	// Double click form submit protection
+	var isFormSubmitted = false;
+
+	function checkFormNotSubmitted()
+	{
+	    if (isFormSubmitted)
+	    {
+	        return (false);
+	    }
+	    else
+	    {
+	        isFormSubmitted = true;
+	
+	        return (true);
+	    }
+	}
+
+//-->
+function check_date(day,month,year){
+	var checkstr = "0123456789";
+	var seperator = ".";
+	var day;
+	var month;
+	var year;
+	var leap = 0;
+	var err = 0;
+	var i;
+    err = 0;
+
+
+	   /* Validation leap-year / february / day */
+	   if ((year % 4 == 0) || (year % 100 == 0) || (year % 400 == 0)) {
+	      leap = 1;
+	   }
+	   if ((month == 2) && (leap == 1) && (day > 29)) {
+	      err = 23;
+	   }
+	   if ((month == 2) && (leap != 1) && (day > 28)) {
+	      err = 24;
+	   }
+	   /* Validation of other months */
+	   if ((day > 31) && ((month == "01") || (month == "03") || (month == "05") || (month == "07") || (month == "08") || (month == "10") || (month == "12"))) {
+	      err = 25;
+	   }
+	   if ((day > 30) && ((month == "04") || (month == "06") || (month == "09") || (month == "11"))) {
+	      err = 26;
+	   }
+	   /* if no error, return true*/
+	   if (err == 0) {
+	      return true;
+	   }
+	   /* Error-message if err != 0 */
+	   else {
+	      return false;
+	   }
+}
+
+function showHideSingleDiv(o) {
+	if(document.getElementById(o).style.display='none') {
+		document.getElementById(o).style.display='block';
+		} else {
+		document.getElementById(o).style.display='none';
+  		}
+}
+
+function showHideDiv(o1, o2) {
+	if(document.getElementById(o1).style.display='none') {
+		document.getElementById(o1).style.display='block';
+		document.getElementById(o2).style.display='none';
+		}
+}
+</script>
+	</head>
+
+	<!-- START WEBSITE BASE LAYOUT 2 BODY -->
+	<body class="two-col">
+		<div id="container" class="clearfix">
+			<ul id="accessibility">
+				<li><a href="#content-primary" accesskey="q">Skip to page content</a></li>
+				<li><a href="#nav-primary" accesskey="w">Skip to primary navigation</a></li>
+				<li><a href="#side-nav" accesskey="e">Skip to secondary navigation</a></li>
+			</ul>
+			
+			
+
+
+
+
+<!-- START HEADER LAYOUT -->
+<div id="header" class="clearfix">
+	
+
+
+<iframe src="javascript:'';" id="ecos_iframe" style="position:absolute; left: 0; top: 0; width: 1px; height: 1px; visibility: hidden;" title=""></iframe><iframe src="javascript:'';" id="ecos_iframe2" style="position:absolute; left: 0; top: 0; width: 1px; height: 1px; visibility: hidden;" title=""></iframe><div id="ecos_surveylayer" style="position:absolute; left: 0; top: 0; width: 1px; height: 1px; visibility: hidden;" title="Visitor Survey (dynamically generated)"></div><script language="Javascript" type="text/javascript">
+<!--
+/*** eDigitalSurvey survey code v5.0.9 *******/
+/* Copyright (c) 2010 eDigitalResearch Ltd   */
+/* Please refer to our Terms & Conditions    */
+/* for conditions of use.                    */
+/* Do NOT modify this code unless directed   */
+/* to do so by a member of eDigitalResearch  */
+/* staff.                                    */
+/*********************************************/
+
+var cookie_firstparty = true; /* change to 'false' to not use first-party cookies */
+
+var ecos_data = '';
+var ecos_data2 = '';
+var ecos_data3 = '';
+var ecos_test = 0;
+
+var ecos_sid = 846689902;
+var ecos_host = 'ecustomeropinions.com';
+var ecos_vault = '_';
+var ecos_ver = '509';
+var ecos_nc = '';
+var ecos_go = 0;
+var ecos_pu = 0;
+var ecos_hm = 0;
+var ecos_pm = 0;
+var ecos_survey_size_x = 550;
+var ecos_survey_size_y = 400;
+var ecos_jscode = '';
+var ecos_runjs = 'ecos_run();';
+var ecos_proportion = 1.0;
+
+var brok = false;
+if (parseInt(navigator.appVersion.charAt(0)) >= 4)
+	brok = true;
+
+
+function ecos_buildurl(destpage) {
+	var ecos_url = ecos_host + '/survey/' + destpage + '.php?sid=' + ecos_sid;
+
+	ecos_url = ((document.location.protocol == 'https:') ? 'https://' : 'http://') + ecos_url;
+
+	if (ecos_test > 0)
+		ecos_url = ecos_url + '&test=1';
+	
+	ecos_url += '&v=' + ecos_ver + '&r=' + Math.round(Math.random() * 100000);
+	if (ecos_vault.index != '_')
+		ecos_url += '&vlt=' + ecos_vault;
+	
+	var myvar2 = '';
+	myvar = window.location.href;
+
+	var icount = 0;
+	for (i=0; i<myvar.length; i++) {
+		if (myvar.charAt(i) == '/')
+			icount++;
+		if (icount >= 3)
+			myvar2 += myvar.charAt(i);
+	};
+
+	if (ecos_data.length > 0)	ecos_url += '&data=' + ecos_data;
+	if (ecos_data2.length > 0)	ecos_url += '&data2=' + ecos_data2;
+	if (ecos_data3.length > 0)	ecos_url += '&data3=' + ecos_data3;
+
+	if ((screen.width > 0) && (screen.height > 0))
+		ecos_url += '&xres=' + screen.width + '&yres=' + screen.height;
+
+	if (screen.colordepth > 0)
+		ecos_url += '&depth=' + screen.colordepth;
+	
+	if (ecos_proportion < 1.0) ecos_url += '&mult=' + ecos_proportion;
+	ecos_url += '&url=' + escape(myvar2.substring(0,100));
+	ecos_url += '&referrer=' + escape(document.referrer.substring(0,100));
+	
+	var ck;
+	if (ck = ecos_getcookie('ecos'))
+		ecos_url += '&ecos_cookie=' + ck;
+	
+	if (navigator.userAgent.indexOf("Safari") >= 0)
+		ecos_url += '&fullurl=' + escape(window.location.href);
+	
+	return ecos_url;
+};
+
+
+function ecos_popup_popup() {
+	
+	var ua = navigator.userAgent;
+	if ((ua.indexOf('NT 5.1') > 0) && (ua.indexOf(' SV1') > 0))
+		return false;
+
+	var sw = window.open(ecos_buildurl('survey'), 'surveywin', 'location=0,toolbar=no,width=' + ecos_survey_size_x + ',height=' + ecos_survey_size_y + ',directories=no,status=no,scrollbars=yes,resizable=yes');
+
+	if ((ecos_pu) && (sw))
+		sw.blur();
+
+	return sw;
+}
+
+
+function ecos_popup_layer() {
+	if (!document.getElementById)
+		return false;
+
+	var url = ecos_buildurl('layer') + '&inlayer=1';
+	
+	if (document.location.hostname != document.domain) {
+		el = document.createElement('script');
+		el.src = url;
+		el.type = 'text/javascript';
+		document.getElementsByTagName('head')[0].appendChild(el);
+	} else {
+		var t = '<SCR' + 'IPT LANGUAGE="Javascript" SRC="' + url + '"></SCR' + 'IPT>';
+		var b, a = document.getElementById("ecos_iframe2");
+		if (a.contentDocument)
+			b = a.contentDocument;
+		else if (a.contentWindow)
+			b = a.contentWindow.document;
+		else if (a.document)
+			b = a.document;
+		else
+			return false;
+		b.open();
+		b.write(t);
+		b.close();
+	}
+	
+	return true;
+}
+
+
+function ecos_layer_run() {
+	eval(ecos_jscode);
+}
+
+function ecos_getcookie(name)
+{
+	var cks = document.cookie.split(';');
+	for (var i = 0; i < cks.length; i++)
+	{
+		var c = cks[i];
+		while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+		if (c.indexOf(name + '=') == 0) return c.substring(name.length+1, c.length);
+	}
+	return '';
+}
+
+function ecos_layer_gono(delay) {
+	if(delay > 0)
+	        setTimeout("ecos_layer_gono()", delay);
+	else
+	        document.getElementById('ecos_surveylayer').style.visibility = 'hidden';
+};
+
+
+function ecos_layer_gosurveysize() {
+	ecos_layer_gono();
+	var full_survey_url = ecos_buildurl('survey') + '&doneperm=1';
+	sw = window.open(full_survey_url, 'surveywin',
+		'location=0,toolbar=no,width=' + ecos_survey_size_x + ',height=' + ecos_survey_size_y + ',directories=no,status=no,scrollbars=yes,resizable=yes');
+	if ((ecos_pu) && (sw))
+		sw.blur();
+	return sw;
+};
+
+
+function ecos_layer_golater() {
+	sw = ecos_layer_gosurveysize();
+	if (sw)
+		sw.blur();
+	return sw;
+};
+
+
+var runcounter = 0;
+function ecos_popup() {
+
+	if (document.getElementById)
+		if (!document.getElementById("ecos_iframe"))
+			if (runcounter < 10) {
+				runcounter++;
+				setTimeout('ecos_popup()', 100);
+				return;
+			};
+
+	if (ecos_go) {
+
+		switch (ecos_pm) {
+		case 0 : ecos_popup_popup(); break;
+		case 1 : ecos_popup_layer(); break;
+		case 2 : if (!ecos_popup_popup()) ecos_popup_layer(); break;
+		case 3 : if (!ecos_popup_layer()) ecos_popup_popup();
+		};
+	};
+};
+
+
+function ecos_run() {
+	if (ecos_go) {
+		if (ecos_hm == 0)
+			ecos_popup();
+		else if ((ecos_hm == 1) && (brok)) {
+			ecos_pm = 0;
+			window.onunload = ecos_popup;
+		};
+	};
+};
+
+
+function ecos_i() {
+	eval(ecos_runjs);
+	var dt = new Date();
+	if (ecos_nc != '' && cookie_firstparty)
+	{
+		var ck = ecos_getcookie('ecos');
+		if (ck == '')
+			ck = escape(ecos_nc);
+		else
+		{
+			var cksid = ecos_nc.split('-', 2)[0];
+			var ckre = new RegExp(cksid + '-\\d+');
+			var ckmatches = ck.match(ckre);
+			if ((!ckmatches) || ckmatches.length == 0)
+				ck = ck + '.' + escape(ecos_nc);
+			else
+				ck = ck.replace(ckre, escape(ecos_nc));
+		}
+		dt.setDate(dt.getDate() + 7300);
+		document.cookie = 'ecos=' + ck + ';path=/;expires=' + dt.toGMTString();
+	}
+};
+
+
+var runcounter2 = 0;
+function ecos_load() {
+	var a, b;
+	if (!(a = document.getElementById("ecos_iframe"))) {
+		if (++runcounter2 < 10)
+			setTimeout('ecos_load()', 100);
+		return;
+	};
+
+	if (document.location.hostname != document.domain) {
+		el = document.createElement('script');
+		el.src = ecos_buildurl('i');
+		el.type = 'text/javascript';
+		document.getElementsByTagName('head')[0].appendChild(el);
+	} else {
+		var t = '<SCR' + 'IPT LANGUAGE="Javascript" SRC="' + ecos_buildurl('i') + '"></SCR' + 'IPT>';
+		if (a.contentDocument)
+			b = a.contentDocument;
+		else if (a.contentWindow)
+			b = a.contentWindow.document;
+		else if (a.document)
+			b = a.document;
+		if (b) {
+			b.open();
+			b.write(t);
+			b.close();
+		};
+	}
+};
+
+var ecos_allow = ecos_getcookie('ecos_allow');
+if (document.location.toString().match('ECOS_SHOW_SURVEY')) {
+	ecos_allow = 'y';
+} else {
+	if (ecos_allow.length < 1) {
+		if (ecos_proportion < 1.0) {
+			ecos_allow = (Math.random() < ecos_proportion) ? 'y' : 'n';
+			document.cookie = 'ecos_allow=' + ecos_allow + ';path=/';
+		} else {
+			ecos_allow = 'y';
+		}
+	}
+}
+if (ecos_allow == 'y') {
+if ((document.getElementById) && (window.frames)) {
+	ecos_load();
+} else {
+	ecos_img = new Image;
+	ecos_img.src = ecos_buildurl('i') + '&nosup=1';
+}}
+
+
+// -->
+</script><noscript><img src="https://ecustomeropinions.com/survey/img.php?sid=846689902&amp;nojs=1" border="0" width="1" height="1" alt="" /><a href="https://ecustomeropinions.com/survey/noscript.php?sid=846689902&amp;nojs=1" rel="nofollow">We would like your feedback, please fill in our survey</a></noscript>
+
+	<script language="javascript">
+		var str = window.location.href;
+		var locationStr = '';
+		var strArray = str.split('?');
+
+		for (i=0;i<strArray.length;i++){
+			if (i == 1){
+				locationStr = strArray[i];
+			}
+		}
+
+		if (navigator.userAgent.toLowerCase().indexOf("safari") != -1 && locationStr.match('%23')) {
+			str = str.replace("%23", "#");
+			window.location.href = str;
+		}
+		
+	</script>
+	
+	
+		<a href="http://www.waterstones.com/waterstonesweb/?nav=Header&amp;linkid=Logo" class="logo"><img src="/waterstonesweb/graphics/global/branding_logo.gif" alt="Waterstone's" class="logo"/></a>	
+	
+
+<div class="headerContent">
+
+
+	<!-- Navigation Support -->
+	<div class="navSupportWrapper">
+	
+		<ul id="nav-support">	
+			<li>
+																		
+					<a href="http://www.waterstones.com/waterstonesweb/home.do?nav=Header&amp;linkid=Home">Home</a>
+				
+			</li>
+			
+			<li><a href="http://f.chtah.com/s/30/619054499/Waterstones_signup_homepage.html?nav=Header&amp;linkid=Newsletter">Newsletter sign-up</a></li>
+			
+			<li><a href="http://www.waterstones.com/waterstonesweb/displayFindBranch.do?nav=Header&amp;linkid=Store%20finder">Store finder</a></li>		
+			
+								
+				<li><a href="https://www.waterstones.com/waterstonesweb/displayLogin.do?specificRedirect=/displayMyDetails.do&nav=Header&amp;linkid=Sign%20in">Sign in</a></li>
+			
+				<li><a href="https://www.waterstones.com/waterstonesweb/displayLogin.do?specificRedirect=/displayMyDetails.do?nav=Header&amp;linkid=My%20account">My account</a></li>
+			
+
+			
+			
+			<li class="last"><a href="http://www.waterstones.com/waterstonesweb/pages/help/100000005/?nav=Header&amp;linkid=Help">Help</a></li>
+			
+			
+
+
+
+
+
+
+
+
+	<li class="basket">
+		<form name="mybasket" method="post"></form>
+		<a href="http://www.waterstones.com/waterstonesweb/basket.do">
+			<span class="my-basket"><img src="/waterstonesweb/graphics/global/your_basket_red.png " alt="Go to Basket"></span> 
+		</a>
+			
+		
+	</li>	
+
+<!-- JavaScript for Send To Friend (to bypass caching) - in basket.jsp -->
+<script type="text/javascript">
+	function showSendToFriend()
+	{
+		var isLoggedIn = false;
+		
+		if (isLoggedIn)
+		{
+			showObject('sendtofriend');
+			return false;
+		}
+		else
+		{
+			showObject('sendtofriend-nologin');
+			return false;
+		}
+	}
+
+	function hideSendToFriend()
+	{
+		var isLoggedIn = false;
+		
+		if (isLoggedIn)
+		{
+			hideObject('sendtofriend');
+			return false;
+		}
+		else
+		{
+			hideObject('sendtofriend-nologin');
+			return false;
+		}
+	}
+	
+	function setWebTrendsScenario() {
+		var form = document.mybasket;
+		form.action = "http://www.waterstones.com/waterstonesweb/webTrends.do?scenario=1";
+		form.submit();
+	}
+		
+
+</script>
+<!-- End of Send To Friend JavaScript -->
+		
+					
+		</ul>
+		
+	</div>
+	
+	
+
+
+	
+
+
+
+
+<div id="simpleSearchPanel">
+   <span class="simpleSearchPanelTopCorners"></span>
+   <div class="simpleSearchPanelBody">
+       <form name="simpleSearchFrm" action="http://www.waterstones.com/waterstonesweb/simpleSearch.do" method="get" onsubmit="return validateSimpleSearchTypeAhead();">
+           <div class="searchMain clearfix">
+               <h3><em>Search </em>for</h3>	
+               <label class="accessibility" for="typeAheadTextInput">Keywords</label>
+               <div id="typeAheadTextInputWrapper">
+                    <input type="text" id="typeAheadTextInput" autoComplete="off" name="simpleSearchString" value="Title, author, keyword or ISBN" />
+               </div>
+               <input type="image" src="/waterstonesweb/graphics/buttons/simple_search_go.png" id="typeAheadFormSubmit" name="typeAheadFormSubmit" alt="Go" />
+
+           </div>
+           <div class="searchOptions clearfix">
+               <input type="checkbox" id="typeAheadToggle" />
+               <label for="typeAheadToggle">Turn off auto-complete</label>
+               <a href="http://www.waterstones.com/waterstonesweb/displayAdvancedSearch.do">Advanced search</a>
+           </div>
+       </form>
+   </div>
+   <span class="simpleSearchPanelBottomCorners"></span>
+</div>
+
+
+	
+	<!--<div id="deliveryMessageLarge">
+	<a href="http://www.waterstones.com/waterstonesweb/navigate.do?pPageID=1362">
+		FREE UK delivery 
+		<p>on all books</p>
+		<p class="deliveryMessageLarge_subline">plus FREE, no-hassle returns</p>
+		</a>
+	</div>-->
+	
+	<!-- Primary Navigation -->
+	<ul id="nav-primary">
+		<li class="first"><a href="http://www.waterstones.com/waterstonesweb/pages/whats-new/1003/?nav=Top&amp;linkid=New%20books" accesskey="1" 
+			>New titles</a></li>
+		
+		<li><a href="http://www.waterstones.com/waterstonesweb/pages/coming-soon/1001/?nav=Top&amp;linkid=Coming%20soon" accesskey="2"
+			>Coming soon</a></li>
+		
+		<li><a href="http://www.waterstones.com/waterstonesweb/bestSellersCategory.do?ctx=0&searchType=7&nav=Top&linkid=Bestsellers" accesskey="3"
+															
+		>Bestsellers</a></li>
+		
+		<li class="offers"><a href="http://www.waterstones.com/waterstonesweb/pages/book-offers/200000781/?nav=Top&amp;linkid=Offers" accesskey="4"
+			>Offers</a></li>
+				
+		<li><a href="http://www.waterstones.com/waterstonesweb/browse/ebooks/4294964587/4294964587/?nav=Top&amp;linkid=eBooks" accesskey="5"
+			>eBooks</a></li>
+		
+		<li><a href="http://www.waterstonesmarketplace.com/?nav=Top&amp;linkid=Waterstones%20Marketplace" accesskey="6" target="_blank">Used books</a></li>
+		
+		<li><a href="http://www.waterstones.com/waterstonesweb/events/?nav=Top&amp;linkid=Events" accesskey="7"		
+		>Events</a></li>
+		
+		<li class="last"><a href="http://www.waterstones.com/waterstonesweb/pages/waterstones-card/1614/?nav=Top&amp;linkid=Waterstones%20Card" accesskey="8"
+			>Waterstone's Card<img src="/waterstonesweb/graphics/loyalty/card_icon_topnav.png" alt="Waterstone's Card"></img> </a></li>
+				
+		<!--<li><a href="http://www.waterstones.com/waterstonesweb/pages/students/1014/?WT.mc_id=Textbooks" accesskey="5"
+			>Textbooks</a></li>		
+
+		<li><a href="http://www.waterstones.com/waterstonesweb/pages/dvds/1894/?WT.mc_id=DVDsNav" accesskey="6"
+			>DVDs</a></li>
+				
+		<li><a href="http://www.waterstones.com/waterstonesweb/browse/childrens/4294965002/?WT.mc_id=Kids" accesskey="8"
+			>Kids'</a></li>
+
+		<li><a href="http://www.waterstones.com/waterstonesweb/pages/top-rated-books/1742/?WT.mc_id=Reviews" accesskey="9"
+			>Reviews</a></li> -->
+
+		
+
+		<!--<li><a href="http://www.waterstonesmarketplace.com/?WT.mc_id=MarketplaceNav" accesskey="11" target="_blank">Marketplace</a></li>-->
+		
+
+		
+	</ul>
+	
+</div>
+
+<script language="JavaScript" type="text/javascript">
+	function openMP() {
+	  URL = 'http://www.waterstonesmarketplace.com/?WT.mc_id=MarketplaceNav';
+	  uid = new Date().getTime() + Math.floor(Math.random()*100);
+	  URL += '?uid='+uid;
+	  window.open(URL,'MP','resizable=1,scrollbars=1,width=500,height=500');
+	}
+</script>
+
+</div><!-- closes #header-->
+<!-- END HEADER LAYOUT -->
+
+			
+
+
+
+
+
+<!-- START HOME LEFT MARGIN LAYOUT -->
+<div id="nav-secondary">
+
+
+
+		<!-- START LEFT MARGIN COMPONENTS -->
+		
+		<!-- END LEFT MARGIN COMPONENTS -->
+		
+		
+
+
+
+
+
+
+
+
+
+<!-- Start Of Side Nav -->
+
+
+
+
+<div class="side-nav">
+
+	<div class="subCategories">
+			
+					
+					<h2 class="homeCategoriesOverview">Browse categories</h2>
+					
+			
+
+			
+			<div class="refineBy">
+			
+							
+					
+					
+					
+					
+			
+					<ul>
+			
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/art-and-photography/4294966468/" class="clearfix">Art and Photography</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/audio-downloads/4290682376/" class="clearfix">Audio Downloads</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/audiobooks/4294966948/" class="clearfix">Audiobooks</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/biography/4294966016/" class="clearfix">Biography</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/business-finance-and-law/4294965778/" class="clearfix">Business, Finance and Law</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/childrens/4294965002/" class="clearfix">Children's</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/comics-and-graphic-novels/4294965867/" class="clearfix">Comics and Graphic Novels</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/computing/4294965354/" class="clearfix">Computing</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/crime/4294965890/" class="clearfix">Crime</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/ebooks/4294964587/" class="clearfix">eBooks</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/education/4294966108/" class="clearfix">Education</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/fiction/4294965922/" class="clearfix">Fiction</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/food-and-drink/4294965281/" class="clearfix">Food and Drink</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/health-and-wellbeing/4294965216/" class="clearfix">Health and Wellbeing</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/history-and-transport/4294965859/" class="clearfix">History and Transport</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/hobbies-and-games/4294965168/" class="clearfix">Hobbies and Games</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/home-and-garden/4294966328/" class="clearfix">Home and Garden</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/humour/4294965111/" class="clearfix">Humour</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/mind-body-spirit/4294965148/" class="clearfix">Mind, Body, Spirit</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/music-stage-and-screen/4294966314/" class="clearfix">Music, Stage and Screen</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/natural-history-and-pets/4294965103/" class="clearfix">Natural History and Pets</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/poetry-and-drama/4294966061/" class="clearfix">Poetry and Drama</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/politics-philosophy-and-religion/4294965820/" class="clearfix">Politics, Philosophy and Religion</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/reference/4294965181/" class="clearfix">Reference</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/reference-and-languages/4294966216/" class="clearfix">Reference and Languages</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/romance/4294965873/" class="clearfix">Romance</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/science-fiction-fantasy-and-horror/4294965878/" class="clearfix">Science Fiction, Fantasy and Horror</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/scientific-technical-and-medical/4294965679/" class="clearfix">Scientific, Technical and Medical</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/sport/4294965038/" class="clearfix">Sport</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/stationery-and-gifts/4294965004/" class="clearfix">Stationery and Gifts</a>
+				
+						</li>
+				
+						
+				
+						<li>
+				
+							<a href="/waterstonesweb/browse/travel/4294965406/" class="clearfix">Travel</a>
+				
+						</li>
+				
+					
+			
+					</ul>
+			
+				
+		
+			
+	
+				
+				
+			</div>
+			
+		</div>
+
+
+	
+
+</div>
+<!-- End Of Side Nav -->
+	
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+		
+</div> <!-- close nav-secondary -->
+<!-- END HOME LEFT MARGIN LAYOUT -->
+
+			<div id="content">
+				<div id="promotion">
+					
+
+
+
+
+				</div>
+				<div class="productDetailsPricingWrapper">
+					
+
+
+
+
+
+<script type="text/javascript">
+bvdocumentDomain = "waterstones.com";
+document.domain = "waterstones.com";
+function BVQADisplayed(questionCount, answerCount)  
+ {  
+     if (questionCount > 0) {  
+         var bvALPLink = document.getElementById("BVALPLinkContainer");  
+         if (bvALPLink) { bvALPLink.style.display = "block"; }  
+     }   
+     // Other custom items leveraging these values.  
+     // TODO: insert Web Analytics tracking here  
+ }  
+</script>
+
+
+
+
+	
+	
+	
+	
+	<!-- Start Of Cached Top Product Details -->
+	
+	<form id="authorSearchForm" action="http://www.waterstones.com/waterstonesweb/advancedSearch.do" method="get">
+		<input type="hidden" name="buttonClicked" value="1" />
+		<input type="hidden" id="author"" name="author" />
+		<input type="hidden" name="searchType" value="2"/>
+	</form>
+	
+	<div class="product-pane clearfix">
+		<div class="image">
+		
+			<a href="javascript:openWindow('http://www.waterstones.com/waterstonesweb/displayProductDetailsZoom.do?sku=6433709', 'ProductZoom', 400, 425);">
+			
+				<img src="http://www.waterstones.com/wat/images/nbd/m/978085/131/9780851319377.jpg" alt="Horse Law"/>
+			
+			</a>		
+		
+		</div>
+		<div class="content">
+		
+		<div class="contentProductDetails">
+		
+		
+				<h1>Horse Law</h1>
+				
+					<p class="byAuthor">by  
+					
+						<a href="javascript:doAuthorSearch('%26%2334%3BJulie%20MacKenzie%26%2334%3B');">Julie MacKenzie</a>
+					
+					</p>
+				
+				
+			
+				
+				
+				<div class="extra-details">		
+				
+					<table class="formatPublished">
+						<tr>
+							<th id="productFormat">Format:</th>
+							<td headers="productFormat">Hardback 224 pages</td>
+						</tr>
+						
+					</table>
+
+				</div>
+				
+				
+					
+				
+					<div class="stockDispatch">
+						
+									<p><span>Usually despatched in 4-7 days</span></p>
+								
+									
+					</div>
+							
+				
+				
+	<!-- Start Of Cached Bottom Product Details -->
+	
+
+			
+		
+	
+	<div id="BVCustomerRatings_6433709B"></div>
+	<div id="BVCustomerRatings_6433709"></div>	
+				
+	</div>
+		
+			
+		
+	</div>
+</div>
+			
+	<!-- End Of Cached Top Product Details -->
+
+
+
+					
+	
+
+
+
+	<div class="pricingActions">		
+				
+		
+				
+					
+					
+					
+					
+				
+
+
+
+<!-- Start Of Pricing Template -->
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		
+		
+		
+		
+		<p class="price"><span class="priceStandard">&pound;25.00</span></p>
+		
+						
+	
+
+<!-- End Of Pricing Template -->
+
+		
+		
+		
+		
+					
+					
+		
+			
+			
+		<p class="delivery">Delivered FREE <br />in the UK</p>
+	
+		
+		
+		
+		<div class="buttons">
+			
+			
+					
+					
+			
+
+
+
+
+<!-- USED BY SEARCHING AND PRODUCT DETAILS PAGE -->
+
+
+
+	
+		<a href="http://www.waterstones.com/waterstonesweb/addToBasket.do?sku=6433709" onclick="WT.tx_e='a';WT.tx_u='1';WT.pn_sku='6433709';dcsHandler(event)"><img src="/waterstonesweb/graphics/buttons/prodDet/add_to_basket_xlarge_white.png" alt="Add to basket"/></a>
+			
+
+
+		
+
+	
+				
+				
+				
+			
+			
+				
+			
+				
+					
+					<p>
+					<a href="http://www.waterstones.com/waterstonesweb/displayStockAvailability.do?sku=6433709">
+					Check store availability</a>					
+					</p>
+				
+				
+			
+									
+					<span class="hidden">|</span><p><a href="https://www.waterstones.com/waterstonesweb/createWishListItem.do?sku=6433709">
+					Add to wish list</a></p>
+				
+
+			 
+		</div>
+					
+	</div>		
+
+				
+				</div>
+				<div id="content-primary">
+					
+
+
+
+<link type="text/css" rel="stylesheet" href="http://reviews.waterstones.com/static/4921-en_gb/bazaarvoice.css" ></link>
+<script language="JavaScript" src="http://reviews.waterstones.com/static/4921-en_gb/bazaarvoice.js" type="text/javascript"></script>
+
+
+
+	
+	
+	
+	<script type="text/javascript">
+	function ratingsDisplayed(totalReviewsCount, avgRating, ratingsOnlyReviewCount, buyAgainPercentage)
+	{
+        if (totalReviewsCount >= 0) {
+            if (document.getElementById('BVReviewsContainer_6433709')) { document.getElementById('BVReviewsContainer_6433709').style.display = 'block'; }
+            if (document.getElementById('BVReviewsContainer_6433709B')) { document.getElementById('BVReviewsContainer_6433709B').style.display = 'block'; }
+	     }
+	     // Other custom items leveraging these values.
+         // TODO: insert Web Analytics tracking here
+	}
+	function toggleTabProduct(activeTab) {
+		for (i=1;i<=3;i++) {
+			if(i==activeTab) {
+				removeClass("tab-"+i+"-plinth","hidden");
+				addClass('tab-'+i+'-link','active');
+			}
+			else
+			{
+				addClass('tab-'+i+'-plinth','hidden');
+				removeClass('tab-'+i+'-link','active');
+			}
+		}
+	}
+</script>
+
+<div id="ADE_DetectAndInstallDiv" style="visibility:hidden; position:absolute; z-index:11000; background-color:white; border: 1px solid; left: 10px;"></div>
+		
+	<div class="product-tabs">
+		<ul class="tabs">
+			
+				
+					<li class="left-tab active" id="tab-1-link"><a href="#tab-1-plinth" onclick="toggleTabProduct(1);return false;">About this book</a></li>
+					<li id="tab-2-link"><a href="#tab-2-plinth" onclick="toggleTabProduct(2);return false;">Bookseller reviews</a></li>
+					<li id="tab-3-link"><a href="#tab-3-plinth" onclick="toggleTabProduct(3);return false;">Customer reviews</a></li>
+					<!-- li class="right-tab" id="tab-4-link"><a href="#tab-4-plinth" onclick="toggleTabProduct(4);return false;">Just ask ...</a></li-->
+					
+				
+			
+		</ul>
+		
+		
+		
+		
+	
+		<div id="tab-1-plinth" class="plinth clearfix">
+            <div class="clearfix">
+                <div class="large-product-pane left">
+                    <h2>Synopsis</h2>
+                    <p>The purpose of this book is to provide a simple guide to the law for the horse owner as well as providing an initial reference book for solicitors or barristers who find themselves involved in cases concerning horses. Now in its third edition having been substantially revised, this is an invaluable guide to the law relating to horses for students, owners and professionals within the horse industry. The author, a practising barrister, brings the existing subjects up to date (these include buying and selling, negligence, the Animals Act 1971, rights of way for riders, road traffic, gaming and betting) and introduces new sections on the Hunting Bill, changes in the Welfare Act, passports, and much more.</p>
+                </div>
+
+                <div class="large-product-pane right">
+                    <h2>Book <span class="hi-light">details</span></h2>
+
+                    <div class="content content-no-image">
+                        
+                            <p><strong>Published</strong><BR />30/11/2011</p>
+                        
+
+                        
+                            <p><strong>Publisher</strong><BR />J.A.Allen & Co Ltd</p>
+                        
+
+                        
+
+                        <p><strong>ISBN</strong><BR />9780851319377</p>
+                    </div>
+                    <br class="cleaner" />
+                </div>
+            </div>
+	
+
+			 
+			
+
+			  <div class="back-to-top-about">
+					<div class="toolbar">
+						
+							<a href="http://www.waterstones.com/waterstonesweb/addToBasket.do?sku=6433709"><img src="/waterstonesweb/graphics/buttons/prodDet/add_to_basket_large_white.png" alt="Add to basket"/></a>
+						
+									
+							<span class="hidden">|</span><p><a href="https://www.waterstones.com/waterstonesweb/createWishListItem.do?sku=6433709">
+							Add to wish list</a></p>
+								
+						
+															
+						<span class="hidden">|</span><p><a href="#sendtofriend" onclick="showSendToFriend();clearMessages();">
+						Tell a friend</a></p>
+						
+						
+					</div>
+			  </div>
+		</div>
+	
+		
+		
+		
+
+		<div id="tab-2-plinth" class="plinth clearfix hidden">
+		
+		<div id="BVReviewsContainer_6433709B" style="display: none;"></div>
+		<noscript>
+		
+    		<iframe src="http://reviews.waterstones.com/4921-en_gb/6433709B/reviews.htm?format=noscript" width="100%"></iframe><br/>
+		</noscript>
+
+			
+		    	<div class="back-to-top-bks">
+			
+				<div class="toolbar">
+					
+						<a href="http://www.waterstones.com/waterstonesweb/addToBasket.do?sku=6433709"><img src="/waterstonesweb/graphics/buttons/prodDet/add_to_basket_large_white.png" alt="Add to basket"/></a>
+					
+											
+						<span class="hidden">|</span><a href="https://www.waterstones.com/waterstonesweb/createWishListItem.do?sku=6433709"><img src="/waterstonesweb/graphics/buttons/add_to_wishlist_large.png" alt="Add to wish list"/></a>
+										
+					<span class="hidden">|</span><a href="#sendtofriend" onclick="showSendToFriend();clearMessages();"><img src="/waterstonesweb/graphics/buttons/tell_a_friend_large.png" alt="Tell a friend"/></a>
+				</div>
+			</div>	
+			
+			
+		</div>
+	
+		
+		
+		
+		
+		<div id="tab-3-plinth" class="plinth clearfix hidden">
+			<div id="BVReviewsContainer_6433709" style="display: none;"></div>
+			<noscript>
+    			<iframe src="http://reviews.waterstones.com/4921-en_gb/6433709/reviews.htm?format=noscript" width="100%"></iframe><br/>
+			</noscript>
+			
+			<div class="toolbar">
+				
+					<a href="http://www.waterstones.com/waterstonesweb/addToBasket.do?sku=6433709"><img src="/waterstonesweb/graphics/buttons/prodDet/add_to_basket_large_white.png" alt="Add to basket"/></a>
+				
+								
+					<span class="hidden">|</span><a href="https://www.waterstones.com/waterstonesweb/createWishListItem.do?sku=6433709"><img src="/waterstonesweb/graphics/buttons/prodDet/add_to_wishlist_large_white.png" alt="Add to wish list"/></a>
+								
+				<span class="hidden">|</span><a href="#sendtofriend" onclick="showSendToFriend();clearMessages();"><img src="/waterstonesweb/graphics/buttons/tell_a_friend_large.png" alt="Tell a friend"/></a>
+				
+			</div>
+		</div>
+	
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+	</div>
+
+
+	
+		
+		
+	<div class="two-up-carousel">
+
+		<div class="large-product-pane aboutTheAuthor">
+				
+			<br class="cleaner" />
+		</div>
+	</div>
+
+	<div id="sendtofriend" class="sendtofriend-popup hidden">
+		<form name="sendToFriendForm" id="sendToFriendForm" method="POST" action="http://www.waterstones.com/waterstonesweb/emailProductPageToFriend.do">
+			<input type="hidden" name="sku" value="6433709" />
+			<p class="sendtofriend-header">Tell a friend</p>
+				<label class=" emailname" id="firstMsg">You can send details about this product to up to eight friends.  Simply enter their e-mail addresses below and click Send.</label>
+				<font color="#78AB46"><label class="hidden emailname " id="confMsg" >null</label></font>
+				<font color="#FF0000"><label class="hidden emailname" id="errorMsg">There are errors in the e-mail addresses which have been entered</label></font>
+			<br />
+			<input type="text" class="input" name="CSConstants_email1" id="CSConstants_email1"/><br />
+			<input type="text" class="input" name="CSConstants_email2" id="CSConstants_email2"/><br />
+			<input type="text" class="input" name="CSConstants_email3" id="CSConstants_email3"/><br />
+			<input type="text" class="input" name="CSConstants_email4" id="CSConstants_email4"/><br />
+			<input type="text" class="input" name="CSConstants_email5" id="CSConstants_email5"/><br />
+			<input type="text" class="input" name="CSConstants_email6" id="CSConstants_email6"/><br />
+			<input type="text" class="input" name="CSConstants_email7" id="CSConstants_email7"/><br />
+			<input type="text" class="input" name="CSConstants_email8" id="CSConstants_email8"/>
+			<div class="buttons">										
+				<img src="/waterstonesweb/graphics/components/signin-pane/cancel.gif" alt="Cancel" border="0" onclick="return(hideSendToFriend());" class="cursor cancel"/>
+				<img src="/waterstonesweb/graphics/components/signin-pane/send.gif" alt="Continue" border="0" onclick="return(sendProductForm());" class="cursor continue"/>
+			</div>		
+		</form>
+	</div>
+	
+	<div id="sendtofriend-nologin" class="sendtofriend-popup-login hidden">
+		<form>
+			<p class="sendtofriend-header">Tell a friend</p>
+			<p>You must be logged in to tell a friend about this book.</p>
+			<div class="buttons">
+				<img src="/waterstonesweb/graphics/components/sendtofriend_popup/Send_Friend_login_cnl.gif" alt="Cancel" border="0" onclick="return(hideSendToFriend());" class="cursor cancel"/>
+				<a href="https://www.waterstones.com/waterstonesweb/displayLogin.do?specificRedirect=/displayProductDetails.do%3Fsku=6433709&amp;doRedirect=true"><img src="/waterstonesweb/graphics/components/sendtofriend_popup/Send_Friend_login_btn.gif" alt="Login" border="0"/></a>
+			</div>
+		</form>
+	</div>	
+	
+	<script type="text/javascript">
+	
+		document.getElementById('firstMsg').style.display = "block";
+	
+		function sendProductForm()
+		{
+			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			if(!document.sendToFriendForm.CSConstants_email1.value.match(re) || 
+				(document.sendToFriendForm.CSConstants_email2.value != "" && !document.sendToFriendForm.CSConstants_email2.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email3.value != "" && !document.sendToFriendForm.CSConstants_email3.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email4.value != "" && !document.sendToFriendForm.CSConstants_email4.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email5.value != "" && !document.sendToFriendForm.CSConstants_email5.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email6.value != "" && !document.sendToFriendForm.CSConstants_email6.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email7.value != "" && !document.sendToFriendForm.CSConstants_email7.value.match(re)) ||
+				(document.sendToFriendForm.CSConstants_email8.value != "" && !document.sendToFriendForm.CSConstants_email8.value.match(re))){
+				// show / hide the error message
+				document.getElementById('errorMsg').style.display = "block";
+				document.getElementById('firstMsg').style.display = "none";
+				document.getElementById('confMsg').style.display = "none";
+				document.getElementById('errorMsg').firstChild.nodeValue = "There are errors in the e-mail addresses which have been entered";
+				return;
+			} else {
+				document.getElementById('sendToFriendForm').submit();
+			}
+		}
+		
+		function clearMessages() 
+		{
+			document.getElementById('errorMsg').firstChild.nodeValue = "";
+			document.getElementById('errorMsg').style.display = "none";
+			document.getElementById('confMsg').firstChild.nodeValue = "";
+			document.getElementById('confMsg').style.display = "none";
+			document.getElementById('firstMsg').style.display = "block";
+		}			
+	</script>
+	<!-- End Of Cached Bottom Product Details -->
+
+	<!-- Reviews -->
+	<script type="text/javascript" language="javascript">
+	<!--   
+    var BVisLoadedTable = [];
+    BVisLoadedTable['_' + '6433709'] = false;
+    BVisLoadedTable['_' + '6433709B'] = false;
+
+    function BVcheckLoadState(pid) {
+        if(!BVisLoadedTable[pid]) {
+        var page = document.getElementById('BVFrame_' + pid).src;
+        document.getElementById('BVFrame_' + pid).src='http://reviews.waterstones.com/logging?page=' + escape(page);
+        //document.getElementById('BVReviewsContainer_' + pid).innerHTML = "<!-- Review retrieval timed out -->";
+       }
+    }
+	//-->
+	</script>
+
+	<div id="BVSubmissionParameters" style="display: none;"></div>
+	<div id="BVContainerPageURL" style="display: none;">http://www.waterstones.com/waterstonesweb/displayAddBookReview.do?sku=6433709</div>
+	
+	<iframe id="BVFrame_6433709" name="BVFrame_6433709" src="" style="visibility: hidden; width: 1px; height: 1px; position: absolute; left: -999px; top: -999px;"></iframe>
+
+<script type="text/javascript" language="javascript">
+<!--
+    var bvPage1 = 'http://reviews.waterstones.com/4921-en_gb/6433709/reviews.htm?format=embedded';
+    var bvReviewIDName1 = 'featurereview1';
+    var bvReviewIDRegex1 = new RegExp('[?&]' + bvReviewIDName1 + '=([^&#]+)');
+    var bvReviewIDMatch1 = bvReviewIDRegex1.exec(window.location.search);
+    var bvReviewID1 = bvReviewIDMatch1 ? decodeURIComponent(bvReviewIDMatch1[1]) : null;
+    
+    document.getElementById('BVFrame_6433709').src = /^[0-9]+$/.test(bvReviewID1) ? bvPage1 + '&reviewid=' + bvReviewID1 : bvPage1;
+    // Timeout for ratings load.  Consider ratings unavailable if not loaded within 30 seconds -->
+    setTimeout("BVcheckLoadState('6433709')", 30000);
+// -->
+</script>
+
+<iframe id="BVFrame_6433709B" name="BVFrame_6433709B" src="" style="visibility: hidden; width: 1px; height: 1px; position: absolute; left: -999px; top: -999px;"></iframe>
+
+<script type="text/javascript" language="javascript">
+<!--
+    var bvPage2 = 'http://reviews.waterstones.com/4921-en_gb/6433709B/reviews.htm?format=embedded';
+    var bvReviewIDName2 = 'featurereview2';
+    var bvReviewIDRegex2 = new RegExp('[?&]' + bvReviewIDName2 + '=([^&#]+)');
+    var bvReviewIDMatch2 = bvReviewIDRegex2.exec(window.location.search);
+    var bvReviewID2 = bvReviewIDMatch2 ? decodeURIComponent(bvReviewIDMatch2[1]) : null;
+    
+    document.getElementById('BVFrame_6433709B').src = /^[0-9]+$/.test(bvReviewID2) ? bvPage2 + '&reviewid=' + bvReviewID2 : bvPage2;
+    // Timeout for ratings load.  Consider ratings unavailable if not loaded within 30 seconds -->
+    setTimeout("BVcheckLoadState('6433709B')", 30000);
+// -->
+</script>
+	
+	
+	
+	
+	<!-- End Reviews -->
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+
+	<!-- Start Of Other Books -->
+	
+	
+        <h2 class="intro-heading">
+            Other books by this <span class="hi-light">author</span>
+            
+            
+                <a href="http://www.waterstones.com/waterstonesweb/advancedSearch.do?buttonClicked=1&author=Julie MacKenzie"><span class="view-all">See all titles</span></a>
+            
+        </h2>
+
+		<div class="four-up-carousel">
+			
+
+				<div class="one-up-pane">	
+				
+					<div class="image">
+					
+					<a href="http://www.waterstones.com/waterstonesweb/products/julie+mackenzie/see+you+tomorrow/4473798/" title="See You Tomorrow">
+					
+						<img src="http://www.waterstones.com/wat/images/nbd/s/978185/756/9781857563801.jpg" alt="See You Tomorrow"/>
+					
+					</a>				
+					
+					</div>
+					<div class="content">
+						<h3><a href="http://www.waterstones.com/waterstonesweb/products/julie+mackenzie/see+you+tomorrow/4473798/">See You Tomorrow</a></h3>
+						<div class="purchase">							
+							
+							
+								
+								
+							
+
+
+
+<!-- Start Of Pricing Template -->
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+		<p class="price"><span class="priceStandard">&pound;6.95</span></p>
+		
+	
+
+<!-- End Of Pricing Template -->
+
+
+							<div class="buttons">				
+								
+								
+								
+
+
+
+
+<!-- USED BY SEARCHING AND PRODUCT DETAILS PAGE -->
+
+
+
+	
+		<a class="fourWideButton" href="http://www.waterstones.com/waterstonesweb/addToBasket.do?sku=4473798" ><img src="/waterstonesweb/graphics/buttons/add_to_basket_small.png" alt="Add to basket"/></a>
+			
+
+
+		
+
+	
+				
+				
+									
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<div class="cleaner"></div>
+		</div>
+	
+	<!-- End Of Other Books -->
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+					
+
+
+
+	
+	
+	
+
+					
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+    
+    
+
+		<div class="similar-products">
+			<h2>This book can be found <span class="hi-light">in...</span></h2>
+			<div class="similarProductsLinks">
+			
+                
+                <p class="productsLinksTree">
+                
+                <a href="/waterstonesweb/browse/sport/4294965038/">Sport</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/sport/sports-and-outdoor-recreation/4294965037/">Sports and outdoor recreation</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/sport/sports-and-outdoor-recreation/equestrian-and-animal-sports/4294965029/">Equestrian and animal sports</a>
+                    
+                	</p>
+                    
+                    
+                
+                <p class="productsLinksTree">
+                
+                <a href="/waterstonesweb/browse/natural-history-and-pets/4294965103/">Natural History and Pets</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/natural-history-and-pets/domestic-animals-and-pets/4294965079/">Domestic animals and pets</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/natural-history-and-pets/domestic-animals-and-pets/horses-and-ponies-as-pets/4294965075/">Horses and ponies as pets</a>
+                    
+                	</p>
+                    
+                    
+                
+                <p class="productsLinksTree">
+                
+                <a href="/waterstonesweb/browse/business-finance-and-law/4294965778/">Business, Finance and Law</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/business-finance-and-law/laws-of-other-jurisdictions/4294965691/">Laws of other jurisdictions</a>&nbsp;&gt;&nbsp;<a href="/waterstonesweb/browse/business-finance-and-law/laws-of-other-jurisdictions/social-law/4294965686/">Social law</a>
+                    
+                	</p>
+                    
+                    
+            </div>
+        </div>
+    
+    
+	
+	
+	
+	
+
+	
+	
+	<div class="product-disclaimer">
+		<p>The prices displayed are for website purchases only, and may differ to the prices in Waterstone's stores.</p>
+	</div>
+	
+	
+
+				</div>
+			
+				<div id="content-secondary">
+					
+				</div>
+			</div>
+			
+			
+
+
+<div id="footer">
+	<div class="footerLists clearfix">
+		<div class="footerListsGroup footerListsFirst">
+			<h3>Customer Services</h3>
+			<ul>			
+				<li><a href="javascript:void(0);" target="_blank" onclick="openVA( ); return false">Virtual assistant</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/help-free-delivery/200000049/?nav=Footer&amp;linkid=Free%20delivery">Free delivery offers</a></li>
+				<li><a href="https://www.waterstones.com/waterstonesweb/displayMyOrders.do?nav=Footer&linkid=Order%20tracking">Tracking your order</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/help-ebook-faqs/200001173/?nav=Footer&amp;linkid=eBook%20help">eBooks help</a></li>
+				<li><a href="http://www.waterstones.com/waterstonesweb/pages/help-returning-items/100000014/?nav=Footer&amp;linkid=Returning%20items">Returning items</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/help-privacy-policy/100000019/?nav=Footer&amp;linkid=Privacy%20policy">Privacy policy</a></li>
+				<li><a href="http://www.waterstones.com/waterstonesweb/pages/help-contact-us/200000692/?nav=Footer&amp;linkid=Contact%20us">Contact us</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/help-accessibility/1082/?nav=Footer&amp;linkid=Accessibility">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="footerListsGroup footerListsLast">
+			<h3>About Waterstone's</h3>
+			<ul>
+				<li><a href="http://www.waterstones.com/waterstonesweb/pages/about-waterstones/100000002/?nav=Footer&amp;linkid=About%20us">About us</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/displayFindBranch.do?nav=Footer&linkid=Store%20finder">Store finder</a></li>
+				<li><a href="http://www.waterstones.com/waterstonesweb/pages/careers/1009/?nav=Footer&amp;linkid=Careers">Careers</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/independent-publishers/1931/?nav=Footer&linkid=Independent%20publishers">Independent publishers</a></li>
+				<li><a href="http://www.waterstonesmarketplace.com/?nav=Footer&amp;linkid=Waterstones%20Marketplace" target="_blank">Waterstone's Marketplace</a></li>
+				<li class="footerOdd"><a href="http://www.waterstones.com/waterstonesweb/pages/books-quarterly/200000284/?nav=Footer&amp;linkid=Books%20Quarterly">Books Quarterly</a></li>
+				<li><a href="http://www.waterstones.com/waterstonesweb/pages/affiliates/200000162/?nav=Footer&amp;linkid=Affiliates">Affiliates</a></li>
+				<li class="footerOdd"><a href="http://www.hmvgroup.com/?nav=Footer&amp;linkid=HMV%20Group" target="_blank">HMV Group</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="socialNetwork">
+		<li><a href="http://twitter.com/waterstones?nav=Footer&amp;linkid=Twitter" target="_blank"><img src="/waterstonesweb/graphics/buttons/twitter_icon.png" alt="Follow us on Twitter" title="Follow us on Twitter" /></a></li>
+		<li><a href="http://www.facebook.com/waterstones?nav=Footer&amp;linkid=Facebook" target="_blank"><img src="/waterstonesweb/graphics/buttons/facebook_icon.png" alt="Join us on Facebook" title="Join us on Facebook" /></a></li>
+		<li><a href="http://www.youtube.com/waterstonescom?nav=Footer&amp;linkid=YouTube" target="_blank"><img src="/waterstonesweb/graphics/buttons/youtube_icon.png" alt="Watch us on YouTube" title="Watch us on YouTube" /></a></li>
+	</div>
+	
+	<a href="https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=WWW.WATERSTONES.COM&amp;lang=en" class="footerSecure" tabindex="-1" onmousedown="return v_mDown();" target="VRSN_Splash"><img src="/waterstonesweb/graphics/buttons/footer_verisign.gif" alt="Click to Verify - This site has chosen a VeriSign SSL Certificate to improve Web site security" title="Click to Verify - This site has chosen a VeriSign SSL Certificate to improve Web site security" border="true"></a>
+	
+	<div class="copyrightTCs">
+		<p class="copyright">&copy;&nbsp;Waterstone's 2010</p>
+		<ul class="TCs">
+			<li><a href="http://www.waterstones.com/waterstonesweb/pages/help-terms/100000018/?nav=Footer&amp;linkid=Terms" class="TCsLast">Terms and Conditions</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<script language="JavaScript" type="text/javascript">
+	function openVA() {
+  		URL = 'http://waterstones.creativevirtual.com/ws/bot.htm';
+  		URL += '?isJSEnabled=1';
+  		window.open(URL + '&amp;SiteContext=SITE1&amp;StartContext=FAQ','VA','width=500,height=500');
+	}
+</script>
+		</div>
+		<!-- closes container -->
+	
+		
+			
+
+<!-- START OF SDC Advanced Tracking Code -->
+<!-- Copyright (c) 1996-2005 WebTrends Inc.  All rights reserved. -->
+<!-- $DateTime: 2005/12/15 15:37:36 $ -->
+
+
+
+<SCRIPT TYPE="text/javascript"><!--
+
+		useDefaultPageTitle=true;
+
+
+			additionalPageParameters = additionalPageParameters + "&" + "pType" + "=" + "System";
+			additionalPageParameters = additionalPageParameters + "&" + "WT.pn_sku" + "=" + "6433709";
+			additionalPageParameters = additionalPageParameters + "&" + "pAuthor" + "=" + "Julie+MacKenzie";
+			additionalPageParameters = additionalPageParameters + "&" + "WT.tx_e" + "=" + "v";
+			additionalPageParameters = additionalPageParameters + "&" + "pGroup" + "=" + "Unclassified";
+			additionalPageParameters = additionalPageParameters + "&" + "WT.tx_u" + "=" + "1";
+			additionalPageParameters = additionalPageParameters + "&" + "pTitle" + "=" + "Horse+Law";
+
+
+	if(wtParameterArray){	
+		for (parameter in wtParameterArray) {
+			parameterName = parameter;
+			parameterValue = wtParameterArray[parameter];
+			additionalParameters = additionalParameters + "&" + parameterName + "=" + parameterValue;
+		}
+	}
+dcsVar();
+dcsMeta();
+dcsFunc("dcsAdv");
+dcsTag();
+ 
+//-->
+</SCRIPT>
+
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://statse.webtrendslive.com/dcszvdi9hoifwzj8z5nosjjah_6i9k/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>
+
+<!-- Search Ignite BEGIN click tracking script  version 4.0 -->
+
+<script language="javascript" type="text/javascript">
+
+document.write('<s'+'cript language="javascript" type="text/javascript" src="'+document.location.protocol+'//track.searchignite.com/si/CM/Tracking/ClickTracking.aspx?siclientid=3508&jscript=1"></s'+'cript>');
+
+</script>
+
+<noscript>
+
+<img width="1" height="1" src='http://track.searchignite.com/si/CM/Tracking/ClickTracking.aspx?siclientid=3508&jscript=0'>
+
+</noscript>
+
+<!--Search Ignite END click tracking script  version 4.0 -->
+<!-- END OF SmartSource Data Collector  TAG -->
+		
+
+
+
+		
+
+		
+		
+		
+			
+
+<!-- Start Of Atlas Tracking -->
+
+<!-- End Of Atlas Tracking -->
+		
+						
+		
+			
+
+
+<!-- START GOOGLE ANALYTICS -->
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	<!-- GOOGLE ANALYTICS LIVE ACCOUNT -->
+	var pageTracker = _gat._getTracker("UA-7951506-1");
+	<!-- GOOGLE ANALYTICS ECOM TEST ACCOUNT p/w Watg00anal1-->
+	<!-- var pageTracker = _gat._getTracker("UA-7968556-1");-->	
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+<!-- END GOOGLE ANALYTICS -->		
+
+
+		
+		
+		
+			
+	</body>
+	<!-- END WEBSITE BASE LAYOUT 2 BODY -->
+</html>

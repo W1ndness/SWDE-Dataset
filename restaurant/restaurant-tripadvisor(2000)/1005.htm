@@ -1,0 +1,2157 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Woodfire Grill, Atlanta - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Woodfire Grill, Atlanta, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Woodfire Grill, Atlanta: See 40 unbiased reviews of Woodfire Grill, rated 4.5 of 5 on TripAdvisor and ranked #5 of 1,628 restaurants in Atlanta."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "A";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "435933";
+var modelGeoId = "60898";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d435933-treviews.xml"/>
+<!-- web05b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Atlanta Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Woodfire Grill, Atlanta</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g60898-d435933-e__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html-Woodfire_Grill-Atlanta_Georgia.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="60898"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Atlanta</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g60898-Atlanta_Georgia-Vacations.html">
+Atlanta Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g60898-Atlanta_Georgia-Hotels.html">
+Atlanta Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWy3KvAvWxfWbIcJCIJQzzViEySJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g60898-Atlanta_Georgia-Cheap_Discount_Airfares.html">
+Flights to Atlanta</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g60898-Atlanta_Georgia-Hotel-Deals.html">
+Atlanta Deals</a>
+</li>
+<li class=" navTitle">
+More On Atlanta
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWy3KvAvWbIcJCIJQzzViEySJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Woodfire Grill</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWy3KvAvWbnISsSISVtWbIcJCIJQzzViEySJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g60898-i104-Atlanta_Georgia.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWy3KvAvWbIcJCIJQzzViEySJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g60898-Atlanta_Georgia.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g60898-Atlanta_Georgia.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Atlanta Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g60898-Atlanta_Georgia.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g60898-Atlanta_Georgia.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g60898-Vacation-Package-Discount-Atlanta_Georgia.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Atlanta</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Atlanta</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-A"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="60898"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd435933" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd435933'},{flow: 'SAVES'});">Save Woodfire Grill</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIacWxExdiiMTSEVjzzEScc6XfjbIcJCIJjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.atlanta
+PageType=Restaurant_Review
+pool=A
+kw=Woodfire+Grill
+geo=60898
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Woodfire+Grill
+gname=Atlanta
+sz=160X80
+tile=4
+ord=92073515
+area=NA.United_States.Georgia.Atlanta
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.atlanta+80+160+NA.United_States.Georgia.Atlanta+PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X80;tile=4;ord=92073515"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X80;tile=4;ord=92073515?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X80;tile=4;ord=92073515?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.atlanta
+PageType=Restaurant_Review
+pool=A
+kw=Woodfire+Grill
+geo=60898
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Woodfire+Grill
+gname=Atlanta
+sz=160X600
+tile=2
+ord=92073515
+area=NA.United_States.Georgia.Atlanta
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.atlanta+600+160+NA.United_States.Georgia.Atlanta+PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X600;tile=2;ord=92073515"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X600;tile=2;ord=92073515?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=160X600;tile=2;ord=92073515?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Atlanta restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g60898-d435864-Reviews-Fogo_De_Chao-Atlanta_Georgia.html">Fogo De Chao</a></li>
+<li><a href="/Restaurant_Review-g60898-d444232-Reviews-Canoe-Atlanta_Georgia.html">Canoe</a></li>
+<li><a href="/Restaurant_Review-g60898-d487499-Reviews-Rathbun_s-Atlanta_Georgia.html">Rathbun's</a></li>
+<li><a href="/Restaurant_Review-g60898-d435880-Reviews-Bone_s_Restaurant-Atlanta_Georgia.html">Bone's Restaurant</a></li>
+<li><a href="/Restaurant_Review-g60898-d492285-Reviews-Slope_s_BBQ-Atlanta_Georgia.html">Slope's BBQ</a></li>
+<li><a href="/Restaurant_Review-g60898-d466198-Reviews-Fat_Matt_s_Rib_Shack-Atlanta_Georgia.html">Fat Matt's Rib Shack</a></li>
+<li><a href="/Restaurant_Review-g60898-d1540190-Reviews-Yogurberry-Atlanta_Georgia.html">Yogurberry</a></li>
+<li><a href="/Restaurant_Review-g60898-d435279-Reviews-Ria_s_Bluebird-Atlanta_Georgia.html">Ria's Bluebird</a></li>
+<li><a href="/Restaurant_Review-g60898-d435285-Reviews-Ray_s_in_the_City-Atlanta_Georgia.html">Ray's in the City</a></li>
+<li><a href="/Restaurant_Review-g60898-d788510-Reviews-Two_Urban_Licks-Atlanta_Georgia.html">Two Urban Licks</a></li>
+<li><a href="/Restaurant_Review-g60898-d435867-Reviews-La_Grotta_Ristorante_Italiano-Atlanta_Georgia.html">La Grotta Ristorante Italiano</a></li>
+<li><a href="/Restaurant_Review-g60898-d478088-Reviews-Nan_Thai_Fine_Dining-Atlanta_Georgia.html">Nan Thai Fine Dining</a></li>
+<li><a href="/Restaurant_Review-g60898-d1188886-Reviews-Bacchanalia-Atlanta_Georgia.html">Bacchanalia</a></li>
+<li><a href="/Restaurant_Review-g60898-d435126-Reviews-Atmosphere-Atlanta_Georgia.html">Atmosphere</a></li>
+<li><a href="/Restaurant_Review-g60898-d435152-Reviews-Sotto_Sotto-Atlanta_Georgia.html">Sotto Sotto</a></li>
+<li><a href="/Restaurant_Review-g60898-d466205-Reviews-Mali_Thai_Restaurant-Atlanta_Georgia.html">Mali Thai Restaurant</a></li>
+<li><a href="/Restaurant_Review-g60898-d435890-Reviews-Nava-Atlanta_Georgia.html">Nava</a></li>
+<li><a href="/Restaurant_Review-g60898-d478153-Reviews-South_City_Kitchen-Atlanta_Georgia.html">South City Kitchen</a></li>
+<li><a href="/Restaurant_Review-g60898-d801625-Reviews-Ecco-Atlanta_Georgia.html">Ecco</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g60898-Atlanta_Georgia.html">Atlanta restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g60898-oa20-Atlanta_Georgia.html">Atlanta restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g60898-oa70-Atlanta_Georgia.html">Atlanta restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g60898-oa120-Atlanta_Georgia.html">Atlanta restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g60898-oa170-Atlanta_Georgia.html">Atlanta restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g60898-oa220-Atlanta_Georgia.html">Atlanta restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g60898-oa270-Atlanta_Georgia.html">Atlanta restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g60898-oa320-Atlanta_Georgia.html">Atlanta restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g60898-oa370-Atlanta_Georgia.html">Atlanta restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g60898-oa420-Atlanta_Georgia.html">Atlanta restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g60898-oa470-Atlanta_Georgia.html">Atlanta restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g60898-oa520-Atlanta_Georgia.html">Atlanta restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g60898-oa570-Atlanta_Georgia.html">Atlanta restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g60898-oa620-Atlanta_Georgia.html">Atlanta restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g60898-oa670-Atlanta_Georgia.html">Atlanta restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g60898-oa720-Atlanta_Georgia.html">Atlanta restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g60898-oa770-Atlanta_Georgia.html">Atlanta restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g60898-oa820-Atlanta_Georgia.html">Atlanta restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g60898-oa870-Atlanta_Georgia.html">Atlanta restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g60898-oa920-Atlanta_Georgia.html">Atlanta restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g60898-oa970-Atlanta_Georgia.html">Atlanta restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g60898-oa1020-Atlanta_Georgia.html">Atlanta restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g60898-oa1070-Atlanta_Georgia.html">Atlanta restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g60898-oa1120-Atlanta_Georgia.html">Atlanta restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g60898-oa1170-Atlanta_Georgia.html">Atlanta restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g60898-oa1220-Atlanta_Georgia.html">Atlanta restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g60898-oa1270-Atlanta_Georgia.html">Atlanta restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g60898-oa1320-Atlanta_Georgia.html">Atlanta restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g60898-oa1370-Atlanta_Georgia.html">Atlanta restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g60898-oa1420-Atlanta_Georgia.html">Atlanta restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g60898-oa1470-Atlanta_Georgia.html">Atlanta restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g60898-oa1520-Atlanta_Georgia.html">Atlanta restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g60898-oa1570-Atlanta_Georgia.html">Atlanta restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g60898-oa1620-Atlanta_Georgia.html">Atlanta restaurants: 1621 - 1628</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g60898-Atlanta_Georgia-Hotels.html">Hotels around Atlanta</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g60898-d482439-Reviews-Country_Inn_Suites_Atlanta_Downtown_South-Atlanta_Georgia.html">Country Inn & Suites Atlanta Downtown South</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>23 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#166 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d86304-Reviews-Doubletree_Hotel_Atlanta_Buckhead-Atlanta_Georgia.html">Doubletree Hotel Atlanta / Buckhead</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>68 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#66 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34895-d86514-Reviews-Holiday_Inn_Decatur_Conference_Center-Decatur_Georgia.html">Holiday Inn Decatur Conference Center</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>58 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#1 of 16 hotels in Decatur, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d281240-Reviews-Georgia_Tech_Hotel_and_Conference_Center-Atlanta_Georgia.html">Georgia Tech Hotel and Conference Center</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>90 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#6 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d1657567-Reviews-Motel_6_Atlanta_Downtown-Atlanta_Georgia.html">Motel 6 Atlanta Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>11 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#74 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d123182-Reviews-W_Atlanta_Midtown-Atlanta_Georgia.html">W Atlanta Midtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>125 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#57 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d111330-Reviews-La_Quinta_Inn_Atlanta_Lenox_Buckhead-Atlanta_Georgia.html">La Quinta Inn Atlanta / Lenox-Buckhead</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>37 Reviews</em>
+<div class="posted">Last reviewed Aug 8, 2010</div>
+</div>
+#92 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/VacationRentalReview-g60898-d1783201-Welcome_to_HELLO_B_B-Atlanta_Georgia.html">Welcome to HELLO B&B</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>1 review</em>
+<div class="posted">Last reviewed Aug 6, 2010</div>
+</div>
+#1 of 4 vacation rentals in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d86255-Reviews-Renaissance_Waverly_Hotel-Atlanta_Georgia.html">Renaissance Waverly Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>93 Reviews</em>
+<div class="posted">Last reviewed Aug 4, 2010</div>
+</div>
+#77 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d513075-Reviews-InterContinental_Buckhead_Atlanta-Atlanta_Georgia.html">InterContinental Buckhead Atlanta</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>248 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#15 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d111374-Reviews-Marriott_Atlanta_Downtown-Atlanta_Georgia.html">Marriott Atlanta Downtown</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>86 Reviews</em>
+<div class="posted">Last reviewed Jul 31, 2010</div>
+</div>
+#40 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d86145-Reviews-Courtyard_by_Marriott_Atlanta_Midtown-Atlanta_Georgia.html">Courtyard by Marriott Atlanta Midtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>28 Reviews</em>
+<div class="posted">Last reviewed Jul 28, 2010</div>
+</div>
+#109 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35283-d86831-Reviews-Hampton_Inn_Atlanta_Stone_Mountain-Stone_Mountain_Georgia.html">Hampton Inn Atlanta/Stone Mountain</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>21 Reviews</em>
+<div class="posted">Last reviewed Jul 21, 2010</div>
+</div>
+#5 of 11 hotels in Stone Mountain, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d545624-Reviews-SpringHill_Suites_Atlanta_Buckhead-Atlanta_Georgia.html">SpringHill Suites Atlanta Buckhead</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>42 Reviews</em>
+<div class="posted">Last reviewed May 24, 2010</div>
+</div>
+#82 of 201 hotels in Atlanta, GA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60898-d111334-Reviews-Cheshire_Motor_Inn-Atlanta_Georgia.html">Cheshire Motor Inn</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>14 Reviews</em>
+<div class="posted">Last reviewed Jan 19, 2010</div>
+</div>
+#131 of 201 hotels in Atlanta, GA<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g30196-d868688-Reviews-Cheddar_s_Casual_Cafe-Austin_Texas.html">Cheddar&#39;s Casual Cafe in Austin</a></li>
+<li><a href="/Restaurant_Review-g297922-d1533105-Reviews-Chao_Lay-Hua_Hin.html">Chao Lay in Hua Hin, Thailand</a></li>
+<li><a href="/Restaurant_Review-g187309-d715415-Reviews-Kirschblute-Munich_Bavaria.html">Kirschblute in Munich</a></li>
+<li><a href="/Restaurant_Review-g154943-d710592-Reviews-Water_Street_Cafe-Vancouver_British_Columbia.html">Water Street Cafe in Vancouver</a></li>
+<li><a href="/Restaurant_Review-g951347-d1231199-Reviews-Donde_Henry_s-Monteverde_Province_of_Puntarenas.html">Donde Henry&#39;s in Monteverde, Costa Rica</a></li>
+<li><a href="/Restaurant_Review-g28970-d450440-Reviews-Tuscana_West-Washington_DC_District_of_Columbia.html">Tuscana West in Washington DC</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g1238598-d1238802-Reviews-Chateau_Saint_Sulpice-La_Sauvetat_sur_Lede_Aquitaine.html">Chateau Saint Sulpice in La Sauvetat sur Lede, France</a></li>
+<li><a href="/Hotel_Review-g187231-d1052030-Reviews-Relais_de_Monti-Menton_French_Riviera_Cote_d_Azur_Provence.html">Relais de Monti in Menton, France</a></li>
+<li><a href="/Hotel_Review-g40261-d93391-Reviews-Courtyard_by_Marriott_Lafayette_Airport-Lafayette_Louisiana.html">Courtyard by Marriott Lafayette Airport in Lafayette, LA</a></li>
+<li><a href="/Hotel_Review-g147313-d148625-Reviews-Couples_Negril-Negril_Jamaica.html">Couples Negril in Negril, Jamaica</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Atlanta resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g60898-Reviews-Atlanta_Georgia-Vacation_Rentals.html">Atlanta Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g60898-Atlanta_Georgia.html" onclick="return setOneTimeCookie('mcreset','true')">Atlanta Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g60898-Activities-Atlanta_Georgia.html">Things to Do in Atlanta</a>
+</li>
+<li>
+<a href="/AllReviews-g60898-Atlanta_Georgia.html">Atlanta Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g60898-Atlanta-Area.html">Atlanta Maps</a>
+</li>
+<li>
+<a href="/Travel-g60898-s208/Atlanta:Georgia:Weather.And.When.To.Go.html">Atlanta Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolA" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.atlanta
+PageType=Restaurant_Review
+pool=A
+kw=Woodfire+Grill
+geo=60898
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Woodfire+Grill
+gname=Atlanta
+sz=728X90
+tile=1
+ord=92073515
+area=NA.United_States.Georgia.Atlanta
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=728X90;tile=1;ord=92073515?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=728X90;tile=1;ord=92073515?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=728X90;tile=1;ord=92073515?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28931-Georgia-Vacations.html">Georgia (GA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g60898-Atlanta_Georgia-Vacations.html">Atlanta</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g60898-Atlanta_Georgia.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Woodfire Grill </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "2168E1FD4E0D5A4C1B14037A9D175C78";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g60898-d435933-Woodfire_Grill-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 33.80847,
+lng: -84.36413,
+locId: 435933,
+title: "Woodfire Grill",
+url: "/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Woodfire Grill</span>
+<div class="addr">
+<span>1782 Cheshire Bridge Rd NE</span>
+<div>
+<span> Atlanta, GA 30324</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1782+Cheshire+Bridge+Rd+NE+Atlanta%2C+GA+30324' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281964650154?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g60898-d435933-Woodfire_Grill-Area.html" class="pid1103">view map of Woodfire Grill</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Atlanta.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Atlanta Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#26894699" href="http://media-cdn.tripadvisor.com/media/photo-s/01/9a/61/6b/honey-glazed-baby-carrots.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/9a/61/6b/honey-glazed-baby-carrots.jpg" alt="Honey Glazed Baby Carrots"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#26894699" class="caption js_popGallery">Honey Glazed Baby Carrots</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLRSCMJUKU">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLRSCMJUKU')">Linda101</span>
+</span>
+</div>
+<div class="location">Florida</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#26894674" href="http://media-cdn.tripadvisor.com/media/photo-s/01/9a/61/52/wood-grilled-lamb-loin.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/9a/61/52/wood-grilled-lamb-loin.jpg" alt="Wood Grilled Lamb Loin"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#26894674" class="caption js_popGallery">Wood Grilled Lamb Loin</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLRSCMJUKU">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLRSCMJUKU')">Linda101</span>
+</span>
+</div>
+<div class="location">Florida</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#23391505" href="http://media-cdn.tripadvisor.com/media/photo-s/01/64/ed/11/atlanta.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/64/ed/11/atlanta.jpg" alt="Kevin and my girls"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#23391505" class="caption js_popGallery">Kevin and my girls</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLIVMdKko">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLIVMdKko')">ted4075</span>
+</span>
+</div>
+<div class="location">Lawrenceville, Georgia</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380277" href="http://media-cdn.tripadvisor.com/media/photo-s/01/74/03/75/roast-lamb-sweet-breads.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/74/03/75/roast-lamb-sweet-breads.jpg" alt="Roast lamb, sweet breads, chef&#39;s special pork rind, smoked greens and a boiled peanut cream"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380277" class="caption js_popGallery">Roast lamb, sweet breads, chef&#39;s special pork rind, smoked greens and a boiled peanut cream</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGtpVoo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGtpVoo')">Sarahsue55</span>
+</span>
+</div>
+<div class="location">Wappingers Falls, New York</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380275" href="http://media-cdn.tripadvisor.com/media/photo-s/01/74/03/73/black-truffle-devilled.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/74/03/73/black-truffle-devilled.jpg" alt="Black truffle devilled eggs - Woodfire Grill"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380275" class="caption js_popGallery">Black truffle devilled eggs - Woodfire Grill</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGtpVoo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGtpVoo')">Sarahsue55</span>
+</span>
+</div>
+<div class="location">Wappingers Falls, New York</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380273" href="http://media-cdn.tripadvisor.com/media/photo-s/01/74/03/71/chef-kevin-gillespie.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/74/03/71/chef-kevin-gillespie.jpg" alt="Chef Kevin Gillespie"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380273" class="caption js_popGallery">Chef Kevin Gillespie</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGtpVoo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGtpVoo')">Sarahsue55</span>
+</span>
+</div>
+<div class="location">Wappingers Falls, New York</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380272" href="http://media-cdn.tripadvisor.com/media/photo-s/01/74/03/70/molten-chocolate-cake.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/74/03/70/molten-chocolate-cake.jpg" alt="Molten chocolate cake with curry (yes, curry) marshmallow creme, coconut ice cream and a curry p"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380272" class="caption js_popGallery">Molten chocolate cake with curry (yes, curry) marshmallow creme, coconut ice cream and a curry p</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGtpVoo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGtpVoo')">Sarahsue55</span>
+</span>
+</div>
+<div class="location">Wappingers Falls, New York</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380271" href="http://media-cdn.tripadvisor.com/media/photo-s/01/74/03/6f/fried-gulf-oyster-with.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/74/03/6f/fried-gulf-oyster-with.jpg" alt="Fried gulf oyster with hot sauce on a bed of cauliflower with  cauliflower puree and chicken jus"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html#24380271" class="caption js_popGallery">Fried gulf oyster with hot sauce on a bed of cauliflower with cauliflower puree and chicken jus</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGtpVoo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGtpVoo')">Sarahsue55</span>
+</span>
+</div>
+<div class="location">Wappingers Falls, New York</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g60898-d435933-e__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Woodfire_Grill-Atlanta_Georgia.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g60898-d435933-e__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Woodfire_Grill-Atlanta_Georgia.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.atlanta
+PageType=Restaurant_Review
+pool=A
+kw=Woodfire+Grill
+pos=top
+geo=60898
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Woodfire+Grill
+gname=Atlanta
+sz=300X250
+tile=3
+ord=92073515
+area=NA.United_States.Georgia.Atlanta
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.atlanta+250+300+NA.United_States.Georgia.Atlanta+PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;pos=top;geo=60898;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=300X250;tile=3;ord=92073515"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;pos=top;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=300X250;tile=3;ord=92073515?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.atlanta;PageType=Restaurant_Review;pool=A;kw=Woodfire+Grill;pos=top;geo=60898;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Woodfire+Grill;gname=Atlanta;sz=300X250;tile=3;ord=92073515?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Woodfire Grill</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60898-d89964-Reviews-TownePlace_Suites_Atlanta_Buckhead-Atlanta_Georgia.html" class="pid907">TownePlace Suites Atlanta Buckhead</a></td>
+<td class="priceColumn">
+$135
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.9 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60898-d89535-Reviews-Country_Inn_and_Suites_Buckhead-Atlanta_Georgia.html" class="pid907">Country Inn and Suites Buckhead</a></td>
+<td class="priceColumn">
+$121
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60898-d223855-Reviews-Residence_Inn_Atlanta_Midtown_17th_Street-Atlanta_Georgia.html" class="pid907">Residence Inn Atlanta Midtown / 17th Street</a></td>
+<td class="priceColumn">
+$169
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60898-d240591-Reviews-Staybridge_Suites_Atlanta_Buckhead-Atlanta_Georgia.html" class="pid907">Staybridge Suites Atlanta Buckhead</a></td>
+<td class="priceColumn">
+$140
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60898-d111345-Reviews-Four_Seasons_Hotel_Atlanta-Atlanta_Georgia.html" class="pid907">Four Seasons Hotel Atlanta</a></td>
+<td class="priceColumn">
+$400
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g60898-Atlanta_Georgia-Hotels.html">All Hotels in Atlanta<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60898-d435903-Reviews-Nakato_Japanese_Restaurant-Atlanta_Georgia.html" rel="nofollow" class="pid908">Nakato Japanese Restaurant</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60898-d477656-Reviews-Alfredo_s_Italian_Restaurant-Atlanta_Georgia.html" rel="nofollow" class="pid908">Alfredo's Italian Restaurant</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60898-d435126-Reviews-Atmosphere-Atlanta_Georgia.html" rel="nofollow" class="pid908">Atmosphere</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g60898-Atlanta_Georgia.html" rel="nofollow">All Restaurants in Atlanta<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60898-d147100-Reviews-Phidippides-Atlanta_Georgia.html" rel="nofollow" class="pid909">Phidippides</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60898-d283049-Reviews-Natural_Body_Day_Spa-Atlanta_Georgia.html" rel="nofollow" class="pid909">Natural Body Day Spa</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60898-d104713-Reviews-Atlanta_Botanical_Garden-Atlanta_Georgia.html" rel="nofollow" class="pid909">Atlanta Botanical Garden</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g60898-Activities-Atlanta_Georgia.html" rel="nofollow">All Things to Do in Atlanta<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Woodfire Grill</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 62 posts on Atlanta from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g60898-i104-Atlanta_Georgia.html">Go to Atlanta Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (3)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60898-d435933-r2437092.html" class="js_popSmall" title="Woodfire Grill">&#x201c;Woodfire Grill&#x201d;</a></td>
+<td>
+<cite title="GAYOT.com">GAYOT.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60898-d435933-r2104216.html" class="js_popSmall" title="Woodfire Grill">&#x201c;Woodfire Grill&#x201d;</a></td>
+<td>
+<cite title="Frommer's">Frommer's</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60898-d435933-r10095210.html" class="js_popSmall" title="The Cafe at Woodfire">&#x201c;The Cafe at Woodfire&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60898-d435933-a_area.Text__5F__HotelComment-r10095211.html" class="js_popSmall">&#x201c;The Cafe at Woodfire&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig1"><sup>#</sup><b>5</b></var> <span>of 1,627 <i><a href="/Restaurants-g60898-Atlanta_Georgia.html">restaurants in Atlanta</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no45"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">49</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g60898-d435933-e__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html-fbefirst_Restaurant_Review_writeareview_top-Woodfire_Grill-Atlanta_Georgia.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American, Californian
+</li>
+<li>Neighborhood: Buckhead/Brookhaven</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1782 Cheshire Bridge Rd NE</span>, <span class="locality"><span property="v:locality">Atlanta</span>, <span property="v:region">GA</span> <span property="v:postal-code">30324</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(404) 347-9055</span>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=17111004&geo=435933&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $21-$80 </li><!--/ price-->
+<li class="recommended"><b>Good for:</b> Romance, Outdoor seating</li>
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>86% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:50px;"></div></div>
+<span class="total">31</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:13px;"></div></div>
+<span class="total">8</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:4px;"></div></div>
+<span class="total">3</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:11px;"></div></div>
+<span class="total">7</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 40</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEUKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEmKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)">4</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEUKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60898__2D__d435933__2D__Reviews__2D__Woodfire__5F__Grill__2D__Atlanta__5F__Georgia__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r73059735-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r73059735">An Epicurean Experience</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd73059735" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd73059735'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Linda101"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_4E6B617D1BD8917CD17AC128A72B43AF-SRC_73059735" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Linda101</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">6 contributions</span> </div>
+<div class="location">Florida</div>
+<div class="date ">
+Jul 30, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+If you are devoted to the enjoyment of food and drink, then this place is for you! My friend and I recently had an incredible gastronomic adventure at the Woodfire Grill.
+Being a control freak, I was hesitant to go for the chef's tasting menu because you don't know what you are going to be served. Ultimately I gave in...
+<span class="fkLnk hvrIE6 tr73059735" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g60898-d435933-r73059735-Woodfire_Grill-Atlanta_Georgia.html">2 Photos</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r67801320-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r67801320" rel="nofollow">Just wonderful from start to finish!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd67801320" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd67801320'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/mnrobb"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/8c/avatar013.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_A403F10BD4BB82B6F44F3C94168A82F0-SRC_67801320" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">mnrobb</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">8 contributions</span> </div>
+<div class="location">Pittsburgh, Pennsylvania</div>
+<div class="date ">
+Jun 17, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Have the tasting menu and let your server suggest wine pairings. The atmosphere is "special casual" and the food and service are both first-rate!
+<span class="fkLnk hvrIE6 tr67801320" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r59689962-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r59689962" rel="nofollow">Left starving</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd59689962" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd59689962'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/italianice507"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s10"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="1 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_1DD7F0A708CBB1B03B95788377DD021F-SRC_59689962" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">italianice507</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">roswell, ga</div>
+<div class="date ">
+Mar 27, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Food is magnificient, but the portions are bitesize. Just not worth the money. Will not return.
+<span class="fkLnk hvrIE6 tr59689962" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r59557270-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r59557270" rel="nofollow">What a surprise</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd59557270" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd59557270'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Cardinalbeagle"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/71/88/5c/cardinalbeagle.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_318E46459DF8AE6A222B811ED639B951-SRC_59557270" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Cardinalbeagle</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">45 contributions</span> </div>
+<div class="location">San Francisco, California</div>
+<div class="date ">
+Mar 26, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+One of the best meals I've had. I'm a foodie from SF and this was a pleasant surprise. Light affair but lots of flavor and character that was enjoyable. I would for sure come back to Woodfire when I visit Atlanta next time.
+<span class="fkLnk hvrIE6 tr59557270" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r58414517-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r58414517">Needs to be at the top of your list</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd58414517" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd58414517'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/4RealBeach"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/7a/avatar061.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_4F32860F1DE050A750619BA71ED9A483-SRC_58414517" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">4RealBeach</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">18 contributions</span> </div>
+<div class="location">Madison, WI</div>
+<div class="date ">
+Mar 12, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+Things to go to Atlanta for: Conferences, Atlanta Braves, CNN, the Aquarium, and Woodfire Grill.
+I eat out a fair amount and also have had the chance to eat at some pretty great places. Woodfire as a whole would rank right up near the top. It isn't a steakhouse... so if you want great steak, you'll go elsewhere (Rathbun's if...
+<span class="fkLnk hvrIE6 tr58414517" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r56999763-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r56999763">epicurean delight, for that special occasion when you want to enjoy a meal to the maximum</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd56999763" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd56999763'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/CruiseAficionado"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_9247264192F3EE95E27295395FF1D0D7-SRC_56999763" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">CruiseAficionado</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Marietta, GA</div>
+<div class="date ">
+Feb 24, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My wife, after watching Kevin on the Top Chef Las Vegas show, convinced me to go to Woodfire Grill for our 26th Anniversary. We arrived about 5 minutes early, used the valet parking and were seated immediately. Our waiter came over and answered all of our questions, offered some wine pairings with our entrée selections and was extremely friendly and...
+<span class="fkLnk hvrIE6 tr56999763" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r54320477-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r54320477">Enjoyed every bite. Each plate was thoughtfully and creatively composed, from the spicy aioli under the steelhead...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd54320477" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd54320477'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/LindaSAtlanta"> <img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_3' height='74' alt='' width='74'/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_1DBE196519F403BFAE35313DA4DE9AC3-SRC_54320477" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">LindaSAtlanta</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">28 contributions</span> </div>
+<div class="date ">
+Jan 24, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Enjoyed every bite. Each plate was thoughtfully and creatively composed, from the spicy aioli under the steelhead tartare (and the perfect potato chip to scoop it up with) to the bits of candied "bacon brittle" on the plate with the local bobwhite quail entree. And when was the last time you saw quail on a menu? Never? It's a dining...
+<span class="fkLnk hvrIE6 tr54320477" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r53700651-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r53700651" rel="nofollow">good food excellent service</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd53700651" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd53700651'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/ted4075"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/75/avatar057.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_4ED452CF9550BFE588BD6A9658AEFC27-SRC_53700651" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">ted4075</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">17 contributions</span> </div>
+<div class="location">Lawrenceville, Georgia</div>
+<div class="date ">
+Jan 17, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Party of six all ordered the 5 course dinner. Excellent service and food. Wine a little expensive but in line with other resturants of this caliber.
+We had an excellent experience. I will go again.
+Thanks Kevin, the girls enjoyed meeting you and having their pics made with you.
+<span class="fkLnk hvrIE6 tr53700651" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g60898-d435933-r53700651-Woodfire_Grill-Atlanta_Georgia.html">1 Photo</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r53267804-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r53267804">THE best restaurant in Atlanta!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd53267804" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd53267804'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/mailbelle"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_9CBA3E5E93D12E7A850AEC177EBB07CD-SRC_53267804" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">mailbelle</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">37 contributions</span> </div>
+<div class="location">Birmingham, Alabama</div>
+<div class="date ">
+Jan 12, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My husband and I ate at Woodfire Grill 01/08/10 and everything was absolutely incredible! For our first course, I ordered the sage water battered mushrooms and my husband had a salad. My husband had a bite of my mushrooms and declared them to be his favorite item of the night - and he doesn't really care for mushrooms! We both...
+<span class="fkLnk hvrIE6 tr53267804" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60898-d435933-r51508607-Woodfire_Grill-Atlanta_Georgia.html" class="pid2168" id="r51508607">Woodfire on Fire</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd51508607" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html#savessd51508607'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/admvick79"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/5e/a7/fe/admvick79.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_EAEC72CCE0F65F122C45D5D589D039DD-SRC_51508607" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">admvick79</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">6 contributions</span> </div>
+<div class="location">Atlanta, GA</div>
+<div class="date ">
+Dec 19, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Wednesday night, I think I may have eaten the best meal of my life at the Woodfire Grill..here in Atlanta, off Chesire Bridge Road. Yes, I know the neighborhood is the red light district but Chef Kevin Gillespie of Bravo's Top Chef fame has created a menu that is simply Amazing. Piper and I chose the five course tasting menu...
+<span class="fkLnk hvrIE6 tr51508607" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 40</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEUKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEmKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)">4</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KvAvWMdmoAmmWxfWiEUKWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<a href="/Restaurant_Review-g60898-d487499-Reviews-Rathbun_s-Atlanta_Georgia.html" rel="nofollow" class="pid1063">
+<img id='lazyload_UNIQUE_4' alt=''/>
+</a>
+</div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60898-d487499-Reviews-Rathbun_s-Atlanta_Georgia.html" class="pid1020">Rathbun's</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60898-d487499-Reviews-Rathbun_s-Atlanta_Georgia.html" class="pid1020" rel="nofollow">
+88 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Atlanta, GA </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_5' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60898-d435864-Reviews-Fogo_De_Chao-Atlanta_Georgia.html" class="pid1020">Fogo De Chao</a></div>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60898-d435864-Reviews-Fogo_De_Chao-Atlanta_Georgia.html" class="pid1020" rel="nofollow">
+96 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Atlanta, GA </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_6' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60898-d788510-Reviews-Two_Urban_Licks-Atlanta_Georgia.html" class="pid1020">Two Urban Licks</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60898-d788510-Reviews-Two_Urban_Licks-Atlanta_Georgia.html" class="pid1020" rel="nofollow">
+85 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Atlanta, GA </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g60898-Atlanta_Georgia.html" class="pid1021">
+All Restaurants in Atlanta </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Woodfire Grill? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWy3KvAvWMdmoAmmWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WxdiiMTSEVQzzESccWbIcJCIJQzzViEySJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3Wy3KvAvWMdmoAmmWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WxdiiMTSEVQzzESccWbIcJCIJQzzViEySJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWy3KvAvWMdmoAmmWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WxdiiMTSEVQzzESccWbIcJCIJQzzViEySJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Atlanta</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHEBMedGEO&amp;src=24307333&amp;geo=60898&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Atlanta: Official Site</var><br/>
+<span><b>Glenn Hotel</b> Book Now On Our Website for the Lowest Prices + Exclusive Specials</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134340&amp;geo=60898&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Atlanta: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=PerfectEscapesHotelsGEO&amp;src=17780946&amp;geo=60898&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Atlanta: Great Deals on Luxury Hotels</var><br/>
+<span><b>PerfectEscapes.com</b> Five-star luxury for less. Our experts review each and every hotel</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5569131&amp;geo=60898&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Atlanta: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g60898-Vacation-Package-Discount-Atlanta_Georgia.html">
+<b>View all deals for Atlanta</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Woodfire Grill? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWy3KvAvWMdmoAmmWxdiiMTSEVQzzESccWbIcJCIJQzzViEySJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g60898-d435933-Woodfire_Grill-Atlanta_Georgia.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Woodfire Grill Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1782 Cheshire Bridge Rd NE</span>, <span class="locality"><span property="v:locality">Atlanta</span>, <span property="v:region">GA</span> <span property="v:postal-code">30324</span></span> </address>
+<span class="tel"><b>Tel:</b> (404) 347-9055</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Woodfire Grill</b>, Atlanta.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.co.uk/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.ca/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.it/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.es/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.de/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.fr/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Woodfire Grill, アトランタ" href="http://www.tripadvisor.jp/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, アトランタ"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Woodfire Grill, 亚特兰大" href="http://www.daodao.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, 亚特兰大"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.in/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.se/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Woodfire Grill, Atlanta" href="http://nl.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.com.br/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.com.tr/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.dk/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.com.mx/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.ie/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.com.au/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Woodfire Grill, Atlanta" href="http://www.tripadvisor.com.sg/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Woodfire Grill, Atlanta" href="http://no.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Woodfire Grill, Atlanta" href="http://pl.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, Atlanta"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Woodfire Grill, แอตแลนตา" href="http://th.tripadvisor.com/Restaurant_Review-g60898-d435933-Reviews-Woodfire_Grill-Atlanta_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Woodfire Grill, แอตแลนตา"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Atlanta! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Atlanta? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvAvqHMdmoAmmqHxfqHxdiiMTSEVQQoqnQQzzESccqHbIcJCIJQQoqnQQzzViEySJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=33.80847,-84.36413&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img/listings-r/191/60898/487499.jpg?ilen=3003', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_6', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "60898");
+ta.store('page.location', "435933");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 263 dc: 5 sc: 9 -->
+</html>

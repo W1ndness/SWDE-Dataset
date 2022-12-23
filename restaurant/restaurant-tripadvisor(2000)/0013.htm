@@ -1,0 +1,2164 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Kuma&#39;s Corner, Chicago - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Kuma&#39;s Corner, Chicago, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Kuma&#39;s Corner, Chicago: See 40 unbiased reviews of Kuma&#39;s Corner, rated 4.5 of 5 on TripAdvisor and ranked #5 of 4,507 restaurants in Chicago."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "X";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "808901";
+var modelGeoId = "35805";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d808901-treviews.xml"/>
+<!-- web38b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Chicago Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Kuma&#39;s Corner, Chicago</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g35805-d808901-e__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html-Kuma_s_Corner-Chicago_Illinois.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="35805"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Chicago</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g35805-Chicago_Illinois-Vacations.html">
+Chicago Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g35805-Chicago_Illinois-Hotels.html">
+Chicago Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWymovKoWxfWfGSnJyiQlccSCiStWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g35805-Chicago_Illinois-Cheap_Discount_Airfares.html">
+Flights to Chicago</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g35805-Chicago_Illinois-Hotel-Deals.html">
+Chicago Deals</a>
+</li>
+<li class=" navTitle">
+More On Chicago
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWymovKoWfGSnJyiQlccSCiStB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Kuma&#39;s Corner</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWymovKoWbnISsSISVtWfGSnJyiQlccSCiStB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g35805-i32-Chicago_Illinois.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWymovKoWfGSnJyiQlccSCiStB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g35805-Chicago_Illinois.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g35805-Chicago_Illinois.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Chicago Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g35805-Chicago_Illinois.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g35805-Chicago_Illinois.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g35805-Vacation-Package-Discount-Chicago_Illinois.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Chicago</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Chicago</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-X"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="35805"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd808901" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd808901'},{flow: 'SAVES'});">Save Kuma's Corner</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIacWxExbpaJ6XktjfiECVE6XfjfGSnJyijqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.il.chicago
+PageType=Restaurant_Review
+pool=X
+kw=Kuma%27s+Corner
+geo=35805
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Kuma%27s+Corner
+gname=Chicago
+sz=160X80
+tile=4
+ord=63423320
+area=NA.United_States.Illinois.Chicago
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.il.chicago+80+160+NA.United_States.Illinois.Chicago+PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X80;tile=4;ord=63423320"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X80;tile=4;ord=63423320?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X80;tile=4;ord=63423320?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.il.chicago
+PageType=Restaurant_Review
+pool=X
+kw=Kuma%27s+Corner
+geo=35805
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Kuma%27s+Corner
+gname=Chicago
+sz=160X600
+tile=2
+ord=63423320
+area=NA.United_States.Illinois.Chicago
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.il.chicago+600+160+NA.United_States.Illinois.Chicago+PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X600;tile=2;ord=63423320"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X600;tile=2;ord=63423320?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=160X600;tile=2;ord=63423320?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Chicago restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g35805-d427758-Reviews-Joe_s_Seafood_Prime_Steak_Stone_Crab-Chicago_Illinois.html">Joe's Seafood, Prime Steak & Stone Crab</a></li>
+<li><a href="/Restaurant_Review-g35805-d479694-Reviews-M_Henry-Chicago_Illinois.html">M. Henry</a></li>
+<li><a href="/Restaurant_Review-g35805-d664570-Reviews-Yolk-Chicago_Illinois.html">Yolk</a></li>
+<li><a href="/Restaurant_Review-g35805-d808903-Reviews-Hot_Doug_s_Inc-Chicago_Illinois.html">Hot Doug's Inc.</a></li>
+<li><a href="/Restaurant_Review-g35805-d1390680-Reviews-Sunda-Chicago_Illinois.html">Sunda</a></li>
+<li><a href="/Restaurant_Review-g35805-d427337-Reviews-Chicago_Diner-Chicago_Illinois.html">Chicago Diner</a></li>
+<li><a href="/Restaurant_Review-g35805-d427779-Reviews-Avec-Chicago_Illinois.html">Avec</a></li>
+<li><a href="/Restaurant_Review-g35805-d570063-Reviews-Alinea_Restaurant_LLC-Chicago_Illinois.html">Alinea Restaurant LLC</a></li>
+<li><a href="/Restaurant_Review-g35805-d429395-Reviews-MK_The_Restaurant-Chicago_Illinois.html">MK The Restaurant</a></li>
+<li><a href="/Restaurant_Review-g35805-d431384-Reviews-Green_Zebra-Chicago_Illinois.html">Green Zebra</a></li>
+<li><a href="/Restaurant_Review-g35805-d783193-Reviews-Smoque_BBQ-Chicago_Illinois.html">Smoque BBQ</a></li>
+<li><a href="/Restaurant_Review-g35805-d1533276-Reviews-Xoco-Chicago_Illinois.html">Xoco</a></li>
+<li><a href="/Restaurant_Review-g35805-d1025581-Reviews-Molly_s_Cupcakes-Chicago_Illinois.html">Molly's Cupcakes</a></li>
+<li><a href="/Restaurant_Review-g35805-d427757-Reviews-Volare-Chicago_Illinois.html">Volare</a></li>
+<li><a href="/Restaurant_Review-g35805-d1308813-Reviews-The_Publican-Chicago_Illinois.html">The Publican</a></li>
+<li><a href="/Restaurant_Review-g35805-d1765507-Reviews-Benny_s_Chop_House-Chicago_Illinois.html">Benny's Chop House</a></li>
+<li><a href="/Restaurant_Review-g35805-d901624-Reviews-Intelligentsia_Coffee-Chicago_Illinois.html">Intelligentsia Coffee</a></li>
+<li><a href="/Restaurant_Review-g35805-d427802-Reviews-Shaw_s_Crab_House-Chicago_Illinois.html">Shaw's Crab House</a></li>
+<li><a href="/Restaurant_Review-g35805-d455964-Reviews-Gibsons_Bar_Steakhouse-Chicago_Illinois.html">Gibsons Bar & Steakhouse</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g35805-Chicago_Illinois.html">Chicago restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g35805-oa20-Chicago_Illinois.html">Chicago restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g35805-oa70-Chicago_Illinois.html">Chicago restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g35805-oa120-Chicago_Illinois.html">Chicago restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g35805-oa170-Chicago_Illinois.html">Chicago restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g35805-oa220-Chicago_Illinois.html">Chicago restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g35805-oa270-Chicago_Illinois.html">Chicago restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g35805-oa320-Chicago_Illinois.html">Chicago restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g35805-oa370-Chicago_Illinois.html">Chicago restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g35805-oa420-Chicago_Illinois.html">Chicago restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g35805-oa470-Chicago_Illinois.html">Chicago restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g35805-oa520-Chicago_Illinois.html">Chicago restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g35805-oa570-Chicago_Illinois.html">Chicago restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g35805-oa620-Chicago_Illinois.html">Chicago restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g35805-oa670-Chicago_Illinois.html">Chicago restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g35805-oa720-Chicago_Illinois.html">Chicago restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g35805-oa770-Chicago_Illinois.html">Chicago restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g35805-oa820-Chicago_Illinois.html">Chicago restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g35805-oa870-Chicago_Illinois.html">Chicago restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g35805-oa920-Chicago_Illinois.html">Chicago restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g35805-oa970-Chicago_Illinois.html">Chicago restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g35805-oa1020-Chicago_Illinois.html">Chicago restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g35805-oa1070-Chicago_Illinois.html">Chicago restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g35805-oa1120-Chicago_Illinois.html">Chicago restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g35805-oa1170-Chicago_Illinois.html">Chicago restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g35805-oa1220-Chicago_Illinois.html">Chicago restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g35805-oa1270-Chicago_Illinois.html">Chicago restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g35805-oa1320-Chicago_Illinois.html">Chicago restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g35805-oa1370-Chicago_Illinois.html">Chicago restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g35805-oa1420-Chicago_Illinois.html">Chicago restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g35805-oa1470-Chicago_Illinois.html">Chicago restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g35805-oa1520-Chicago_Illinois.html">Chicago restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g35805-oa1570-Chicago_Illinois.html">Chicago restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g35805-oa1620-Chicago_Illinois.html">Chicago restaurants: 1621 - 1670</a></li>
+<li><a href="/Restaurants-g35805-oa1670-Chicago_Illinois.html">Chicago restaurants: 1671 - 1720</a></li>
+<li><a href="/Restaurants-g35805-oa1720-Chicago_Illinois.html">Chicago restaurants: 1721 - 1770</a></li>
+<li><a href="/Restaurants-g35805-oa1770-Chicago_Illinois.html">Chicago restaurants: 1771 - 1820</a></li>
+<li><a href="/Restaurants-g35805-oa1820-Chicago_Illinois.html">Chicago restaurants: 1821 - 1870</a></li>
+<li><a href="/Restaurants-g35805-oa1870-Chicago_Illinois.html">Chicago restaurants: 1871 - 1920</a></li>
+<li><a href="/Restaurants-g35805-oa1920-Chicago_Illinois.html">Chicago restaurants: 1921 - 1970</a></li>
+<li><a href="/Restaurants-g35805-oa1970-Chicago_Illinois.html">Chicago restaurants: 1971 - 2020</a></li>
+<li><a href="/Restaurants-g35805-oa2020-Chicago_Illinois.html">Chicago restaurants: 2021 - 2070</a></li>
+<li><a href="/Restaurants-g35805-oa2070-Chicago_Illinois.html">Chicago restaurants: 2071 - 2120</a></li>
+<li><a href="/Restaurants-g35805-oa2120-Chicago_Illinois.html">Chicago restaurants: 2121 - 2170</a></li>
+<li><a href="/Restaurants-g35805-oa2170-Chicago_Illinois.html">Chicago restaurants: 2171 - 2220</a></li>
+<li><a href="/Restaurants-g35805-oa2220-Chicago_Illinois.html">Chicago restaurants: 2221 - 2270</a></li>
+<li><a href="/Restaurants-g35805-oa2270-Chicago_Illinois.html">Chicago restaurants: 2271 - 2320</a></li>
+<li><a href="/Restaurants-g35805-oa2320-Chicago_Illinois.html">Chicago restaurants: 2321 - 2370</a></li>
+<li><a href="/Restaurants-g35805-oa2370-Chicago_Illinois.html">Chicago restaurants: 2371 - 2420</a></li>
+<li><a href="/Restaurants-g35805-oa2420-Chicago_Illinois.html">Chicago restaurants: 2421 - 2470</a></li>
+<li><a href="/Restaurants-g35805-oa2470-Chicago_Illinois.html">Chicago restaurants: 2471 - 2520</a></li>
+<li><a href="/Restaurants-g35805-oa2520-Chicago_Illinois.html">Chicago restaurants: 2521 - 2570</a></li>
+<li><a href="/Restaurants-g35805-oa2570-Chicago_Illinois.html">Chicago restaurants: 2571 - 2620</a></li>
+<li><a href="/Restaurants-g35805-oa2620-Chicago_Illinois.html">Chicago restaurants: 2621 - 2670</a></li>
+<li><a href="/Restaurants-g35805-oa2670-Chicago_Illinois.html">Chicago restaurants: 2671 - 2720</a></li>
+<li><a href="/Restaurants-g35805-oa2720-Chicago_Illinois.html">Chicago restaurants: 2721 - 2770</a></li>
+<li><a href="/Restaurants-g35805-oa2770-Chicago_Illinois.html">Chicago restaurants: 2771 - 2820</a></li>
+<li><a href="/Restaurants-g35805-oa2820-Chicago_Illinois.html">Chicago restaurants: 2821 - 2870</a></li>
+<li><a href="/Restaurants-g35805-oa2870-Chicago_Illinois.html">Chicago restaurants: 2871 - 2920</a></li>
+<li><a href="/Restaurants-g35805-oa2920-Chicago_Illinois.html">Chicago restaurants: 2921 - 2970</a></li>
+<li><a href="/Restaurants-g35805-oa2970-Chicago_Illinois.html">Chicago restaurants: 2971 - 3020</a></li>
+<li><a href="/Restaurants-g35805-oa3020-Chicago_Illinois.html">Chicago restaurants: 3021 - 3070</a></li>
+<li><a href="/Restaurants-g35805-oa3070-Chicago_Illinois.html">Chicago restaurants: 3071 - 3120</a></li>
+<li><a href="/Restaurants-g35805-oa3120-Chicago_Illinois.html">Chicago restaurants: 3121 - 3170</a></li>
+<li><a href="/Restaurants-g35805-oa3170-Chicago_Illinois.html">Chicago restaurants: 3171 - 3220</a></li>
+<li><a href="/Restaurants-g35805-oa3220-Chicago_Illinois.html">Chicago restaurants: 3221 - 3270</a></li>
+<li><a href="/Restaurants-g35805-oa3270-Chicago_Illinois.html">Chicago restaurants: 3271 - 3320</a></li>
+<li><a href="/Restaurants-g35805-oa3320-Chicago_Illinois.html">Chicago restaurants: 3321 - 3370</a></li>
+<li><a href="/Restaurants-g35805-oa3370-Chicago_Illinois.html">Chicago restaurants: 3371 - 3420</a></li>
+<li><a href="/Restaurants-g35805-oa3420-Chicago_Illinois.html">Chicago restaurants: 3421 - 3470</a></li>
+<li><a href="/Restaurants-g35805-oa3470-Chicago_Illinois.html">Chicago restaurants: 3471 - 3520</a></li>
+<li><a href="/Restaurants-g35805-oa3520-Chicago_Illinois.html">Chicago restaurants: 3521 - 3570</a></li>
+<li><a href="/Restaurants-g35805-oa3570-Chicago_Illinois.html">Chicago restaurants: 3571 - 3620</a></li>
+<li><a href="/Restaurants-g35805-oa3620-Chicago_Illinois.html">Chicago restaurants: 3621 - 3670</a></li>
+<li><a href="/Restaurants-g35805-oa3670-Chicago_Illinois.html">Chicago restaurants: 3671 - 3720</a></li>
+<li><a href="/Restaurants-g35805-oa3720-Chicago_Illinois.html">Chicago restaurants: 3721 - 3770</a></li>
+<li><a href="/Restaurants-g35805-oa3770-Chicago_Illinois.html">Chicago restaurants: 3771 - 3820</a></li>
+<li><a href="/Restaurants-g35805-oa3820-Chicago_Illinois.html">Chicago restaurants: 3821 - 3870</a></li>
+<li><a href="/Restaurants-g35805-oa3870-Chicago_Illinois.html">Chicago restaurants: 3871 - 3920</a></li>
+<li><a href="/Restaurants-g35805-oa3920-Chicago_Illinois.html">Chicago restaurants: 3921 - 3970</a></li>
+<li><a href="/Restaurants-g35805-oa3970-Chicago_Illinois.html">Chicago restaurants: 3971 - 4020</a></li>
+<li><a href="/Restaurants-g35805-oa4020-Chicago_Illinois.html">Chicago restaurants: 4021 - 4070</a></li>
+<li><a href="/Restaurants-g35805-oa4070-Chicago_Illinois.html">Chicago restaurants: 4071 - 4120</a></li>
+<li><a href="/Restaurants-g35805-oa4120-Chicago_Illinois.html">Chicago restaurants: 4121 - 4170</a></li>
+<li><a href="/Restaurants-g35805-oa4170-Chicago_Illinois.html">Chicago restaurants: 4171 - 4220</a></li>
+<li><a href="/Restaurants-g35805-oa4220-Chicago_Illinois.html">Chicago restaurants: 4221 - 4270</a></li>
+<li><a href="/Restaurants-g35805-oa4270-Chicago_Illinois.html">Chicago restaurants: 4271 - 4320</a></li>
+<li><a href="/Restaurants-g35805-oa4320-Chicago_Illinois.html">Chicago restaurants: 4321 - 4370</a></li>
+<li><a href="/Restaurants-g35805-oa4370-Chicago_Illinois.html">Chicago restaurants: 4371 - 4420</a></li>
+<li><a href="/Restaurants-g35805-oa4420-Chicago_Illinois.html">Chicago restaurants: 4421 - 4470</a></li>
+<li><a href="/Restaurants-g35805-oa4470-Chicago_Illinois.html">Chicago restaurants: 4471 - 4507</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g35805-Chicago_Illinois-Hotels.html">Hotels around Chicago</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g35805-d1149495-Reviews-Hotel_Felix-Chicago_Illinois.html">Hotel Felix</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>181 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#77 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g36630-d123319-Reviews-Hilton_Chicago_O_Hare_Airport-Rosemont_Illinois.html">Hilton Chicago O'Hare Airport</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>225 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#9 of 19 hotels in Rosemont, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d250023-Reviews-River_Hotel-Chicago_Illinois.html">River Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>179 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#85 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d235385-Reviews-City_Suites_Hotel-Chicago_Illinois.html">City Suites Hotel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>69 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#87 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d87627-Reviews-Red_Roof_Inn-Chicago_Illinois.html">Red Roof Inn</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>189 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#117 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d87571-Reviews-Days_Inn_Chicago-Chicago_Illinois.html">Days Inn Chicago</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>156 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#53 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d293203-Reviews-Amalfi_Hotel_Chicago-Chicago_Illinois.html">Amalfi Hotel Chicago</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>404 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#18 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d79228-Reviews-Best_Western_Hawthorne_Terrace-Chicago_Illinois.html">Best Western Hawthorne Terrace</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>69 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#54 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d87602-Reviews-Embassy_Suites_Hotel_Chicago_Downtown-Chicago_Illinois.html">Embassy Suites Hotel Chicago Downtown</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>252 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#25 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d265222-Reviews-Chicago_Getaway_Hostel-Chicago_Illinois.html">Chicago Getaway Hostel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>41 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#5 of 29 specialty lodging in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d87654-Reviews-The_Talbott_Hotel-Chicago_Illinois.html">The Talbott Hotel</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>271 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#8 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35945-d91032-Reviews-Baymont_Inn_Suites_OHare_Elk_Grove_Village-Elk_Grove_Village_Illinois.html">Baymont Inn & Suites OHare/Elk Grove Village</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>19 Reviews</em>
+<div class="posted">Last reviewed Aug 2, 2010</div>
+</div>
+#5 of 14 hotels in Elk Grove Village, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g36630-d87692-Reviews-Sheraton_Gateway_Suites_Chicago_O_Hare-Rosemont_Illinois.html">Sheraton Gateway Suites Chicago O'Hare</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>91 Reviews</em>
+<div class="posted">Last reviewed Jul 24, 2010</div>
+</div>
+#14 of 19 hotels in Rosemont, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d114591-Reviews-Four_Seasons_Hotel_Chicago-Chicago_Illinois.html">Four Seasons Hotel Chicago</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>125 Reviews</em>
+<div class="posted">Last reviewed Jul 14, 2010</div>
+</div>
+#12 of 166 hotels in Chicago, IL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g35805-d623871-Reviews-Old_Chicago_Inn-Chicago_Illinois.html">Old Chicago Inn</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>21 Reviews</em>
+<div class="posted">Last reviewed Jun 16, 2010</div>
+</div>
+#19 of 46 B&amp;Bs / inns in Chicago, IL<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g150800-d811183-Reviews-El_Califa-Mexico_City_Central_Mexico_and_Gulf_Coast.html">El Califa in Mexico City</a></li>
+<li><a href="/Restaurant_Review-g43984-d441238-Reviews-Hollywood_Cafe-Tunica_Resorts_Mississippi.html">Hollywood Cafe in Tunica Resorts, MS</a></li>
+<li><a href="/Restaurant_Review-g60956-d469766-Reviews-Volare_Gourmet_Pizza_Pasta-San_Antonio_Texas.html">Volare Gourmet Pizza &amp; Pasta in San Antonio</a></li>
+<li><a href="/Restaurant_Review-g33048-d819741-Reviews-Marianne_s_Ice_Cream-Santa_Cruz_California.html">Marianne&#39;s Ice Cream in Santa Cruz, CA</a></li>
+<li><a href="/Restaurant_Review-g187147-d803849-Reviews-Au_Pere_Tranquille-Paris_Ile_de_France.html">Au Pere Tranquille in Paris</a></li>
+<li><a href="/Restaurant_Review-g294217-d944799-Reviews-Caprice-Hong_Kong_Hong_Kong_Region.html">Caprice in Hong Kong</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g57936-d110531-Reviews-Econo_Lodge-Martinsville_Virginia.html">Econo Lodge in Martinsville, VA</a></li>
+<li><a href="/Hotel_Review-g155023-d185522-Reviews-Sherwood_Motel-Charlottetown_Prince_Edward_Island.html">Sherwood Motel in Charlottetown, Canada</a></li>
+<li><a href="/Hotel_Review-g297565-d307101-Reviews-Jean_Michel_Cousteau_Fiji_Islands_Resort-Savusavu_Vanua_Levu.html">Jean-Michel Cousteau Fiji Islands Resort in Savusavu, Fiji</a></li>
+<li><a href="/Hotel_Review-g147270-d599487-Reviews-Hotel_Islazul_Las_Yagrumas-Cuba.html">Hotel Islazul Las Yagrumas in Cuba</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Chicago resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g35805-Reviews-Chicago_Illinois-Vacation_Rentals.html">Chicago Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g35805-Chicago_Illinois.html" onclick="return setOneTimeCookie('mcreset','true')">Chicago Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g35805-Activities-Chicago_Illinois.html">Things to Do in Chicago</a>
+</li>
+<li>
+<a href="/AllReviews-g35805-Chicago_Illinois.html">Chicago Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g35805-Chicago-Area.html">Chicago Maps</a>
+</li>
+<li>
+<a href="/Travel-g35805-s208/Chicago:Illinois:Weather.And.When.To.Go.html">Chicago Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolX" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.il.chicago
+PageType=Restaurant_Review
+pool=X
+kw=Kuma%27s+Corner
+geo=35805
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Kuma%27s+Corner
+gname=Chicago
+sz=728X90
+tile=1
+ord=63423320
+area=NA.United_States.Illinois.Chicago
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=728X90;tile=1;ord=63423320?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=728X90;tile=1;ord=63423320?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=728X90;tile=1;ord=63423320?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28934-Illinois-Vacations.html">Illinois (IL)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g35805-Chicago_Illinois-Vacations.html">Chicago</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g35805-Chicago_Illinois.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Kuma&#39;s Corner </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "3F774005FA0A28B946DDEE6BF1929062";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g35805-d808901-Kuma_s_Corner-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 41.93939,
+lng: -87.70024,
+locId: 808901,
+title: "Kuma's Corner",
+url: "/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Kuma's Corner</span>
+<div class="addr">
+<span>2900 W Belmont</span>
+<div>
+<span> Chicago, IL 60618</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=2900+W+Belmont+Chicago%2C+IL+60618' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281942919574?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g35805-d808901-Kuma_s_Corner-Area.html" class="pid1103">view map of Kuma&#39;s Corner</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Chicago.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Chicago Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#26040902" href="http://media-cdn.tripadvisor.com/media/photo-s/01/8d/5a/46/mac-bar-selection.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/8d/5a/46/mac-bar-selection.jpg" alt="mac bar selection"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#26040902" class="caption js_popGallery">mac bar selection</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLxdJEGicXmmX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLxdJEGicXmmX')">Warhol2332</span>
+</span>
+</div>
+<div class="location">Columbia</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#26040901" href="http://media-cdn.tripadvisor.com/media/photo-s/01/8d/5a/45/metallica-burger.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/8d/5a/45/metallica-burger.jpg" alt="Metallica burger"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#26040901" class="caption js_popGallery">Metallica burger</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLxdJEGicXmmX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLxdJEGicXmmX')">Warhol2332</span>
+</span>
+</div>
+<div class="location">Columbia</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359622" href="http://media-cdn.tripadvisor.com/media/photo-s/01/45/ec/06/waiting-outside.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/45/ec/06/waiting-outside.jpg" alt="Waiting outside"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359622" class="caption js_popGallery">Waiting outside</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLZiINsVEcgwSn9g">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLZiINsVEcgwSn9g')">NotOverlyPicky</span>
+</span>
+</div>
+<div class="location">Lawrence, KS.</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359621" href="http://media-cdn.tripadvisor.com/media/photo-s/01/45/ec/05/bar-full-of-people-waiting.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/45/ec/05/bar-full-of-people-waiting.jpg" alt="Bar full of people waiting"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359621" class="caption js_popGallery">Bar full of people waiting</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLZiINsVEcgwSn9g">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLZiINsVEcgwSn9g')">NotOverlyPicky</span>
+</span>
+</div>
+<div class="location">Lawrence, KS.</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359620" href="http://media-cdn.tripadvisor.com/media/photo-s/01/45/ec/04/led-zeppelin-burger-with.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/45/ec/04/led-zeppelin-burger-with.jpg" alt="Led Zeppelin burger with pulled pork"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html#21359620" class="caption js_popGallery">Led Zeppelin burger with pulled pork</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLZiINsVEcgwSn9g">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLZiINsVEcgwSn9g')">NotOverlyPicky</span>
+</span>
+</div>
+<div class="location">Lawrence, KS.</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g35805-d808901-e__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Kuma_s_Corner-Chicago_Illinois.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g35805-d808901-e__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Kuma_s_Corner-Chicago_Illinois.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.il.chicago
+PageType=Restaurant_Review
+pool=X
+kw=Kuma%27s+Corner
+pos=top
+geo=35805
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Kuma%27s+Corner
+gname=Chicago
+sz=300X250
+tile=3
+ord=63423320
+area=NA.United_States.Illinois.Chicago
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.il.chicago+250+300+NA.United_States.Illinois.Chicago+PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;pos=top;geo=35805;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=300X250;tile=3;ord=63423320"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;pos=top;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=300X250;tile=3;ord=63423320?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.il.chicago;PageType=Restaurant_Review;pool=X;kw=Kuma%27s+Corner;pos=top;geo=35805;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Kuma%27s+Corner;gname=Chicago;sz=300X250;tile=3;ord=63423320?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Kuma&#39;s Corner</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Accommodations
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g36464-d87923-Reviews-Crowne_Plaza_Hotel_Chicago_Northbrook-Northbrook_Illinois.html" class="pid907">Crowne Plaza Hotel Chicago - Northbrook</a></td>
+<td class="priceColumn">
+$147
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g35805-d1163676-Reviews-Roscoe_Village_Guesthouse-Chicago_Illinois.html" class="pid907">Roscoe Village Guesthouse</a></td>
+<td class="priceColumn">
+$284
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g35805-d551279-Reviews-Ray_s_Bucktown_Bed_and_Breakfast-Chicago_Illinois.html" class="pid907">Ray's Bucktown Bed and Breakfast</a></td>
+<td class="priceColumn">
+$149
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.8 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g35805-d735710-Reviews-Joy_s_Joy-Chicago_Illinois.html" class="pid907">Joy's Joy</a></td>
+<td class="priceColumn">
+$120
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g35805-d667236-Reviews-Chicago_Guest_House-Chicago_Illinois.html" class="pid907">Chicago Guest House</a></td>
+<td class="priceColumn">
+$347
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g35805-Chicago_Illinois-Hotels.html">All Accommodations in Chicago<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g35805-d1140848-Reviews-Urban_Belly-Chicago_Illinois.html" rel="nofollow" class="pid908">Urban Belly</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g35805-d808903-Reviews-Hot_Doug_s_Inc-Chicago_Illinois.html" rel="nofollow" class="pid908">Hot Doug's Inc.</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g35805-d429212-Reviews-La_Finca_Restaurant-Chicago_Illinois.html" rel="nofollow" class="pid908">La Finca Restaurant</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g35805-Chicago_Illinois.html" rel="nofollow">All Restaurants in Chicago<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g35805-d595493-Reviews-St_Hyacinth_Basilica-Chicago_Illinois.html" rel="nofollow" class="pid909">St. Hyacinth Basilica</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g35805-d1638852-Reviews-Spa_La_La-Chicago_Illinois.html" rel="nofollow" class="pid909">Spa La La</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.9 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g35805-d563908-Reviews-Old_Town_School_of_Folk_Music-Chicago_Illinois.html" rel="nofollow" class="pid909">Old Town School of Folk Music</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g35805-Activities-Chicago_Illinois.html" rel="nofollow">All Things to Do in Chicago<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Kuma&#39;s Corner</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 449 posts on Chicago from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g35805-i32-Chicago_Illinois.html">Go to Chicago Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g35805-d808901-r9880353.html" class="js_popSmall" title="Kuma's Corner">&#x201c;Kuma's Corner&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g35805-d808901-a_area.Text__5F__HotelComment-r9880354.html" class="js_popSmall">&#x201c;Kuma's Corner&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig1"><sup>#</sup><b>5</b></var> <span>of 4,506 <i><a href="/Restaurants-g35805-Chicago_Illinois.html">restaurants in Chicago</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no45"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">55</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g35805-d808901-e__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html-fbefirst_Restaurant_Review_writeareview_top-Kuma_s_Corner-Chicago_Illinois.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American, Bar, Hamburgers
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">2900 W Belmont</span>, <span class="locality"><span property="v:locality">Chicago</span>, <span property="v:region">IL</span> <span property="v:postal-code">60618</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(773) 604-8769</span>
+|
+<a rel="nofollow" class="url js_popup" href="http://www.kumascorner.com/">
+www.kumascorner.com/
+</a>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $1-$20 </li><!--/ price-->
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>94% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:52px;"></div></div>
+<span class="total">36</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:20px;"></div></div>
+<span class="total">14</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:2px;"></div></div>
+<span class="total">2</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:1px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:2px;"></div></div>
+<span class="total">2</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 40</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEUKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEmKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)">4</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEUKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g35805__2D__d808901__2D__Reviews__2D__Kuma__5F__s__5F__Corner__2D__Chicago__5F__Illinois__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r71629823-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r71629823">Don't eat before you go ;)</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd71629823" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd71629823'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<div class="facebookAvatar" style="width:74px; height:74px">
+<a rel="nofollow" href="/members/MheartsTrips"> <img id='lazyload_UNIQUE_3' height='74px' width='74px' class='facebookAvatarIcon'/>
+<img class="sprite-facebookAvatarLogo facebookAvatarLogo" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</a> </div>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_2112A95D0271E15602B941E564BD21C3-SRC_71629823" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">MheartsTrips</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">2 contributions</span> </div>
+<div class="location">Antwerp, Belgium</div>
+<div class="date ">
+Jul 20, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I was very proud to finish all of my burger, since they are enormous, luckily I had hardly eaten anything all day. It was (as I had been told) the best burger I've ever had, the meat was done as we asked for it and the pretzel buns are just too amazing for words. We were lucky enough to sit...
+<span class="fkLnk hvrIE6 tr71629823" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r70219557-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r70219557">One thing you can say is "The place has atmosphere"</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd70219557" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd70219557'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/bdbb"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/92/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_83822FD00D2AEF18FD8CC705A662295E-SRC_70219557" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">bdbb</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">6 contributions</span> </div>
+<div class="location">Gang Mills, NY</div>
+<div class="date ">
+Jul 8, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I went to Kuma's Corner for lunch with my wife, kids (teens), mother-in-law, and niece. We were all very impressed with the place. When you come in, the first thing you notice is the hard-driving, head-banging music. Now I'm normally not into that style of music, but I found myself really liking their selection.
+The next thing that you notice...
+<span class="fkLnk hvrIE6 tr70219557" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r69338535-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r69338535">Over rated</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd69338535" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd69338535'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/pmrkvc"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/8c/5b/82/pmrkvc.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_1DE674BD06DAB78A773114EA55CA61D0-SRC_69338535" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">pmrkvc</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">11 contributions</span> </div>
+<div class="location">Elmhurst, Illinois</div>
+<div class="date ">
+Jul 1, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+We've been looking forward to visiting Kuma's since we saw it on D.D.D's The atmosphere was great they have an outdoor patio the service was awesome. We went mid-day mid-week so we didn't have to wait at all. There were some very interesting beers on the menu.
+But let's get to the burgers very creative and interesting combos yes but...
+<span class="fkLnk hvrIE6 tr69338535" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r69266382-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r69266382">Darn good!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd69266382" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd69266382'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<div class="facebookAvatar" style="width:74px; height:74px">
+<a rel="nofollow" href="/members/Warhol2332"> <img id='lazyload_UNIQUE_4' height='74px' width='74px' class='facebookAvatarIcon'/>
+<img class="sprite-facebookAvatarLogo facebookAvatarLogo" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</a> </div>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_407DA0AA5F6CBC9776F8578C416FE23A-SRC_69266382" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Warhol2332</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">8 contributions</span> </div>
+<div class="location">Columbia</div>
+<div class="date ">
+Jun 30, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I decided to stop in to this restaurant on my recent trip to Chicago due to the beer selection and an infamous hamburger called the Goblin Cock. Before going to Chicago my wife and I laughed for days about the name of this tasty looking burger. Unfortunately they have taken it off the menu. However, they do have several other...
+<span class="fkLnk hvrIE6 tr69266382" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g35805-d808901-r69266382-Kuma_s_Corner-Chicago_Illinois.html">2 Photos</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r64149653-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r64149653">Are you kidding... ??</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd64149653" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd64149653'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/chicagof00die"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/92/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_EFEC336CA7EC774006816B6C5242FA54-SRC_64149653" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">chicagof00die</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Chicago, Illinois</div>
+<div class="date ">
+May 14, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">5</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+I live in Chicago and cannot believe that this is the #1 place on this list. What are you people thinking? Yes, the burgers here are good, but to put this #1 on the list of all Chicago restaurants is just CRAZY! I am a foodie and appreciate good food. If you enjoy high end, thoughtfully prepared cuisine, go to...
+<span class="fkLnk hvrIE6 tr64149653" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r63565493-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r63565493">Amazing and unique food, great service, worth the wait</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd63565493" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd63565493'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<div class="facebookAvatar" style="width:74px; height:74px">
+<a rel="nofollow" href="/members/insearchofgoodeats"> <img id='lazyload_UNIQUE_5' height='74px' width='74px' class='facebookAvatarIcon'/>
+<img class="sprite-facebookAvatarLogo facebookAvatarLogo" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</a> </div>
+</div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_CED1A96ACEAEF4CDC2F9028F96CFF838-SRC_63565493" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">insearchofgoodeats</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">7 contributions</span> </div>
+<div class="location">Kansas City, Missouri</div>
+<div class="date ">
+May 8, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+We went at 3:00pm on a weekday and still had to wait about an hour before seats vacated at the bar (the hostess had not yet called us to be seated so we went for the bar seats). The burger choices were amazing and all so different. We decided on their Insect Warfare burger which consisted of a panko crusted...
+<span class="fkLnk hvrIE6 tr63565493" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r62038664-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r62038664">The Best</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd62038664" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd62038664'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/drw2112"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/73/2e/44/drw2112.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_7C9CD05150E83BF2071631CD721E57E6-SRC_62038664" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">drw2112</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">90 contributions</span> </div>
+<div class="location">Elmwood Park, Illinois</div>
+<div class="date ">
+Apr 20, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+I was told I had to try this place by a friend, I am glad I did. The wait was a little long, but it was worth it. The Mac and Cheese was probably the best I ever had. That with the huge Cheeseburger was a little to much, but I was able to take it home.The food was great,...
+<span class="fkLnk hvrIE6 tr62038664" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r61606278-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r61606278">What a trip</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd61606278" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd61606278'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/wurldtravelor"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/70/avatar053.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_D7604E1FAD23A652F05371DC85689D9D-SRC_61606278" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">wurldtravelor</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">2 contributions</span> </div>
+<div class="location">Ontario Canada</div>
+<div class="date ">
+Apr 15, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+We went to Chicago from Canada. Kuma's was the first place on our to do list. Seeing it on DDD we eat there within hours of landing. We were told it would be a two hour wait and debated but had come all that way. The street was heaving with people and we were not to be discouraged. We were...
+<span class="fkLnk hvrIE6 tr61606278" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r60795699-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r60795699">Wow, what a cool place with amazing food.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd60795699" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd60795699'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Columbus9"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/9b/db/50/columbus9.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_0E172338C650F87C46862805D656AA01-SRC_60795699" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Columbus9</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">22 contributions</span> </div>
+<div class="location">Columbus, Ohio</div>
+<div class="date ">
+Apr 9, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+Last time I was in Chicago I tried to have lunch at Kuma's but there was a 2 1/2 hour wait so that didn't happen. This time we were going to get take out at about 10:30PM on a Thursday evening. It just so happened that they had a two top available for us. The waitress was so friendly! She...
+<span class="fkLnk hvrIE6 tr60795699" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g35805-d808901-r60196007-Kuma_s_Corner-Chicago_Illinois.html" class="pid2168" id="r60196007">Not for everybody - but it's awesome</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd60196007" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html#savessd60196007'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/JimmyEats"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_BC841FF2269D1A2C53BAFFB532C3E520-SRC_60196007" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">JimmyEats</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">4 contributions</span> </div>
+<div class="location">Chicago</div>
+<div class="date ">
+Apr 2, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+First off - they have whiskey on tap.... this makes me happy (and four shots later drunk). They have some great micro brews on tap.
+The decor is metal and includes some graphic designs on the walls. They played gory kung fu movies and blast rock music. Awesome and awesome.
+So the food - amazing. We ordered the mac and...
+<span class="fkLnk hvrIE6 tr60196007" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 40</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEUKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEmKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)">4</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymovKoWMvKvAKUWxfWiEUKWxbpaJQtQfiECVEWfGSnJyiQlccSCiStBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_6' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g35805-d664570-Reviews-Yolk-Chicago_Illinois.html" class="pid1020">Yolk</a></div>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g35805-d664570-Reviews-Yolk-Chicago_Illinois.html" class="pid1020" rel="nofollow">
+75 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Chicago, IL </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_7' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g35805-d479694-Reviews-M_Henry-Chicago_Illinois.html" class="pid1020">M. Henry</a></div>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g35805-d479694-Reviews-M_Henry-Chicago_Illinois.html" class="pid1020" rel="nofollow">
+41 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Chicago, IL </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_8' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g35805-d427766-Reviews-Fogo_de_Chao-Chicago_Illinois.html" class="pid1020">Fogo de Chao</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g35805-d427766-Reviews-Fogo_de_Chao-Chicago_Illinois.html" class="pid1020" rel="nofollow">
+188 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Chicago, IL </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g35805-Chicago_Illinois.html" class="pid1021">
+All Restaurants in Chicago </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Kuma&#39;s Corner? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWymovKoWMvKvAKUWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WxbpaJQtQfiECVEWfGSnJyiQlccSCiStB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WymovKoWMvKvAKUWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WxbpaJQtQfiECVEWfGSnJyiQlccSCiStB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWymovKoWMvKvAKUWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WxbpaJQtQfiECVEWfGSnJyiQlccSCiStB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Chicago</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134375&amp;geo=35805&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Chicago: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComTIGPortalGEO&amp;src=4370517&amp;geo=35805&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Chicago: Hotel Information, Book Direct</var><br/>
+<span><b>MidwayHotelCenter.com</b> Plan your ultimate trip today.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=BookingsOrgHotelsGEOZH&amp;src=7801304&amp;geo=35805&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Chicago: 酒店半价 !</var><br/>
+<span><b>Booking.com</b> 在网上预订，在酒店付款。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=PerfectEscapesHotelsGEO&amp;src=17780975&amp;geo=35805&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Chicago: Great Deals on Luxury Hotels</var><br/>
+<span><b>PerfectEscapes.com</b> Five-star luxury for less. Our experts review each and every hotel</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g35805-Vacation-Package-Discount-Chicago_Illinois.html">
+<b>View all deals for Chicago</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Kuma&#39;s Corner? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWymovKoWMvKvAKUWxbpaJQtQfiECVEWfGSnJyiQlccSCiStB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g35805-d808901-Kuma_s_Corner-Chicago_Illinois.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Kuma's Corner Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">2900 W Belmont</span>, <span class="locality"><span property="v:locality">Chicago</span>, <span property="v:region">IL</span> <span property="v:postal-code">60618</span></span> </address>
+<span class="tel"><b>Tel:</b> (773) 604-8769</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Kuma&#39;s Corner</b>, Chicago.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.co.uk/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.ca/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.it/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.es/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.de/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.fr/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Kuma&#39;s Corner, シカゴ" href="http://www.tripadvisor.jp/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma&#39;s Corner, シカゴ"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Kuma's Corner, 芝加哥" href="http://www.daodao.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, 芝加哥"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.in/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.se/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Kuma's Corner, Chicago" href="http://nl.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.com.br/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.com.tr/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.dk/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.com.mx/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.ie/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.com.au/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Kuma's Corner, Chicago" href="http://www.tripadvisor.com.sg/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Kuma's Corner, Chicago" href="http://no.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Kuma's Corner, Chicago" href="http://pl.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, Chicago"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Kuma's Corner, ชิคาโก" href="http://th.tripadvisor.com/Restaurant_Review-g35805-d808901-Reviews-Kuma_s_Corner-Chicago_Illinois.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Kuma's Corner, ชิคาโก"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Chicago! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Chicago? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymovKoqHMvKvAKUqHxfqHxbpaJQQoqnQQtQQoqnQQfiECVEqHfGSnJyiQQoqnQQlccSCiStxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=41.93939,-87.70024&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://media-cdn.tripadvisor.com/media/photo-s/01/95/3e/33/warhol2332.jpg', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://media-cdn.tripadvisor.com/media/photo-s/01/98/a8/6c/mheartstrips.jpg', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_8', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_7', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_6', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://media-cdn.tripadvisor.com/media/photo-s/01/92/b6/ec/insearchofgoodeats.jpg', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "35805");
+ta.store('page.location', "808901");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 208 dc: 5 sc: 9 -->
+</html>

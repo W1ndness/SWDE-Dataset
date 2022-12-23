@@ -1,0 +1,1631 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Rib Hut Bar-B-Que and Seafood, Savannah - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Rib Hut Bar-B-Que and Seafood, Savannah, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Rib Hut Bar-B-Que and Seafood, Savannah: See unbiased reviews of Rib Hut Bar-B-Que and Seafood, rated 4.0 of 5 on TripAdvisor and ranked #123 of 399 restaurants in Savannah."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "C";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "1495237";
+var modelGeoId = "60814";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d1495237-treviews.xml"/>
+<!-- web26b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Savannah Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Rib Hut Bar-B-Que and Seafood, Savannah</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g60814-d1495237-e__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="60814"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Savannah</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g60814-Savannah_Georgia-Vacations.html">
+Savannah Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g60814-Savannah_Georgia-Hotels.html">
+Savannah Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWy3KvUdWxfWhJsJCCJGQzzViEySJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g60814-Savannah_Georgia-Cheap_Discount_Airfares.html">
+Flights to Savannah</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g60814-Savannah_Georgia-Hotel-Deals.html">
+Savannah Deals</a>
+</li>
+<li class=" navTitle">
+More On Savannah
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWy3KvUdWhJsJCCJGQzzViEySJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Rib Hut Bar-B-Que and Seafood</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWy3KvUdWbnISsSISVtWhJsJCCJGQzzViEySJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g60814-i133-Savannah_Georgia.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWy3KvUdWhJsJCCJGQzzViEySJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g60814-Savannah_Georgia.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g60814-Savannah_Georgia.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Savannah Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g60814-Savannah_Georgia.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g60814-Savannah_Georgia.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g60814-Vacation-Package-Discount-Savannah_Georgia.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Savannah</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Savannah</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-C"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="60814"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd1495237" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html#savessd1495237'},{flow: 'SAVES'});">Save Rib Hut Bar-B-Que and Seafood</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIacWxEeSHj5pIj7JEqH7qHxXpVjJCMjhVJTiiM6XfjhJsJCCJGjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.savannah
+PageType=Restaurant_Review
+pool=C
+kw=Rib+Hut+Bar-B-Que+and+Seafood
+geo=60814
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Rib+Hut+Bar-B-Que+and+Seafood
+gname=Savannah
+sz=160X80
+tile=4
+ord=39891355
+area=NA.United_States.Georgia.Georgia_Coast.Savannah
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.savannah+80+160+NA.United_States.Georgia.Georgia_Coast.Savannah+PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X80;tile=4;ord=39891355"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X80;tile=4;ord=39891355?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X80;tile=4;ord=39891355?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.savannah
+PageType=Restaurant_Review
+pool=C
+kw=Rib+Hut+Bar-B-Que+and+Seafood
+geo=60814
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Rib+Hut+Bar-B-Que+and+Seafood
+gname=Savannah
+sz=160X600
+tile=2
+ord=39891355
+area=NA.United_States.Georgia.Georgia_Coast.Savannah
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.savannah+600+160+NA.United_States.Georgia.Georgia_Coast.Savannah+PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X600;tile=2;ord=39891355"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X600;tile=2;ord=39891355?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=160X600;tile=2;ord=39891355?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Savannah restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g60814-d436974-Reviews-Mrs_Wilkes_Boarding_House-Savannah_Georgia.html">Mrs. Wilkes' Boarding House</a></li>
+<li><a href="/Restaurant_Review-g60814-d1194158-Reviews-Wiley_s_Championship_BBQ-Savannah_Georgia.html">Wiley's Championship BBQ</a></li>
+<li><a href="/Restaurant_Review-g60814-d1501174-Reviews-Papillote_French_Cuisine_To_Go-Savannah_Georgia.html">Papillote - French Cuisine To-Go</a></li>
+<li><a href="/Restaurant_Review-g60814-d795880-Reviews-Noble_Fare-Savannah_Georgia.html">Noble Fare</a></li>
+<li><a href="/Restaurant_Review-g60814-d636805-Reviews-Leopold_s_Ice_Cream-Savannah_Georgia.html">Leopold's Ice Cream</a></li>
+<li><a href="/Restaurant_Review-g60814-d800798-Reviews-Zunzi_s_Take_Out-Savannah_Georgia.html">Zunzi's Take Out</a></li>
+<li><a href="/Restaurant_Review-g60814-d940244-Reviews-45_Bistro-Savannah_Georgia.html">45 Bistro</a></li>
+<li><a href="/Restaurant_Review-g60814-d509715-Reviews-The_Olde_Pink_House-Savannah_Georgia.html">The Olde Pink House</a></li>
+<li><a href="/Restaurant_Review-g60814-d1580303-Reviews-Crystal_Beer_Parlor-Savannah_Georgia.html">Crystal Beer Parlor</a></li>
+<li><a href="/Restaurant_Review-g60814-d467262-Reviews-SOHO_South_Cafe-Savannah_Georgia.html">SOHO South Cafe</a></li>
+<li><a href="/Restaurant_Review-g60814-d789971-Reviews-Geneva_Geneva_s_Home_Plate-Savannah_Georgia.html">Geneva Geneva's Home Plate</a></li>
+<li><a href="/Restaurant_Review-g60814-d598479-Reviews-Alligator_Soul-Savannah_Georgia.html">Alligator Soul</a></li>
+<li><a href="/Restaurant_Review-g60814-d437160-Reviews-Jazz_d_Tapas_Bar-Savannah_Georgia.html">Jazz'd Tapas Bar</a></li>
+<li><a href="/Restaurant_Review-g60814-d436973-Reviews-Cha_Bella-Savannah_Georgia.html">Cha Bella</a></li>
+<li><a href="/Restaurant_Review-g60814-d646783-Reviews-Goose_Feathers_an_Express_Cafe_Bakery-Savannah_Georgia.html">Goose Feathers an Express Cafe & Bakery</a></li>
+<li><a href="/Restaurant_Review-g60814-d436981-Reviews-Vinnie_Van_Go_Go_s-Savannah_Georgia.html">Vinnie Van Go-Go's</a></li>
+<li><a href="/Restaurant_Review-g60814-d437163-Reviews-Sweet_Potatoes_Kitchen-Savannah_Georgia.html">Sweet Potatoes Kitchen</a></li>
+<li><a href="/Restaurant_Review-g60814-d831463-Reviews-Local_11_Ten_Food_Wine-Savannah_Georgia.html">Local 11 Ten Food & Wine</a></li>
+<li><a href="/Restaurant_Review-g60814-d1104069-Reviews-Planters_Tavern-Savannah_Georgia.html">Planters Tavern</a></li>
+<li><a href="/Restaurant_Review-g60814-d436979-Reviews-Sapphire_Grill-Savannah_Georgia.html">Sapphire Grill</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g60814-Savannah_Georgia.html">Savannah restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g60814-oa20-Savannah_Georgia.html">Savannah restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g60814-oa70-Savannah_Georgia.html">Savannah restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g60814-oa120-Savannah_Georgia.html">Savannah restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g60814-oa170-Savannah_Georgia.html">Savannah restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g60814-oa220-Savannah_Georgia.html">Savannah restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g60814-oa270-Savannah_Georgia.html">Savannah restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g60814-oa320-Savannah_Georgia.html">Savannah restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g60814-oa370-Savannah_Georgia.html">Savannah restaurants: 371 - 399</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g60814-Savannah_Georgia-Hotels.html">Hotels around Savannah</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g60814-d1159237-Reviews-AVIA_Savannah-Savannah_Georgia.html">AVIA Savannah</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>240 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#1 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d564608-Reviews-Hilton_Garden_Inn_Savannah_Historic_District-Savannah_Georgia.html">Hilton Garden Inn Savannah Historic District</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>182 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#50 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d596122-Reviews-Staybridge_Suites_Savannah_Historic_District-Savannah_Georgia.html">Staybridge Suites Savannah Historic District</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>163 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#15 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d507946-Reviews-Inn_at_Ellis_Square-Savannah_Georgia.html">Inn at Ellis Square</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>509 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#21 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d574679-Reviews-Thunderbird_Inn-Savannah_Georgia.html">Thunderbird Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>192 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#40 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d86792-Reviews-Hilton_Savannah_DeSoto-Savannah_Georgia.html">Hilton Savannah DeSoto</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>177 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#58 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d673768-Reviews-Holiday_Inn_Express_Savannah_Historic_District-Savannah_Georgia.html">Holiday Inn Express Savannah-Historic District</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>326 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#3 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d118134-Reviews-Olde_Harbour_Inn-Savannah_Georgia.html">Olde Harbour Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>104 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#26 of 45 B&amp;Bs / inns in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d219403-Reviews-Westin_Savannah_Harbor_Golf_Resort_Spa-Savannah_Georgia.html">Westin Savannah Harbor Golf Resort & Spa</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>262 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#28 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d79575-Reviews-Best_Western_Promenade_Hotel_in_the_Historic_District-Savannah_Georgia.html">Best Western Promenade Hotel in the Historic District</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>133 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#44 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d86782-Reviews-Marshall_House-Savannah_Georgia.html">Marshall House</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>276 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#5 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d1080175-Reviews-Country_Inn_Suites_Savannah_Historic_District-Savannah_Georgia.html">Country Inn & Suites Savannah Historic District</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>64 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#9 of 105 hotels in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d75425-Reviews-Kehoe_House-Savannah_Georgia.html">Kehoe House</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>64 Reviews</em>
+<div class="posted">Last reviewed Jul 28, 2010</div>
+</div>
+#19 of 45 B&amp;Bs / inns in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d224994-Reviews-East_Bay_Inn-Savannah_Georgia.html">East Bay Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>98 Reviews</em>
+<div class="posted">Last reviewed Jul 27, 2010</div>
+</div>
+#25 of 45 B&amp;Bs / inns in Savannah<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60814-d223869-Reviews-Courtyard_by_Marriott_Savannah_Historic_District-Savannah_Georgia.html">Courtyard by Marriott Savannah Historic District</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>76 Reviews</em>
+<div class="posted">Last reviewed Jul 25, 2010</div>
+</div>
+#38 of 105 hotels in Savannah<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g33059-d509937-Reviews-Bella_Saratoga-Saratoga_California.html">Bella Saratoga in Saratoga, CA</a></li>
+<li><a href="/Restaurant_Review-g52307-d925966-Reviews-Brain_Freezers-Canonsburg_Pennsylvania.html">Brain Freezers in Canonsburg, PA</a></li>
+<li><a href="/Restaurant_Review-g1021147-d1716685-Reviews-Benitoragyozabo-Funabashi_Chiba_Prefecture_Kanto.html">Benitoragyozabo in Funabashi, Japan</a></li>
+<li><a href="/Restaurant_Review-g298158-d1087945-Reviews-Jonathan_s_Coffee_and_Restaurant-Chiba_Chiba_Prefecture_Kanto.html">Jonathan&#39;s Coffee and Restaurant in Chiba, Japan</a></li>
+<li><a href="/Restaurant_Review-g30874-d861878-Reviews-Smokehouse-Theodore_Alabama.html">Smokehouse in Theodore, AL</a></li>
+<li><a href="/Restaurant_Review-g60950-d477127-Reviews-Char_Thai_Restaurant-Tucson_Arizona.html">Char Thai Restaurant in Tucson</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g499234-d1515538-Reviews-Cape_Breton_Causeway_Inn-Port_Hastings_Nova_Scotia.html">Cape Breton Causeway Inn in Port Hastings, Canada</a></li>
+<li><a href="/Hotel_Review-g60971-d248194-Reviews-The_Conifer_House-Flagstaff_Arizona.html">The Conifer House in Flagstaff, AZ</a></li>
+<li><a href="/Hotel_Review-g155019-d181984-Reviews-Holiday_Inn_Toronto_International_Airport-Toronto_Ontario.html">Holiday Inn Toronto International Airport in Toronto</a></li>
+<li><a href="/Hotel_Review-g32878-d124907-Reviews-Shenoa-Philo_California.html">Shenoa in Philo, CA</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Savannah resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g60814-Reviews-Savannah_Georgia-Vacation_Rentals.html">Savannah Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g60814-Savannah_Georgia.html" onclick="return setOneTimeCookie('mcreset','true')">Savannah Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g60814-Activities-Savannah_Georgia.html">Things to Do in Savannah</a>
+</li>
+<li>
+<a href="/AllReviews-g60814-Savannah_Georgia.html">Savannah Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g60814-Savannah-Area.html">Savannah Maps</a>
+</li>
+<li>
+<a href="/Travel-g60814-s208/Savannah:Georgia:Weather.And.When.To.Go.html">Savannah Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolC" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.savannah
+PageType=Restaurant_Review
+pool=C
+kw=Rib+Hut+Bar-B-Que+and+Seafood
+geo=60814
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Rib+Hut+Bar-B-Que+and+Seafood
+gname=Savannah
+sz=728X90
+tile=1
+ord=39891355
+area=NA.United_States.Georgia.Georgia_Coast.Savannah
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=728X90;tile=1;ord=39891355?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=728X90;tile=1;ord=39891355?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=728X90;tile=1;ord=39891355?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28931-Georgia-Vacations.html">Georgia (GA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g659477-Georgia_Coast_Georgia-Vacations.html">Georgia Coast</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g60814-Savannah_Georgia-Vacations.html">Savannah</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g60814-Savannah_Georgia.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Rib Hut Bar-B-Que and Seafood </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "622A4EC81443520ECFA5D2903636FF8A";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g60814-d1495237-Rib_Hut_Bar_B_Que_and_Seafood-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 32.088524,
+lng: -81.11933,
+locId: 1495237,
+title: "Rib Hut Bar-B-Que and Seafood",
+url: "/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Rib Hut Bar-B-Que and Seafood</span>
+<div class="addr">
+<span>1629 W Bay Street</span>
+<div>
+<span> Savannah, GA 31415</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1629+W+Bay+Street+Savannah%2C+GA+31415' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281978128067?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g60814-d1495237-Rib_Hut_Bar_B_Que_and_Seafood-Area.html" class="pid1103">view map of Rib Hut Bar-B-Que and Seafood</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Savannah.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Savannah Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ga.savannah
+PageType=Restaurant_Review
+pool=C
+kw=Rib+Hut+Bar-B-Que+and+Seafood
+pos=top
+geo=60814
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Rib+Hut+Bar-B-Que+and+Seafood
+gname=Savannah
+sz=300X250
+tile=3
+ord=39891355
+area=NA.United_States.Georgia.Georgia_Coast.Savannah
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ga.savannah+250+300+NA.United_States.Georgia.Georgia_Coast.Savannah+PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;pos=top;geo=60814;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=300X250;tile=3;ord=39891355"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;pos=top;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=300X250;tile=3;ord=39891355?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ga.savannah;PageType=Restaurant_Review;pool=C;kw=Rib+Hut+Bar-B-Que+and+Seafood;pos=top;geo=60814;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Rib+Hut+Bar-B-Que+and+Seafood;gname=Savannah;sz=300X250;tile=3;ord=39891355?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Rib Hut Bar-B-Que and Seafood</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60814-d589614-Reviews-Weston_Savannah_Hotel-Savannah_Georgia.html" class="pid907">Weston Savannah Hotel</a></td>
+<td class="priceColumn">
+N/A </td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60814-d247548-Reviews-Comfort_Suites_Historic_District-Savannah_Georgia.html" class="pid907">Comfort Suites Historic District</a></td>
+<td class="priceColumn">
+$184
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60814-d1395629-Reviews-Residence_Inn_Savannah_Downtown_Historic_District-Savannah_Georgia.html" class="pid907">Residence Inn Savannah Downtown/Historic District</a></td>
+<td class="priceColumn">
+$171
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60814-d240109-Reviews-DoubleTree_Hotel_Historic_Savannah-Savannah_Georgia.html" class="pid907">DoubleTree Hotel Historic Savannah</a></td>
+<td class="priceColumn">
+$166
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60814-d1484861-Reviews-SpringHill_Suites_Savannah_Downtown-Savannah_Georgia.html" class="pid907">SpringHill Suites Savannah Downtown</a></td>
+<td class="priceColumn">
+$189
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g60814-Savannah_Georgia-Hotels.html">All Hotels in Savannah<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60814-d653024-Reviews-Masada_Cafe_at_the_United_House_of_Prayer_for_All_People-Savannah_Georgia.html" rel="nofollow" class="pid908">Masada Cafe at the United House of Prayer for All People</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.8 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60814-d624090-Reviews-Wasabi_s_Downtown-Savannah_Georgia.html" rel="nofollow" class="pid908">Wasabi's Downtown</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60814-d1019891-Reviews-Carlito_s_Mexican_Bar_Grill-Savannah_Georgia.html" rel="nofollow" class="pid908">Carlito's Mexican Bar & Grill</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g60814-Savannah_Georgia.html" rel="nofollow">All Restaurants in Savannah<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60814-d969949-Reviews-Mary_Calder_Golf_Club-Savannah_Georgia.html" rel="nofollow" class="pid909">Mary Calder Golf Club</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60814-d169880-Reviews-Riverfront_Plaza-Savannah_Georgia.html" rel="nofollow" class="pid909">Riverfront Plaza</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60814-d556094-Reviews-Old_Town_Trolley_Tours_of_Savannah-Savannah_Georgia.html" rel="nofollow" class="pid909">Old Town Trolley Tours of Savannah</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g60814-Activities-Savannah_Georgia.html" rel="nofollow">All Things to Do in Savannah<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Rib Hut Bar-B-Que and Seafood</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 136 posts on Savannah from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g60814-i133-Savannah_Georgia.html">Go to Savannah Forum &#xbb;</a></li></ul> </dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>123</b></var> <span>of 398 <i><a href="/Restaurants-g60814-Savannah_Georgia.html">restaurants in Savannah</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">1</var> rating </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g60814-d1495237-e__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html-fbefirst_Restaurant_Review_writeareview_top-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: Barbecue
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1629 W Bay Street</span>, <span class="locality"><span property="v:locality">Savannah</span>, <span property="v:region">GA</span> <span property="v:postal-code">31415</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(912) 233-2195‎</span>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $5-$15 </li><!--/ price-->
+<li class="recommended"><b>Good for:</b> Local cuisine</li>
+<li class="options"><b>Dining options:</b> Late Night</li>
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>Rating summary</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:80px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row disabled">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+&nbsp; </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60814__2D__d1495237__2D__Reviews__2D__Rib__5F__Hut__5F__Bar__5F__B__5F__Que__5F__and__5F__Seafood__2D__Savannah__5F__Georgia__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60814-d1495237-r55050039-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html" class="pid2168" id="r55050039">Awesome!!!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd55050039" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html#savessd55050039'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/ThriveWellness"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/96/avatar022.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_08023C8B3616764CAF5BC21CDDE82379-SRC_55050039" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">ThriveWellness</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">8 contributions</span> </div>
+<div class="location">New Jersey</div>
+<div class="date ">
+Feb 2, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+The first thing a coworker said when I indicated that I was looking for some authentic southern BBQ was "dont go to that place on the way to the historic district as its not in a nice neighborhood." Granted the area around the restaurant may not be in the greatest of places (depending where you're from, of course), but the...
+<span class="fkLnk hvrIE6 tr55050039" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_3' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60814-d518671-Reviews-Huey_s_On_The_River-Savannah_Georgia.html" class="pid1020">Huey's On The River</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60814-d518671-Reviews-Huey_s_On_The_River-Savannah_Georgia.html" class="pid1020" rel="nofollow">
+150 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Savannah, Georgia Coast </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_4' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60814-d578304-Reviews-Angel_s_BBQ-Savannah_Georgia.html" class="pid1020">Angel's BBQ</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60814-d578304-Reviews-Angel_s_BBQ-Savannah_Georgia.html" class="pid1020" rel="nofollow">
+47 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Savannah, Georgia Coast </div> </div>
+<div class="pricing">
+<div class="price">
+$8<span>*</span>
+</div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g60814-Savannah_Georgia.html" class="pid1021">
+All Restaurants in Savannah </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Rib Hut Bar-B-Que and Seafood? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWy3KvUdWMUdAoXmkWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WeSHQ5pIQ7JEQ7QxXpVQJCMQhVJTiiMWhJsJCCJGQzzViEySJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3Wy3KvUdWMUdAoXmkWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WeSHQ5pIQ7JEQ7QxXpVQJCMQhVJTiiMWhJsJCCJGQzzViEySJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWy3KvUdWMUdAoXmkWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WeSHQ5pIQ7JEQ7QxXpVQJCMQhVJTiiMWhJsJCCJGQzzViEySJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Savannah</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134553&amp;geo=60814&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Savannah: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=PerfectEscapesHotelsGEO&amp;src=17780951&amp;geo=60814&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Savannah: Great Deals on Luxury Hotels</var><br/>
+<span><b>PerfectEscapes.com</b> Five-star luxury for less. Our experts review each and every hotel</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5569239&amp;geo=60814&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Savannah: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO5&amp;src=1787137&amp;geo=60814&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Savannah: Save on hotel + air</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g60814-Vacation-Package-Discount-Savannah_Georgia.html">
+<b>View all deals for Savannah</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Rib Hut Bar-B-Que and Seafood? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWy3KvUdWMUdAoXmkWeSHQ5pIQ7JEQ7QxXpVQJCMQhVJTiiMWhJsJCCJGQzzViEySJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g60814-d1495237-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Rib Hut Bar-B-Que and Seafood Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1629 W Bay Street</span>, <span class="locality"><span property="v:locality">Savannah</span>, <span property="v:region">GA</span> <span property="v:postal-code">31415</span></span> </address>
+<span class="tel"><b>Tel:</b> (912) 233-2195‎</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Rib Hut Bar-B-Que and Seafood</b>, Savannah.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.co.uk/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.ca/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.it/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.es/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.de/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.fr/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, サバンナ" href="http://www.tripadvisor.jp/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, サバンナ"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, 萨凡纳" href="http://www.daodao.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, 萨凡纳"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.in/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.se/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://nl.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.com.br/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savana" href="http://www.tripadvisor.com.tr/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savana"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.dk/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.com.mx/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.ie/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.com.au/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://www.tripadvisor.com.sg/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://no.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, Savannah" href="http://pl.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, Savannah"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Rib Hut Bar-B-Que and Seafood, สะวันนา" href="http://th.tripadvisor.com/Restaurant_Review-g60814-d1495237-Reviews-Rib_Hut_Bar_B_Que_and_Seafood-Savannah_Georgia.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Rib Hut Bar-B-Que and Seafood, สะวันนา"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Savannah! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Savannah? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KvUdqHMUdAoXmkqHxfqHeSHQQoqnQQ5pIQQoqnQQ7JEQQoqnQQ7QQoqnQQxXpVQQoqnQQJCMQQoqnQQhVJTiiMqHhJsJCCJGQQoqnQQzzViEySJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=32.088524,-81.11933&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "60814");
+ta.store('page.location', "1495237");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 228 dc: 2 sc: 9 -->
+</html>

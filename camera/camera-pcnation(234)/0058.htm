@@ -1,0 +1,1337 @@
+﻿<base href="http://www.pcnation.com/optics-gallery/details.asp?item=CA0710"/>
+
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head> 
+<title>International Innovations SS1000 5 Megapixel Compact Camera-6.50 mm SS1000 - Buy International Innovations Digital Cameras | PCNation.com</title> 
+<meta name="robots" content="index,follow" /> 
+<meta name="description" content="Buy International Innovations SS1000 5 Megapixel Compact Camera-6.50 mm 1.4 inch LCD - 2560 x 1920 Image - 640 x 480 Video SS1000 at PCNation.com" /> 
+<meta name="keywords" content="Intova Digital Sport Utility Camera, International Innovations, SS1000, Digital Cameras, PCNation.com, PCNation, PC Nation" /> 
+<link rel="canonical" href="http://www.pcnation.com/web/details.asp?item=CA0710"/>
+<link rel="stylesheet" type="text/css" href="../scripts/style/nationv_pz.css" title="styles1" media="screen" />
+<link rel="shortcut icon" type="image/x-icon" href="../nw-img/pcnation.ico" />
+<link rel="image_src" id="sharemainimage" />
+<style type="text/css">
+.detailvalueprice, .detailvalue{padding-left:5px;color:#666;}
+.detailspec{text-align:right;font-size:11px;}
+.details_ourprice{padding-top:8px; font-size:20px; font-weight:bold;color:#c00; margin-bottom:5px;}
+</style>
+<script type="text/javascript" src="../scripts/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../scripts/js/plugs/preloadCssImages.jQuery_v5.js"></script>
+<script type="text/javascript" src="../scripts/js/internal.cart.top.js"></script>
+
+<script type="text/javascript" language="javascript">
+    var currentTab = 0; // Set to a different number to start on a different tab.
+
+    function openTab(clickedTab) {
+        var thisTab = $("#tabbed-box .tabs a").index(clickedTab);
+        $("#tabbed-box .tabs li a").removeClass("active");
+        $("#tabbed-box .tabs li a:eq(" + thisTab + ")").addClass("active");
+        $("#tabbed-box .tabbed-content").hide();
+        $("#tabbed-box .tabbed-content:eq(" + thisTab + ")").show();
+        currentTab = thisTab;
+    }
+
+    function alt_js_window(url, name, w, h) {
+
+        w += 32;
+        h += 96;
+        wleft = (screen.width - w) / 2;
+        wtop = (screen.height - h) / 2;
+
+        if (wleft < 0) {
+            w = screen.width;
+            wleft = 0;
+        }
+        if (wtop < 0) {
+            h = screen.height;
+            wtop = 0;
+        }
+        var win = window.open(url,
+        name,
+        'width=' + w + ', height=' + h + ', ' +
+        'left=' + wleft + ', top=' + wtop + ', ' +
+        'location=no, menubar=no, ' +
+        'status=1, toolbar=no, scrollbars=1, resizable=1');
+        win.resizeTo(w, h);
+        win.moveTo(wleft, wtop);
+        win.focus();
+    }
+
+
+    // get accessories		        
+    function jq_getcomparables(fpart, mpart, ccode, tm) {
+
+        $.ajax(
+		            {
+		                method: "get",
+		                url: "proxy_displaycomparables.asp",
+		                data: "fullpart=" + fpart + "&mainpart=" + mpart + "&catcode=" + ccode + "&tm=" + tm,
+		                beforeSend: function () {
+		                    $("div#pane_comparables").empty();
+		                    $("#wait").show();
+		                }, success: function (data) {
+		                    $("#wait").hide();
+		                    $("div#pane_comparables").empty().html(data);
+		                }, error: function () {
+		                    $("#wait").hide();
+		                    $("div#pane_comparables").html("Comaprables are currently not listed for this product.");
+		                }
+		            }
+		           );
+        return false;
+    }
+
+
+    function jq_getreview(fpart, mpart, ccode, treview, tm) {
+        $.ajax(
+		            {
+
+		                method: "get",
+		                url: "proxy_displaysurvey.asp",
+		                data: "fullpart=" + fpart + "&mainpart=" + mpart + "&catcode=" + ccode + "&totalreview=" + treview + "&tm=" + tm,
+		                beforeSend: function () {
+		                    $("div#pane_review").empty();
+		                    $("div#pane_review").append("<div><img src='/nw-img/ajax-loader.gif' alt='Loading ..' /></div>");
+		                    //$("#wait").show();
+		                }, success: function (data) {
+		                    $("#wait").hide();
+		                    // $("div#pane_review").empty()
+		                    $("div#pane_review").empty().html(data);
+		                    //$("div#content_review").toggle('400');
+		                    //toggleLoadingFlyout();
+		                }, error: function () {
+		                    //$("#wait").hide();
+		                    $("div#pane_review").empty().html("Reviews are currently not listed for this product");
+		                }
+		            }
+		           );
+        return false;
+    }
+
+
+    // get accessories		        
+    function jq_getaccessoriesetilize(fpart, mpart, ccode, tm) {
+        $.ajax(
+		            {
+		                method: "get",
+		                url: "proxy_pcnaccessories_etilize.asp",
+		                data: "fullpart=" + fpart + "&mainpart=" + mpart + "&catcode=" + ccode + "&tm=" + tm,
+		                beforeSend: function () {
+		                    $("div#pane_accessories").empty();
+		                    $("#wait").show();
+		                }, success: function (data) {
+		                    $("#wait").hide();
+		                    $("div#pane_accessories").empty().html(data);
+		                }, error: function () {
+		                    $("#wait").hide();
+		                    $("div#pane_accessories").html("Accessories are currently not listed for this product.");
+		                }
+		            }
+		           );
+        return false;
+    }
+
+    function loadthumbimage(v, tm, w, h) {
+        v.each(function (i) {
+            var loader = $(this);
+            var d = $(this).attr('title');
+            tm = tm + 1;
+            $.ajax(
+		                    {
+		                        method: "get",
+		                        url: "proxy_getthumbimage.asp",
+		                        data: d + "&tm=" + tm + "&sw=" + w + "&sh=" + h,
+		                        beforeSend: function () {
+		                            loader.empty().html("<img style='margin-left:20%; margin-top:15%;' src='/nw-img/small_loader.gif' alt='' />");
+		                        }, success: function (data) {
+		                            loader.empty().html(data);
+		                        }, error: function () {
+		                            loader.empty().html("<img src='/images/noimage.gif' alt='no image'>");
+		                        }
+		                    }
+		                   );
+        });
+        return false;
+    }
+
+
+    // get product image for details page	         
+    function jq_productimage(etz, fpart, mpart, vendor, mcode, manufpart, tm, w, h) {
+        $.ajax(
+		            {
+		                method: "get",
+		                url: "proxy_getimage.asp",
+		                data: "etzid=" + etz + "&fullpart=" + fpart + "&mainpart=" + mpart + "&mcode=" + mcode + "&vendor=" + vendor + "&mpart=" + manufpart + "&tm=" + tm + "&sw=" + w + "&sh=" + h,
+		                beforeSend: function () {
+		                    $("span#productimage").empty().html("<img style='margin-left:20%; margin-top:15%;' src='/nw-img/ajax-loader.gif' alt='Loading ..' />");
+		                }, success: function (data) {
+		                    $("span#productimage").empty().html(data);
+		                    $("#sharemainimage").attr({ href: $(".mainproductimage").attr("src") });
+		                    $(".mainproductimage").attr("width", "200");
+		                }, error: function () {
+		                    $("span#productimage").empty().html("<img src='/images/noimage.gif' alt='no image'>");
+		                }
+		            }
+		           );
+        return false;
+    }
+
+
+
+
+    $(document).ready(function () {
+
+        var currentTime = new Date();
+        var mcode = $("#details_mcode").text();
+        var vendor = $("#details_vendor").text();
+        var fpart = $("#details_fpart").text();
+        var mpart = $("#details_mpart").text();
+        var manufpart = $("#details_manufpart").text();
+        var treview = $("#totreview").text();
+        var etzimg = $("#details_etzimg").text();
+        var tm = currentTime.getSeconds();
+        var carr = $("#details_fpart").text().split("-");
+        var ccode = carr[2];
+        var thumbw = 80;
+        var thumbh = 80;
+        var imgw = 200;
+        var imgh = 200;
+
+        //var cookie_name = 'test_cookie';
+        //var cookie_value = true;
+
+        //$.cookie(cookie_name, cookie_value);
+        //if ($.cookie(cookie_name)) {
+
+        //    alert($.cookie(cookie_name));
+        //    $.cookie(cookie_name, null);
+        //    alert('Good news, cookies are enabled.');
+        // }
+        // else {
+        //     alert('Cookies are not enabled. Please enable and try again.');
+        // }
+
+        //  alert($.cookie(cookie_name));
+
+
+
+        // $.cookie('cookie_name', 'cookie_value', { expires: 2, path: '/', domain: 'yourwebsite.com', secure: true });
+
+
+
+
+
+
+        //$.preloadCssImages({statusTextEl: '#textStatus', statusBarEl: '#status'});
+        //$.preloadCssImages(); 
+
+
+
+
+        $("#details_fpart").hide();
+        $("#details_mcode").hide();
+        $("#details_vendor").hide();
+        $("#totreview").hide();
+        $("#details_etzimg").hide();
+        $('#wait').hide();
+        $('.hide').hide();
+
+        // load thumbs
+        loadthumbimage($(".imgthumb"), tm, thumbw, thumbh);
+        //$('#sidebarWrapper').menu_toggle();
+
+
+        $.fn.qtip.styles.mystyle = { // Last part is the name of the style
+            width: 350,
+            background: '#ffffff',
+            color: 'black',
+            textAlign: 'left',
+            border: {
+                width: 0,
+                radius: 5,
+                color: '#C7C7C7'
+            },
+            tip: 'topMiddle'
+        }
+
+        $.fn.qtip.styles.altviewstyle = { // Last part is the name of the style
+            width: 400,
+            background: '#ffffff',
+            color: 'black',
+            border: {
+                width: 0,
+                radius: 5,
+                color: '#C7C7C7'
+            },
+            tip: 'topMiddle'
+        }
+
+
+        $(".details_betterprice").qtip({
+            content:
+                {
+                    text: '<div style="margin-top:10px;font-family:Arial, Helvetica, sans-serif;color:#333;font-size: 11px;line-height:1.6em;"><span>Manufacturers sometimes require that products be advertised at or above their minimum suggested price. When we choose to sell these items for less, we display the sale price only in the cart. Please be assured that simply adding an item to your cart does not obligate you to buy it. You can always delete the item from your cart if you choose not to purchase it.<p><b>Questions?</b> You can reach a friendly PCNation Account Manager at <font color="#aa0000">1-800-235-4050</font></p></span></div>',
+                    title: {
+                        text: 'When prices are not shown on details page',
+                        button: '<img onclick="return false;" style="border:0;" src="../nw-img/close_hover.gif" alt="Close" />'
+                    }
+                },
+            position: {
+                corner: {
+                    target: 'topMiddle', // Position the tooltip above the link
+                    tooltip: 'bottomMiddle'
+                },
+                adjust: {
+                    screen: true // Keep the tooltip on-screen at all times
+                }
+            },
+            style: 'mystyle',
+            show: {
+                when: 'click',
+                solo: true, // Only show one tooltip at a time
+                effect: { type: 'slide', length: 130 }
+            },
+            hide: {
+                when: 'mousedown',
+                effect: 'slide'
+            }
+        });
+
+
+        $(".attrpreview").each(function () {
+            $(this).qtip({
+                content:
+                {
+                    text: '<img class="throbber" src="/nw-img/small_loader.gif" alt="Loading..." />',
+                    url: $(this).attr('rel'),
+                    title: {
+                        text: $(this).attr('title'),
+                        button: '<img onclick="return false;" style="border:0;" src="../nw-img/close_hover.gif" alt="Close" />'
+                    }
+                },
+                position: {
+                    corner: {
+                        target: 'topMiddle', // Position the tooltip above the link
+                        tooltip: 'bottomMiddle'
+                    },
+                    adjust: {
+                        screen: true // Keep the tooltip on-screen at all times
+                    }
+                },
+                style: 'mystyle',
+                show: {
+                    when: 'click',
+                    solo: true, // Only show one tooltip at a time
+                    effect: { type: 'slide', length: 230 }
+                },
+                hide: {
+                    when: 'mousedown',
+                    effect: 'slide'
+                }
+            });
+        });
+
+        $(".overnightinfo").each(function () {
+            $(this).qtip({
+                content:
+                {
+                    text: '<div style="margin-top:10px;font-family:Arial, Helvetica, sans-serif;color:#333;font-size: 11px;line-height:1.6em;"><span>The FedEx Overnight special promotion is only available for zip codes that qualify for FedEx Standard Overnight ship method.  If your zip code is not eligible for FedEx Standard Overnight ship method, you will be contacted by a PCNation Customer Service Representative to review alternative shipping options. <p><b>Questions?</b> You can reach a friendly PCNation Account Manager at <font color="#aa0000">1-800-235-4050</font></p></span></div>',
+                    title: {
+                        text: 'FedEx Overnight Promotion',
+                        button: '<img onclick="return false;" style="border:0;" src="../nw-img/close_hover.gif" alt="Close" />'
+                    }
+                },
+                position: {
+                    corner: {
+                        target: 'topMiddle', // Position the tooltip above the link
+                        tooltip: 'bottomMiddle'
+                    },
+                    adjust: {
+                        screen: true // Keep the tooltip on-screen at all times
+                    }
+                },
+                style: 'mystyle',
+                show: {
+                    when: 'click',
+                    solo: true, // Only show one tooltip at a time
+                    effect: { type: 'slide', length: 230 }
+                },
+                hide: {
+                    when: 'mousedown',
+                    effect: 'slide'
+                }
+            });
+        });
+
+        // Use the each() method to gain access to each elements attributes
+        //$('#alternativebox_temp a[rel]').each(function()
+        //{
+        //   $(this).qtip(
+        //  {
+        //      content: {
+        // Set the text to an image HTML string with the correct src URL to the loading image you want to use
+        //       text: '<img class="throbber" src="/nw-img/small_loader.gif" alt="Loading..." />',
+        //        url: $(this).attr('rel'), // Use the rel attribute of each element for the url to load
+        //        title: {
+        //text: 'Wikipedia - ' + $(this).text(), // Give the tooltip a title using each elements text
+        //           text:$("#proddesc").text(),
+        //           //button: 'Close' // Show a close link in the title
+        //           button: '<img onclick="return false;" style="border:0;" src="../nw-img/close_hover.gif" alt="Close" />'
+        //        }
+        //     },
+        //     position: {
+        //       corner: {
+        //           target: 'topMiddle', // Position the tooltip above the link
+        //           tooltip: 'bottomMiddle'
+        //        },
+        //        adjust: {
+        //           screen: true // Keep the tooltip on-screen at all times
+        //        }
+        //     },
+        //     style:'altviewstyle',
+        //     show: { 
+        //        when: 'click', 
+        //        solo: true // Only show one tooltip at a time
+        //     },
+        //     hide: 'unfocus'
+        //  })
+        //});
+
+
+        // product image
+        jq_productimage(etzimg, fpart, mpart, vendor, mcode, manufpart, tm, imgw, imgh);
+
+        $(".tabs li:eq(0) a").css("border-left", "none");
+
+
+        // details tab manipulation
+        $("#tabbed-box .tabs li a").click(function () {
+
+            var ajax_index = $("#tabbed-box .tabs a").index(this);
+            if (ajax_index == 1) {
+                //jq_getreview(fpart, mpart, ccode, treview, tm);
+                jq_getcomparables(fpart, mpart, ccode, tm);
+            }
+            else if (ajax_index == 2) {
+                jq_getaccessoriesetilize(fpart, mpart, ccode, tm);
+            }
+            openTab($(this)); return false;
+
+        });
+
+        $("#tabbed-box .tabs li a:eq(" + currentTab + ")").click();
+
+        $(".readreviews").click(function () {
+            openTab($("#tabbed-box .tabs li a:eq(1)"));
+
+            jq_getreview(fpart, mpart, ccode, treview, tm);
+
+            return false;
+        });
+
+
+
+        $("a.switch_thumb").toggle(function () {
+            $(this).addClass("swap");
+            $("ul.display").fadeOut("fast", function () {
+                $(this).fadeIn("fast").addClass("thumb_view");
+            });
+        }, function () {
+            $(this).removeClass("swap");
+            $("ul.display").fadeOut("fast", function () {
+                $(this).fadeIn("fast").removeClass("thumb_view");
+            });
+        });
+
+
+        //$("#wrap_clicktocall").hide();
+
+        //$("ul.display").addClass("thumb_view");	        
+
+
+        //$('.details_desc').jTruncate({  
+        //        length: 109,  
+        //       minTrail: 0,  
+        //      moreText: "[see all]",  
+        //     moreAni: "fast",  
+        //    lessAni: "fast"  
+        //});
+
+
+
+        //$("div.infoclose").click(function(){$("#homepage-whats-new-block").slideUp('fast');});
+
+    });
+ 
+
+		   
+</script> 
+ 
+ 
+ 
+</head> 
+<body> 
+
+
+
+
+<div id="sec_mainsite">
+
+<!--
+        <table align="right">
+            <tr>
+                <td><img src="../nw-img/email.gif" alt="Feedback"/></td>
+                <td><a href="mailto:&#112&#99&#110&#97&#116&#105&#111&#110&#99&#97&#114&#101&#115&#64&#112&#99&#110&#97&#116&#105&#111&#110&#46&#99&#111&#109" style="font-size:11px; color:#015FB6;">Tell us what you think?</a></td>
+            </tr>
+        </table>
+        <br />
+        
+        <div style="height:5px;"><img src="../nw-img/shim.gif" alt=""/></div>
+-->
+<div id="sec_logosite"> 
+ 
+    <table width="100%" border="0">
+        <tr>
+            <td width="50%" valign="top">
+                <div id="sitelogo">
+                    <ul> 	
+	                    <li> 
+		                    <a href="http://www.pcnation.com/web/index.asp" title="PCNation Home"><img src="../nw-img/pcnation_ribbon_latest.gif" border="0" alt=""/></a> 
+	                    </li> 	        
+                    </ul>
+                    <div class="hackers_safe"><a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.pcnation.com"><img width="65" height="37" border="0" src="//images.scanalert.com/meter/www.pcnation.com/31.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." /></a></div>
+                </div>                
+            </td>            
+            <td width="50%" align="right">
+                <div id="phonebar">
+                    <div class="gn_account">
+                        <ul> 
+                           <li class="first-child"><a href="http://www.pcnation.com/optics-gallery/ordertracking.asp" >Track Your Order</a></li> 
+                           <li><a href="https://www.pcnation.com/account/accountinfo.asp"  rel="nofollow">My Account</a></li> 
+                           <li><a href="http://www.pcnation.com/optics-gallery/contact.asp" title="My Account">Support</a></li> 
+                           <li class="gn_phone"><span style="font-size:20px;">800.571.5755</span></li> 
+                        </ul>
+                    </div>                    
+                    <div class="phonelist">
+                        <ul>
+                            <li><span style="font-size:9px; color:#888;">Mon-Thu 8am - 7pm CST&nbsp;&nbsp;|&nbsp;&nbsp;Friday 8am - 5pm CST</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="sec_site">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+    <td>
+                <div id="top_menu"> 
+            <ul> 
+                <li id="nav_home"><a href="http://www.pcnation.com/optics-gallery/index.asp" title="PCNation Home">Optics Gallery</a></li> 
+                <li id="nav_myaccount"><a href="http://www.pcnation.com/optics-gallery/allcategory.asp" title="My Account">Products</a></li> 
+                <li id="nav_tracking"><a href="http://www.pcnation.com/optics-gallery/ordertracking.asp" title="Order Tracking">Order Tracking</a></li> 
+                <li id="nav_rebates"><a href="http://www.pcnation.com/optics-gallery/contact.asp" title="Customer Support">Support</a></li> 
+                <li id="nav_search_form"> 
+                    <form action="http://www.pcnation.com/optics-gallery/topsearch.asp" method="get"> 
+                    <table border="0" cellspacing="0" cellpadding="0"><tr><td style="vertical-align:middle;padding-right:3px;">Search </td><td><select name="search_type" id="search_type"><option value="ALL">All Departments</option>
+                        <option value="PZ">Optics Gallery</option></select> </td><td><input name="searchtext" id="Text1" type="text" /> </td>
+                        <td><input type="submit" class="submit" value="GO"/> </td></tr></table>                                                
+                    </form> 
+                </li>  
+            </ul> 
+        </div>
+    </td>
+    </tr>
+    <tr>
+        <td><div id="bar_secondheader">
+   <div id="bar_secondheader_info">
+      <h2>FREE 3 Day Delivery: <span class="info">On orders over $100 with total shipping weight under 50lbs.<span style="font-size:10px;color:#222;padding-left:3px;"><a href="http://www.pcnation.com/optics-gallery/shippingpromotion.asp" style="color:#222;">Details</a></span></span></h2>
+   </div>
+   <div id="bar_sh_crt">
+       <table border="0">
+            <tr>
+              <td class="bar_cartoff"><img src="../nw-img/btn_add_cart_0.gif" alt="" />&nbsp;&nbsp;</td>
+              <td class="cart_top_small"></td>
+              <td class="cart_top_logoff">
+              	
+              </td>
+            </tr>
+       </table>
+   </div>
+</div>
+
+        </td>
+    </tr>    
+     <tr>
+        <td style="background-color:#ffffff;"> <!-- curve if we want to -->
+            <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td style="vertical-align:top; width:175px;  background-color:#f4f4f4;">
+                        
+<div id="sidebarWrapper">
+<ul id="Ul1"> 
+    <li class="sbTitle">Cameras</li> 
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGCAM&url=Digital%20Cameras">Digital Cameras</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGMEM&url=Memory%20Cards">Memory Cards</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGFRM&url=Digital%20Frames">Digital Frames</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGSCN&url=Scanners">Scanners</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGTAB&url=Tablets">Tablets</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=DIGACC&url=Camera%20Accessories">Accessories</a></li>
+ </ul>
+<ul id="Ul2"> 
+    <li class="sbTitle">Video & Editing</li> 
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=VIDCAM&url=Digital%20Camcorders">Camcorders</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=VIDAUD&url=Audio">Audio</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=VIDAVC&url=AV%20Cables">AV Cables</a></li> 
+                    <!--
+                    <li><a href="#">Editing</a></li> 
+                    <li><a href="#">Monitors & Viewfinders</a></li> 
+                    -->
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=VIDPRO&url=Projectors">Projectors</a></li>
+</ul>
+<ul id="snowShops"> 
+    <li class="sbTitle">Lenses & Optics</li> 
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=LENLAF&url=Lens%20and%20Filters">Lens and Filters</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=LENACC&url=Lens+Accessories">Lens Accessories</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=LENBIN&url=Binoculars">Binoculars</a></li>
+                    <li style="color:#999;"><img src="../nw-img/icon-cs.png" alt="Coming soon" /><br />Spotting Scopes</li>            
+                    <li style="color:#999;">Range Finders</li>
+                    <li style="color:#999;">Night Vision</li>
+</ul>
+            <ul id="clothingAndFootwear"> 
+               <li class="sbTitle">Lighting</li> 
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGSAC&url=Strobe">Strobe</a></li>
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGSAC&url=Strobe+Accessories">Strobe Accessories</a></li>
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGSAC&url=Light+Control">Light Control</a></li>
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGSAC&url=Continuous">Continuous</a></li>
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGMTR&url=Meters+and+Accessories">Meters & Accessories</a></li>
+              <li><a href="filtercategory.asp?searchtype=RNeW&list=LIGSAC&url=Lighting+Accessories">Accessories</a></li>
+ 
+</ul>
+
+
+            <ul id="studioequipments"> 
+                <li class="sbTitle">Studio Equipment</li> 
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=STDBAK&url=Backgrounds"">Backgrounds</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=STDTRI&url=Tripods">Tripods</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=STDSSG&url=Studio+Stands+and+Grip">Studio Stands and Grip</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=STDBAC&url=Bags+and+Cases">Bags and Cases</a></li>
+                    <li><a href="filtercategory.asp?searchtype=RNeW&list=STDLEQ&url=Location+Equipment">Location Equipment</a></li> 
+ 
+</ul>
+
+</div>                    
+                    </td>
+                    <td style="vertical-align:top; width:630px;">
+                        <div id="wrapper_details" style="margin:15px 10px 10px 10px;">
+                            <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top" class="tabContainer">
+                                                 <div class="frame">
+                                                        <div style="margin:0;padding:5px;">
+                                                            
+                                                            <a name="top"></a>
+                                                                <div style="color:#666;line-height:1.6em;">
+                                                                    <table width="100%" cellpadding="0">
+                                                                        <tr>
+                                                                            <td colspan="2">   
+                                                                                <div style="margin-bottom:13px;">                                                                            
+                                                                                                                                                                                                                                                                                            
+                                                                                    <h1 class="seo" style="font-size:18px;font-family:arial;margin:0;color:#333;">International Innovations SS1000 5 Megapixel Compact Camera-6.50 mm</h1>
+                                                                                
+                                                                                    <h2 class="seo_sub" style="font-size:12px;font-weight:normal;margin:2px 0 0 0;color:#333;">1.4" LCD - 2560 x 1920 Image - 640 x 480 Video</h2>
+                                                                                
+                                                                                </div>                                                                              
+                                                                            </td>                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="width:225px; vertical-align:top;">
+                                                                                <div class="cont_image">                                                                
+                                                                                    <div style="padding-top:15px;position:relative;">
+                                                                                    <div id="SP_ProductImage">    
+                                                                                        <span id="productimage"></span>
+                                                                                    </div>
+                                                                                        
+                                                                                    </div>                                                                                                                                                                        
+                                                                                </div>
+                                                                                                                                                        
+                                                                            </td>
+                                                                            <td style="width:350px; vertical-align:top;">
+                                                                                <table width="100%" border="0">									   	
+																	            
+																		                <tr>
+																			                <td class="detailspec" style="text-align:right;">Retail Price:</td>
+																			                <td class="detailvalue"><span style="font-size:12px; color:#7a7a7a;">&nbsp;$49.95&nbsp; </span></td>
+																		                </tr>
+																		            
+																		                <tr>
+																			                <td class="detailspec" style="text-align:right;" valign="top">Our Price:</td>
+																			                <td class="detailvalueprice">
+																			                    <span class="details_ourprice">$39.64</span>
+																				            </td>
+																		                </tr>
+																		                
+																		                <tr>
+																			                <td class="detailspec" style="text-align:right;">You Save:</td>
+																			                <td class="detailvalue">$10.31
+																					            (21%) 
+																				            </td>
+																			            </tr>
+																		            																													                             
+										                                            <tr>
+											                                            <td class="detailspec" style="text-align:right;">Stock Status:</td>
+											                                            <td class="detailvalue"><strong><span class="stockbackorder">Backordered</span></strong></td>
+										                                            </tr>
+										                                            <tr>
+											                                            <td class="detailspec" style="text-align:right;">Usually Ships:</td>
+											                                            <td class="detailvalue"><strong><span class="details_ships"><a rel="shipdetails.asp?s=N" class="attrpreview" title="Product availability information" href="#">1 - 2 Weeks</a></span></strong></td>
+										                                            </tr>										                                										                               	
+									                                                <tr>
+									                                                    <td height="5" class="detailspec"></td>
+									                                                    <td height="5" class="detailvalue"></td>
+									                                                </tr>											
+											                                        <tr>
+						                                                                														
+																			            <td class="detailspec"></td>
+																			            <td class="detailvalue">
+																				            <a href="additem.asp?itemadd=Q878-CA0710-1703&item=CA0710&ITN=addmainproduct"><img src="/nw-img/addtocart_details.gif" alt="" style="border:0;" /></a>
+																			            </td>
+																			            															
+											                                        </tr>
+									                                                <tr>
+									                                                    <td height="5" class="detailspec"></td>
+									                                                    <td height="5" class="detailvalue"></td>
+									                                                </tr>											                            	
+                                                                                    <tr>
+																			            <td class="detailspec" style="text-align:right;">											
+																					            Freight Preview:
+																			            </td>	
+																			            <td class="detailvalue">
+																					            <select style="font-size: 8pt; color:#000000;" name="ddscpreview" id="ddscpreview"><option value="1">Ground 4-7 business day: $8.67</option><option value="0">FedEx 3 business day: $12.30</option><option value="4">FedEx 2 business day: $15.20</option><option value="5">FedEx next business day:: $32.00</option><option value="6">FedEx next business morning: $37.00</option><option value="2">UPS 2 business day: $20.10</option><option value="3">UPS next business day: $39.70</option></select>
+																				            </td>
+																			            </tr>	
+																			            
+                                                                                                
+                                                                                                <tr>
+																					                <td class="detailspec" style="text-align:right;">PCNation #:</td>
+																					                <td class="detailvalue"><span id="details_mpart">CA0710</span></td>
+																				                </tr>
+                                                                                                <tr>
+																					                <td class="detailspec" style="text-align:right;">Manuf. Part:</td>
+																					                <td class="detailvalue"><span id="details_manufpart">SS1000</span></td>
+																				                </tr>
+                                                                                                <tr>
+																					                <td class="detailspec" style="text-align:right;">Condition:</td>
+																					                <td class="detailvalue"><span class="details_condition"><a href="#" rel="condt.asp?C=5" class="attrpreview" title="Product condition">New and Factory Sealed</a></span></td>
+																				                </tr>	
+                                                                                                <tr>
+																					                <td class="detailspec" style="text-align:right;">Weight:</td>
+																					                <td class="detailvalue">1 lbs.</td>
+																				                </tr>																				    																			    																				    																				    	                		                                                                                                                 	
+            														                                                                                           
+                                                                                </table>                                                                               
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td valign="top" colspan="2">
+                                                                                <div class="horizdots_new"></div>
+                                                                                <div class="details_productrating">
+                                                                                    <table width="100%" border="0">
+                                                                                        <tr>
+                                                                                            <td width="213">
+                                                                                            
+                                                                                                                                                                                                                                                                            
+                                                                                            </td>
+                                                                                            <td style="width:5px; background:#fff url(/nw-img/dot_vert.gif) 0 5px repeat-y;"></td>
+                                                                                            <td style="width:140px; vertical-align:top;">                                                           
+                                                                                               <div style="color:#555;font-weight:bold;">Customer Rating</div>
+                                                                                               <div>
+                                                                                               <img src="/nw-img/fullstaroff.gif" class="off" alt="Average rating 0"><img src="/nw-img/fullstaroff.gif" class="off" alt="Average rating 0"><img src="/nw-img/fullstaroff.gif" class="off" alt="Average rating 0"><img src="/nw-img/fullstaroff.gif" class="off" alt="Average rating 0"><img src="/nw-img/fullstaroff.gif" class="off" alt="Average rating 0">
+                                                                                               <br /><span style="font-size:9px;">
+                                                                                                
+                                                                                                <!--a style="font-size:11px;color:#015FB6;" href="#" class="writereview">Write review</a-->                                                                            
+                                                                                                </span>                                                                           
+                                                                                               </div>                                                               
+                                                                                            </td>
+                                                                                            <td style="width:5px; background:#fff url(/nw-img/dot_vert.gif) 0 5px repeat-y;"></td>
+                                                                                            <td>
+                                                                                                                                                            	                                                                                                            	        
+	                                                                                                                    <div id="linkshare" class="clearfix" style=" margin: 5px 0px 3px 5px;color: #555;font-size: 0.9em;"> 
+	                                                                                                                        <ul style="margin:0;padding:0;">
+	                                                                                                                            <li style="float:left;padding-right:7px;">Share:</li>	
+	                                                                                                                            <li style="float:left;padding-right:9px;" class="share"><a class="addthis_button_facebook"></a></li>                                                                                                        	                                                                                                        
+	                                                                                                                            <li style="float:left;padding-right:9px;" class="share"><a class="addthis_button_twitter"></a></li>	                                                                                                        
+	                                                                                                                            <li style="float:left;padding-right:9px;" class="share"><a class="addthis_button_myspace"></a></li>	                                                                                                        
+	                                                                                                                            <li style="float:left;padding-right:9px;" class="share"><a class="addthis_button_digg"></a></li>
+	                                                                                                                            <li style="float:left;padding-right:9px;" class="share"><a class="addthis_button_email"></a></li>
+	                                                                                                                            <li style="float:left;" class="share"><a class="addthis_button_compact"></a></li>
+	                                                                                                                        </ul>	                                                                                                    
+	                                                                                                                    </div>
+	                                                                                                            
+                                                                                                
+                                                                                            </td>                                                              
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </div>                                                                            
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                                                                                                                                                                                                                                                                                         
+                                                                </div>                                                                                                                             
+                                                              
+                                                            <div class="clear"></div>                                                                                             
+                                                        </div>
+                                                                                                               
+			                                        
+			                                        
+			                                        
+			                                        
+			                                        
+                                                    <div id="wait2" style="margin:0;background-color:white;position:relative;left:45%;width:70px;height:50px;display:none;border: 1px solid black;padding:20px;"> 
+                                                        <img src="/nw-img/ajax-loader.gif" style="position:relative;top:0px;left:20px" alt="Loading .." /><br /><br /><span style="font-size:11px;">Please wait...</span>
+                                                    </div>
+                                            
+                                                    <div id='wait' style="margin:0;position:relative; left:25%;display: none; border: 1px solid #cccccc; padding: 10px; background-color: #ffffff; width: 300px"> 
+                                                        <div id='_myoLO_pleaseWaitMessage' align="center" style="color: #000066; font-weight: bold;">Please wait ...</div> 
+                                                        <br /> 
+                                                        <div align="center"> 
+                                                            <img src="/nw-img/ajax-loader.gif" border="0" alt="Loading .."/> 
+                                                        </div> 
+                                                    </div>                                           			                                        
+			                                        	
+                                                    <div id="wrap">
+                                                        
+                                                        <a name="rebate"></a>
+                                                        <div style="border:solid 1px #bcddf7;margin-bottom:20px;">
+                                                            <ul style="margin:0">
+                                                                <li style="background-color:#bcddf7;padding:2px 0 4px 5px;font-weight:bold;font-size:11px;">Information</li>
+                                                                <li style="background:transparent url('../nw-img/details_downarrow.gif') no-repeat scroll 25px 0;height:16px;"></li>
+                                                                
+                                                                <li style="padding:0 5px 10px 10px;font-size:11px;color:#555;">
+                                                                <div class="homepage-block-heading" style="color:#c00">Authorized dealer:</div> 
+                                                                PCNation is an authorized dealer of INTERNATIONAL INNOVATIONS products</li>
+                                                                                                                                
+                                                                <li style="padding:0 5px 10px 10px;font-size:11px;color:#555;">
+                                                                <div class="homepage-block-heading" style="color:#c00">Warranty:</div>
+                                                                1 Year Manufacturer's Warranty</li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                        
+                                                    <!--
+                                                        <div id="productnotes">
+				                                            				                                       				                                                                                                                
+	                                                    </div> 
+	                                                    -->                                                                                                                                        					                                                                      
+	                                                                                                    
+                                                    
+	                                                    <div id="tabbed-box">
+		                                                    <ul class="tabs"> 
+			                                                    <li><a href="#">Product Details</a></li> 
+			                                                    <li><a href="#">Comparables</a></li> 
+			                                                    <li><a href="#">Accessories</a></li> 
+		                                                    </ul> 
+		                                                    <div class="tabbed-content clearfix"> 
+		                                                        <div id="pane_productdetail">
+		                                                            <div id="content_productdeatil">
+		                                                            
+			            <div class="clearfix" style="width:560px;font-size:12px;">
+		                <div><h2 style="font-size:16px;">
+		                
+		                Overview of International Innovations SS1000 5 Megapixel Compact Camera-6.50 mm
+		                </h2></div>
+						<table style="width:560px;font-size:12px;color:#333;line-height:1.6em" cellspacing=0 border="0">
+							<tr>
+								<td valign="top">
+												<table width="100%" border="0" cellspacing="1" cellpadding="0" ID="Table1">
+													<tr>
+														<td valign="top">
+															<table width="100%" border="0" cellpadding="3" cellspacing="1">
+				                                                    <tr>
+				                                                        <td>
+																	
+																			<!--
+																			<table border="0" width="100%" cellspacing="1" bgcolor="#ffffff" cellpadding="0">
+																			    <tr>
+																				    <td valign="top" bgcolor="#ffffff">
+																					    <table border="0" width="100%" bgcolor="#ffffff" cellpadding="1" cellspacing="0" ID="Table2" style="border-collapse:collapse">
+																						    <tr>
+																							    <td height="5"></td>
+																						    </tr>
+																						    <tr>
+																							    <td style="font-family:	verdana,helvetica,arial; FONT-SIZE:8PT;">
+																								    <table cellspacing="1" cellpadding="2" border="0">
+																								        <tr>
+																								            <td colspan="2">
+																								            -->
+																								            
+																									    <!--
+																									    </tr>
+																							        </table>
+																							    </td>
+																						    </tr>
+																					    </table>
+																			        </td>
+																			    </tr>
+																			</table>
+																			-->
+																																				
+																			<table border="0" width="100%" cellspacing="1" bgcolor="#ffffff" cellpadding="0">
+                                                                                																																		
+																			    <tr>
+																			        <td colspan="2">Reliable and low cost polycarbonate housing with electronics mounted directly into housing. This unique new design allows for low cost and reliable waterproof digital cameras.</td>
+																			    </tr>
+																			    <tr><td height="10" colspan="2">&nbsp;</td></tr>
+																			    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>General Information</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Manufacturer:</td>
+																					        <td class="specvalue">International Innovations, Inc</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Manufacturer Part Number:</td>
+																					        <td class="specvalue">SS1000</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Manufacturer Website Address:</td>
+																					        <td class="specvalue">www.intova.net</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Brand Name:</td>
+																					        <td class="specvalue">International Innovations</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Product Model:</td>
+																					        <td class="specvalue">SS1000</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Product Name:</td>
+																					        <td class="specvalue">SS1000 Compact Camera</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Product Type:</td>
+																					        <td class="specvalue">Compact Camera</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Display & Graphics</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Screen Size:</td>
+																					        <td class="specvalue">1.4"</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Display Screen Type:</td>
+																					        <td class="specvalue">LCD</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Effective Camera Resolution:</td>
+																					        <td class="specvalue">5 Megapixel</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Image</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Image Formats:</td>
+																					        <td class="specvalue">JPEG</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Maximum Image Resolution:</td>
+																					        <td class="specvalue">2560 x 1920</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Video</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Video Formats:</td>
+																					        <td class="specvalue">AVI</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Maximum Video Resolution:</td>
+																					        <td class="specvalue">640 x 480</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Maximum Frame Rate:</td>
+																					        <td class="specvalue">30 fps</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Lens</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Optical Zoom:</td>
+																					        <td class="specvalue">Not Applicable</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Digital Zoom:</td>
+																					        <td class="specvalue">4x</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Focal Length:</td>
+																					        <td class="specvalue">6.50 mm</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Aperture Range:</td>
+																					        <td class="specvalue">f/3.1</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Minimum Focus Distance:</td>
+																					        <td class="specvalue">19.69"</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Storage</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Flash Memory Capacity:</td>
+																					        <td class="specvalue">16 MB</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Memory</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Memory Card Support:</td>
+																					        <td class="specvalue">microSD Card</td>
+																					    </tr>
+																					    
+																					    <tr><td height="10" colspan="2"></td></tr>
+																					    <tr><td valign="bottom" colspan="2" class="DescriptionHeader"><b>Battery Information</b></td></tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Number of Batteries Support:</td>
+																					        <td class="specvalue">2</td>
+																					    </tr>
+																					    
+																				        <tr>
+																				            <td class="leftValue" width="30%" valign="top">Battery Size Support:</td>
+																					        <td class="specvalue">AAA</td>
+																					    </tr>
+																					    
+																			</table>
+																			<!-- end of Etilize Part based -->
+																		   
+                                                                    
+																   
+										
+										                                	
+															    </td>
+															    </tr>												
+															</table>
+														</td>
+													</tr>
+												</table>
+								</td>
+							</tr>
+						</table>
+						</div>
+						
+		                                                            </div>
+														        </div>
+		                                                    </div> 
+		                                                    <div class="tabbed-content clearfix"> 
+		                                                        <div id="pane_review">                        		                        
+			                                                        <div id="pane_comparables"></div> 
+			                                                    </div>
+		                                                    </div> 
+		                                                    <div class="tabbed-content clearfix"> 
+		                                                        <div id="pane_accessories"></div> 
+ 		                                                    </div> 
+ 
+	                                                         
+	                                                        	                                                    
+	                                                    </div>  <!-- end of tabbed-box -->	
+	                                                    <div style="padding: 1em 1em 1em 1em;border-top: 3px solid #ddd;border-bottom: 1px solid #ddd;border-left: 1px solid #ddd;border-right: 1px solid #ddd;margin-top:20px; ">	                                                        
+	                                                            <a name="customersurvey"></a>
+	                                                            
+		<div style="width:560px;font-size:12px;color:#333;">
+		<table width="100%" border="0" cellpadding=0 cellspacing=0 ID="Table1">
+			<tr>		
+				<td width="5"><img src='/images/shim.gif' width='1'></td>
+				<td valign=top>
+					<table width="100%" border="0" ID="Table10">
+						<tr>
+							<td style="font-family:arial, verdana; font-size:14px;" valign="middle" align=center><a style="font-family:arial, verdana; font-size:14px;color:#015FB6;" href="digi_survey.asp?div=wh&pitem=Q878-CA0710-1703&item=CA0710&uref=&scr=webpage">Be the first person to review this item</a>.
+							</td>
+						</tr>	
+					</table>					
+				</td>
+			</tr>
+		</table>
+		</div>
+		
+	                                                            <div><ul><li style="font-size:10px;"><a href="#top">Top</a></li></ul></div>	
+	                                                        </div>                                                   
+                                                    </div>  <!-- end of wrap -->  
+                                                    
+                                                    </div>
+                                                    
+                                                    <span id="details_fpart">Q878-CA0710-1703</span>                                                                                
+                                                    <span id="details_mcode">Q878</span>
+                                                    <span id="details_vendor">INTERNATIONAL INNOVATIONS</span>
+                                                    <span id="totreview">0</span>
+                                                    <span id="details_etzimg">1014260540</span>                                                       
+                                        </td>
+                                    </tr>
+                                </table>
+                             
+                                                                                                             
+                        </div> <!-- end of wrapper_details -->
+                        </td>
+                            <td style="width:175px; vertical-align:top; background-color:#f4f4f4;">
+                               <div id="sidebarWrapperRight">
+                                    <div style="padding-left:5px;">  
+                                    <div class="bfp-wrap">
+<a href="http://www.pcnation.com/web/sale_promotion_preview.asp" style="text-decoration:none;"><img src="../nw-img/banner-bf-preview-web-right.gif" alt="Black Friday Preview 2010" /></a>
+</div>
+
+<div class="bfp-wrap">
+<a href="showcase.asp?brand=canon" style="text-decoration:none;"><img src="../nw-img/right-thumb-canonestore-pz.jpg" alt="Visit Canon eStore" /></a>
+</div>
+
+                                    <div class="height5px"></div>                                                                      
+                                                                        
+                                    <div class="customertestominal165"> 
+                                    <h3>Customer Testimonials</h3>                                   
+                                        <p><a href="http://www.pcnation.com/optics-gallery/customersfeedback.asp">You can't go wrong. Best customer service on the web. Secure, no hassle shopping.</a> <br /><br /><a href="http://www.pcnation.com/optics-gallery/customersfeedback.asp"><u>Read what our customers have to say</u>.</a><br />
+                                        </p> 
+                                    </div>                                  
+                                    <div class="height5px"></div>                                    
+                                        
+		                          <div class="boxhotdeals165"> 
+                                    <h3>Hot Deals</h3>
+                                    <div class="col_hotdeals">	
+				
+													
+				
+											
+                                            <div class="prod_hotdeals">
+                                            <h4>
+                                            
+                                                <a href="details.asp?item=2N149P">NIKON - 25454 D5000 Dslr W/ 18-55vr 12.3 Mp</a>
+                                            
+                                            </h4>
+                                                    <div class="clearfix">
+                                                        <div style="float:left;padding:3px 0 3px 5px;">
+                                                        <div class="imgthumb" title="etzid=1013212110&fullpart=2637-2N149P-1703&mainpart=2N149P&mcode=2637&vendor=NIKON&mpart=25454"></div>                                                       
+                                                        </div>
+                                                        <div></div>
+                                                    </div>
+                                                    <div>
+                                                        <ul style="margin:0;">        
+                                                            <li class="price">
+                                                            $699.95
+                                                             </li>
+                                                            <li class="btnbuynow"><a href="additem.asp?itemadd=2637-2N149P-1703&item=2N149P&ITN=adddealproduct">Add to cart</a></li>
+                                                        </ul>                                                    
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="horizontal_line_hotdeals"></div>  
+                                                	
+											
+                                            <div class="prod_hotdeals">
+                                            <h4>
+                                            
+                                                <a href="details.asp?item=3C275P">CANON - Eos  Rebel T1i  Black 18-55 Is, 15.1 Mp, Sd</a>
+                                            
+                                            </h4>
+                                                    <div class="clearfix">
+                                                        <div style="float:left;padding:3px 0 3px 5px;">
+                                                        <div class="imgthumb" title="etzid=1013118701&fullpart=3282-3C275P-1703&mainpart=3C275P&mcode=3282&vendor=CANON&mpart=3818B002"></div>                                                       
+                                                        </div>
+                                                        <div></div>
+                                                    </div>
+                                                    <div>
+                                                        <ul style="margin:0;">        
+                                                            <li class="price">
+                                                            $749.00
+                                                             </li>
+                                                            <li class="btnbuynow"><a href="additem.asp?itemadd=3282-3C275P-1703&item=3C275P&ITN=adddealproduct">Add to cart</a></li>
+                                                        </ul>                                                    
+                                                    </div>
+                                                </div>
+                                                	
+													
+								    </div>	
+											
+								</div>
+
+     
+                                        <div class="height5px"></div>
+                                                                                                                         
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                </table>               
+        </td>
+     </tr>
+</table>
+</div>
+<div id="sec_footer" style="vertical-align:top;">
+<div id="footerWrapper" style="padding:19px;">
+    <ul class="about"> 
+        <li class="ftTitle">Company Info</li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/about.asp">About PCNation</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/corporate.asp">Corporate Accounts</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/government.asp">Government Sales</a></li> 
+         <li><a href="https://www.pcnation.com/account/accountinfo.asp">My Account</a></li>
+        
+        <!--li class="ftTitle2">Partner Program</li-->           
+    </ul>
+    <ul class="about">
+        <li class="ftTitle">Services</li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/rebates.asp">Rebate Center</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/careers.asp">Job Listings</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/paymethods.asp">Payment Methods</a></li>    
+        <li><a href="http://www.pcnation.com/optics-gallery/techsupport.asp">Tech Support</a></li>             
+       
+    </ul>
+    <ul class="about"> 
+        <li class="ftTitle">Support</li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/contact.asp">Contact Us</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/ordertracking.asp">Order Tracking</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/rmarequest.asp">Return Request</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/shippers.asp">Shipping Info</a></li> 
+    </ul>
+    <ul class="about">
+        <li class="ftTitle">Security & Policies</li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/security.asp">Security and Privacy</a></li> 
+        <li><a href="http://www.pcnation.com/optics-gallery/termspolicies.asp">Terms and Policies</a></li>
+        <li><a href="http://www.pcnation.com/optics-gallery/returnpolicy.asp">Return Policy</a></li>         
+        <li><a href="http://www.pcnation.com/optics-gallery/termsofuse.asp">Terms and Conditions of Use</a></li>         
+    </ul>
+    <!--
+    <ul class="dots">
+        <li class="promo ftTitle">Newsletter & Offers</li> 
+        <li class="promo">
+	        Receive special offers and<br />
+	         gift ideas from PCNation:<br />
+             <form action="#" method="GET" style="margin:0px;"> 
+	         <input type="hidden" name="subscribe_only" value="1" /> 
+		         <table style="padding-top: 10px;" cellpadding="0" cellspacing="0"> 
+		            <tr> 
+		                <td> 
+		                    <input type="text" name="email" class="PagingFilterDropDown" value="Enter your e-mail" size="15" /> 
+		                </td> 
+		                <td width="3"></td> 
+		                <td> 
+		                    <input type="submit"  value="Submit" /> 
+		                </td> 
+		            </tr>
+		         </table>
+		         </form>        
+        </li>
+    </ul> 
+    -->        
+    </div>
+    <div class="clear"></div>
+</div><script language="JavaScript" src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js" type="text/javascript"></script>
+<div style="margin:20px 0 0 0;text-align:center;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" ID="Table1" width="100%">						
+		<tr>
+			<td valign="top">
+				<table align=center border="0" cellpadding="0" cellspacing="0" ID="Table2">
+					<tr>
+						<td valign="top" align="center">&nbsp;</td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>	
+
+						<td><a href="http://www.bizrate.com/ratings_guide/cust_reviews__mid--31427.html" target="bizrate.com">
+						<img src="http://medals.bizrate.com/medals/dynamic/31427_medal.gif" alt="BizRate Customer Certified (GOLD) Site" width="125" height="73" align="top" border="0" target="_blank"></a></td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>
+						
+						<td width="113">
+						    <table cellspacing="0">
+						        <tr>
+						            <td><a href="http://www.nextag.com/PCNation~142979zzzreviewsz1zmainz17-htm" target="_blank"><img src="http://www.nextag.com/seller/NextagLogo.jsp?seller=142979" alt="NexTag Seller" border="0"/></a></td>
+						        </tr>
+						        <tr>
+						            <td align="center"><img src="/images/stars5_12px.gif" /></td>
+						        </tr>
+						    </table>
+						</td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>
+							
+						<td>
+							<a href="http://www.pricegrabber.com/rating_getreview.php/retid=380" target="_blank"><img border="0" src="https://a248.e.akamai.net/f/248/10025/1d/www.pricegrabber.com/merchant_rating_image_secure.php?retid=380" alt="PriceGrabber User Ratings for PCNation"></a>
+							<!-- script type="text/javascript">SiteSeal("http://seal.networksolutions.com/images/colorsealbasic.gif", "NETSB", "none");</script -->
+						</td>	
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>
+						<td><script language="JavaScript" type="text/javascript"> SiteSeal("https://seal.networksolutions.com/images/evsqgreen.gif", "NETEV", "none");</script></td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>					
+						
+						<td width="102"><img src="/images/shopping.gif"></td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>
+						<td><a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.pcnation.com"><img width="65" height="37" border="0" src="//images.scanalert.com/meter/www.pcnation.com/31.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." oncontextmenu="alert('Copying Prohibited by Law - HACKER SAFE is a Trademark of ScanAlert'); return false;"></a></td>
+						<td width="15" bgcolor="#ffffff"><img src="/images/shim.gif" width="2"></td>
+						<td><img border="0" src="/images/CNET.gif"></td>
+						<td valign="top" align="center">&nbsp;</td>		
+					</tr>
+				</table>
+			</td>
+		</tr>												
+</table>
+</div>
+<div id="copyrightwrap">
+Copyright � 1996-2010 PCNation. All rights reserved.
+</div>	
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3724380-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>	
+		 	
+
+
+						
+					
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var addthis_pub = "pcnation";
+    var addthis_brand = 'PCNation';
+    var addthis_logo_color = '666699';
+</script>
+<script type="text/javascript" src="../scripts/js/plugs/jquery.qtip-1.0.0-beta4.min.js"></script> 
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" src="http://sb.sellpoint.net/smart_button/pcnation.js"></script>
+<script type="text/javascript">
+    //required
+    vsr_sku = 'CA0710';
+
+    //required
+    window.show_vsr_button ? show_vsr_button() : '';                                     
+</script>
+
+
+
+

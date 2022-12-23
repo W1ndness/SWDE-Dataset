@@ -1,0 +1,784 @@
+﻿<base href="http://en.ca.msn.stats.com/nba/playerstats.asp?id=3704"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xml:lang="en-ca" lang="en-ca" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="urn:schemas-microsoft-com/web"><head><meta http-equiv="X-UA-Compatible" content="IE=7" /><title> NBA Player Stats - LeBron James - Miami Heat - Sports - MSN CA</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="SHORTCUT ICON" href="http://blstc.msn.com/br/csl/img/1/favicon.ico" type="image/x-icon" /><meta name="description" content="[[description]]" /><meta name="keywords" content="" /><meta http-equiv="pics-label" content="(pics-1.1 &quot;http://www.icra.org/ratingsv02.html&quot; comment &quot;Single file v2.0&quot; l gen true for &quot;http://sports.ca.msn.com&quot; r (nz 1 vz 1 lz 1 oz 1 cz 1) &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true for &quot;http://sports.ca.msn.com&quot; r (n 0 s 0 v 0 l 0)" /><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/9/gtl_sitegeneric.css");@import url("http://blstc.msn.com/br/gbl/css/8/01.css");@import url("http://blstc.msn.com/br/csl/css/4c0ac779b66e62f82b576cec54403cb1/css.css");@import url("http://blstc.msn.com/br/intl/css/custom_h1.css ");@import url("http://blstc.msn.com/br/csl/css/themes/1/theme01.css");</style><!--[if IE]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/9/ie.css");@import url("http://blstc.msn.com/br/csl/css/1/mni_longhorizontal_ie.css");</style><![endif]--><!--[if IE 6]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/2/ie6.css");</style><![endif]--><!--[if lt IE 5.5000]><style type="text/css">@import url("http://blstc.msn.com/br/gbl/css/8/ie5.css");</style><![endif]--><!--[if !IE]>--><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/mozcompat.js"></script><!--<![endif]--><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/core.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/2/report.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/1/jquery-1.3.2.min.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/1/navigation.js"></script><script type="text/javascript" src="http://ads1.msn.com/library/dap.js"></script><script type="text/javascript" src="http://blstj.msn.com/br/csl/js/d120335c0f0829d1f2ed9fce2851acaf/js.js"></script><script type="text/javascript">/*<![CDATA[*/(function($){function isNumber(obj,min,max){return(typeof obj=="number")&&(isNumber(min)?obj>=min:true)&&(isNumber(max)?obj<=max:true)}
+function isString(obj,minLength){return(typeof obj=="string")&&(isNumber(minLength)?obj.length>=minLength:true);}
+var $isArray=$.isArray;var urlRegExp=/^((ht|f)tps?\:\/\/)((([a-z0-9\-]+\.)+[a-z]{2,4})|((\d{1,3}\.){3}\d{1,3})(:[0-9]+)?)(\/([a-z0-9\-_\.\?!~\*\'\(\);\/\?:@&=\+\$,%#])*|\/?)$/i;function getObjectWithNamespace(objName){var ns=objName.split('.'),o=window,i,len=ns.length;for(i=0;i<len;i++){o=o[ns[i]];if(o==null)
+return null;}
+return o;}
+$.extend({isNumber:isNumber,isString:isString,isAbsoluteUrl:function(obj){return isString(obj)&&urlRegExp.test(obj);},isObject:function(obj){return(typeof obj=="object")&&(obj!==null);},isDefined:function(obj){return(typeof obj!="undefined");},isArray:function(obj,minLength){return $isArray(obj)&&(isNumber(minLength)?obj.length>=minLength:true);},getObjectWithNamespace:getObjectWithNamespace});})(jQuery);(function($){var defaults={timeout:250};var pending={};var pollList=[];var timerId;var $isString=$.isString;var $isFunction=$.isFunction;var w=window;function async(test,action,url){var canary;if($isString(test,1)&&(canary=(this[test])||$.getObjectWithNamespace(test))){if($isFunction(action)){action.apply(this);}
+else if($isFunction(canary)){if($.isArray(action)){canary.apply(this,action);}
+else if(!$.isDefined(action)){canary.apply(this);}}}
+else if($isString(url)){var testQueue=pending[url];if(testQueue){testQueue.push(new testItem(test,action,this));}
+else{pending[url]=[new testItem(test,action,this)];$.ajax({url:url,dataType:"script",cache:1,success:function(){testQueue=pending[url];for(var item,ndx=0;(item=testQueue[ndx]);++ndx){retryTest(item);}}});}}
+else if($isString(test,1)){pollList.push(new testItem(test,action,this));if(!timerId){timerId=w.setTimeout(pollCallback,defaults.timeout);}}}
+function pollCallback(){var list=pollList;pollList=[];for(var item,ndx=0;(item=list[ndx]);++ndx){retryTest(item);}
+timerId=(pollList.length==0?0:w.setTimeout(pollCallback,defaults.timeout));}
+function retryTest(item){async.call(item.callee,item.test,item.action);}
+function testItem(test,action,callee){this.test=test;this.action=action;this.callee=callee;}
+$.async=$.fn.async=w.async=async;$.async.defaults=defaults;})(jQuery);//]]></script></head><body class="wide"><div id="reporting"><img id="ctag" width="1" height="1" alt="" src="http://c.msn.com/c.gif?di=13995&amp;pi=11654&amp;ps=10300&amp;tp=http://sports.ca.msn.com/Partner/NBA_Player_Stats.aspx&amp;rf=" /><div id="omni"><script type="text/javascript">var s_account='msnportalsportsenca';</script><script type="text/javascript" src="http://blstj.msn.com/br/om/js/s_code.js"></script><script type="text/javascript">s.charSet='UTF-8';s.linkInternalFilters='javascript:,sports.ca.msn.com';s.pageName='PlayerStats|NBA|Sports';s.server='sports.ca.msn.com';s.prop1='Sports';s.prop2='en-ca';s.channel='Sports';s.prop22='False';s.prop25='';s.prop26='';s.prop3='NBA';s.prop4='PlayerStats';s.prop49='';s.prop50=escape(document.URL);s.eVar1=s.getQueryParam('cp-documentid');s.prop11='';s.prop37='';var s_code=s.t();if(s_code)document.write(s_code);</script><script type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script><noscript><div><img src="http://msnportalsportsenca.112.2O7.net/b/ss/msnportalsportsenca/1/H.1--NS/0" height="1" width="1" alt="" /></div></noscript></div><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/6/linktracking.js"></script></div><div id="wrapper" class="page6 region9"><div id="head"><div id="banner" class="parent chrome1 single1"><div class="child c1 first"><div class="advertisement"><script type="text/javascript">dap("&amp;PG=CESNB7&amp;AP=1390",728,90);</script></div></div></div><div class="parent chrome6 single1"><div class="child c1 first"><div class="msnhead1 cf"><ul id="big3" class="linklist9"><li class="first"><a href="javascript:if(!window.innerHeight){document.getElementById('optlinks').getElementsByTagName('a')[0].style.behavior='url(#default#homepage)';document.getElementById('optlinks').getElementsByTagName('a')[0].setHomePage('http://ca.msn.com/')};">Make MSN.ca your homepage</a></li><li><a href="http://www.hotmail.com">Hotmail</a></li><li class="last"><a href="http://video.msn.com/video.aspx?mkt=en-ca">Video</a></li></ul><ul id="xnav"><li class="first selected"><a href="http://autos.ca.msn.com">Autos</a></li><li><a href="http://money.ca.msn.com">Money</a></li><li><a href="http://entertainment.ca.msn.com">Entertainment</a></li><li><a href="http://lifestyle.ca.msn.com">Lifestyle</a></li></ul><div id="more" class="col5 cf"><ul class="linkedimglinklist1 cf"><li class="first"><a href="http://go.microsoft.com/?linkid=9670787"><img src="http://col.stb.s-msn.com/i/B6/32E46DE281A68B9C33FC582D2569D.gif" width="25" height="20" alt="Envelope" /><span>Hotmail</span></a></li><li><a href="http://go.microsoft.com/?linkid=9652686"><img src="http://col.stb.s-msn.com/i/E3/6C1DD5E3386DEAE0954D8340F25A.gif" width="25" height="20" alt="Two people figures" /><span>Messenger</span></a></li><li><a href="http://ca.my.msn.com/?lang=en-ca"><img src="http://col.stb.s-msn.com/i/48/6CDE404B4BFEC334D023E5422081E0.gif" width="25" height="20" alt="Figure of person in front of computer monitor" /><span>My MSN</span></a></li><li class="last"><a href="http://ca.msn.com/directory.aspx"><img src="http://col.stb.s-msn.com/i/78/7CE57843948D6DF13E79A2DE4E15C.gif" width="25" height="20" alt="Figure of an arrow pointing to screen" /><span>MSN Directory</span></a></li></ul><ul class="linklist1"><li class="first"><a href="http://autos.ca.msn.com/">Autos</a></li><li><a href="http://toolbar.msn.com/default.aspx?loc=en-ca">Bing Toolbar</a></li><li><a href="http://msn.careerbuilder.ca/ca/custom/msn/default.aspx?lr=int_camsn&amp;siteid=camsnen">Careers</a></li><li><a href="http://entertainment.ca.msn.com/celebs/">Celebs</a></li><li class="last"><a href="http://dating.ca.msn.com/matchus/index.aspx?TrackingID=525768&amp;BannerID=666406">Dating</a></li></ul><ul class="linklist1"><li class="first"><a href="http://entertainment.ca.msn.com/">Entertainment</a></li><li><a href="http://games.ca.zone.msn.com/">Games</a></li><li><a href="http://lifestyle.ca.msn.com/health-fitness/">Health &amp; Fitness</a></li><li><a href="http://astrology.ca.msn.com/">Horoscopes</a></li><li class="last"><a href="http://lifestyle.ca.msn.com/">Lifestyle</a></li></ul><ul class="linklist1"><li class="first"><a href="http://windowsliveformobile.com/en-ca/home/default.aspx">Mobile</a></li><li><a href="http://money.ca.msn.com/">Money</a></li><li><a href="http://entertainment.ca.msn.com/movies/">Movies</a></li><li><a href="http://entertainment.ca.msn.com/music/">Music</a></li><li class="last"><a href="http://news.ca.msn.com/">News</a></li></ul><ul class="linklist1"><li class="first"><a href="http://shopping.ca.msn.com/">Shopping</a></li><li><a href="http://sports.ca.msn.com/">Sports</a></li><li><a href="http://tech.ca.msn.com/">Tech &amp; Gadgets</a></li><li><a href="http://travel.ca.msn.com/">Travel</a></li><li class="last"><a href="http://video.msn.com/video.aspx?mkt=en-ca">Video</a></li></ul><ul class="linklist1"><li class="first"><a href="http://weather.ca.msn.com/">Weather</a></li><li><a href="http://www.msn.yellowpages.ca/">Yellow Pages ™</a></li><li class="last"><a href="http://ca.msn.com/directory.aspx"><strong>MORE…</strong></a></li></ul><script type="text/javascript">Msn.Header.bind("#head",{more:"more"});</script></div><div id="brand" class="gtl_01"><div id="logo"><a href="http://ca.msn.com/?lang=en-ca"><img src="http://blstj.msn.com/br/gbl/lg/1/m/msft.gif" alt="Go to MSN.ca" width="118" height="35" /></a><a class="name" href="http://sports.ca.msn.com">Sports</a></div><form id="search" action="http://www.bing.com/search" method="get" onsubmit="return Msn.Report.TrackForm(this)"><div><label accesskey="s" for="q">Live search:</label><input type="hidden" name="FORM" value="SBSPOR" /><input type="hidden" name="mkt" value="en-ca" /><div id="ntwscopes"></div><div id="leftcorner"></div><div id="searchform"><div class="searchinputarea"><div class="searchinput"><input type="text" id="q" name="q" class="typing" maxlength="215" title="Search for" /></div><div class="searchsubmit"><input type="image" id="spyglass" src="http://blstc.msn.com/br/gbl/css/9/decoration/searchicon_22x22.gif" alt="Search" /></div></div></div><div id="ntwlogo"><input type="image" id="logoimg" src="http://blstc.msn.com/br/gbl/css/9/decoration/logo_56x29.png" alt="bing.com" /></div><div id="rightcorner"></div></div></form><script type="text/javascript">Msn.SiteSearch.bind("#search",{searchParam:"q",searchParams:"mkt=en-ca&amp;nav-msnchannelsnavigator=Sports",searchUrl:"http://search.ca.msn.com/sports/",sitetext:"Search Sports",webtext:"Web",siteSearchOn:"true",helpertext:"",onepxgif:"http://blstc.msn.com/br/gbl/css/9/decoration/t.gif"});</script><div id="optlinks" class="link"><a href="http://sport.ca.msn.com">français</a></div></div></div></div></div></div><div id="page"><div id="nav"><div class="parent chrome6 single1"><div class="child c1 first"><div class="nav3 cf"><ul><li class="first"><a href="http://sports.ca.msn.com/ ">Home</a></li><li class="pretab"><a href="http://sports.ca.msn.com/nhl/">NHL</a></li><li class="expanded notselected"><a href="http://sports.ca.msn.com/nba/">NBA</a><ul><li class="first"><a href="http://en.ca.msn.stats.com/nba/scoreboard.asp">Scores</a></li><li><a href="http://en.ca.msn.stats.com/nba/league.asp?type=stand">Standings</a></li><li class="selected"><a href="http://en.ca.msn.stats.com/nba/players.asp"><strong>Player Stats</strong></a></li><li class="last"><a href="http://en.ca.msn.stats.com/nba/teams.asp">Team Stats and Schedules</a></li></ul></li><li><a href="http://sports.ca.msn.com/mlb/">MLB</a></li><li><a href="http://sports.ca.msn.com/cfl/">CFL</a></li><li class="last"><a href="http://sports.ca.msn.com/nfl/">NFL</a></li></ul></div></div></div></div><div id="content"><div id="subhead" class="ca"></div><div id="mediapage4"><div id="mediapage4column1and3"><div id="infotop" class="ca mpreg5"><!----><div class="child c1 first"><div class="child c1 first">
+<link rel="stylesheet" type="text/css" href="/config/shsdefault.css">
+<link rel="stylesheet" type="text/css" href="/shs.css">
+<link rel="stylesheet" type="text/css" href="/config/nbadefault.css">
+<link rel="stylesheet" type="text/css" href="/nba.css">
+<table cellspacing="0" id="shsNavTable"><tr><th colspan="19">NBA Basketball</th></tr><tr><td><a href="/nba/scoreboard.asp">Scoreboard</a></td><td>|</td><td><a href="/nba/index.asp?season=reg">Stats</a></td><td>|</td><td><a href="/nba/standings.asp">Standings</a></td><td>|</td><td><a href="/nba/teams.asp">Teams</a></td><td>|</td><td><a href="/nba/players.asp">Players</a></td><td>|</td><td><a href="/nba/notes.asp?type=news">Player News</a></td><td>|</td><td><a href="/nba/notes.asp?type=inj">Injuries</a></td><td>|</td><td><a href="/nba/notes.asp?type=trans">Transactions</a></td><td class="shsHomeLink">|</td><td class="shsHomeLink"><a href="/nba/front.asp">Home</a></td></tr></table>
+
+<div id="shsBody">
+<div id="shsNBAPlayerStats">
+
+
+<!--
+	<div style="clear: both; height: 160px">
+		<div style="width: 40%; float: left"></div>
+		<div style="width: 58%; height: 150px; float: right; padding: 5px">
+			<script language="JavaScript" src="/api/nba_player.js.asp?id=3704"></script>
+		</div>
+	</div>
+-->
+	<table cellspacing="1" class="shsSportMastHead"><tr><!-- HEADSHOT 
+<td class="shsPlayerHeadShot"><img src="http://hosted.stats.com/nba/graphics/headshots/nba_3704.jpg" class="shsHeadshot"></td> HEADSHOT -->
+
+
+<td><table cellspacing="1" class="shsTable" style="width: 100%"><tr><td class="shsTeamLogo" style="width: 50px;"><span class="team14lg_trans"></span></td><td class="shsPlayerBasicInfo">#6<br><strong class="shsPlayerName">LeBron James</strong></td><td class="shsPlayerStatBoxTD shsNumD" style="width: 180px;"><div class="shsPlayerStatBoxContainer"><table width="100%" cellspacing="0" cellpadding="0" border="0" class="shsTable shsBorderTable" id="shsPlayerStatBox"><tbody><tr class="shsColTtlRow">
+<td class="shsTotD" width="33%">PPG</td>
+<td class="shsTotD" width="33%">RPG</td>
+<td class="shsTotD" width="33%">APG</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsTotD" style="text-align: center">
+23.7
+</td>
+<td class="shsTotD" style="text-align: center">
+5.7
+</td>
+<td class="shsTotD" style="text-align: center">
+7.3
+</td>
+</tr>
+</tbody></table></div></td></tr></table><div class="shsContentDivider"></div><table cellspacing="1" class="shsTable shsPlayerBioInfo"><tr><td class="shsNamD"><strong>Team: </strong><a href="/nba/teamstats.asp?teamno=14&amp;type=teamhome">Miami Heat</a></td><td class="shsNamD"><strong>Height: </strong>6-8</td>
+<td class="shsNamD"><strong>Born: </strong>12/30/1984      </td>
+</tr><tr>
+<td class="shsNamD"><strong>Position: </strong>SF</td><td class="shsNamD"><strong>Weight: </strong>250</td>
+<td class="shsNamD"><strong>Birthplace: </strong>Akron, Ohio</td>
+</tr>
+<tr>
+<td class="shsNamD"><strong>College: </strong>None</td><td class="shsNamD" colspan="2"><strong>Draft: </strong>1st Round 1st pick by Cavaliers (2003)</td>
+</tr>
+</table></td></tr></table><br><!--TITLE PLAYER: LeBron James - Miami Heat-->
+<br /><div class="shsPlayerPageNav"><div class="shsPlayerStatsTab" ><strong>Stats</strong></div><div class="shsPlayerSplitsTab" ><a href="/nba/playerstats.asp?id=3704&page=splits">Splits</a></div><div class="shsPlayerLogsTab" ><a href="/nba/playerstats.asp?id=3704&page=logs">Game Logs</a></div><div class="shsPlayerNewsTab" ><a href="/nba/playerstats.asp?id=3704&page=news">News</a></div></div>
+<div class="shsTopPlayerNews"><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow"><td colspan="2" class="shsTotD">Latest News</td></tr><tr class="shsRow0Row shsTopNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Dec. 3 <span class="shsTimezone shsPTZone">9:29 PM PT</span><span class="shsTimezone shsMTZone">10:29 PM MT</span><span class="shsTimezone shsCTZone">11:29 PM CT</span><span class="shsTimezone shsETZone">12:29 AM ET</span><span class="shsTimezone shsGMTZone">5:29 GMT</span><span class="shsTimezone shsCSTZone">1:29 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:29 PM MST</span><span class="shsTimezone shsESTZone">12:29 AM EST</span><span class="shsTimezone shsUAEZone">9:29 UAE</span><span class="shsTimezone shsCETZone">05:29 CET</span> - </b></i>James scored a season-high 38 points - 24 in a third-quarter clinic - to lead the Miami Heat in a 118-90 blowout win over the Cavaliers, taming a hostile Cleveland crowd even before halftime Thursday night.<br><b>Analysis: </b>James had 10 more points than Cleveland's starting lineup, including half during a 16-0 first-quarter run that immediately knocked the Cavaliers back. James sat on the bench for all of the fourth quarter, with dozens of security guards and police lining the team's entrance to the court and guarding against objects thrown at him. After the clock ran out, he left without incident.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Dec. 3 <span class="shsTimezone shsPTZone">1:49 PM PT</span><span class="shsTimezone shsMTZone">2:49 PM MT</span><span class="shsTimezone shsCTZone">3:49 PM CT</span><span class="shsTimezone shsETZone">4:49 PM ET</span><span class="shsTimezone shsGMTZone">21:49 GMT</span><span class="shsTimezone shsCSTZone">5:49 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">2:49 PM MST</span><span class="shsTimezone shsESTZone">4:49 PM EST</span><span class="shsTimezone shsUAEZone">1:49 UAE</span><span class="shsTimezone shsCETZone">21:49 CET</span> - </b></i>James could score more than 100 points and Ohio Gov.-elect John Kasich (KAY'-sik) would still not sing his praises. The incoming governor told reporters Friday he doesn't care if James scores 120 points, ``he didn't get any favor with me.''<br><b>Analysis: </b>Kasich had taken some heat himself from Democrats in his gubernatorial campaign for saying he was not overly concerned about James leaving Cleveland. He had said he was ``not singing in any chorus'' to persuade the NBA superstar to stay in the state. He was referring to a music video in which Gov. Ted Strickland and Cleveland celebrities appeared, urging James not to leave.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Dec. 2 <span class="shsTimezone shsPTZone">9:11 PM PT</span><span class="shsTimezone shsMTZone">10:11 PM MT</span><span class="shsTimezone shsCTZone">11:11 PM CT</span><span class="shsTimezone shsETZone">12:11 AM ET</span><span class="shsTimezone shsGMTZone">5:11 GMT</span><span class="shsTimezone shsCSTZone">1:11 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:11 PM MST</span><span class="shsTimezone shsESTZone">12:11 AM EST</span><span class="shsTimezone shsUAEZone">9:11 UAE</span><span class="shsTimezone shsCETZone">05:11 CET</span> - </b></i>James scored 18 points and the Heat rolled past the Detroit Pistons 97-72 on Wednesday night, dominating the second half with defense.<br><b>Analysis: </b>Next up: James' homecoming-of-sorts in Cleveland, the city he scorned in free agency, on Thursday night. James may put up more points against the Cavaliers, but it wouldn't be surprising if the hostile crowd goads its former hometown son into at least six turnovers - a fantasy owner's nightmare.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Dec. 2 <span class="shsTimezone shsPTZone">11:10 AM PT</span><span class="shsTimezone shsMTZone">12:10 PM MT</span><span class="shsTimezone shsCTZone">1:10 PM CT</span><span class="shsTimezone shsETZone">2:10 PM ET</span><span class="shsTimezone shsGMTZone">19:10 GMT</span><span class="shsTimezone shsCSTZone">3:10 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">12:10 PM MST</span><span class="shsTimezone shsESTZone">2:10 PM EST</span><span class="shsTimezone shsUAEZone">23:10 UAE</span><span class="shsTimezone shsCETZone">19:10 CET</span> - </b></i>Basketball fans worldwide have had Thursday circled on their calendars for weeks, as James and the Miami Heat prepared to meet the Cavaliers in Cleveland for the first time since he signed with Miami - and spurned his original team - in July.<br><b>Analysis: </b>James' hyped return has been building, of course, for five months, since the moment he famously sat on a director's chair at a Boys and Girls Club in Greenwich, Conn., and announced to the world during a one-hour television special that he would be aligning with fellow stars Dwyane Wade and Chris Bosh in South Beach. That was his ``Decision,'' his moment. On Thursday night, Cavaliers fans finally get theirs.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Dec. 2 <span class="shsTimezone shsPTZone">2:24 PM PT</span><span class="shsTimezone shsMTZone">3:24 PM MT</span><span class="shsTimezone shsCTZone">4:24 PM CT</span><span class="shsTimezone shsETZone">5:24 PM ET</span><span class="shsTimezone shsGMTZone">22:24 GMT</span><span class="shsTimezone shsCSTZone">6:24 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:24 PM MST</span><span class="shsTimezone shsESTZone">5:24 PM EST</span><span class="shsTimezone shsUAEZone">2:24 UAE</span><span class="shsTimezone shsCETZone">22:24 CET</span> - </b></i>James is in the house, just not his anymore. At 5:33 p.m., and five months after he announced he was leaving the Cleveland Cavaliers after seven seasons for Miami, James stepped back inside Quicken Loans Arena for the first time as a visiting player. While it was freezing outside, the forecast inside was for a storm of boos. As he practiced 3-pointers, James was circled by a horde of photographers and TV cameras chronicling his every move.<br><b>Analysis: </b>After having his bags checked at security, James, wearing oversized glasses for some reason, a black stocking cap and leather jacket with the phrase: "Time To Roll'' across the back, didn't say a word as he walked toward Miami's locker room - a place he had never been before. James saluted an arena security guard before ducking inside and preparing for what was expected to be a hostile homecoming for the Akron native.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 29 <span class="shsTimezone shsPTZone">6:53 PM PT</span><span class="shsTimezone shsMTZone">7:53 PM MT</span><span class="shsTimezone shsCTZone">8:53 PM CT</span><span class="shsTimezone shsETZone">9:53 PM ET</span><span class="shsTimezone shsGMTZone">2:53 GMT</span><span class="shsTimezone shsCSTZone">10:53 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">7:53 PM MST</span><span class="shsTimezone shsESTZone">9:53 PM EST</span><span class="shsTimezone shsUAEZone">6:53 UAE</span><span class="shsTimezone shsCETZone">02:53 CET</span> - </b></i>James had 30 points in Monday's win over the Wizards.<br><b>Analysis: </b>This is the fourth time this season James has scored at least 30 points.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 22 <span class="shsTimezone shsPTZone">7:24 PM PT</span><span class="shsTimezone shsMTZone">8:24 PM MT</span><span class="shsTimezone shsCTZone">9:24 PM CT</span><span class="shsTimezone shsETZone">10:24 PM ET</span><span class="shsTimezone shsGMTZone">3:24 GMT</span><span class="shsTimezone shsCSTZone">11:24 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">8:24 PM MST</span><span class="shsTimezone shsESTZone">10:24 PM EST</span><span class="shsTimezone shsUAEZone">7:24 UAE</span><span class="shsTimezone shsCETZone">03:24 CET</span> - </b></i>James scored 25 points as the Heat fell 93-77 to Indiana on Monday.<br><b>Analysis: </b>James added six assists and five boards for Miami, which fell to 8-6 for the season.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 20 <span class="shsTimezone shsPTZone">10:50 PM PT</span><span class="shsTimezone shsMTZone">11:50 PM MT</span><span class="shsTimezone shsCTZone">12:50 AM CT</span><span class="shsTimezone shsETZone">1:50 AM ET</span><span class="shsTimezone shsGMTZone">6:50 GMT</span><span class="shsTimezone shsCSTZone">2:50 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">11:50 PM MST</span><span class="shsTimezone shsESTZone">1:50 AM EST</span><span class="shsTimezone shsUAEZone">10:50 UAE</span><span class="shsTimezone shsCETZone">06:50 CET</span> - </b></i>James scored 32 points and dished out five assists in Friday night's 95-87 win over Charlotte.<br><b>Analysis: </b>Since distributing three assists in the season opener, James has registered at least five in all 11 games.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 18 <span class="shsTimezone shsPTZone">9:34 PM PT</span><span class="shsTimezone shsMTZone">10:34 PM MT</span><span class="shsTimezone shsCTZone">11:34 PM CT</span><span class="shsTimezone shsETZone">12:34 AM ET</span><span class="shsTimezone shsGMTZone">5:34 GMT</span><span class="shsTimezone shsCSTZone">1:34 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:34 PM MST</span><span class="shsTimezone shsESTZone">12:34 AM EST</span><span class="shsTimezone shsUAEZone">9:34 UAE</span><span class="shsTimezone shsCETZone">05:34 CET</span> - </b></i>James put up 20 points and dished out nine assists in Wednesday night's 123-96 win over Phoenix.<br><b>Analysis: </b>James is averaging 10.6 assists over his previous seven games.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 14 <span class="shsTimezone shsPTZone">10:05 PM PT</span><span class="shsTimezone shsMTZone">11:05 PM MT</span><span class="shsTimezone shsCTZone">12:05 AM CT</span><span class="shsTimezone shsETZone">1:05 AM ET</span><span class="shsTimezone shsGMTZone">6:05 GMT</span><span class="shsTimezone shsCSTZone">2:05 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">11:05 PM MST</span><span class="shsTimezone shsESTZone">1:05 AM EST</span><span class="shsTimezone shsUAEZone">10:05 UAE</span><span class="shsTimezone shsCETZone">06:05 CET</span> - </b></i>James scored 23 and dished out 11 assists in Saturday night's 109-100 win over Toronto.<br><b>Analysis: </b>James has attempted 42 shots from the floor over the past couple of games after averaging 15 in the Heat's first eight contests.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 12 <span class="shsTimezone shsPTZone">9:47 PM PT</span><span class="shsTimezone shsMTZone">10:47 PM MT</span><span class="shsTimezone shsCTZone">11:47 PM CT</span><span class="shsTimezone shsETZone">12:47 AM ET</span><span class="shsTimezone shsGMTZone">5:47 GMT</span><span class="shsTimezone shsCSTZone">1:47 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:47 PM MST</span><span class="shsTimezone shsESTZone">12:47 AM EST</span><span class="shsTimezone shsUAEZone">9:47 UAE</span><span class="shsTimezone shsCETZone">05:47 CET</span> - </b></i>James came one assist short of a triple-double in the Heat's 112-107 home loss to Boston on Thursday.<br><b>Analysis: </b>James finished the game with a season-high 35 points, 10 rebounds and nine assists while adding three steals. The forward has scored at least 20 points in each of the last six games.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 10 <span class="shsTimezone shsPTZone">9:02 PM PT</span><span class="shsTimezone shsMTZone">10:02 PM MT</span><span class="shsTimezone shsCTZone">11:02 PM CT</span><span class="shsTimezone shsETZone">12:02 AM ET</span><span class="shsTimezone shsGMTZone">5:02 GMT</span><span class="shsTimezone shsCSTZone">1:02 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:02 PM MST</span><span class="shsTimezone shsESTZone">12:02 AM EST</span><span class="shsTimezone shsUAEZone">9:02 UAE</span><span class="shsTimezone shsCETZone">05:02 CET</span> - </b></i>James had 20 points, 14 assists and 11 boards in a home loss to the Jazz on Tuesday.<br><b>Analysis: </b>This was his 29th triple-double, the seventh that came in a loss.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 6 <span class="shsTimezone shsPTZone">9:16 PM PT</span><span class="shsTimezone shsMTZone">10:16 PM MT</span><span class="shsTimezone shsCTZone">11:16 PM CT</span><span class="shsTimezone shsETZone">12:16 AM ET</span><span class="shsTimezone shsGMTZone">4:16 GMT</span><span class="shsTimezone shsCSTZone">12:16 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:16 PM MST</span><span class="shsTimezone shsESTZone">11:16 PM EST</span><span class="shsTimezone shsUAEZone">8:16 UAE</span><span class="shsTimezone shsCETZone">04:16 CET</span> - </b></i>James had 20 points and 10 assists in a loss to New Orleans on Friday.<br><b>Analysis: </b>James has scored 20 points in each of his last three games and has 22 assists in his last two.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 5 <span class="shsTimezone shsPTZone">4:58 PM PT</span><span class="shsTimezone shsMTZone">5:58 PM MT</span><span class="shsTimezone shsCTZone">6:58 PM CT</span><span class="shsTimezone shsETZone">7:58 PM ET</span><span class="shsTimezone shsGMTZone">23:58 GMT</span><span class="shsTimezone shsCSTZone">7:58 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">4:58 PM MST</span><span class="shsTimezone shsESTZone">6:58 PM EST</span><span class="shsTimezone shsUAEZone">3:58 UAE</span><span class="shsTimezone shsCETZone">23:58 CET</span> - </b></i>Cleveland, it turns out, has some very specific ideas about what James should do. A video making the rounds on the internet, apparently posted on YouTube by a Cleveland filmmaker, remixes James' Nike ad in which he asks ``What should I do?'' The ad was a response to the backlash James provoked with his nationally televised announcement that he would sign with the Miami Heat after playing seven seasons in Cleveland.<br><b>Analysis: </b>The video portrays different Cleveland sports fans and their disgust with James. "Boston? Game 5? We watched. You quit,'' one fan says in the video, referring to last season's 32-point loss in the playoffs. Before tipoff against New Orleans on Friday night, James said he had seen the video. "It was all right,'' he said. "They could have done a better job.''</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 4 <span class="shsTimezone shsPTZone">9:42 AM PT</span><span class="shsTimezone shsMTZone">10:42 AM MT</span><span class="shsTimezone shsCTZone">11:42 AM CT</span><span class="shsTimezone shsETZone">12:42 PM ET</span><span class="shsTimezone shsGMTZone">16:42 GMT</span><span class="shsTimezone shsCSTZone">12:42 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:42 AM MST</span><span class="shsTimezone shsESTZone">11:42 AM EST</span><span class="shsTimezone shsUAEZone">20:42 UAE</span><span class="shsTimezone shsCETZone">16:42 CET</span> - </b></i>James was held of Miami's practice on Thursday with a deep bruise on his right shin, which has bothering him for about a week. James says the shin has bothered him since getting bumped during Sunday's game in New Jersey. He played through it against Minnesota on Tuesday, finishing with 20 points and 12 assists.<br><b>Analysis: </b>The NBA's two-time reigning MVP expects to play Friday when the Heat visit New Orleans.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 4 <span class="shsTimezone shsPTZone">12:08 PM PT</span><span class="shsTimezone shsMTZone">1:08 PM MT</span><span class="shsTimezone shsCTZone">2:08 PM CT</span><span class="shsTimezone shsETZone">3:08 PM ET</span><span class="shsTimezone shsGMTZone">19:08 GMT</span><span class="shsTimezone shsCSTZone">3:08 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">12:08 PM MST</span><span class="shsTimezone shsESTZone">2:08 PM EST</span><span class="shsTimezone shsUAEZone">23:08 UAE</span><span class="shsTimezone shsCETZone">19:08 CET</span> - </b></i>James wants a second Olympic gold medal. James said Thursday that he would ``love to be a part'' of the 2012 U.S. men's basketball team at the London Olympics. If selected, it would be his third time participating in an Olympics.<br><b>Analysis: </b>He was part of the team that won bronze at Athens in 2004, then teamed with Dwyane Wade and Chris Bosh to help capture gold at Beijing in 2008. Kobe Bryant said earlier this week that he'd also like to play on the 2012 squad.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Nov. 3 <span class="shsTimezone shsPTZone">9:54 PM PT</span><span class="shsTimezone shsMTZone">10:54 PM MT</span><span class="shsTimezone shsCTZone">11:54 PM CT</span><span class="shsTimezone shsETZone">12:54 AM ET</span><span class="shsTimezone shsGMTZone">4:54 GMT</span><span class="shsTimezone shsCSTZone">12:54 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:54 PM MST</span><span class="shsTimezone shsESTZone">11:54 PM EST</span><span class="shsTimezone shsUAEZone">8:54 UAE</span><span class="shsTimezone shsCETZone">04:54 CET</span> - </b></i>James added 20 points and added a game-high 12 assists - the most ever by a Heat forward according to STATS LLC - in Tuesday night's 129-97 win over Minnesota.<br><b>Analysis: </b>"Just taking what the defense gives me," James said. "I think D-Wade carried the scoring load in the first half, and when you have that, you don&rsquo;t have to worry about scoring as much. I just tried to attract as much defense as possible. I know there&rsquo;s not one guy that can stop me from getting to anywhere on the floor."</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 31 <span class="shsTimezone shsPTZone">3:35 PM PT</span><span class="shsTimezone shsMTZone">4:35 PM MT</span><span class="shsTimezone shsCTZone">5:35 PM CT</span><span class="shsTimezone shsETZone">6:35 PM ET</span><span class="shsTimezone shsGMTZone">22:35 GMT</span><span class="shsTimezone shsCSTZone">6:35 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:35 PM MST</span><span class="shsTimezone shsESTZone">5:35 PM EST</span><span class="shsTimezone shsUAEZone">2:35 UAE</span><span class="shsTimezone shsCETZone">22:35 CET</span> - </b></i>James had 20 points, seven rebounds and seven assists in Sunday's 101-78 rout at New Jersey.<br><b>Analysis: </b>James played only a little bit of the final period as the game was a blowout with Miami simply too talented for the overmatched Nets. That prevented James from padding his stats.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 30 <span class="shsTimezone shsPTZone">9:14 PM PT</span><span class="shsTimezone shsMTZone">10:14 PM MT</span><span class="shsTimezone shsCTZone">11:14 PM CT</span><span class="shsTimezone shsETZone">12:14 AM ET</span><span class="shsTimezone shsGMTZone">4:14 GMT</span><span class="shsTimezone shsCSTZone">12:14 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:14 PM MST</span><span class="shsTimezone shsESTZone">11:14 PM EST</span><span class="shsTimezone shsUAEZone">8:14 UAE</span><span class="shsTimezone shsCETZone">05:14 CET</span> - </b></i>James had 15 points, seven assists and six rebounds in Miami's home opener, a surprisingly one-sided 96-70 victory over the Magic on Friday.<br><b>Analysis: </b>James said before the game that he doesn't see his high rate of turnovers - he had 17 in the first two games, then just three Friday - as a problem. What is a problem for fantasy owners is blowout victories since 'the King' played 30 minutes.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 27 <span class="shsTimezone shsPTZone">3:49 PM PT</span><span class="shsTimezone shsMTZone">4:49 PM MT</span><span class="shsTimezone shsCTZone">5:49 PM CT</span><span class="shsTimezone shsETZone">6:49 PM ET</span><span class="shsTimezone shsGMTZone">22:49 GMT</span><span class="shsTimezone shsCSTZone">6:49 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:49 PM MST</span><span class="shsTimezone shsESTZone">5:49 PM EST</span><span class="shsTimezone shsUAEZone">2:49 UAE</span><span class="shsTimezone shsCETZone">23:49 CET</span> - </b></i>Cavaliers owner Dan Gilbert isn't taking back one word about James. Speaking Wednesday night before Cleveland's season opener, Gilbert says he has no regrets about calling out the superstar.<br><b>Analysis: </b>Shortly after James announced he was leaving for the Miami Heat, Gilbert fired off an angry letter to Cleveland's fans vilifying James. He called him ``narcissistic'' and accused him of ``cowardly behavior.'' Gilbert told The Associated Press then that he felt James quit during last year's playoffs. Asked Wednesday if that's how he still feels, he says ``it's a subjective judgment'' and that ``everybody has to make their own decisions on that.''</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 27 <span class="shsTimezone shsPTZone">6:27 PM PT</span><span class="shsTimezone shsMTZone">7:27 PM MT</span><span class="shsTimezone shsCTZone">8:27 PM CT</span><span class="shsTimezone shsETZone">9:27 PM ET</span><span class="shsTimezone shsGMTZone">1:27 GMT</span><span class="shsTimezone shsCSTZone">9:27 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:27 PM MST</span><span class="shsTimezone shsESTZone">8:27 PM EST</span><span class="shsTimezone shsUAEZone">5:27 UAE</span><span class="shsTimezone shsCETZone">02:27 CET</span> - </b></i>James had 31 points in his Heat debut Tuesday and followed that up with 16, seven assists and six boards a night later against Philadelphia.<br><b>Analysis: </b>The Heat will be happy with frequent nights like this from James.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 26 <span class="shsTimezone shsPTZone">6:59 PM PT</span><span class="shsTimezone shsMTZone">7:59 PM MT</span><span class="shsTimezone shsCTZone">8:59 PM CT</span><span class="shsTimezone shsETZone">9:59 PM ET</span><span class="shsTimezone shsGMTZone">1:59 GMT</span><span class="shsTimezone shsCSTZone">9:59 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:59 PM MST</span><span class="shsTimezone shsESTZone">8:59 PM EST</span><span class="shsTimezone shsUAEZone">5:59 UAE</span><span class="shsTimezone shsCETZone">02:59 CET</span> - </b></i>James, making his much-anticipated Heat debut, scored 31 points on 10-21 from the field, but committed eight turnovers as Miami fell to Boston 88-80 on Tuesday night.<br><b>Analysis: </b>James was a rare bright spot for Miami, as the other members off Miami&rsquo;s trio struggled, with Dwyane Wade scoring 13 points and Chris Bosh adding eight points and eight rebounds. On a positive note, James looked to be completely recovered from the hamstring issue that was bothering him during the preseason.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 23 <span class="shsTimezone shsPTZone">6:13 PM PT</span><span class="shsTimezone shsMTZone">7:13 PM MT</span><span class="shsTimezone shsCTZone">8:13 PM CT</span><span class="shsTimezone shsETZone">9:13 PM ET</span><span class="shsTimezone shsGMTZone">1:13 GMT</span><span class="shsTimezone shsCSTZone">9:13 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:13 PM MST</span><span class="shsTimezone shsESTZone">8:13 PM EST</span><span class="shsTimezone shsUAEZone">5:13 UAE</span><span class="shsTimezone shsCETZone">02:13 CET</span> - </b></i>James will suit up in black next week, making his transformation complete. In several NBA cities, he is now a bad guy. "I think Miami fans have high expectations and want to see their team win and I think fans of other teams want to see them crash and burn. I think that's normal,'' ESPN analyst Jeff Van Gundy said.<br><b>Analysis: </b>The Heat's unprecedented free agent haul received unprecedented media coverage, a large amount focused on how James let the world know he was leaving Cleveland. He invited the ``haters'' to send comments to his Twitter page this week and received some racially insensitive comments. He was booed during a preseason game in Atlanta, but that's nothing compared to what he'll hear when he shows up the first time in Cleveland, and probably New York and Chicago, too.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 16 <span class="shsTimezone shsPTZone">9:47 AM PT</span><span class="shsTimezone shsMTZone">10:47 AM MT</span><span class="shsTimezone shsCTZone">11:47 AM CT</span><span class="shsTimezone shsETZone">12:47 PM ET</span><span class="shsTimezone shsGMTZone">16:47 GMT</span><span class="shsTimezone shsCSTZone">12:47 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:47 AM MST</span><span class="shsTimezone shsESTZone">11:47 AM EST</span><span class="shsTimezone shsUAEZone">20:47 UAE</span><span class="shsTimezone shsCETZone">17:47 CET</span> - </b></i>James returned to practice with the Miami Heat on Saturday, reporting no problems with his ailing right hamstring. The NBA's two-time reigning MVP was sidelined by a hamstring cramp during an exhibition game against CSKA Moscow on Tuesday and had not played or practiced since.<br><b>Analysis: </b>James said he went through every aspect of the Heat workout Saturday without issues. Miami's next preseason game is Monday at home against Charlotte. James and the Heat say the decision on whether he plays in that game will hinge largely on how the hamstring feels Sunday.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 15 <span class="shsTimezone shsPTZone">11:43 AM PT</span><span class="shsTimezone shsMTZone">12:43 PM MT</span><span class="shsTimezone shsCTZone">1:43 PM CT</span><span class="shsTimezone shsETZone">2:43 PM ET</span><span class="shsTimezone shsGMTZone">18:43 GMT</span><span class="shsTimezone shsCSTZone">2:43 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">11:43 AM MST</span><span class="shsTimezone shsESTZone">1:43 PM EST</span><span class="shsTimezone shsUAEZone">22:43 UAE</span><span class="shsTimezone shsCETZone">19:43 CET</span> - </b></i>James sat out Friday's practice as a precautionary measure, not wanting to take any risks after dealing with hamstring pain earlier this week.<br><b>Analysis: </b>James cramped up in the third quarter of Miami's exhibition win over CSKA Moscow on Tuesday night, missing the rest of that game and the Heat preseason matchup in New Orleans the following night. Miami did not practice Thursday.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 15 <span class="shsTimezone shsPTZone">1:41 PM PT</span><span class="shsTimezone shsMTZone">2:41 PM MT</span><span class="shsTimezone shsCTZone">3:41 PM CT</span><span class="shsTimezone shsETZone">4:41 PM ET</span><span class="shsTimezone shsGMTZone">20:41 GMT</span><span class="shsTimezone shsCSTZone">4:41 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">1:41 PM MST</span><span class="shsTimezone shsESTZone">3:41 PM EST</span><span class="shsTimezone shsUAEZone">0:41 UAE</span><span class="shsTimezone shsCETZone">21:41 CET</span> - </b></i>The inaugural version of James' latest Nike shoe is more of a nod to the Miami Dolphins and Florida Marlins than the Miami Heat. Call it part of the way James is already embracing the Miami culture.<br><b>Analysis: </b>The "LeBron 8 South Beach'' will be introduced Saturday by James, at a Miami event where he will speak to 100 children about the upcoming Heat season and what went into designing his eighth signature sneaker. The shoe shown Saturday have a turquoise and black scheme, similar to Dolphins and Marlins colors - a "pre-Heat" version, James said, noting that the design is based around Miami themes. James said "shoeheads will definitely love it." It retails for $160.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 14 <span class="shsTimezone shsPTZone">12:42 PM PT</span><span class="shsTimezone shsMTZone">1:42 PM MT</span><span class="shsTimezone shsCTZone">2:42 PM CT</span><span class="shsTimezone shsETZone">3:42 PM ET</span><span class="shsTimezone shsGMTZone">19:42 GMT</span><span class="shsTimezone shsCSTZone">3:42 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">12:42 PM MST</span><span class="shsTimezone shsESTZone">2:42 PM EST</span><span class="shsTimezone shsUAEZone">23:42 UAE</span><span class="shsTimezone shsCETZone">20:42 CET</span> - </b></i>The Miami Heat held out James against the New Orleans Hornets on Wednesday night, saying his right hamstring remained tight from an exhibition game a night earlier.<br><b>Analysis: </b>The Heat initially said James was cramping when he left Tuesday night against Russian team CSKA Moscow and that he was not expected to play in New Orleans.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 14 <span class="shsTimezone shsPTZone">1:45 PM PT</span><span class="shsTimezone shsMTZone">2:45 PM MT</span><span class="shsTimezone shsCTZone">3:45 PM CT</span><span class="shsTimezone shsETZone">4:45 PM ET</span><span class="shsTimezone shsGMTZone">20:45 GMT</span><span class="shsTimezone shsCSTZone">4:45 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">1:45 PM MST</span><span class="shsTimezone shsESTZone">3:45 PM EST</span><span class="shsTimezone shsUAEZone">0:45 UAE</span><span class="shsTimezone shsCETZone">21:45 CET</span> - </b></i>James is the only athlete named on Fortune's list of this year's ``40 Under 40'' stars in the business world.<br><b>Analysis: </b>The Miami Heat forward and two-time reigning NBA MVP was ranked No. 20 on the list, which took into account both his earning power on and off the floor (an estimated $42.4 million this year) and the attention he generated during the free agency process this summer.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 12 <span class="shsTimezone shsPTZone">5:25 PM PT</span><span class="shsTimezone shsMTZone">6:25 PM MT</span><span class="shsTimezone shsCTZone">7:25 PM CT</span><span class="shsTimezone shsETZone">8:25 PM ET</span><span class="shsTimezone shsGMTZone">0:25 GMT</span><span class="shsTimezone shsCSTZone">8:25 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">5:25 PM MST</span><span class="shsTimezone shsESTZone">7:25 PM EST</span><span class="shsTimezone shsUAEZone">4:25 UAE</span><span class="shsTimezone shsCETZone">01:25 CET</span> - </b></i>James left Miami's exhibition game on Tuesday with leg cramps in the third period.<br><b>Analysis: </b>James reached for his right hamstring with 3:51 left in the third quarter, walking with a bit of a limp off the floor and then quickly through the tunnel toward the Miami locker room. He came back to the bench about 2 1/2 minutes into the fourth quarter.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Oct. 6 <span class="shsTimezone shsPTZone">6:00 AM PT</span><span class="shsTimezone shsMTZone">7:00 AM MT</span><span class="shsTimezone shsCTZone">8:00 AM CT</span><span class="shsTimezone shsETZone">9:00 AM ET</span><span class="shsTimezone shsGMTZone">13:00 GMT</span><span class="shsTimezone shsCSTZone">9:00 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:00 AM MST</span><span class="shsTimezone shsESTZone">8:00 AM EST</span><span class="shsTimezone shsUAEZone">17:00 UAE</span><span class="shsTimezone shsCETZone">14:00 CET</span> - </b></i>James, the NBA's two-time reigning MVP who took his championship pursuit from Cleveland to Miami this summer, had 18 points in his Heat debut Tuesday against Detroit.<br><b>Analysis: </b>James walked from the bench moments before tip-off with the traditional stoic look. He filled his hands with rosin powder, threw it into the air to create a white cloud, then clapped his hands three times. ``It was something I've waited for all summer,'' James said. ``To be able to be back on the court, it was great. The reception from the fans was awesome and it was great we were able to give them the same energy that they gave us.''</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 30 <span class="shsTimezone shsPTZone">8:49 AM PT</span><span class="shsTimezone shsMTZone">9:49 AM MT</span><span class="shsTimezone shsCTZone">10:49 AM CT</span><span class="shsTimezone shsETZone">11:49 AM ET</span><span class="shsTimezone shsGMTZone">15:49 GMT</span><span class="shsTimezone shsCSTZone">11:49 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">8:49 AM MST</span><span class="shsTimezone shsESTZone">10:49 AM EST</span><span class="shsTimezone shsUAEZone">19:49 UAE</span><span class="shsTimezone shsCETZone">16:49 CET</span> - </b></i>James's manager says he believes race played a factor in how the two-time reigning NBA MVP's decision to join the Miami Heat was covered this summer. Maverick Carter did not cite specifics when talking to CNN for a story that aired Wednesday night. Carter tells the cable network that race "definitely played a role in some of the stuff coming out of the media'' during coverage of James' free-agent saga.<br><b>Analysis: </b>James' popularity has already taken a big hit, as a recent poll named him the sixth most-disliked athlete in American professional sports. Playing the race card isn't likely to help that standing. James needs to concentrate on adjusting to being the second banana to Dwyane Wade in Miami - where his points per game will certainly suffer - rather than attempting to defend an image tarnished by his narcissistic summer special.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 28 <span class="shsTimezone shsPTZone">10:51 AM PT</span><span class="shsTimezone shsMTZone">11:51 AM MT</span><span class="shsTimezone shsCTZone">12:51 PM CT</span><span class="shsTimezone shsETZone">1:51 PM ET</span><span class="shsTimezone shsGMTZone">17:51 GMT</span><span class="shsTimezone shsCSTZone">1:51 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:51 AM MST</span><span class="shsTimezone shsESTZone">12:51 PM EST</span><span class="shsTimezone shsUAEZone">21:51 UAE</span><span class="shsTimezone shsCETZone">18:51 CET</span> - </b></i>Different uniform. Same LeBron James. The NBA's two-time reigning MVP had his first full practice with the Miami Heat on Tuesday, barking out commands more loudly than any of his teammates, being animated after good plays, even raising eyebrows with a thunderous dunk in transition during a defensive drill.<br><b>Analysis: </b>James says it still doesn't feel "normal," wearing the colors of a team other than the Cleveland Cavaliers, the franchise that drafted him seven years ago and saw him emerge into an icon. Just because he has a new team, James says his approach isn't changing.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 16 <span class="shsTimezone shsPTZone">11:16 AM PT</span><span class="shsTimezone shsMTZone">12:16 PM MT</span><span class="shsTimezone shsCTZone">1:16 PM CT</span><span class="shsTimezone shsETZone">2:16 PM ET</span><span class="shsTimezone shsGMTZone">18:16 GMT</span><span class="shsTimezone shsCSTZone">2:16 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">11:16 AM MST</span><span class="shsTimezone shsESTZone">1:16 PM EST</span><span class="shsTimezone shsUAEZone">22:16 UAE</span><span class="shsTimezone shsCETZone">19:16 CET</span> - </b></i>If James' popularity has taken a hit, his Miami Heat teammates apparently aren't among the people being asked to participate in such polls.<br><b>Analysis: </b>With training camp less than two weeks away, many of James' new teammates are either saying that they're not paying much attention to the steady stream of critics who are denouncing the two-time reigning NBA MVP's decision - or that they expect it to give James extra motivation for the coming Heat season.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 15 <span class="shsTimezone shsPTZone">9:26 AM PT</span><span class="shsTimezone shsMTZone">10:26 AM MT</span><span class="shsTimezone shsCTZone">11:26 AM CT</span><span class="shsTimezone shsETZone">12:26 PM ET</span><span class="shsTimezone shsGMTZone">16:26 GMT</span><span class="shsTimezone shsCSTZone">12:26 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:26 AM MST</span><span class="shsTimezone shsESTZone">11:26 AM EST</span><span class="shsTimezone shsUAEZone">20:26 UAE</span><span class="shsTimezone shsCETZone">17:26 CET</span> - </b></i>The Q Scores Company, which conducts popularity polls, has James rated as the sixth-most-disliked figure in American pro sports. The results, known as "Q Scores," were reported Tuesday by CNBC.<br><b>Analysis: </b>According to the report, James is viewed in what the company considers a negative light by 39 percent of the general population. In January, while still a Cleveland Cavalier, he was viewed positively by 24 percent of the population, negatively by 22 percent, according to the figures from the Q Scores Company.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Sep. 2 <span class="shsTimezone shsPTZone">7:28 PM PT</span><span class="shsTimezone shsMTZone">8:28 PM MT</span><span class="shsTimezone shsCTZone">9:28 PM CT</span><span class="shsTimezone shsETZone">10:28 PM ET</span><span class="shsTimezone shsGMTZone">2:28 GMT</span><span class="shsTimezone shsCSTZone">10:28 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">7:28 PM MST</span><span class="shsTimezone shsESTZone">9:28 PM EST</span><span class="shsTimezone shsUAEZone">6:28 UAE</span><span class="shsTimezone shsCETZone">03:28 CET</span> - </b></i>James didn't change all his teams this summer. James posted on his Twitter feed Thursday that he's considering going to Columbus, Ohio, on Sept. 11 to see the matchup between No. 2 Ohio State - his longtime team of choice - and No. 13 Miami.<br><b>Analysis: </b>The former Cleveland Cavaliers star isn't rooting for the Hurricanes. The NBA's two-time reigning MVP wrote, "O-State will prevail for sure. Will be exciting!"</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Aug. 26 <span class="shsTimezone shsPTZone">3:09 PM PT</span><span class="shsTimezone shsMTZone">4:09 PM MT</span><span class="shsTimezone shsCTZone">5:09 PM CT</span><span class="shsTimezone shsETZone">6:09 PM ET</span><span class="shsTimezone shsGMTZone">22:09 GMT</span><span class="shsTimezone shsCSTZone">6:09 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:09 PM MST</span><span class="shsTimezone shsESTZone">5:09 PM EST</span><span class="shsTimezone shsUAEZone">2:09 UAE</span><span class="shsTimezone shsCETZone">23:09 CET</span> - </b></i>James has introduced himself to the Miami Hurricanes.<br><b>Analysis: </b>James and a slew of other Miami Heat players stopped by the Hurricanes' campus Thursday afternoon for some informal scrimmaging with the Atlantic Coast Conference team. Players hadn't been told beforehand that the NBA's two-time reigning MVP would be popping in for a workout.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Aug. 17 <span class="shsTimezone shsPTZone">5:17 PM PT</span><span class="shsTimezone shsMTZone">6:17 PM MT</span><span class="shsTimezone shsCTZone">7:17 PM CT</span><span class="shsTimezone shsETZone">8:17 PM ET</span><span class="shsTimezone shsGMTZone">0:17 GMT</span><span class="shsTimezone shsCSTZone">8:17 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">5:17 PM MST</span><span class="shsTimezone shsESTZone">7:17 PM EST</span><span class="shsTimezone shsUAEZone">4:17 UAE</span><span class="shsTimezone shsCETZone">01:17 CET</span> - </b></i>Adding a new layer to the rift between James and Dan Gilbert, the NBA&rsquo;s two-time reigning MVP and new Miami Heat forward has told GQ magazine that he isn&rsquo;t sure the Cleveland Cavaliers owner "ever cared" about him during their time together.<br><b>Analysis: </b>In an article released Tuesday, James spoke of how widespread criticism of his decision - and how he chose to make it a television event - is fueling him this offseason, plus reiterated how Ohio will always remain his home. Despite his feuding with Gilbert, James thinks that if he could ever play for the Cavaliers again someday, it would be "a great story."</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>Aug. 8 <span class="shsTimezone shsPTZone">5:22 PM PT</span><span class="shsTimezone shsMTZone">6:22 PM MT</span><span class="shsTimezone shsCTZone">7:22 PM CT</span><span class="shsTimezone shsETZone">8:22 PM ET</span><span class="shsTimezone shsGMTZone">0:22 GMT</span><span class="shsTimezone shsCSTZone">8:22 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">5:22 PM MST</span><span class="shsTimezone shsESTZone">7:22 PM EST</span><span class="shsTimezone shsUAEZone">4:22 UAE</span><span class="shsTimezone shsCETZone">01:22 CET</span> - </b></i>James finally thanked his fans in Cleveland on Saturday, making his first public appearance since he left the Cavaliers for the Miami Heat.<br><b>Analysis: </b>At his annual ``King for Kids'' charity bike-a-thon in downtown Akron, James addressed a friendly crowd of several hundred people who cheered as he took the podium. ``To the city of Cleveland, my fans in Cleveland, my fans in northeast Ohio,'' said James, ``I want to say thank you for the last seven years and the years that continue to go in the future.''</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 29 <span class="shsTimezone shsPTZone">3:22 PM PT</span><span class="shsTimezone shsMTZone">4:22 PM MT</span><span class="shsTimezone shsCTZone">5:22 PM CT</span><span class="shsTimezone shsETZone">6:22 PM ET</span><span class="shsTimezone shsGMTZone">22:22 GMT</span><span class="shsTimezone shsCSTZone">6:22 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:22 PM MST</span><span class="shsTimezone shsESTZone">5:22 PM EST</span><span class="shsTimezone shsUAEZone">2:22 UAE</span><span class="shsTimezone shsCETZone">23:22 CET</span> - </b></i>ESPN.com removed an article chronicling James' activities during a weekend in Las Vegas. ESPN said the article, by ESPNLosAngeles.com reporter Arash Markazi, was available for about 9 1/2 hours on its server Wednesday. It described the new Miami Heat star drinking at nightclubs and receiving a cake from go-go dancers in a VIP section.<br><b>Analysis: </b>Rob King, editor in chief of ESPN Digital Media, said in a telephone interview with The Associated Press on Thursday that the story was posted before it had been cleared by senior editors and that Markazi didn&rsquo;t identify himself as a reporter in gathering the information used to report the story. ESPN has been criticized by some for turning over air time to James for his July 8 announcement that he was leaving Cleveland to sign with Miami.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 20 <span class="shsTimezone shsPTZone">10:32 AM PT</span><span class="shsTimezone shsMTZone">11:32 AM MT</span><span class="shsTimezone shsCTZone">12:32 PM CT</span><span class="shsTimezone shsETZone">1:32 PM ET</span><span class="shsTimezone shsGMTZone">17:32 GMT</span><span class="shsTimezone shsCSTZone">1:32 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">10:32 AM MST</span><span class="shsTimezone shsESTZone">12:32 PM EST</span><span class="shsTimezone shsUAEZone">21:32 UAE</span><span class="shsTimezone shsCETZone">18:32 CET</span> - </b></i>Cavaliers fans are taking their jerseys off their backs for James. Then throwing them away. Stung by the NBA superstar's decision to leave Cleveland and play for Miami, fans have been unloading jerseys, T-shirts and other clothing items bearing James' name at locations around the city. Organizers plan to send the discarded James gear to homeless shelters in South Florida.<br><b>Analysis: </b>A restaurant manager at one of the drop-off sites said there has been a steady flow of fans ridding themselves of LeBron-related clothing, including No. 23 jerseys, which were wildly popular during James' seven seasons with the Cavaliers. James' messy breakup with Cleveland has caused a negative backlash against the 25-year-old, who announced his decision to leave the Cavs as a free agent during a one-hour TV special on ESPN.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 15 <span class="shsTimezone shsPTZone">2:11 PM PT</span><span class="shsTimezone shsMTZone">3:11 PM MT</span><span class="shsTimezone shsCTZone">4:11 PM CT</span><span class="shsTimezone shsETZone">5:11 PM ET</span><span class="shsTimezone shsGMTZone">21:11 GMT</span><span class="shsTimezone shsCSTZone">5:11 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">2:11 PM MST</span><span class="shsTimezone shsESTZone">4:11 PM EST</span><span class="shsTimezone shsUAEZone">1:11 UAE</span><span class="shsTimezone shsCETZone">22:11 CET</span> - </b></i>Dwyane Wade is standing up for new Miami Heat teammate James, telling The Associated Press that the NBA's two-time MVP ``didn't quit'' on Cleveland during the playoffs. Wade says that the criticism directed toward James bothers him because they're friends, and stings even more now that they're teammates in Miami.<br><b>Analysis: </b>Cavaliers owner Dan Gilbert made the ``he quit'' accusation to The AP last week after James went on a televised special and announced he was leaving Cleveland to join the Heat. Gilbert cited four games in Cleveland's second-round series against Boston as proof of his claim. The Cavs lost that series in six games to the Celtics.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 12 <span class="shsTimezone shsPTZone">4:15 PM PT</span><span class="shsTimezone shsMTZone">5:15 PM MT</span><span class="shsTimezone shsCTZone">6:15 PM CT</span><span class="shsTimezone shsETZone">7:15 PM ET</span><span class="shsTimezone shsGMTZone">23:15 GMT</span><span class="shsTimezone shsCSTZone">7:15 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">4:15 PM MST</span><span class="shsTimezone shsESTZone">6:15 PM EST</span><span class="shsTimezone shsUAEZone">3:15 UAE</span><span class="shsTimezone shsCETZone">00:15 CET</span> - </b></i>Speaking from Las Vegas, where the league's owners were meeting Monday during summer league, Stern said he would have advised James to tell the Cavaliers ahead of time of the decision and he would have advised against making the announcement a made-for-TV event.<br><b>Analysis: </b>Much like Stern did not particularly like the way James handled "The Decision," he also took exception to the reaction by Cleveland owner Dan Gilbert shortly after the two-time NBA MVP made his choice known. Those remarks weren't free. Stern said he was fining the Cavaliers $100,000 for those words.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 9 <span class="shsTimezone shsPTZone">6:15 PM PT</span><span class="shsTimezone shsMTZone">7:15 PM MT</span><span class="shsTimezone shsCTZone">8:15 PM CT</span><span class="shsTimezone shsETZone">9:15 PM ET</span><span class="shsTimezone shsGMTZone">1:15 GMT</span><span class="shsTimezone shsCSTZone">9:15 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">6:15 PM MST</span><span class="shsTimezone shsESTZone">8:15 PM EST</span><span class="shsTimezone shsUAEZone">5:15 UAE</span><span class="shsTimezone shsCETZone">02:15 CET</span> - </b></i>Dressed in a white Heat uniform for the first time, James took a look at his new home crowd, folded his arms across his chest and nodded. The MVP has taken center stage in Miami. Reviled in Cleveland, revered in Miami. Welcome to South Florida, LeBron.<br><b>Analysis: </b>Naturally, James promised championships. Multiple championships. Let a new era of Heat basketball begin." That's the only reason I'm here, man,'' James said. With 13,000 fans chanting ``Yes We Did!'' amid an atmosphere more suited to a rock concert than a basketball game, the Miami Heat welcomed the NBA's newest trio of superstars Friday night for a celebration unlike just about any other in team history.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 8 <span class="shsTimezone shsPTZone">8:55 PM PT</span><span class="shsTimezone shsMTZone">9:55 PM MT</span><span class="shsTimezone shsCTZone">10:55 PM CT</span><span class="shsTimezone shsETZone">11:55 PM ET</span><span class="shsTimezone shsGMTZone">3:55 GMT</span><span class="shsTimezone shsCSTZone">11:55 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">8:55 PM MST</span><span class="shsTimezone shsESTZone">10:55 PM EST</span><span class="shsTimezone shsUAEZone">7:55 UAE</span><span class="shsTimezone shsCETZone">04:55 CET</span> - </b></i>James announced Thursday night he is joining Dwyane Wade and Chris Bosh in Miami.<br><b>Analysis: </b>"The best opportunity to win and to win now and to win in the future also,'' James said. ``Winning is a huge thing for me." James said he expects the decision not to go over well in Cleveland and Cavs owner Dan Gilbert lashed out at James in an interview with the AP. James is seeking his first NBA title and reunites with Bosh and Wade, who he played with at the Beijing Olympics.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 6 <span class="shsTimezone shsPTZone">9:05 AM PT</span><span class="shsTimezone shsMTZone">10:05 AM MT</span><span class="shsTimezone shsCTZone">11:05 AM CT</span><span class="shsTimezone shsETZone">12:05 PM ET</span><span class="shsTimezone shsGMTZone">16:05 GMT</span><span class="shsTimezone shsCSTZone">12:05 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:05 AM MST</span><span class="shsTimezone shsESTZone">11:05 AM EST</span><span class="shsTimezone shsUAEZone">20:05 UAE</span><span class="shsTimezone shsCETZone">17:05 CET</span> - </b></i>The decision has finally been made. James has joined Twitter.<br><b>Analysis: </b>The NBA's most ballyhooed free agent opened an account on the social networking site Tuesday. James had been reluctant to join Twitter or Facebook and had even joked in the past about how other athletes discussed their personal lives online. Close friend Chris Paul posted on Twitter at midday Tuesday that while he couldn't persuade James to tell him which team he'll sign with, he talked him into joining the service.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 6 <span class="shsTimezone shsPTZone">12:30 PM PT</span><span class="shsTimezone shsMTZone">1:30 PM MT</span><span class="shsTimezone shsCTZone">2:30 PM CT</span><span class="shsTimezone shsETZone">3:30 PM ET</span><span class="shsTimezone shsGMTZone">19:30 GMT</span><span class="shsTimezone shsCSTZone">3:30 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">12:30 PM MST</span><span class="shsTimezone shsESTZone">2:30 PM EST</span><span class="shsTimezone shsUAEZone">23:30 UAE</span><span class="shsTimezone shsCETZone">20:30 CET</span> - </b></i>The wait is over. James has posted his first Tweet.<br><b>Analysis: </b>"Hello World, the Real King James is in the Building "Finally". My Brother @oneandonlycp3 gas'd me up to jump on board so I'm here. Haaaa," wrote the NBA's top free agent Tuesday afternoon. The star's social networking site also contains a link to lebronjames.com, where he's expected to announce later this week where he'll be playing next season.</td>
+</tr><tr class="shsRow0Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 5 <span class="shsTimezone shsPTZone">3:17 PM PT</span><span class="shsTimezone shsMTZone">4:17 PM MT</span><span class="shsTimezone shsCTZone">5:17 PM CT</span><span class="shsTimezone shsETZone">6:17 PM ET</span><span class="shsTimezone shsGMTZone">22:17 GMT</span><span class="shsTimezone shsCSTZone">6:17 AM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">3:17 PM MST</span><span class="shsTimezone shsESTZone">5:17 PM EST</span><span class="shsTimezone shsUAEZone">2:17 UAE</span><span class="shsTimezone shsCETZone">23:17 CET</span> - </b></i>A pointed finger, smile, chuckle and head shake. That was all. If James has made up his mind, he&rsquo;s not saying so. The NBA&rsquo;s most wanted man offered no clues about his highly anticipated free agent decision on Monday after making an unexpected appearance - and getting in a few full-court hoop games with good friend Chris Paul - at his Nike skills academy at the University of Akron.<br><b>Analysis: </b>James guarded Duke&rsquo;s Kyle Singler and Dayton&rsquo;s Chris Wright during the 5-on-5 runs that were watched by everyone in the gym. He was in a good mood and spent part of the time joking around with Paul and former Cavs teammate Damon Jones.</td>
+</tr><tr class="shsRow1Row shsNewsItem">
+<td class="shsNamD" colspan="2"><i><b>July 4 <span class="shsTimezone shsPTZone">9:00 PM PT</span><span class="shsTimezone shsMTZone">10:00 PM MT</span><span class="shsTimezone shsCTZone">11:00 PM CT</span><span class="shsTimezone shsETZone">12:00 AM ET</span><span class="shsTimezone shsGMTZone">4:00 GMT</span><span class="shsTimezone shsCSTZone">12:00 PM &#21271;&#20140;&#26102;&#38388;</span><span class="shsTimezone shsMSTZone">9:00 PM MST</span><span class="shsTimezone shsESTZone">11:00 PM EST</span><span class="shsTimezone shsUAEZone">8:00 UAE</span><span class="shsTimezone shsCETZone">05:00 CET</span> - </b></i>After three days being romanced by six NBA teams, a few billionaires, coaches, executives, hip hop's biggest star, and fixating the sports world on his every move, James got behind the wheel of his customized car and drove home. Only he knows where he's going next. The Cavaliers, though, came away from their 90-minute sit down with a renewed confidence that James will re-sign with them.<br><b>Analysis: </b>James concluded his personal free-agent summit on Saturday by hearing presentations from the Cleveland Cavaliers, whose pitch focused on his familiarity with their franchise and tickled his sense of humor, and the Chicago Bulls, the last team and the one believed to have the best chance of stealing him from Ohio. The meetings are over. The guessing game has begun. The ball is in The King's court.</td>
+</tr></table>
+</div><div id="shsNBAPlayerStats"><h2 class="shsTableTitle">Regular Season Stats</h2><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="18">Per Game</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">MPG</td>
+<td class="shsNumD">PPG</td>
+<td class="shsNumD">RPG</td>
+<td class="shsNumD">APG</td>
+<td class="shsNumD">SPG</td>
+<td class="shsNumD">BPG</td>
+<td class="shsNumD">TOPG</td>
+<td class="shsNumD">FG%</td>
+<td class="shsNumD">3P%</td>
+<td class="shsNumD">FT%</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>03-04</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">79</td>
+<td class="shsNumD">39.5</td>
+<td class="shsNumD">20.9</td>
+<td class="shsNumD">5.5</td>
+<td class="shsNumD">5.9</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">0.7</td>
+<td class="shsNumD">3.5</td>
+<td class="shsNumD">.417</td>
+<td class="shsNumD">.290</td>
+<td class="shsNumD">.754</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>04-05</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">80</td>
+<td class="shsNumD">42.4</td>
+<td class="shsNumD">27.2</td>
+<td class="shsNumD">7.4</td>
+<td class="shsNumD">7.2</td>
+<td class="shsNumD">2.2</td>
+<td class="shsNumD">0.7</td>
+<td class="shsNumD">3.3</td>
+<td class="shsNumD">.472</td>
+<td class="shsNumD">.351</td>
+<td class="shsNumD">.750</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">79</td>
+<td class="shsNumD">42.5</td>
+<td class="shsNumD">31.4</td>
+<td class="shsNumD">7.0</td>
+<td class="shsNumD">6.6</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">0.8</td>
+<td class="shsNumD">3.3</td>
+<td class="shsNumD">.480</td>
+<td class="shsNumD">.335</td>
+<td class="shsNumD">.738</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">78</td>
+<td class="shsNumD">40.9</td>
+<td class="shsNumD">27.3</td>
+<td class="shsNumD">6.7</td>
+<td class="shsNumD">6.0</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">0.7</td>
+<td class="shsNumD">3.2</td>
+<td class="shsNumD">.476</td>
+<td class="shsNumD">.319</td>
+<td class="shsNumD">.698</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">75</td>
+<td class="shsNumD">40.4</td>
+<td class="shsNumD">30.0</td>
+<td class="shsNumD">7.9</td>
+<td class="shsNumD">7.2</td>
+<td class="shsNumD">1.8</td>
+<td class="shsNumD">1.1</td>
+<td class="shsNumD">3.4</td>
+<td class="shsNumD">.484</td>
+<td class="shsNumD">.315</td>
+<td class="shsNumD">.712</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">37.7</td>
+<td class="shsNumD">28.4</td>
+<td class="shsNumD">7.6</td>
+<td class="shsNumD">7.2</td>
+<td class="shsNumD">1.7</td>
+<td class="shsNumD">1.1</td>
+<td class="shsNumD">3.0</td>
+<td class="shsNumD">.489</td>
+<td class="shsNumD">.344</td>
+<td class="shsNumD">.780</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle</td>
+<td class="shsNumD">76</td>
+<td class="shsNumD">39.0</td>
+<td class="shsNumD">29.7</td>
+<td class="shsNumD">7.3</td>
+<td class="shsNumD">8.6</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">1.0</td>
+<td class="shsNumD">3.4</td>
+<td class="shsNumD">.503</td>
+<td class="shsNumD">.333</td>
+<td class="shsNumD">.767</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>10-11</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team14sm_trans"></span></span>Mia</td>
+<td class="shsNumD">22</td>
+<td class="shsNumD">37.1</td>
+<td class="shsNumD">23.7</td>
+<td class="shsNumD">5.7</td>
+<td class="shsNumD">7.3</td>
+<td class="shsNumD">1.5</td>
+<td class="shsNumD">0.6</td>
+<td class="shsNumD">3.8</td>
+<td class="shsNumD">.457</td>
+<td class="shsNumD">.297</td>
+<td class="shsNumD">.776</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">570</td>
+<td class="shsNumD">40.2</td>
+<td class="shsNumD">27.7</td>
+<td class="shsNumD">7.0</td>
+<td class="shsNumD">7.0</td>
+<td class="shsNumD">1.7</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">3.3</td>
+<td class="shsNumD">.474</td>
+<td class="shsNumD">.328</td>
+<td class="shsNumD">.744</td>
+</tr>
+</table>
+<br>
+<table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="17">Totals</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">Min</td>
+<td class="shsNumD">FGM</td>
+<td class="shsNumD">FGA</td>
+<td class="shsNumD">3PM</td>
+<td class="shsNumD">3PA</td>
+<td class="shsNumD">FTM</td>
+<td class="shsNumD">FTA</td>
+<td class="shsNumD">OR</td>
+<td class="shsNumD">TR</td>
+<td class="shsNumD">A</td>
+<td class="shsNumD">Stl</td>
+<td class="shsNumD">Blk</td>
+<td class="shsNumD">TO</td>
+<td class="shsNumD">Pts</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>03-04</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">79</td>
+<td class="shsNumD">3122</td>
+<td class="shsNumD">622</td>
+<td class="shsNumD">1492</td>
+<td class="shsNumD">63</td>
+<td class="shsNumD">217</td>
+<td class="shsNumD">347</td>
+<td class="shsNumD">460</td>
+<td class="shsNumD">99</td>
+<td class="shsNumD">432</td>
+<td class="shsNumD">465</td>
+<td class="shsNumD">130</td>
+<td class="shsNumD">58</td>
+<td class="shsNumD">273</td>
+<td class="shsNumD">1654</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>04-05</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">80</td>
+<td class="shsNumD">3388</td>
+<td class="shsNumD">795</td>
+<td class="shsNumD">1684</td>
+<td class="shsNumD">108</td>
+<td class="shsNumD">308</td>
+<td class="shsNumD">477</td>
+<td class="shsNumD">636</td>
+<td class="shsNumD">111</td>
+<td class="shsNumD">588</td>
+<td class="shsNumD">577</td>
+<td class="shsNumD">177</td>
+<td class="shsNumD">52</td>
+<td class="shsNumD">262</td>
+<td class="shsNumD">2175</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">79</td>
+<td class="shsNumD">3361</td>
+<td class="shsNumD">875</td>
+<td class="shsNumD">1823</td>
+<td class="shsNumD">127</td>
+<td class="shsNumD">379</td>
+<td class="shsNumD">601</td>
+<td class="shsNumD">814</td>
+<td class="shsNumD">75</td>
+<td class="shsNumD">556</td>
+<td class="shsNumD">521</td>
+<td class="shsNumD">123</td>
+<td class="shsNumD">66</td>
+<td class="shsNumD">260</td>
+<td class="shsNumD">2478</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">78</td>
+<td class="shsNumD">3190</td>
+<td class="shsNumD">772</td>
+<td class="shsNumD">1621</td>
+<td class="shsNumD">99</td>
+<td class="shsNumD">310</td>
+<td class="shsNumD">489</td>
+<td class="shsNumD">701</td>
+<td class="shsNumD">83</td>
+<td class="shsNumD">526</td>
+<td class="shsNumD">470</td>
+<td class="shsNumD">125</td>
+<td class="shsNumD">55</td>
+<td class="shsNumD">250</td>
+<td class="shsNumD">2132</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">75</td>
+<td class="shsNumD">3027</td>
+<td class="shsNumD">794</td>
+<td class="shsNumD">1642</td>
+<td class="shsNumD">113</td>
+<td class="shsNumD">359</td>
+<td class="shsNumD">549</td>
+<td class="shsNumD">771</td>
+<td class="shsNumD">133</td>
+<td class="shsNumD">592</td>
+<td class="shsNumD">539</td>
+<td class="shsNumD">138</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">255</td>
+<td class="shsNumD">2250</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">3054</td>
+<td class="shsNumD">789</td>
+<td class="shsNumD">1613</td>
+<td class="shsNumD">132</td>
+<td class="shsNumD">384</td>
+<td class="shsNumD">594</td>
+<td class="shsNumD">762</td>
+<td class="shsNumD">106</td>
+<td class="shsNumD">613</td>
+<td class="shsNumD">587</td>
+<td class="shsNumD">137</td>
+<td class="shsNumD">93</td>
+<td class="shsNumD">241</td>
+<td class="shsNumD">2304</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm_trans"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">76</td>
+<td class="shsNumD">2966</td>
+<td class="shsNumD">768</td>
+<td class="shsNumD">1528</td>
+<td class="shsNumD">129</td>
+<td class="shsNumD">387</td>
+<td class="shsNumD">593</td>
+<td class="shsNumD">773</td>
+<td class="shsNumD">71</td>
+<td class="shsNumD">554</td>
+<td class="shsNumD">651</td>
+<td class="shsNumD">125</td>
+<td class="shsNumD">77</td>
+<td class="shsNumD">261</td>
+<td class="shsNumD">2258</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>10-11</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team14sm_trans"></span></span>Mia&nbsp;</td>
+<td class="shsNumD">22</td>
+<td class="shsNumD">816</td>
+<td class="shsNumD">172</td>
+<td class="shsNumD">376</td>
+<td class="shsNumD">22</td>
+<td class="shsNumD">74</td>
+<td class="shsNumD">156</td>
+<td class="shsNumD">201</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">126</td>
+<td class="shsNumD">160</td>
+<td class="shsNumD">34</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">83</td>
+<td class="shsNumD">522</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">570</td>
+<td class="shsNumD">22924</td>
+<td class="shsNumD">5587</td>
+<td class="shsNumD">11779</td>
+<td class="shsNumD">793</td>
+<td class="shsNumD">2418</td>
+<td class="shsNumD">3806</td>
+<td class="shsNumD">5118</td>
+<td class="shsNumD">691</td>
+<td class="shsNumD">3987</td>
+<td class="shsNumD">3970</td>
+<td class="shsNumD">989</td>
+<td class="shsNumD">495</td>
+<td class="shsNumD">1885</td>
+<td class="shsNumD">15773</td>
+</tr>
+</table>
+</div>
+<br/><div id="shsNBAPlayerStats"><h2 class="shsTableTitle">Postseason Stats</h2><table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="18">Per Game</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">MPG</td>
+<td class="shsNumD">PPG</td>
+<td class="shsNumD">RPG</td>
+<td class="shsNumD">APG</td>
+<td class="shsNumD">SPG</td>
+<td class="shsNumD">BPG</td>
+<td class="shsNumD">TOPG</td>
+<td class="shsNumD">FG%</td>
+<td class="shsNumD">3P%</td>
+<td class="shsNumD">FT%</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">46.5</td>
+<td class="shsNumD">30.8</td>
+<td class="shsNumD">8.1</td>
+<td class="shsNumD">5.8</td>
+<td class="shsNumD">1.4</td>
+<td class="shsNumD">0.7</td>
+<td class="shsNumD">5.0</td>
+<td class="shsNumD">.476</td>
+<td class="shsNumD">.333</td>
+<td class="shsNumD">.737</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">20</td>
+<td class="shsNumD">44.7</td>
+<td class="shsNumD">25.1</td>
+<td class="shsNumD">8.1</td>
+<td class="shsNumD">8.0</td>
+<td class="shsNumD">1.7</td>
+<td class="shsNumD">0.5</td>
+<td class="shsNumD">3.3</td>
+<td class="shsNumD">.416</td>
+<td class="shsNumD">.280</td>
+<td class="shsNumD">.755</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">42.5</td>
+<td class="shsNumD">28.2</td>
+<td class="shsNumD">7.8</td>
+<td class="shsNumD">7.6</td>
+<td class="shsNumD">1.8</td>
+<td class="shsNumD">1.3</td>
+<td class="shsNumD">4.2</td>
+<td class="shsNumD">.411</td>
+<td class="shsNumD">.257</td>
+<td class="shsNumD">.731</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">14</td>
+<td class="shsNumD">41.4</td>
+<td class="shsNumD">35.3</td>
+<td class="shsNumD">9.1</td>
+<td class="shsNumD">7.3</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">0.9</td>
+<td class="shsNumD">2.7</td>
+<td class="shsNumD">.510</td>
+<td class="shsNumD">.333</td>
+<td class="shsNumD">.749</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">41.8</td>
+<td class="shsNumD">29.1</td>
+<td class="shsNumD">9.3</td>
+<td class="shsNumD">7.6</td>
+<td class="shsNumD">1.7</td>
+<td class="shsNumD">1.8</td>
+<td class="shsNumD">3.8</td>
+<td class="shsNumD">.502</td>
+<td class="shsNumD">.400</td>
+<td class="shsNumD">.733</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">71</td>
+<td class="shsNumD">43.5</td>
+<td class="shsNumD">29.3</td>
+<td class="shsNumD">8.4</td>
+<td class="shsNumD">7.3</td>
+<td class="shsNumD">1.6</td>
+<td class="shsNumD">1.0</td>
+<td class="shsNumD">3.7</td>
+<td class="shsNumD">.459</td>
+<td class="shsNumD">.316</td>
+<td class="shsNumD">.743</td>
+</tr>
+</table>
+<br>
+<table cellspacing="0" class="shsTable shsBorderTable">
+<tr class="shsTableTtlRow">
+<td class="shsTotD" colspan="17">Totals</td></tr><tr class="shsColTtlRow">
+<td class="shsNamD" nowrap>Year</td>
+<td class="shsNamD" nowrap>Team</td>
+<td class="shsNumD">G</td>
+<td class="shsNumD">Min</td>
+<td class="shsNumD">FGM</td>
+<td class="shsNumD">FGA</td>
+<td class="shsNumD">3PM</td>
+<td class="shsNumD">3PA</td>
+<td class="shsNumD">FTM</td>
+<td class="shsNumD">FTA</td>
+<td class="shsNumD">OR</td>
+<td class="shsNumD">TR</td>
+<td class="shsNumD">A</td>
+<td class="shsNumD">Stl</td>
+<td class="shsNumD">Blk</td>
+<td class="shsNumD">TO</td>
+<td class="shsNumD">Pts</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>05-06</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">604</td>
+<td class="shsNumD">146</td>
+<td class="shsNumD">307</td>
+<td class="shsNumD">21</td>
+<td class="shsNumD">63</td>
+<td class="shsNumD">87</td>
+<td class="shsNumD">118</td>
+<td class="shsNumD">22</td>
+<td class="shsNumD">105</td>
+<td class="shsNumD">76</td>
+<td class="shsNumD">18</td>
+<td class="shsNumD">9</td>
+<td class="shsNumD">65</td>
+<td class="shsNumD">400</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>06-07</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">20</td>
+<td class="shsNumD">893</td>
+<td class="shsNumD">166</td>
+<td class="shsNumD">399</td>
+<td class="shsNumD">21</td>
+<td class="shsNumD">75</td>
+<td class="shsNumD">148</td>
+<td class="shsNumD">196</td>
+<td class="shsNumD">26</td>
+<td class="shsNumD">161</td>
+<td class="shsNumD">159</td>
+<td class="shsNumD">34</td>
+<td class="shsNumD">10</td>
+<td class="shsNumD">66</td>
+<td class="shsNumD">501</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>07-08</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">13</td>
+<td class="shsNumD">552</td>
+<td class="shsNumD">113</td>
+<td class="shsNumD">275</td>
+<td class="shsNumD">18</td>
+<td class="shsNumD">70</td>
+<td class="shsNumD">122</td>
+<td class="shsNumD">167</td>
+<td class="shsNumD">16</td>
+<td class="shsNumD">102</td>
+<td class="shsNumD">99</td>
+<td class="shsNumD">23</td>
+<td class="shsNumD">17</td>
+<td class="shsNumD">54</td>
+<td class="shsNumD">366</td>
+</tr>
+<tr class="shsRow1Row">
+<td class="shsNamD" nowrap>08-09</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">14</td>
+<td class="shsNumD">580</td>
+<td class="shsNumD">159</td>
+<td class="shsNumD">312</td>
+<td class="shsNumD">27</td>
+<td class="shsNumD">81</td>
+<td class="shsNumD">149</td>
+<td class="shsNumD">199</td>
+<td class="shsNumD">19</td>
+<td class="shsNumD">128</td>
+<td class="shsNumD">102</td>
+<td class="shsNumD">23</td>
+<td class="shsNumD">12</td>
+<td class="shsNumD">38</td>
+<td class="shsNumD">494</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNamD" nowrap>09-10</td>
+<td class="shsNamD" nowrap><span class="shsLogo"><span class="team5sm"></span></span>Cle&nbsp;</td>
+<td class="shsNumD">11</td>
+<td class="shsNumD">460</td>
+<td class="shsNumD">106</td>
+<td class="shsNumD">211</td>
+<td class="shsNumD">20</td>
+<td class="shsNumD">50</td>
+<td class="shsNumD">88</td>
+<td class="shsNumD">120</td>
+<td class="shsNumD">15</td>
+<td class="shsNumD">102</td>
+<td class="shsNumD">84</td>
+<td class="shsNumD">19</td>
+<td class="shsNumD">20</td>
+<td class="shsNumD">42</td>
+<td class="shsNumD">320</td>
+</tr>
+<tr class="shsTableSubttlRow ">
+<td class="shsNamD" colspan="2" nowrap>Career</td>
+<td class="shsNumD">71</td>
+<td class="shsNumD">3089</td>
+<td class="shsNumD">690</td>
+<td class="shsNumD">1504</td>
+<td class="shsNumD">107</td>
+<td class="shsNumD">339</td>
+<td class="shsNumD">594</td>
+<td class="shsNumD">800</td>
+<td class="shsNumD">98</td>
+<td class="shsNumD">598</td>
+<td class="shsNumD">520</td>
+<td class="shsNumD">117</td>
+<td class="shsNumD">68</td>
+<td class="shsNumD">265</td>
+<td class="shsNumD">2081</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+
+</div>
+</div>
+
+<div class="shsCopyrightText">
+<a href="http://www.stats.com/" target="_new"><img src="http://hosted.stats.com/config/v2_02_01.gif" border="0" style="float: left" alt="w4" title="w4 12/8/2010 5:52:28 AM"></a>
+
+
+		&copy; 2010 by STATS LLC.<br/>Any commercial use or distribution without the express written consent of STATS LLC is strictly prohibited.
+	
+<div>
+<br style="clear: both"/>
+<!-- GOOGLE ANALYTICS -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+  _uacct = "UA-831911-1";
+  urchinTracker();
+  _uff = 0; 
+</script>
+</div>
+</div>
+</div></div></div><div id="area3" class="ca mpreg2"><!----></div><div id="area1" class="ca mpreg1"><!----></div><div id="infobtm" class="ca mpreg5"><!----></div></div><div id="area2" class="ca mpreg4"><!----><div class="parent chrome26 customcontainer black"><div class="heading alignright"><!----></div><div class="content"><div class="adcenter"><span>advertisement</span><div class="advertisement"><script type="text/javascript">dap("&amp;PG=CESNB3&amp;AP=1089",300,250);</script></div></div></div></div></div><div id="area6" class="ca mpreg6"><!----></div><div id="mediapage4column7to9"><div id="area7" class="ca mpreg2"><!----></div><div id="area8" class="ca mpreg1"><!----></div><div id="area9" class="ca mpreg4"><!----></div></div></div><div id="subfoot" class="ca"><div class="parent chrome23 single1  sitemapcontainerclass customcontainer black"><div class="heading alignright"><span class="text">MSN Sports Site Map</span></div><div class="content"><div class="child c1 first"><div class="sitemapfooter first"><ul class="sitemapfooterul first c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nhl/" rel="nofollow">NHL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/standings_conference.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nhl/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/nhl/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nba/" rel="nofollow">NBA</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/standings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/nba/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/nba/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/mlb/" rel="nofollow">MLB</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/standings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/mlb/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/mlb/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul item c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/cfl/" rel="nofollow">CFL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/totalstandings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/cfl/leaders.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/cfl/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul><ul class="sitemapfooterul last c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/nfl/" rel="nofollow">NFL</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/scoreboard.asp" rel="nofollow">Scores</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/totalstandings.asp" rel="nofollow">Standings</a></li><li class="sitemapfooterlinkitem"><a href="http://en.ca.msn.stats.com/fb/players.asp" rel="nofollow">Player stats</a></li><li class="sitemapfooterlinklast"><a href="http://en.ca.msn.stats.com/fb/teams.asp" rel="nofollow">Team stats and schedules</a></li></ul>
+        </div>
+      <div class="sitemapfooter item"><ul class="sitemapfooterul first c5"><li class="sitemapfooterlinkfirst"><a href="http://sports.ca.msn.com/" rel="nofollow">Sports</a></li><li class="sitemapfooterlinkitem"><a href="http://sports.ca.msn.com/video/default.aspx" rel="nofollow">Video</a></li><li class="sitemapfooterlinkitem"><a href="http://sports.ca.msn.com/olympics" rel="nofollow">Vancouver 2010</a></li><li class="sitemapfooterlinklast"><a href="http://sports.ca.msn.com/rss/cbctopstories.aspx" rel="nofollow">RSS</a></li></ul><ul class="sitemapfooterul item c5"></ul><ul class="sitemapfooterul item c5"></ul>
+        </div>
+      </div></div></div></div></div></div><div id="foot"><div class="parent chrome6 single1"><div class="child c1 first"><div class="msnfoot1 cf"><ul class="primary"><li class="first"><a href="http://g.msn.ca/0TO_/enca">Terms of use</a></li><li><a href="http://advertising.microsoft.ca">Advertise</a></li><li><a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy Statement</a></li><li class="last"><a href="http://g.msn.ca/2privacy/as-enca">Anti-Spam</a></li></ul><ul class="secondary"><li class="first"><a href="http://sports.ca.msn.com/rss/">RSS</a></li><li><a onclick="return Msn.Navigation.OpenPopup(event,this,'width=400,height=200,resizeable=no,status=no,titlebar=no,toolbar=no')" href="https://secure.opinionlab.com/ccc01/o.asp?id=xrCWCxEr">Feedback</a></li><li class="last"><a href="http://support.msn.com/default.aspx?locale=en-ca">Support</a></li></ul><div class="copyright"><span>© 2010 Microsoft</span></div></div></div></div></div></div><script type="text/javascript" src=""></script><!--[if lt IE 7]><script type="text/javascript" src="http://blstj.msn.com/br/gbl/js/4/ieminwidth.js"></script><![endif]--></body></html>

@@ -1,0 +1,1554 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Daily Grill, Fresno - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Daily Grill, Fresno, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Daily Grill, Fresno: See unbiased reviews of Daily Grill, rated 3.5 of 5 on TripAdvisor and ranked #153 of 572 restaurants in Fresno."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "A";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "818312";
+var modelGeoId = "32414";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d818312-treviews.xml"/>
+<!-- web07b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Fresno Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Daily Grill, Fresno</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g32414-d818312-e__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html-Daily_Grill-Fresno_California.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="32414"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Fresno</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g32414-Fresno_California-Vacations.html">
+Fresno Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g32414-Fresno_California-Hotels.html">
+Fresno Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWymXdUdWxfWqnEVtCiQfJcSTiECSJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g32414-Fresno_California-Cheap_Discount_Airfares.html">
+Flights to Fresno</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g32414-Fresno_California-Hotel-Deals.html">
+Fresno Deals</a>
+</li>
+<li class=" navTitle">
+More On Fresno
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWymXdUdWqnEVtCiQfJcSTiECSJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Daily Grill</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWymXdUdWbnISsSISVtWqnEVtCiQfJcSTiECSJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g32414-i734-Fresno_California.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWymXdUdWqnEVtCiQfJcSTiECSJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g32414-Fresno_California.html">
+Photos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Fresno Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g32414-Fresno_California.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g32414-Fresno_California.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g32414-Vacation-Package-Discount-Fresno_California.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Fresno</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Fresno</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-A"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="32414"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd818312" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html#savessd818312'},{flow: 'SAVES'});">Save Daily Grill</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIacWxExMJScgjzzEScc6XfjqnEVtCijqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.fresno
+PageType=Restaurant_Review
+pool=A
+kw=Daily+Grill
+geo=32414
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Daily+Grill
+gname=Fresno
+sz=160X80
+tile=4
+ord=42832167
+area=NA.United_States.California.Fresno
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.fresno+80+160+NA.United_States.California.Fresno+PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X80;tile=4;ord=42832167"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X80;tile=4;ord=42832167?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X80;tile=4;ord=42832167?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.fresno
+PageType=Restaurant_Review
+pool=A
+kw=Daily+Grill
+geo=32414
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Daily+Grill
+gname=Fresno
+sz=160X600
+tile=2
+ord=42832167
+area=NA.United_States.California.Fresno
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.fresno+600+160+NA.United_States.California.Fresno+PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X600;tile=2;ord=42832167"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X600;tile=2;ord=42832167?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=160X600;tile=2;ord=42832167?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Fresno restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g32414-d798080-Reviews-Dog_House_Grill-Fresno_California.html">Dog House Grill</a></li>
+<li><a href="/Restaurant_Review-g32414-d376505-Reviews-The_Lime_Lite-Fresno_California.html">The Lime Lite</a></li>
+<li><a href="/Restaurant_Review-g32414-d1072192-Reviews-Yosemite_Ranch-Fresno_California.html">Yosemite Ranch</a></li>
+<li><a href="/Restaurant_Review-g32414-d511485-Reviews-Parma-Fresno_California.html">Parma</a></li>
+<li><a href="/Restaurant_Review-g32414-d804668-Reviews-New_Stars_Vegetarian_Restaurant-Fresno_California.html">New Stars Vegetarian Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32414-d819237-Reviews-Shepherd_s_Inn_Restaurant_Menu-Fresno_California.html">Shepherd's Inn Restaurant Menu</a></li>
+<li><a href="/Restaurant_Review-g32414-d376527-Reviews-Palomino_s-Fresno_California.html">Palomino's</a></li>
+<li><a href="/Restaurant_Review-g32414-d376999-Reviews-Santa_Fe_Basque_Restaurant-Fresno_California.html">Santa Fe Basque Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32414-d786320-Reviews-In_n_Out_Burger-Fresno_California.html">In-n-Out Burger</a></li>
+<li><a href="/Restaurant_Review-g32414-d817921-Reviews-Piemonte_s_Italian_Deli-Fresno_California.html">Piemonte's Italian Deli</a></li>
+<li><a href="/Restaurant_Review-g32414-d376529-Reviews-Dai_Bai_Dang-Fresno_California.html">Dai Bai Dang</a></li>
+<li><a href="/Restaurant_Review-g32414-d824139-Reviews-Samba_Brazilian_Steak_House-Fresno_California.html">Samba Brazilian Steak House</a></li>
+<li><a href="/Restaurant_Review-g32414-d520662-Reviews-Fresno_Breakfast_House-Fresno_California.html">Fresno Breakfast House</a></li>
+<li><a href="/Restaurant_Review-g32414-d775351-Reviews-Thai_House-Fresno_California.html">Thai House</a></li>
+<li><a href="/Restaurant_Review-g32414-d378085-Reviews-Campagnia_Restaurant-Fresno_California.html">Campagnia Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32414-d376526-Reviews-Grandmarie_s_Chicken_Pie_Shop-Fresno_California.html">Grandmarie's Chicken Pie Shop</a></li>
+<li><a href="/Restaurant_Review-g32414-d823268-Reviews-Tajamal-Fresno_California.html">Tajamal</a></li>
+<li><a href="/Restaurant_Review-g32414-d511530-Reviews-Ovidio_s_Italian_Restaurant-Fresno_California.html">Ovidio's Italian Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32414-d511534-Reviews-Mimi_s_Cafe-Fresno_California.html">Mimi's Cafe</a></li>
+<li><a href="/Restaurant_Review-g32414-d545520-Reviews-Taco_Grande-Fresno_California.html">Taco Grande</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g32414-Fresno_California.html">Fresno restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g32414-oa20-Fresno_California.html">Fresno restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g32414-oa70-Fresno_California.html">Fresno restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g32414-oa120-Fresno_California.html">Fresno restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g32414-oa170-Fresno_California.html">Fresno restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g32414-oa220-Fresno_California.html">Fresno restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g32414-oa270-Fresno_California.html">Fresno restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g32414-oa320-Fresno_California.html">Fresno restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g32414-oa370-Fresno_California.html">Fresno restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g32414-oa420-Fresno_California.html">Fresno restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g32414-oa470-Fresno_California.html">Fresno restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g32414-oa520-Fresno_California.html">Fresno restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g32414-oa570-Fresno_California.html">Fresno restaurants: 571 - 572</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g32414-Fresno_California-Hotels.html">Hotels around Fresno</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g32414-d79474-Reviews-Comfort_Inn_Fresno-Fresno_California.html">Comfort Inn Fresno</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>17 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#13 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d77057-Reviews-Four_Points_by_Sheraton_Fresno-Fresno_California.html">Four Points by Sheraton Fresno</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>72 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#7 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d79332-Reviews-Residence_Inn_Fresno-Fresno_California.html">Residence Inn Fresno</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>25 Reviews</em>
+<div class="posted">Last reviewed Aug 8, 2010</div>
+</div>
+#32 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d77051-Reviews-Piccadilly_Inn_Shaw-Fresno_California.html">Piccadilly Inn Shaw</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>38 Reviews</em>
+<div class="posted">Last reviewed Aug 2, 2010</div>
+</div>
+#11 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d77004-Reviews-Best_Western_Village_Inn-Fresno_California.html">Best Western Village Inn</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>31 Reviews</em>
+<div class="posted">Last reviewed Jul 30, 2010</div>
+</div>
+#10 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32225-d1397467-Reviews-Hilton_Garden_Inn_Clovis-Clovis_California.html">Hilton Garden Inn Clovis</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>10 Reviews</em>
+<div class="posted">Last reviewed Jul 27, 2010</div>
+</div>
+#4 of 8 hotels in Clovis, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d79452-Reviews-Econo_Lodge_Fresno_N_Blackstone_Ave-Fresno_California.html">Econo Lodge - Fresno / N. Blackstone Ave.</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>63 Reviews</em>
+<div class="posted">Last reviewed Jul 27, 2010</div>
+</div>
+#8 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d223951-Reviews-TownePlace_Suites_Fresno-Fresno_California.html">TownePlace Suites Fresno</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>19 Reviews</em>
+<div class="posted">Last reviewed Jul 26, 2010</div>
+</div>
+#6 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d79342-Reviews-Best_Western_Fresno_Inn-Fresno_California.html">Best Western Fresno Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>15 Reviews</em>
+<div class="posted">Last reviewed Jul 24, 2010</div>
+</div>
+#36 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32225-d1214694-Reviews-Holiday_Inn_Express_Clovis_Fresno_Area-Clovis_California.html">Holiday Inn Express Clovis Fresno Area</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>17 Reviews</em>
+<div class="posted">Last reviewed Jul 19, 2010</div>
+</div>
+#5 of 8 hotels in Clovis, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d77016-Reviews-Courtyard_by_Marriott_Fresno-Fresno_California.html">Courtyard by Marriott Fresno</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>24 Reviews</em>
+<div class="posted">Last reviewed Jul 11, 2010</div>
+</div>
+#22 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d79445-Reviews-Country_Inn_Suites_By_Carlson_Fresno_North-Fresno_California.html">Country Inn & Suites By Carlson, Fresno-North</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>18 Reviews</em>
+<div class="posted">Last reviewed Jun 25, 2010</div>
+</div>
+#16 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d77024-Reviews-Days_Inn_Fresno-Fresno_California.html">Days Inn Fresno</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>20 Reviews</em>
+<div class="posted">Last reviewed Jun 17, 2010</div>
+</div>
+#51 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d79412-Reviews-Ramada_Fresno-Fresno_California.html">Ramada Fresno</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>27 Reviews</em>
+<div class="posted">Last reviewed Jun 12, 2010</div>
+</div>
+#27 of 64 hotels in Fresno, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32414-d242298-Reviews-Parkland_Hotel-Fresno_California.html">Parkland Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>1 review</em>
+<div class="posted">Last reviewed Jan 18, 2006</div>
+</div>
+#38 of 64 hotels in Fresno, CA<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g187853-d1021587-Reviews-Lago_dei_Salici-Cuneo_Piedmont.html">Lago dei Salici in Cuneo, Italy</a></li>
+<li><a href="/Restaurant_Review-g32655-d348206-Reviews-VIP_Harbor_Seafood-Los_Angeles_California.html">VIP Harbor Seafood in Los Angeles</a></li>
+<li><a href="/Restaurant_Review-g60724-d403418-Reviews-Smitty_s_Golden_Steak-Moab_Utah.html">Smitty&#39;s Golden Steak in Moab, UT</a></li>
+<li><a href="/Restaurant_Review-g580151-d1331609-Reviews-Chez_Nounoute-Fecamp_Haute_Normandie_Normandy.html">Chez Nounoute in Fecamp, France</a></li>
+<li><a href="/Restaurant_Review-g1060902-d1846958-Reviews-Waseirou-Ome_Tokyo_Prefecture_Kanto.html">Waseirou in Ome, Japan</a></li>
+<li><a href="/Restaurant_Review-g34607-d485387-Reviews-Harvey_s_4th_Street_Grill-St_Petersburg_Florida.html">Harvey&#39;s 4th Street Grill in St. Petersburg, FL</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g42345-d1604326-Reviews-Holiday_Inn_Jackson_Northwest-Jackson_Michigan.html">Holiday Inn Jackson Northwest in Jackson, MI</a></li>
+<li><a href="/Hotel_Review-g147293-d150863-Reviews-Dreams_Palm_Beach_Punta_Cana-Punta_Cana_Dominican_Republic.html">Dreams Palm Beach Punta Cana in Punta Cana</a></li>
+<li><a href="/Hotel_Review-g54371-d1542141-Reviews-North_Beach_Plantation-North_Myrtle_Beach_South_Carolina.html">North Beach Plantation in North Myrtle Beach, SC</a></li>
+<li><a href="/Hotel_Review-g55991-d277891-Reviews-Super_8_Hillsboro-Hillsboro_Texas.html">Super 8 Hillsboro in Hillsboro, TX</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Fresno resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g32414-Reviews-Fresno_California-Vacation_Rentals.html">Fresno Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g32414-Fresno_California.html" onclick="return setOneTimeCookie('mcreset','true')">Fresno Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g32414-Activities-Fresno_California.html">Things to Do in Fresno</a>
+</li>
+<li>
+<a href="/AllReviews-g32414-Fresno_California.html">Fresno Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g32414-Fresno-Area.html">Fresno Maps</a>
+</li>
+<li>
+<a href="/Travel-g32414-s208/Fresno:California:Weather.And.When.To.Go.html">Fresno Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolA" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.fresno
+PageType=Restaurant_Review
+pool=A
+kw=Daily+Grill
+geo=32414
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Daily+Grill
+gname=Fresno
+sz=728X90
+tile=1
+ord=42832167
+area=NA.United_States.California.Fresno
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Daily+Grill;gname=Fresno;sz=728X90;tile=1;ord=42832167?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=728X90;tile=1;ord=42832167?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=728X90;tile=1;ord=42832167?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28926-California-Vacations.html">California (CA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g32414-Fresno_California-Vacations.html">Fresno</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g32414-Fresno_California.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Daily Grill </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "5047D6C6BB68A3AF73DBAC334F44DCA2";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g32414-d818312-Daily_Grill-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 36.799847,
+lng: -119.808586,
+locId: 818312,
+title: "Daily Grill",
+url: "/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Daily Grill</span>
+<div class="addr">
+<span>7855 North Palm Avenue</span>
+<div>
+<span> Fresno, CA 93711</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=7855+North+Palm+Avenue+Fresno%2C+CA+93711' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281986325241?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g32414-d818312-Daily_Grill-Area.html" class="pid1103">view map of Daily Grill</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Fresno.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="bx01 quickguide">
+<div class="content">
+<div class="h19">Free Fresno Guide</div>
+<p>Get your quick guide to the top hotels, restaurants and things to do.</p>
+<div class="wrap">
+<div class="button">
+<span onclick="ta.overlays.registration.request('SIGNUP',{pid:826},{flow: 'QUICK_GUIDE_CALLOUT'});">Grab it and Go!</span>
+</div>
+</div>
+</div>
+</div>
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.fresno
+PageType=Restaurant_Review
+pool=A
+kw=Daily+Grill
+pos=top
+geo=32414
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Daily+Grill
+gname=Fresno
+sz=300X250
+tile=3
+ord=42832167
+area=NA.United_States.California.Fresno
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.fresno+250+300+NA.United_States.California.Fresno+PageType=Restaurant_Review;pool=A;kw=Daily+Grill;pos=top;geo=32414;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Daily+Grill;gname=Fresno;sz=300X250;tile=3;ord=42832167"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;pos=top;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=300X250;tile=3;ord=42832167?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.fresno;PageType=Restaurant_Review;pool=A;kw=Daily+Grill;pos=top;geo=32414;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Daily+Grill;gname=Fresno;sz=300X250;tile=3;ord=42832167?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Daily Grill</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32414-d79329-Reviews-San_Joaquin_Suite_Hotel-Fresno_California.html" class="pid907">San Joaquin Suite Hotel</a></td>
+<td class="priceColumn">
+$107
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32414-d77045-Reviews-Motel_6_Fresno_Blackstone_North-Fresno_California.html" class="pid907">Motel 6 Fresno - Blackstone North</a></td>
+<td class="priceColumn">
+$53
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32414-d77011-Reviews-Americas_Best_Value_Inn_Fresno_Water_Tree-Fresno_California.html" class="pid907">Americas Best Value Inn - Fresno Water Tree</a></td>
+<td class="priceColumn">
+$83
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32414-d77043-Reviews-Motel_6_Fresno_Blackstone_South-Fresno_California.html" class="pid907">Motel 6 Fresno - Blackstone South</a></td>
+<td class="priceColumn">
+$51
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32414-d79424-Reviews-Travelodge_Highway_41_Fresno-Fresno_California.html" class="pid907">Travelodge Highway 41 Fresno</a></td>
+<td class="priceColumn">
+$68
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g32414-Fresno_California-Hotels.html">All Hotels in Fresno<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32414-d376505-Reviews-The_Lime_Lite-Fresno_California.html" rel="nofollow" class="pid908">The Lime Lite</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32414-d809407-Reviews-La_Boulangerie_French_Bakery_Cafe-Fresno_California.html" rel="nofollow" class="pid908">La Boulangerie French Bakery & Cafe</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32414-d613436-Reviews-Ripe_Tomato-Fresno_California.html" rel="nofollow" class="pid908">Ripe Tomato</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g32414-Fresno_California.html" rel="nofollow">All Restaurants in Fresno<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32414-d648695-Reviews-The_Fresno_Philharmonic-Fresno_California.html" rel="nofollow" class="pid909">The Fresno Philharmonic</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32414-d495485-Reviews-Fresno_Art_Museum-Fresno_California.html" rel="nofollow" class="pid909">Fresno Art Museum</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">3.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">5.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32414-d1474539-Reviews-Kings_River_Expeditions-Fresno_California.html" rel="nofollow" class="pid909">Kings River Expeditions</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">3.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">6.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g32414-Activities-Fresno_California.html" rel="nofollow">All Things to Do in Fresno<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Daily Grill</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 8 posts on Fresno from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g32414-i734-Fresno_California.html">Go to Fresno Forum &#xbb;</a></li></ul> </dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>153</b></var> <span>of 572 <i><a href="/Restaurants-g32414-Fresno_California.html">restaurants in Fresno</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no35"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">2</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g32414-d818312-e__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html-fbefirst_Restaurant_Review_writeareview_top-Daily_Grill-Fresno_California.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">7855 North Palm Avenue</span>, <span class="locality"><span property="v:locality">Fresno</span>, <span property="v:region">CA</span> <span property="v:postal-code">93711</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">559 435-5550</span>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=16852736&geo=818312&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>Rating summary</b>
+</div>
+<ul class="barChart">
+<li class="row disabled">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:40px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row disabled">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:40px;"></div></div>
+<span class="total">1</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32414__2D__d818312__2D__Reviews__2D__Daily__5F__Grill__2D__Fresno__5F__California__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32414-d818312-r11929765-Daily_Grill-Fresno_California.html" class="pid2168" id="r11929765">Comfort Food In An Upscale Ambiance</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd11929765" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html#savessd11929765'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/syrahgirl"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/10/55/63/syrahgirl.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_8B28BABB4283E1CB656645982320F2E4-SRC_11929765" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">syrahgirl</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">18,762 contributions</span> </div>
+<div class="location">CA/Oregon Coast</div>
+<div class="date ">
+Dec 24, 2007
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">3</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+We enjoyed a very nice meal this past Sat. night at the Daily Grill, a high-end chain restaurant that has recently opened in the area. The ambiance is very nice with a couple of more private dining rooms in addition to the main diner-style area. We were seated in a private room to the right of the restaurant off of...
+<span class="fkLnk hvrIE6 tr11929765" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Daily Grill? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWymXdUdWMvUvmUXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WxMJScgQzzESccWqnEVtCiQfJcSTiECSJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WymXdUdWMvUvmUXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WxMJScgQzzESccWqnEVtCiQfJcSTiECSJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWymXdUdWMvUvmUXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WxMJScgQzzESccWqnEVtCiQfJcSTiECSJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Fresno</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134412&amp;geo=32414&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Fresno: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5568447&amp;geo=32414&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Fresno: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO6&amp;src=1525185&amp;geo=32414&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Fresno: Great Rates on Hotels</var><br/>
+<span><b>Expedia.com</b> Get the lowest price on hotels with our Best Price Guarantee</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaVacationsGEO&amp;src=677747&amp;geo=32414&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Fresno: Save on Travel</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g32414-Vacation-Package-Discount-Fresno_California.html">
+<b>View all deals for Fresno</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Daily Grill? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWymXdUdWMvUvmUXWxMJScgQzzESccWqnEVtCiQfJcSTiECSJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g32414-d818312-Daily_Grill-Fresno_California.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Daily Grill Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">7855 North Palm Avenue</span>, <span class="locality"><span property="v:locality">Fresno</span>, <span property="v:region">CA</span> <span property="v:postal-code">93711</span></span> </address>
+<span class="tel"><b>Tel:</b> 559 435-5550</span>
+<span class="fax"><b>Fax:</b> 559 435-5255</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Daily Grill</b>, Fresno.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.co.uk/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.ca/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.it/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.es/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.de/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.fr/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Daily Grill, フレズノ" href="http://www.tripadvisor.jp/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, フレズノ"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Daily Grill, 弗雷斯诺" href="http://www.daodao.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, 弗雷斯诺"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.in/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.se/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Daily Grill, Fresno" href="http://nl.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.com.br/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.com.tr/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.dk/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.com.mx/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.ie/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.com.au/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Daily Grill, Fresno" href="http://www.tripadvisor.com.sg/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Daily Grill, Fresno" href="http://no.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Daily Grill, Fresno" href="http://pl.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, Fresno"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Daily Grill, เฟรสโน" href="http://th.tripadvisor.com/Restaurant_Review-g32414-d818312-Reviews-Daily_Grill-Fresno_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Daily Grill, เฟรสโน"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Fresno! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Fresno? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXdUdqHMvUvmUXqHxfqHxMJScgQQoqnQQzzESccqHqnEVtCiQQoqnQQfJcSTiECSJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=36.799847,-119.808586&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "32414");
+ta.store('page.location', "818312");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 138 dc: 2 sc: 10 -->
+</html>

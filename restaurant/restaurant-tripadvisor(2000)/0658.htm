@@ -1,0 +1,2069 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Trattoria Fantastica, San Diego - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Trattoria Fantastica, San Diego, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Trattoria Fantastica, San Diego: See 17 unbiased reviews of Trattoria Fantastica, rated 4.0 of 5 on TripAdvisor and ranked #133 of 1,685 restaurants in San Diego."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "B";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "481914";
+var modelGeoId = "60750";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d481914-treviews.xml"/>
+<!-- web21b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My San Diego Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Trattoria Fantastica, San Diego</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g60750-d481914-e__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html-Trattoria_Fantastica-San_Diego_California.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="60750"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">San Diego</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g60750-San_Diego_California-Vacations.html">
+San Diego Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g60750-San_Diego_California-Hotels.html">
+San Diego Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWy3KkoKWxfWhJCQxMSVyiQfJcSTiECSJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g60750-San_Diego_California-Cheap_Discount_Airfares.html">
+Flights to San Diego</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g60750-San_Diego_California-Hotel-Deals.html">
+San Diego Deals</a>
+</li>
+<li class=" navTitle">
+More On San Diego
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWy3KkoKWhJCQxMSVyiQfJcSTiECSJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Trattoria Fantastica</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWy3KkoKWbnISsSISVtWhJCQxMSVyiQfJcSTiECSJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g60750-i41-San_Diego_California.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWy3KkoKWhJCQxMSVyiQfJcSTiECSJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g60750-San_Diego_California.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g60750-San_Diego_California.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+San Diego Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g60750-San_Diego_California.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g60750-San_Diego_California.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g60750-Vacation-Package-Discount-San_Diego_California.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>San Diego</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for San Diego</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-B"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="60750"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd481914" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd481914'},{flow: 'SAVES'});">Save Trattoria Fantastica</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIacWxErEJIIiESJjqnJCIJtISnJ6XfjhJCjxMSVyijqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.san_diego
+PageType=Restaurant_Review
+pool=B
+kw=Trattoria+Fantastica
+geo=60750
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Trattoria+Fantastica
+gname=San+Diego
+sz=160X80
+tile=4
+ord=72806670
+area=NA.United_States.California.San_Diego
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.san_diego+80+160+NA.United_States.California.San_Diego+PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X80;tile=4;ord=72806670"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X80;tile=4;ord=72806670?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X80;tile=4;ord=72806670?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.san_diego
+PageType=Restaurant_Review
+pool=B
+kw=Trattoria+Fantastica
+geo=60750
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Trattoria+Fantastica
+gname=San+Diego
+sz=160X600
+tile=2
+ord=72806670
+area=NA.United_States.California.San_Diego
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.san_diego+600+160+NA.United_States.California.San_Diego+PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X600;tile=2;ord=72806670"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X600;tile=2;ord=72806670?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=160X600;tile=2;ord=72806670?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular San Diego restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g60750-d922292-Reviews-Trellises_Garden_Grille-San_Diego_California.html">Trellises Garden Grille</a></li>
+<li><a href="/Restaurant_Review-g60750-d481965-Reviews-Sushi_Ota-San_Diego_California.html">Sushi Ota</a></li>
+<li><a href="/Restaurant_Review-g60750-d481948-Reviews-Phil_s_BBQ-San_Diego_California.html">Phil's BBQ</a></li>
+<li><a href="/Restaurant_Review-g60750-d532538-Reviews-Buon_Appetito-San_Diego_California.html">Buon Appetito</a></li>
+<li><a href="/Restaurant_Review-g60750-d522146-Reviews-Kono_s_Cafe-San_Diego_California.html">Kono's Cafe</a></li>
+<li><a href="/Restaurant_Review-g60750-d666482-Reviews-Richard_Walker_s_Pancake_House-San_Diego_California.html">Richard Walker's Pancake House</a></li>
+<li><a href="/Restaurant_Review-g60750-d481908-Reviews-Extraordinary_Desserts-San_Diego_California.html">Extraordinary Desserts</a></li>
+<li><a href="/Restaurant_Review-g60750-d518473-Reviews-The_Oceanaire_Seafood_Room-San_Diego_California.html">The Oceanaire Seafood Room</a></li>
+<li><a href="/Restaurant_Review-g60750-d632171-Reviews-Island_Prime_Restaurant-San_Diego_California.html">Island Prime Restaurant</a></li>
+<li><a href="/Restaurant_Review-g60750-d496437-Reviews-The_Mission-San_Diego_California.html">The Mission</a></li>
+<li><a href="/Restaurant_Review-g60750-d1018217-Reviews-Lucha_Libre_Gourmet_Taco_Shop-San_Diego_California.html">Lucha Libre Gourmet Taco Shop</a></li>
+<li><a href="/Restaurant_Review-g60750-d597128-Reviews-Cafe_Chloe-San_Diego_California.html">Cafe Chloe</a></li>
+<li><a href="/Restaurant_Review-g60750-d481888-Reviews-Caffe_Bella_Italia-San_Diego_California.html">Caffe Bella Italia</a></li>
+<li><a href="/Restaurant_Review-g60750-d776691-Reviews-Bronx_Pizza-San_Diego_California.html">Bronx Pizza</a></li>
+<li><a href="/Restaurant_Review-g60750-d948372-Reviews-Pizzeria_Luigi-San_Diego_California.html">Pizzeria Luigi</a></li>
+<li><a href="/Restaurant_Review-g60750-d847199-Reviews-Blue_Water_Seafood-San_Diego_California.html">Blue Water Seafood</a></li>
+<li><a href="/Restaurant_Review-g60750-d481917-Reviews-Hash_House_A_Go_Go-San_Diego_California.html">Hash House A Go Go</a></li>
+<li><a href="/Restaurant_Review-g60750-d481974-Reviews-Prado_at_Balboa_Park-San_Diego_California.html">Prado at Balboa Park</a></li>
+<li><a href="/Restaurant_Review-g60750-d1208448-Reviews-Muzita_Abyssinian_Bistro-San_Diego_California.html">Muzita Abyssinian Bistro</a></li>
+<li><a href="/Restaurant_Review-g60750-d522135-Reviews-Hodad_s-San_Diego_California.html">Hodad's</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g60750-San_Diego_California.html">San Diego restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g60750-oa20-San_Diego_California.html">San Diego restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g60750-oa70-San_Diego_California.html">San Diego restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g60750-oa120-San_Diego_California.html">San Diego restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g60750-oa170-San_Diego_California.html">San Diego restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g60750-oa220-San_Diego_California.html">San Diego restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g60750-oa270-San_Diego_California.html">San Diego restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g60750-oa320-San_Diego_California.html">San Diego restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g60750-oa370-San_Diego_California.html">San Diego restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g60750-oa420-San_Diego_California.html">San Diego restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g60750-oa470-San_Diego_California.html">San Diego restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g60750-oa520-San_Diego_California.html">San Diego restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g60750-oa570-San_Diego_California.html">San Diego restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g60750-oa620-San_Diego_California.html">San Diego restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g60750-oa670-San_Diego_California.html">San Diego restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g60750-oa720-San_Diego_California.html">San Diego restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g60750-oa770-San_Diego_California.html">San Diego restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g60750-oa820-San_Diego_California.html">San Diego restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g60750-oa870-San_Diego_California.html">San Diego restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g60750-oa920-San_Diego_California.html">San Diego restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g60750-oa970-San_Diego_California.html">San Diego restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g60750-oa1020-San_Diego_California.html">San Diego restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g60750-oa1070-San_Diego_California.html">San Diego restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g60750-oa1120-San_Diego_California.html">San Diego restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g60750-oa1170-San_Diego_California.html">San Diego restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g60750-oa1220-San_Diego_California.html">San Diego restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g60750-oa1270-San_Diego_California.html">San Diego restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g60750-oa1320-San_Diego_California.html">San Diego restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g60750-oa1370-San_Diego_California.html">San Diego restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g60750-oa1420-San_Diego_California.html">San Diego restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g60750-oa1470-San_Diego_California.html">San Diego restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g60750-oa1520-San_Diego_California.html">San Diego restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g60750-oa1570-San_Diego_California.html">San Diego restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g60750-oa1620-San_Diego_California.html">San Diego restaurants: 1621 - 1670</a></li>
+<li><a href="/Restaurants-g60750-oa1670-San_Diego_California.html">San Diego restaurants: 1671 - 1685</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g60750-San_Diego_California-Hotels.html">Hotels around San Diego</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g60750-d650054-Reviews-Porto_Vista_Hotel-San_Diego_California.html">Porto Vista Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>170 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#129 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d82821-Reviews-Residence_Inn_San_Diego_Downtown-San_Diego_California.html">Residence Inn San Diego Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>47 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#92 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d258655-Reviews-W_San_Diego-San_Diego_California.html">W San Diego</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>409 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#31 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d79902-Reviews-Best_Western_Bayside_Inn-San_Diego_California.html">Best Western Bayside Inn</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>124 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#100 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d224353-Reviews-Hampton_Inn_San_Diego_Downtown-San_Diego_California.html">Hampton Inn San Diego - Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>157 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#117 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d119762-Reviews-Harborview_Inn_and_Suites-San_Diego_California.html">Harborview Inn and Suites</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>56 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#201 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d80106-Reviews-Pacific_Inn_Hotel_Suites-San_Diego_California.html">Pacific Inn Hotel & Suites</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>89 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#109 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d119716-Reviews-La_Pensione-San_Diego_California.html">La Pensione</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>135 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#112 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d83245-Reviews-Bristol_Hotel-San_Diego_California.html">Bristol Hotel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>208 Reviews</em>
+<div class="posted">Last reviewed Aug 8, 2010</div>
+</div>
+#20 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d1237001-Reviews-Hotel_Indigo_San_Diego_Gaslamp_Quarter-San_Diego_California.html">Hotel Indigo San Diego Gaslamp Quarter</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>129 Reviews</em>
+<div class="posted">Last reviewed Aug 7, 2010</div>
+</div>
+#6 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d79873-Reviews-Holiday_Inn_Express_San_Diego_Downtown-San_Diego_California.html">Holiday Inn Express San Diego Downtown</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>91 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#59 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d80138-Reviews-Holiday_Inn_San_Diego_Downtown-San_Diego_California.html">Holiday Inn San Diego-Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>108 Reviews</em>
+<div class="posted">Last reviewed Aug 4, 2010</div>
+</div>
+#97 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d80291-Reviews-Doubletree_Hotel_San_Diego_Downtown-San_Diego_California.html">Doubletree Hotel San Diego Downtown</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>55 Reviews</em>
+<div class="posted">Last reviewed Aug 2, 2010</div>
+</div>
+#148 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d80033-Reviews-San_Diego_Days_Inn_Harbor_View_Airport_Convention_Ctr-San_Diego_California.html">San Diego - Days Inn Harbor View / Airport / Convention Ctr</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>24 Reviews</em>
+<div class="posted">Last reviewed Jun 25, 2010</div>
+</div>
+#122 of 251 hotels in San Diego, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60750-d601802-Reviews-Wyndham_Harbour_Lights-San_Diego_California.html">Wyndham Harbour Lights</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>20 Reviews</em>
+<div class="posted">Last reviewed Jun 16, 2010</div>
+</div>
+#67 of 251 hotels in San Diego, CA<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g1170717-d1537259-Reviews-Borda_Restaurant_L_Era_d_en_Jaume-Llorts.html">Borda Restaurant L&#39;Era d&#39;en Jaume in Llorts, Andorra</a></li>
+<li><a href="/Restaurant_Review-g292002-d1640345-Reviews-Sun_Dog_Cafe-Guatemala.html">Sun Dog Cafe in Guatemala</a></li>
+<li><a href="/Restaurant_Review-g499141-d683804-Reviews-Cobblestone_Wine_bar_Heritage_Inn_Spa-Naramata_Okanagan_Valley_British_Columbia.html">Cobblestone Wine bar @ Heritage Inn &amp; Spa in Naramata, Canada</a></li>
+<li><a href="/Restaurant_Review-g187260-d1086431-Reviews-Nature_et_Saveur-Annecy_Haute_Savoie_Rhone_Alpes.html">Nature et Saveur in Annecy, France</a></li>
+<li><a href="/Restaurant_Review-g46341-d393903-Reviews-Gecko_s-Cape_May_New_Jersey.html">Gecko&#39;s in Cape May, NJ</a></li>
+<li><a href="/Restaurant_Review-g262060-d995512-Reviews-Las_Palmeras-Roses_Costa_Brava_Catalonia.html">las Palmeras in Roses, Spain</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g54171-d97536-Reviews-Comfort_Inn_Coliseum-Charleston_South_Carolina.html">Comfort Inn Coliseum in Charleston, SC</a></li>
+<li><a href="/Hotel_Review-g30677-d1768770-Reviews-Country_Inn_Suites_Madison-Madison_Alabama.html">Country Inn &amp; Suites Madison in Madison, AL</a></li>
+<li><a href="/Hotel_Review-g60922-d99936-Reviews-Radisson_Salt_Lake_City_Airport-Salt_Lake_City_Utah.html">Salt Lake City Radisson</a></li>
+<li><a href="/Hotel_Review-g43323-d90394-Reviews-Radisson_Plaza_Hotel_Minneapolis-Minneapolis_Minnesota.html">Radisson Plaza Hotel Minneapolis in Minneapolis, MN</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other San Diego resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g60750-Reviews-San_Diego_California-Vacation_Rentals.html">San Diego Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g60750-San_Diego_California.html" onclick="return setOneTimeCookie('mcreset','true')">San Diego Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g60750-Activities-San_Diego_California.html">Things to Do in San Diego</a>
+</li>
+<li>
+<a href="/AllReviews-g60750-San_Diego_California.html">San Diego Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g60750-San_Diego-Area.html">San Diego Maps</a>
+</li>
+<li>
+<a href="/Travel-g60750-s208/San-Diego:California:Weather.And.When.To.Go.html">San Diego Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolB" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.san_diego
+PageType=Restaurant_Review
+pool=B
+kw=Trattoria+Fantastica
+geo=60750
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Trattoria+Fantastica
+gname=San+Diego
+sz=728X90
+tile=1
+ord=72806670
+area=NA.United_States.California.San_Diego
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=728X90;tile=1;ord=72806670?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=728X90;tile=1;ord=72806670?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=728X90;tile=1;ord=72806670?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28926-California-Vacations.html">California (CA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g60750-San_Diego_California-Vacations.html">San Diego</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g60750-San_Diego_California.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Trattoria Fantastica </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "F9A51AED25E6822EDD1F4397215D4131";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g60750-d481914-Trattoria_Fantastica-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 32.723248,
+lng: -117.16832,
+locId: 481914,
+title: "Trattoria Fantastica",
+url: "/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Trattoria Fantastica</span>
+<div class="addr">
+<span>1735 India St</span>
+<div>
+<span> San Diego, CA 92101</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1735+India+St+San+Diego%2C+CA+92101' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281957055777?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g60750-d481914-Trattoria_Fantastica-Area.html" class="pid1103">view map of Trattoria Fantastica</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to San Diego.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free San Diego Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965113" href="http://media-cdn.tripadvisor.com/media/photo-s/01/9b/74/79/trattoria-fantastica.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/9b/74/79/trattoria-fantastica.jpg" alt="Lasagna on the menu"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965113" class="caption js_popGallery">Lasagna on the menu</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLTiiMnESISnMakK">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLTiiMnESISnMakK')">foodcriticdm70</span>
+</span>
+</div>
+<div class="location">Palos Hills, Illinois</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965111" href="http://media-cdn.tripadvisor.com/media/photo-s/01/9b/74/77/trattoria-fantastica.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/9b/74/77/trattoria-fantastica.jpg" alt="the sign"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965111" class="caption js_popGallery">the sign</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLTiiMnESISnMakK">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLTiiMnESISnMakK')">foodcriticdm70</span>
+</span>
+</div>
+<div class="location">Palos Hills, Illinois</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965110" href="http://media-cdn.tripadvisor.com/media/photo-s/01/9b/74/76/the-lasagna-bolognese.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/9b/74/76/the-lasagna-bolognese.jpg" alt="The lasagna... bolognese, asiago, parmesan, mozzarella and ricotta"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26965110" class="caption js_popGallery">The lasagna... bolognese, asiago, parmesan, mozzarella and ricotta</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLTiiMnESISnMakK">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLTiiMnESISnMakK')">foodcriticdm70</span>
+</span>
+</div>
+<div class="location">Palos Hills, Illinois</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26060801" href="http://media-cdn.tripadvisor.com/media/photo-s/01/8d/a8/01/trattoria-fantastica.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/8d/a8/01/trattoria-fantastica.jpg" alt="..."/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#26060801" class="caption js_popGallery">...</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLHiIIXm">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLHiIIXm')">bott23</span>
+</span>
+</div>
+<div class="location">brisbane</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779588" href="http://media-cdn.tripadvisor.com/media/photo-s/01/1e/8d/c4/san-diego-trattoria-fantastica.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/1e/8d/c4/san-diego-trattoria-fantastica.jpg" alt="San Diego - Trattoria Fantastica"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779588" class="caption js_popGallery">San Diego - Trattoria Fantastica</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLJcTJaJQyiJ">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLJcTJaJQyiJ')">alfama_goa</span>
+</span>
+</div>
+<div class="location">Sicily</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779586" href="http://media-cdn.tripadvisor.com/media/photo-s/01/1e/8d/c2/san-diego-trattoria-fantastica.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/1e/8d/c2/san-diego-trattoria-fantastica.jpg" alt="San Diego - Trattoria Fantastica inside"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779586" class="caption js_popGallery">San Diego - Trattoria Fantastica inside</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLJcTJaJQyiJ">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLJcTJaJQyiJ')">alfama_goa</span>
+</span>
+</div>
+<div class="location">Sicily</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779584" href="http://media-cdn.tripadvisor.com/media/photo-s/01/1e/8d/c0/san-diego-cafe-zucchero.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/1e/8d/c0/san-diego-cafe-zucchero.jpg" alt="San Diego - Cafe Zucchero"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html#18779584" class="caption js_popGallery">San Diego - Cafe Zucchero</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLJcTJaJQyiJ">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLJcTJaJQyiJ')">alfama_goa</span>
+</span>
+</div>
+<div class="location">Sicily</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g60750-d481914-e__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Trattoria_Fantastica-San_Diego_California.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g60750-d481914-e__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Trattoria_Fantastica-San_Diego_California.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.san_diego
+PageType=Restaurant_Review
+pool=B
+kw=Trattoria+Fantastica
+pos=top
+geo=60750
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Trattoria+Fantastica
+gname=San+Diego
+sz=300X250
+tile=3
+ord=72806670
+area=NA.United_States.California.San_Diego
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.san_diego+250+300+NA.United_States.California.San_Diego+PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;pos=top;geo=60750;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=300X250;tile=3;ord=72806670"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;pos=top;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=300X250;tile=3;ord=72806670?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.san_diego;PageType=Restaurant_Review;pool=B;kw=Trattoria+Fantastica;pos=top;geo=60750;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Trattoria+Fantastica;gname=San+Diego;sz=300X250;tile=3;ord=72806670?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Trattoria Fantastica</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60750-d80593-Reviews-Marina_Inn_and_Suites-San_Diego_California.html" class="pid907">Marina Inn and Suites</a></td>
+<td class="priceColumn">
+$111
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60750-d80590-Reviews-The_Westgate_Hotel-San_Diego_California.html" class="pid907">The Westgate Hotel</a></td>
+<td class="priceColumn">
+$266
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60750-d80668-Reviews-The_US_Grant-San_Diego_California.html" class="pid907">The US Grant</a></td>
+<td class="priceColumn">
+$275
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60750-d82868-Reviews-Courtyard_by_Marriott_San_Diego_Downtown-San_Diego_California.html" class="pid907">Courtyard by Marriott San Diego Downtown</a></td>
+<td class="priceColumn">
+$244
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60750-d574448-Reviews-Britt_Scripps_Inn-San_Diego_California.html" class="pid907">Britt Scripps Inn</a></td>
+<td class="priceColumn">
+$256
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g60750-San_Diego_California-Hotels.html">All Hotels in San Diego<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60750-d532538-Reviews-Buon_Appetito-San_Diego_California.html" rel="nofollow" class="pid908">Buon Appetito</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60750-d666482-Reviews-Richard_Walker_s_Pancake_House-San_Diego_California.html" rel="nofollow" class="pid908">Richard Walker's Pancake House</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60750-d1021596-Reviews-Avenue_5_Restaurant_Bar-San_Diego_California.html" rel="nofollow" class="pid908">Avenue 5 Restaurant & Bar</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g60750-San_Diego_California.html" rel="nofollow">All Restaurants in San Diego<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60750-d274103-Reviews-Little_Italy-San_Diego_California.html" rel="nofollow" class="pid909">Little Italy</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60750-d128792-Reviews-The_Firehouse_Museum-San_Diego_California.html" rel="nofollow" class="pid909">The Firehouse Museum</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60750-d1103480-Reviews-Another_Side_of_San_Diego_Tours-San_Diego_California.html" rel="nofollow" class="pid909">Another Side of San Diego Tours</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g60750-Activities-San_Diego_California.html" rel="nofollow">All Things to Do in San Diego<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Trattoria Fantastica</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 252 posts on San Diego from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g60750-i41-San_Diego_California.html">Go to San Diego Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (2)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60750-d481914-r2339179.html" class="js_popSmall" title="Trattoria Fantastica">&#x201c;Trattoria Fantastica&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60750-d481914-r9879503.html" class="js_popSmall" title="Trattoria Fantastica">&#x201c;Trattoria Fantastica&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60750-d481914-a_area.Text__5F__HotelComment-r9879504.html" class="js_popSmall">&#x201c;Trattoria Fantastica&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>133</b></var> <span>of 1,685 <i><a href="/Restaurants-g60750-San_Diego_California.html">restaurants in San Diego</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">23</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g60750-d481914-e__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html-fbefirst_Restaurant_Review_writeareview_top-Trattoria_Fantastica-San_Diego_California.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: Pizza, Italian
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1735 India St</span>, <span class="locality"><span property="v:locality">San Diego</span>, <span property="v:region">CA</span> <span property="v:postal-code">92101</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(619) 234-1735</span>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=16852884&geo=481914&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Average price*:</b> $ 30 </li><!--/ price-->
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>73% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:20px;"></div></div>
+<span class="total">6</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:31px;"></div></div>
+<span class="total">9</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:13px;"></div></div>
+<span class="total">4</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='2';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:13px;"></div></div>
+<span class="total">4</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 17</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkoKWMdvUAUdWxfWiEUKWrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJBxyezsqilzsxdh',0)">2</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkoKWMdvUAUdWxfWiEUKWrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60750__2D__d481914__2D__Reviews__2D__Trattoria__5F__Fantastica__2D__San__5F__Diego__5F__California__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+<option value="it">
+Italian first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r73877805-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r73877805">The lasagna rocks!!!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd73877805" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd73877805'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/foodcriticdm70"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_1FF331C6BD55A5BBC29610E1EE33F43B-SRC_73877805" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">foodcriticdm70</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">4 contributions</span> </div>
+<div class="location">Palos Hills, Illinois</div>
+<div class="date ">
+Aug 5, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+We had impeccable service at this Little Italy destination. We dined outside, in front of the restaurant. I had the lasagna, which was amazing, and it was a good amount for $12.95. My friend had the lemon chicken, which was lacking some flavor and not very lemony. The desserts looked wonderful too but we had another place in mind. I'd...
+<span class="fkLnk hvrIE6 tr73877805" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g60750-d481914-r73877805-Trattoria_Fantastica-San_Diego_California.html">3 Photos</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r73489958-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r73489958">Delicious,inviting and great location.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd73489958" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd73489958'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Kaiyasmom"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/9a/d8/de/kaiyasmom.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_EF4B87C850E89D5A38D64ADAE9A58BB1-SRC_73489958" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Kaiyasmom</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">7 contributions</span> </div>
+<div class="location">El Cajon, California</div>
+<div class="date ">
+Aug 2, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+This restaurant is located right in the heart of Little Italy. Fortunately we had made dinner reservations because even on a Thursday night it was hoppin. We didn't need to order an appetizer because they immediately brought us water and foccacia bread with oil and balsamic vinegar, which was nice. I enjoyed the Filet Medallions and my husband ordered the...
+<span class="fkLnk hvrIE6 tr73489958" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r69522060-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r69522060" rel="nofollow">excellent</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd69522060" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd69522060'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/bott23"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/8d/a8/3b/bott23.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_2E64B7D5640678487371A10C344E3A63-SRC_69522060" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">bott23</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">30 contributions</span> </div>
+<div class="location">brisbane</div>
+<div class="date ">
+Jul 3, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+had an awesome meal here and the waiter was very lovely and even gave us a run down on what were the local attractions
+would definately return to eat here and highly recommend if visiting san diego
+<span class="fkLnk hvrIE6 tr69522060" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g60750-d481914-r69522060-Trattoria_Fantastica-San_Diego_California.html">1 Photo</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r60164125-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r60164125">excellent alfredo fettucine but that's all</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd60164125" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd60164125'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/cliu"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/86/avatar007.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_E7263DF6D66AF9037DA9EEF32F328697-SRC_60164125" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">cliu</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">966 contributions</span> </div>
+<div class="location">vancouver, BC</div>
+<div class="date ">
+Apr 2, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+been to trattoria twice now and both times it was just OKAY...nothing spectacular but their fettucine alfredo with extra garlic was top notch. the rolled pork tenderloin was dry, hard, and overcooked..it was like cardboard with some tomato sauce slapped on it. we did enjoy the per due antipasti dish for two..good size for sharing as an appy for sure....
+<span class="fkLnk hvrIE6 tr60164125" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r58765846-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r58765846" rel="nofollow">Impeccable, friendly, spot-on service</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd58765846" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd58765846'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Aquafam"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/57/avatar030.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_48F314F759134F32607FC494755F4036-SRC_58765846" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Aquafam</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">27 contributions</span> </div>
+<div class="location">Mesa, Arizona</div>
+<div class="date ">
+Mar 16, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Visited with a party of six. Vince was terrific and very friendly- made a dinstinct effort to provide timely service without being interruptive.
+Food: Tried the Lasagna- very good. Mezza luna- just ok. Alfredo- very good. Pizza- excellent.
+Gelato - excellent. Tiramisu- ok
+We'll be back!
+<span class="fkLnk hvrIE6 tr58765846" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r37978936-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r37978936">Anything but "Fantastica"</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd37978936" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd37978936'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/travelerwiehe"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/9b/avatar062.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s20"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_32E323E148DD81DB83724CEE02472F60-SRC_37978936" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">travelerwiehe</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">7 contributions</span> </div>
+<div class="location">Tucson, Arizona</div>
+<div class="date ">
+Aug 17, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Hard to believe this place gets 3-1/2 stars. We eat a lot of Italian and a lot of Pizza - pretty much all over the country and this place is s u u u p p p p e e e r r r mediocre. Tried Trattoria Fantastica while visiting Little Italy. Below average service, below average ambiance, below average...
+<span class="fkLnk hvrIE6 tr37978936" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r33900251-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r33900251">BOTH Mom and Hubby love it!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd33900251" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd33900251'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/CACSanDiego"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/8a/avatar011.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_E17C7248FDBEC586BDAF62E8E2C79233-SRC_33900251" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">CACSanDiego</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">4 contributions</span> </div>
+<div class="location">San Diego, CA</div>
+<div class="date ">
+Jul 4, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+This is a favorite San Diego restaurant of mine for three reasons: both my mom and my husband really like it; they have really killer desserts; and we had a really wonderful rehearsal dinner there last year (2008) two days before our wedding.
+The experience here, on a regular night, is usually great. The waitstaff always do a very nice...
+<span class="fkLnk hvrIE6 tr33900251" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r32670374-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r32670374">Arrived just before six...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd32670374" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd32670374'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/ROMAGN"> <img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_3' height='74' alt='' width='74'/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_15772877D26FECBFD9A63A2B6E67CF3A-SRC_32670374" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">ROMAGN</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">5 contributions</span> </div>
+<div class="date ">
+Jun 18, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Arrived just before six, the place was nearly empty, the food was unimpressive, the wine setection was ok and the deserts from the cafe next were on par with the rest of the food, not a great italian meal, the service was good and scene was better but I think my dining companion was worth 2 stars so heres a...
+<span class="fkLnk hvrIE6 tr32670374" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r30720352-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r30720352">Stick to gelato</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd30720352" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd30720352'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/doniamh"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s20"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_D30D57074E2D8F4A0B4B7AC23E3E0A28-SRC_30720352" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">doniamh</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">21 contributions</span> </div>
+<div class="location">Darien, IL</div>
+<div class="date ">
+May 25, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+This restaurant paled in comparison to other Little Italy locations. The bakery and gelateria seemed to be busy - maybe that's what they should stick to. The "old time" dining room was not charming and was swarming with gnats. The menu was very limited - the gnocchi were terrible. There are so many great locations on India Street - I'm...
+<span class="fkLnk hvrIE6 tr30720352" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60750-d481914-r25448769-Trattoria_Fantastica-San_Diego_California.html" class="pid2168" id="r25448769" rel="nofollow">My husband and I go this...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd25448769" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html#savessd25448769'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_4' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Mar 1, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My husband and I go this place for every single one of our special occasions. We have had all of our significant anniversaries, birthdays, my graduation dinner, and our parents first meeting before our wedding here. The food is great, and I love the ambiance in the back patio area.
+<span class="fkLnk hvrIE6 tr25448769" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 17</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkoKWMdvUAUdWxfWiEUKWrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJBxyezsqilzsxdh',0)">2</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkoKWMdvUAUdWxfWiEUKWrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Trattoria Fantastica? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWy3KkoKWMdvUAUdWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3Wy3KkoKWMdvUAUdWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWy3KkoKWMdvUAUdWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: San Diego</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134541&amp;geo=60750&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>San Diego: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=BookingsOrgHotelsGEOZH&amp;src=7801284&amp;geo=60750&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>San Diego: 酒店半价 !</var><br/>
+<span><b>Booking.com</b> 在网上预订，在酒店付款。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComTIGMoreDealsGEO&amp;src=11033229&amp;geo=60750&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>San Diego: Book Direct and Save</var><br/>
+<span><b>LaJolla.Hyatt.com</b> Check rates, specials and availability.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5568624&amp;geo=60750&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>San Diego: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g60750-Vacation-Package-Discount-San_Diego_California.html">
+<b>View all deals for San Diego</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Trattoria Fantastica? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWy3KkoKWMdvUAUdWrEJIIiESJQqnJCIJtISnJWhJCQxMSVyiQfJcSTiECSJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g60750-d481914-Trattoria_Fantastica-San_Diego_California.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Trattoria Fantastica Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1735 India St</span>, <span class="locality"><span property="v:locality">San Diego</span>, <span property="v:region">CA</span> <span property="v:postal-code">92101</span></span> </address>
+<span class="tel"><b>Tel:</b> (619) 234-1735</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Trattoria Fantastica</b>, San Diego.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.co.uk/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.ca/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.it/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.es/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.de/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.fr/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Trattoria Fantastica, サンディエゴ" href="http://www.tripadvisor.jp/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, サンディエゴ"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Trattoria Fantastica, 圣地亚哥" href="http://www.daodao.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, 圣地亚哥"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.in/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.se/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://nl.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Trattoria Fantastica, São Diego" href="http://www.tripadvisor.com.br/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, São Diego"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.com.tr/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.dk/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.com.mx/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.ie/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.com.au/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://www.tripadvisor.com.sg/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://no.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Trattoria Fantastica, San Diego" href="http://pl.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, San Diego"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Trattoria Fantastica, ซานดิเอโก" href="http://th.tripadvisor.com/Restaurant_Review-g60750-d481914-Reviews-Trattoria_Fantastica-San_Diego_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Trattoria Fantastica, ซานดิเอโก"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about San Diego! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to San Diego? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkoKqHMdvUAUdqHxfqHrEJIIiESJQQoqnQQqnJCIJtISnJqHhJCQQoqnQQxMSVyiQQoqnQQfJcSTiECSJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=32.723248,-117.16832&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "60750");
+ta.store('page.location', "481914");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 202 dc: 6 sc: 9 -->
+</html>

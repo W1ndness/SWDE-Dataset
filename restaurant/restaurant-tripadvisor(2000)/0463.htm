@@ -1,0 +1,1791 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Udupi Palace, Berkeley - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Udupi Palace, Berkeley, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Udupi Palace, Berkeley: See 8 unbiased reviews of Udupi Palace, rated 3.5 of 5 on TripAdvisor and ranked #114 of 375 restaurants in Berkeley."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "B";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "378762";
+var modelGeoId = "32066";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d378762-treviews.xml"/>
+<!-- web15b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Berkeley Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Udupi Palace, Berkeley</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g32066-d378762-e__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html-Udupi_Palace-Berkeley_California.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="32066"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Berkeley</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g32066-Berkeley_California-Vacations.html">
+Berkeley Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g32066-Berkeley_California-Hotels.html">
+Berkeley Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWymXK33WxfW7VE9VcVgQfJcSTiECSJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g32066-Berkeley_California-Cheap_Discount_Airfares.html">
+Flights to Berkeley</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g32066-Berkeley_California-Hotel-Deals.html">
+Berkeley Deals</a>
+</li>
+<li class=" navTitle">
+More On Berkeley
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWymXK33W7VE9VcVgQfJcSTiECSJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Udupi Palace</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWymXK33WbnISsSISVtW7VE9VcVgQfJcSTiECSJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g32066-i664-Berkeley_California.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWymXK33W7VE9VcVgQfJcSTiECSJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g32066-Berkeley_California.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g32066-Berkeley_California.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Berkeley Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g32066-Berkeley_California.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g32066-Berkeley_California.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g32066-Vacation-Package-Discount-Berkeley_California.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Berkeley</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Berkeley</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-B"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="32066"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd378762" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd378762'},{flow: 'SAVES'});">Save Udupi Palace</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIacWxExGMp2SjwJcJnV6Xfj7VE9VcVgjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.berkeley
+PageType=Restaurant_Review
+pool=B
+kw=Udupi+Palace
+geo=32066
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Udupi+Palace
+gname=Berkeley
+sz=160X80
+tile=4
+ord=68059761
+area=NA.United_States.California.Berkeley
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.berkeley+80+160+NA.United_States.California.Berkeley+PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X80;tile=4;ord=68059761"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X80;tile=4;ord=68059761?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X80;tile=4;ord=68059761?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.berkeley
+PageType=Restaurant_Review
+pool=B
+kw=Udupi+Palace
+geo=32066
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Udupi+Palace
+gname=Berkeley
+sz=160X600
+tile=2
+ord=68059761
+area=NA.United_States.California.Berkeley
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.berkeley+600+160+NA.United_States.California.Berkeley+PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X600;tile=2;ord=68059761"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X600;tile=2;ord=68059761?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=160X600;tile=2;ord=68059761?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Berkeley restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g32066-d371485-Reviews-Cheeseboard_Pizza-Berkeley_California.html">Cheeseboard Pizza</a></li>
+<li><a href="/Restaurant_Review-g32066-d371486-Reviews-Top_Dog_Berkeley_Southside-Berkeley_California.html">Top Dog Berkeley Southside</a></li>
+<li><a href="/Restaurant_Review-g32066-d582405-Reviews-Chez_Panisse-Berkeley_California.html">Chez Panisse</a></li>
+<li><a href="/Restaurant_Review-g32066-d367229-Reviews-Zachary_s_Chicago_Pizza-Berkeley_California.html">Zachary's Chicago Pizza</a></li>
+<li><a href="/Restaurant_Review-g32066-d371518-Reviews-La_Note-Berkeley_California.html">La Note</a></li>
+<li><a href="/Restaurant_Review-g32066-d637108-Reviews-Ici_Ice_Cream_Shop-Berkeley_California.html">Ici Ice Cream Shop</a></li>
+<li><a href="/Restaurant_Review-g32066-d377669-Reviews-Trattoria_La_Siciliana-Berkeley_California.html">Trattoria La Siciliana</a></li>
+<li><a href="/Restaurant_Review-g32066-d371527-Reviews-Venus_Restaurant-Berkeley_California.html">Venus Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32066-d377660-Reviews-Vik_s_Chaat_Corner-Berkeley_California.html">Vik's Chaat Corner</a></li>
+<li><a href="/Restaurant_Review-g32066-d367230-Reviews-Rivoli_Restaurant-Berkeley_California.html">Rivoli Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32066-d371488-Reviews-Rick_Ann_s-Berkeley_California.html">Rick & Ann's</a></li>
+<li><a href="/Restaurant_Review-g32066-d367228-Reviews-Lalime_s_Cafe-Berkeley_California.html">Lalime's Cafe</a></li>
+<li><a href="/Restaurant_Review-g32066-d1091946-Reviews-The_Cheeseboard_Collective-Berkeley_California.html">The Cheeseboard Collective</a></li>
+<li><a href="/Restaurant_Review-g32066-d633525-Reviews-Vanessa_s_Bistro-Berkeley_California.html">Vanessa's Bistro</a></li>
+<li><a href="/Restaurant_Review-g32066-d804241-Reviews-Gioia_Pizzeria-Berkeley_California.html">Gioia Pizzeria</a></li>
+<li><a href="/Restaurant_Review-g32066-d371490-Reviews-Ajanta_Distinctive_Indian_Cuisine-Berkeley_California.html">Ajanta Distinctive Indian Cuisine</a></li>
+<li><a href="/Restaurant_Review-g32066-d377661-Reviews-La_Mediterranee-Berkeley_California.html">La Mediterranee</a></li>
+<li><a href="/Restaurant_Review-g32066-d469264-Reviews-Great_China_Restaurant-Berkeley_California.html">Great China Restaurant</a></li>
+<li><a href="/Restaurant_Review-g32066-d371498-Reviews-Kirala-Berkeley_California.html">Kirala</a></li>
+<li><a href="/Restaurant_Review-g32066-d377663-Reviews-Venezia-Berkeley_California.html">Venezia</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g32066-Berkeley_California.html">Berkeley restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g32066-oa20-Berkeley_California.html">Berkeley restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g32066-oa70-Berkeley_California.html">Berkeley restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g32066-oa120-Berkeley_California.html">Berkeley restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g32066-oa170-Berkeley_California.html">Berkeley restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g32066-oa220-Berkeley_California.html">Berkeley restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g32066-oa270-Berkeley_California.html">Berkeley restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g32066-oa320-Berkeley_California.html">Berkeley restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g32066-oa370-Berkeley_California.html">Berkeley restaurants: 371 - 375</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g32066-Berkeley_California-Hotels.html">Hotels around Berkeley</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g60713-d291464-Reviews-Monte_Cristo_Bed_and_Breakfast-San_Francisco_California.html">Monte Cristo Bed and Breakfast</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>7 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#10 of 65 in San Francisco, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d80956-Reviews-Rose_Garden_Inn-Berkeley_California.html">Rose Garden Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>101 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#5 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d117829-Reviews-Garden_Cottage_Bed_and_Breakfast-Berkeley_California.html">Garden Cottage Bed and Breakfast</a>
+<div class="rating">
+<span class="rate ss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5.0 of 5"/></span>
+<em>20 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#1 of 9 B&amp;Bs / inns in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32810-d84777-Reviews-Jack_London_Inn-Oakland_California.html">Jack London Inn</a>
+<div class="rating">
+<span class="rate ss20"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.0 of 5"/></span>
+<em>49 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#32 of 45 hotels in Oakland, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d80965-Reviews-Claremont_Hotel_Club_Spa-Berkeley_California.html">Claremont Hotel Club & Spa</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>154 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#8 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60713-d81177-Reviews-Nob_Hill_Motor_Inn-San_Francisco_California.html">Nob Hill Motor Inn</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>430 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#65 of 243 hotels in San Francisco, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60713-d80987-Reviews-Presidio_Inn_Suites-San_Francisco_California.html">Presidio Inn & Suites</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>39 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#165 of 243 hotels in San Francisco, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d76017-Reviews-Travelodge_Berkeley-Berkeley_California.html">Travelodge Berkeley</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>20 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#11 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60713-d81409-Reviews-The_Inn_at_Union_Square-San_Francisco_California.html">The Inn at Union Square</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>342 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#7 of 243 hotels in San Francisco, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d223295-Reviews-Holiday_Inn_Express_Berkeley-Berkeley_California.html">Holiday Inn Express Berkeley</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>31 Reviews</em>
+<div class="posted">Last reviewed Jul 31, 2010</div>
+</div>
+#13 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g33146-d288588-Reviews-TownePlace_Suites_Sunnyvale_Mountain_View-Sunnyvale_California.html">TownePlace Suites Sunnyvale- Mountain View</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>14 Reviews</em>
+<div class="posted">Last reviewed Jul 30, 2010</div>
+</div>
+#16 of 36 hotels in Sunnyvale, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d226779-Reviews-Berkeley_City_Club-Berkeley_California.html">Berkeley City Club</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>38 Reviews</em>
+<div class="posted">Last reviewed Jul 19, 2010</div>
+</div>
+#7 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32904-d1097898-Reviews-Marriott_Pleasanton-Pleasanton_California.html">Marriott Pleasanton</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>29 Reviews</em>
+<div class="posted">Last reviewed Jul 12, 2010</div>
+</div>
+#3 of 15 hotels in Pleasanton, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d736149-Reviews-Inn_at_University-Berkeley_California.html">Inn at University</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>12 Reviews</em>
+<div class="posted">Last reviewed Apr 24, 2010</div>
+</div>
+#12 of 20 hotels in Berkeley, CA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g32066-d80969-Reviews-Beau_Sky_Hotel-Berkeley_California.html">Beau Sky Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>38 Reviews</em>
+<div class="posted">Last reviewed Apr 9, 2010</div>
+</div>
+#9 of 20 hotels in Berkeley, CA<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g293974-d807050-Reviews-Cahide-Istanbul.html">cahide in Istanbul</a></li>
+<li><a href="/Restaurant_Review-g33931-d930319-Reviews-Kizl_s_Restaurant_Luncheonette-Southington_Connecticut.html">Kizl&#39;s Restaurant Luncheonette in Southington, CT</a></li>
+<li><a href="/Restaurant_Review-g150813-d1368384-Reviews-El_Mariachi-Tulum_Yucatan_Peninsula.html">El Mariachi in Tulum, Mexico</a></li>
+<li><a href="/Restaurant_Review-g49001-d1181637-Reviews-El_Pobre-Canton_North_Carolina.html">El Pobre in Canton, NC</a></li>
+<li><a href="/Restaurant_Review-g147249-d1046722-Reviews-Passions_on_the_Beach-Palm_Eagle_Beach_Aruba.html">Passions on the Beach in Palm/Eagle Beach, Aruba</a></li>
+<li><a href="/Restaurant_Review-g187337-d776736-Reviews-Senso_e_Vita_Mediterraneo-Frankfurt_Hesse.html">Senso e Vita Mediterraneo in Frankfurt</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g1209864-d1222678-Reviews-Hotel_Restaurant_Le_Marius-Les_Riceys_Champagne_Ardenne.html">Hotel-Restaurant Le Marius in Les Riceys, France</a></li>
+<li><a href="/Hotel_Review-g35805-d90952-Reviews-Wyndham_Chicago-Chicago_Illinois.html">Wyndham Chicago in Chicago</a></li>
+<li><a href="/Hotel_Review-g295370-d1202706-Reviews-Hostel_Old_Town_Split-Split.html">Hostel Old Town Split in Split, Croatia</a></li>
+<li><a href="/Hotel_Review-g58732-d100598-Reviews-Econo_Lodge_SeaTac_Airport_South-SeaTac_Washington.html">Econo Lodge Seatac</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Berkeley resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g32066-Reviews-Berkeley_California-Vacation_Rentals.html">Berkeley Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g32066-Berkeley_California.html" onclick="return setOneTimeCookie('mcreset','true')">Berkeley Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g32066-Activities-Berkeley_California.html">Things to Do in Berkeley</a>
+</li>
+<li>
+<a href="/AllReviews-g32066-Berkeley_California.html">Berkeley Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g32066-Berkeley-Area.html">Berkeley Maps</a>
+</li>
+<li>
+<a href="/Travel-g32066-s208/Berkeley:California:Weather.And.When.To.Go.html">Berkeley Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolB" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.berkeley
+PageType=Restaurant_Review
+pool=B
+kw=Udupi+Palace
+geo=32066
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Udupi+Palace
+gname=Berkeley
+sz=728X90
+tile=1
+ord=68059761
+area=NA.United_States.California.Berkeley
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=728X90;tile=1;ord=68059761?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=728X90;tile=1;ord=68059761?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=728X90;tile=1;ord=68059761?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28926-California-Vacations.html">California (CA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g32066-Berkeley_California-Vacations.html">Berkeley</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g32066-Berkeley_California.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Udupi Palace </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "EF1F66603B896B801A15B7156E263097";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g32066-d378762-Udupi_Palace-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 37.871628,
+lng: -122.27298,
+locId: 378762,
+title: "Udupi Palace",
+url: "/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Udupi Palace</span>
+<div class="addr">
+<span>1901 University Ave</span>
+<div>
+<span> Berkeley, CA 94704</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1901+University+Ave+Berkeley%2C+CA+94704' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281953642267?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g32066-d378762-Udupi_Palace-Area.html" class="pid1103">view map of Udupi Palace</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Berkeley.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="bx01 quickguide">
+<div class="content">
+<div class="h19">Free Berkeley Guide</div>
+<p>Get your quick guide to the top hotels, restaurants and things to do.</p>
+<div class="wrap">
+<div class="button">
+<span onclick="ta.overlays.registration.request('SIGNUP',{pid:826},{flow: 'QUICK_GUIDE_CALLOUT'});">Grab it and Go!</span>
+</div>
+</div>
+</div>
+</div>
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.ca.berkeley
+PageType=Restaurant_Review
+pool=B
+kw=Udupi+Palace
+pos=top
+geo=32066
+u=Restaurant_Review%7CB
+rd=com
+hcm=false
+hname=Udupi+Palace
+gname=Berkeley
+sz=300X250
+tile=3
+ord=68059761
+area=NA.United_States.California.Berkeley
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.ca.berkeley+250+300+NA.United_States.California.Berkeley+PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;pos=top;geo=32066;u=Restaurant_Review%7CB;rd=com;abr=!webtv;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=300X250;tile=3;ord=68059761"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;pos=top;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=300X250;tile=3;ord=68059761?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.ca.berkeley;PageType=Restaurant_Review;pool=B;kw=Udupi+Palace;pos=top;geo=32066;u=Restaurant_Review%7CB;rd=com;hcm=false;hname=Udupi+Palace;gname=Berkeley;sz=300X250;tile=3;ord=68059761?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Udupi Palace</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32066-d76013-Reviews-Hotel_Shattuck_Plaza-Berkeley_California.html" class="pid907">Hotel Shattuck Plaza</a></td>
+<td class="priceColumn">
+$190
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32066-d657811-Reviews-Downtown_Berkeley_Inn-Berkeley_California.html" class="pid907">Downtown Berkeley Inn</a></td>
+<td class="priceColumn">
+$99
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32066-d226783-Reviews-Super_8_Berkeley-Berkeley_California.html" class="pid907">Super 8 Berkeley</a></td>
+<td class="priceColumn">
+$139
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32066-d226781-Reviews-Rodeway_Inn-Berkeley_California.html" class="pid907">Rodeway Inn</a></td>
+<td class="priceColumn">
+$128
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g32066-d80959-Reviews-Hotel_Durant_a_Joie_de_Vivre_hotel-Berkeley_California.html" class="pid907">Hotel Durant, a Joie de Vivre hotel</a></td>
+<td class="priceColumn">
+$189
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.9 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g32066-Berkeley_California-Hotels.html">All Hotels in Berkeley<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32066-d377659-Reviews-Chaat_Cafe-Berkeley_California.html" rel="nofollow" class="pid908">Chaat Cafe</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32066-d377663-Reviews-Venezia-Berkeley_California.html" rel="nofollow" class="pid908">Venezia</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g32066-d778400-Reviews-Jayakarta-Berkeley_California.html" rel="nofollow" class="pid908">Jayakarta</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g32066-Berkeley_California.html" rel="nofollow">All Restaurants in Berkeley<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32066-d156338-Reviews-Triple_Rock_Brewery-Berkeley_California.html" rel="nofollow" class="pid909">Triple Rock Brewery</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32066-d269809-Reviews-Moe_s_Books-Berkeley_California.html" rel="nofollow" class="pid909">Moe's Books</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g32066-d560666-Reviews-Phoebe_A_Hearst_Museum_of_Anthropology-Berkeley_California.html" rel="nofollow" class="pid909">Phoebe A. Hearst Museum of Anthropology</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.8 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g32066-Activities-Berkeley_California.html" rel="nofollow">All Things to Do in Berkeley<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Udupi Palace</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 5 posts on Berkeley from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g32066-i664-Berkeley_California.html">Go to Berkeley Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g32066-d378762-a_area.Text__5F__HotelComment-r10108165.html" class="js_popSmall">&#x201c;Udupi Palace&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>114</b></var> <span>of 375 <i><a href="/Restaurants-g32066-Berkeley_California.html">restaurants in Berkeley</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no35"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">26</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g32066-d378762-e__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html-fbefirst_Restaurant_Review_writeareview_top-Udupi_Palace-Berkeley_California.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1901 University Ave</span>, <span class="locality"><span property="v:locality">Berkeley</span>, <span property="v:region">CA</span> <span property="v:postal-code">94704</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(510) 843-6600</span>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>66% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row disabled">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:15px;"></div></div>
+<span class="total">5</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:30px;"></div></div>
+<span class="total">10</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:27px;"></div></div>
+<span class="total">9</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:6px;"></div></div>
+<span class="total">2</span>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-8</span> <i>of</i> 8</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g32066__2D__d378762__2D__Reviews__2D__Udupi__5F__Palace__2D__Berkeley__5F__California__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r25289721-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r25289721" rel="nofollow">The worst south indian place ever. This is comming from a south Indian.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd25289721" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd25289721'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_2' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s10"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="1 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Feb 24, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+The worst south indian place ever. This is comming from a south Indian.
+<span class="fkLnk hvrIE6 tr25289721" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r19516098-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r19516098" rel="nofollow">Yummy veggie Indian food. Love the dosas (sp?), the big crepe-like turnover style meals. Yummy.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd19516098" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd19516098'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_3' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Jul 26, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Yummy veggie Indian food. Love the dosas (sp?), the big crepe-like turnover style meals. Yummy.
+<span class="fkLnk hvrIE6 tr19516098" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15834010-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15834010" rel="nofollow">good veg thali.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15834010" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15834010'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_4' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Feb 4, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+good veg thali.
+<span class="fkLnk hvrIE6 tr15834010" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15834001-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15834001" rel="nofollow">Udupi is a great place to have a vegetarian lunch or dinner. Yummy dosas and chole bathure. Try the thali and sample a...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15834001" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15834001'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_5' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Feb 4, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Udupi is a great place to have a vegetarian lunch or dinner. Yummy dosas and chole bathure. Try the thali and sample a whole platter of dishes. Yum Yum..
+<span class="fkLnk hvrIE6 tr15834001" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15833937-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15833937" rel="nofollow">get the sampler. . .lots...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15833937" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15833937'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_6' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Feb 1, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+get the sampler. . .lots of good curries.
+<span class="fkLnk hvrIE6 tr15833937" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15833975-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15833975" rel="nofollow">Authentic and delicious...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15833975" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15833975'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_7' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Dec 16, 2007
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Authentic and delicious. Don't let the skeevy interior deter you!
+<span class="fkLnk hvrIE6 tr15833975" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15833969-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15833969" rel="nofollow">Everyone i know has gotten sick here :(</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15833969" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15833969'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_8' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s10"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="1 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Dec 2, 2007
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Everyone i know has gotten sick here :(
+<span class="fkLnk hvrIE6 tr15833969" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g32066-d378762-r15834009-Udupi_Palace-Berkeley_California.html" class="pid2168" id="r15834009" rel="nofollow">Good vegetarian Indian food.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd15834009" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html#savessd15834009'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_9' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Nov 24, 2007
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Good vegetarian Indian food.
+<span class="fkLnk hvrIE6 tr15834009" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-8</span> <i>of</i> 8</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Udupi Palace? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWymXK33WMmkvk3XWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WxGMp2SQwJcJnVW7VE9VcVgQfJcSTiECSJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WymXK33WMmkvk3XWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WxGMp2SQwJcJnVW7VE9VcVgQfJcSTiECSJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWymXK33WMmkvk3XWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WxGMp2SQwJcJnVW7VE9VcVgQfJcSTiECSJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Berkeley</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134808&amp;geo=32066&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Berkeley: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=BookingsOrgHotelsGEOZH&amp;src=20758357&amp;geo=32066&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Berkeley: 酒店半价 !</var><br/>
+<span><b>Booking.com</b> 在网上预订，在酒店付款。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5568342&amp;geo=32066&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Berkeley: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO6&amp;src=406383&amp;geo=32066&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Berkeley: Great Rates on Hotels</var><br/>
+<span><b>Expedia.com</b> Get the lowest price on hotels with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g32066-Vacation-Package-Discount-Berkeley_California.html">
+<b>View all deals for Berkeley</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Udupi Palace? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWymXK33WMmkvk3XWxGMp2SQwJcJnVW7VE9VcVgQfJcSTiECSJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g32066-d378762-Udupi_Palace-Berkeley_California.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Udupi Palace Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1901 University Ave</span>, <span class="locality"><span property="v:locality">Berkeley</span>, <span property="v:region">CA</span> <span property="v:postal-code">94704</span></span> </address>
+<span class="tel"><b>Tel:</b> (510) 843-6600</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Udupi Palace</b>, Berkeley.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.co.uk/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.ca/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.it/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.es/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.de/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.fr/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Udupi Palace, バークレー" href="http://www.tripadvisor.jp/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, バークレー"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Udupi Palace, 伯克利" href="http://www.daodao.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, 伯克利"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.in/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.se/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Udupi Palace, Berkeley" href="http://nl.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.com.br/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.com.tr/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.dk/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.com.mx/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.ie/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.com.au/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Udupi Palace, Berkeley" href="http://www.tripadvisor.com.sg/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Udupi Palace, Berkeley" href="http://no.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Udupi Palace, Berkeley" href="http://pl.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, Berkeley"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Udupi Palace, เบิร์กลีย์" href="http://th.tripadvisor.com/Restaurant_Review-g32066-d378762-Reviews-Udupi_Palace-Berkeley_California.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Udupi Palace, เบิร์กลีย์"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Berkeley! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Berkeley? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymXK33qHMmkvk3XqHxfqHxGMp2SQQoqnQQwJcJnVqH7VE9VcVgQQoqnQQfJcSTiECSJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_9', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=37.871628,-122.27298&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_8', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_7', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_6', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "32066");
+ta.store('page.location', "378762");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 154 dc: 5 sc: 8 -->
+</html>

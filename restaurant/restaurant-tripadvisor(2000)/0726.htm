@@ -1,0 +1,2114 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Garden Grill, Orlando - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Garden Grill, Orlando, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Garden Grill, Orlando: See 54 unbiased reviews of Garden Grill, rated 3.5 of 5 on TripAdvisor and ranked #132 of 1,244 restaurants in Orlando."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "X";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "492961";
+var modelGeoId = "34515";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d492961-treviews.xml"/>
+<!-- web34b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Orlando Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Garden Grill, Orlando</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g34515-d492961-e__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html-Garden_Grill-Orlando_Florida.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="34515"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Orlando</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g34515-Orlando_Florida-Vacations.html">
+Orlando Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g34515-Orlando_Florida-Hotels.html">
+Orlando Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWymdoUoWxfWNEcJCMiQqnciESMJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g34515-Orlando_Florida-Cheap_Discount_Airfares.html">
+Flights to Orlando</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g34515-Orlando_Florida-Hotel-Deals.html">
+Orlando Deals</a>
+</li>
+<li class=" navTitle">
+More On Orlando
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWymdoUoWNEcJCMiQqnciESMJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Garden Grill</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWymdoUoWbnISsSISVtWNEcJCMiQqnciESMJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g34515-i19-Orlando_Florida.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWymdoUoWNEcJCMiQqnciESMJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g34515-Orlando_Florida.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g34515-Orlando_Florida.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Orlando Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g34515-Orlando_Florida.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g34515-Orlando_Florida.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g34515-Vacation-Package-Discount-Orlando_Florida.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Orlando</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Orlando</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-X"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="34515"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd492961" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd492961'},{flow: 'SAVES'});">Save Garden Grill</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIacWxEzzJEMVCjzzEScc6XfjNEcJCMijqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.fl.orlando
+PageType=Restaurant_Review
+pool=X
+kw=Garden+Grill
+geo=34515
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Garden+Grill
+gname=Orlando
+sz=160X80
+tile=4
+ord=96963563
+area=NA.United_States.Florida.Central_Florida.Orlando
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.fl.orlando+80+160+NA.United_States.Florida.Central_Florida.Orlando+PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X80;tile=4;ord=96963563"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X80;tile=4;ord=96963563?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X80;tile=4;ord=96963563?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.fl.orlando
+PageType=Restaurant_Review
+pool=X
+kw=Garden+Grill
+geo=34515
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Garden+Grill
+gname=Orlando
+sz=160X600
+tile=2
+ord=96963563
+area=NA.United_States.Florida.Central_Florida.Orlando
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.fl.orlando+600+160+NA.United_States.Florida.Central_Florida.Orlando+PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X600;tile=2;ord=96963563"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X600;tile=2;ord=96963563?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=160X600;tile=2;ord=96963563?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Orlando restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g34515-d465932-Reviews-Victoria_Albert_s-Orlando_Florida.html">Victoria & Albert's</a></li>
+<li><a href="/Restaurant_Review-g34515-d481356-Reviews-Texas_de_Brazil-Orlando_Florida.html">Texas de Brazil</a></li>
+<li><a href="/Restaurant_Review-g34515-d426639-Reviews-Seasons_52-Orlando_Florida.html">Seasons 52</a></li>
+<li><a href="/Restaurant_Review-g34515-d609672-Reviews-Yellow_Dog_Eats_Cafe-Orlando_Florida.html">Yellow Dog Eats Cafe</a></li>
+<li><a href="/Restaurant_Review-g34515-d1656802-Reviews-Miller_s_Ale_House_Restaurants-Orlando_Florida.html">Miller's Ale House Restaurants</a></li>
+<li><a href="/Restaurant_Review-g34515-d492929-Reviews-Le_Cellier_Steakhouse-Orlando_Florida.html">Le Cellier Steakhouse</a></li>
+<li><a href="/Restaurant_Review-g34515-d478458-Reviews-Village_Inn-Orlando_Florida.html">Village Inn</a></li>
+<li><a href="/Restaurant_Review-g34515-d547881-Reviews-Earl_of_Sandwich-Orlando_Florida.html">Earl of Sandwich</a></li>
+<li><a href="/Restaurant_Review-g34515-d543852-Reviews-Outback_Steakhouse-Orlando_Florida.html">Outback Steakhouse</a></li>
+<li><a href="/Restaurant_Review-g34515-d466886-Reviews-Roy_s-Orlando_Florida.html">Roy's</a></li>
+<li><a href="/Restaurant_Review-g34515-d447617-Reviews-Hanamizuki_Japanese_Restaurant-Orlando_Florida.html">Hanamizuki Japanese Restaurant</a></li>
+<li><a href="/Restaurant_Review-g34515-d657397-Reviews-Chatham_s_Place-Orlando_Florida.html">Chatham's Place</a></li>
+<li><a href="/Restaurant_Review-g34515-d467079-Reviews-Sweet_Tomatoes-Orlando_Florida.html">Sweet Tomatoes</a></li>
+<li><a href="/Restaurant_Review-g34515-d426649-Reviews-Ohana-Orlando_Florida.html">'Ohana</a></li>
+<li><a href="/Restaurant_Review-g34515-d621277-Reviews-The_Capital_Grille-Orlando_Florida.html">The Capital Grille</a></li>
+<li><a href="/Restaurant_Review-g34515-d466073-Reviews-The_Cheesecake_Factory-Orlando_Florida.html">The Cheesecake Factory</a></li>
+<li><a href="/Restaurant_Review-g34515-d1054428-Reviews-Red_Lobster-Orlando_Florida.html">Red Lobster</a></li>
+<li><a href="/Restaurant_Review-g34515-d926966-Reviews-Guavate-Orlando_Florida.html">Guavate</a></li>
+<li><a href="/Restaurant_Review-g34515-d451064-Reviews-Boma_Flavors_of_Africa-Orlando_Florida.html">Boma - Flavors of Africa</a></li>
+<li><a href="/Restaurant_Review-g34515-d493448-Reviews-Biergarten-Orlando_Florida.html">Biergarten</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g34515-Orlando_Florida.html">Orlando restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g34515-oa20-Orlando_Florida.html">Orlando restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g34515-oa70-Orlando_Florida.html">Orlando restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g34515-oa120-Orlando_Florida.html">Orlando restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g34515-oa170-Orlando_Florida.html">Orlando restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g34515-oa220-Orlando_Florida.html">Orlando restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g34515-oa270-Orlando_Florida.html">Orlando restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g34515-oa320-Orlando_Florida.html">Orlando restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g34515-oa370-Orlando_Florida.html">Orlando restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g34515-oa420-Orlando_Florida.html">Orlando restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g34515-oa470-Orlando_Florida.html">Orlando restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g34515-oa520-Orlando_Florida.html">Orlando restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g34515-oa570-Orlando_Florida.html">Orlando restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g34515-oa620-Orlando_Florida.html">Orlando restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g34515-oa670-Orlando_Florida.html">Orlando restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g34515-oa720-Orlando_Florida.html">Orlando restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g34515-oa770-Orlando_Florida.html">Orlando restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g34515-oa820-Orlando_Florida.html">Orlando restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g34515-oa870-Orlando_Florida.html">Orlando restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g34515-oa920-Orlando_Florida.html">Orlando restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g34515-oa970-Orlando_Florida.html">Orlando restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g34515-oa1020-Orlando_Florida.html">Orlando restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g34515-oa1070-Orlando_Florida.html">Orlando restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g34515-oa1120-Orlando_Florida.html">Orlando restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g34515-oa1170-Orlando_Florida.html">Orlando restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g34515-oa1220-Orlando_Florida.html">Orlando restaurants: 1221 - 1244</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g34515-Orlando_Florida-Hotels.html">Hotels around Orlando</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g34515-d85329-Reviews-Doubletree_Castle_Hotel-Orlando_Florida.html">Doubletree Castle Hotel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>238 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#99 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34169-d313529-Reviews-Bahama_Bay_Resort_Orlando-Davenport_Florida.html">Bahama Bay Resort Orlando</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>659 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#4 of 24 hotels in Davenport<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34352-d80376-Reviews-Ramada_Maingate_West-Kissimmee_Florida.html">Ramada Maingate West</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>408 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#115 of 187 hotels in Kissimmee<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d112103-Reviews-Staybridge_Suites_Lake_Buena_Vista-Orlando_Florida.html">Staybridge Suites Lake Buena Vista</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>270 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#34 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d85986-Reviews-Disney_s_Contemporary_Resort-Orlando_Florida.html">Disney's Contemporary Resort</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>434 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#106 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d189076-Reviews-Disney_s_Animal_Kingdom_Lodge-Orlando_Florida.html">Disney's Animal Kingdom Lodge</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>1,169 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#27 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d84899-Reviews-Disney_s_Fort_Wilderness_Resort_and_Campground-Orlando_Florida.html">Disney's Fort Wilderness Resort and Campground</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>384 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#6 of 14 specialty lodging in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d87833-Reviews-Marriott_s_Grande_Vista-Orlando_Florida.html">Marriott's Grande Vista</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>676 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#91 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d209305-Reviews-Fairfield_Inn_Orlando_Lake_Buena_Vista_in_the_Marriott_Village-Orlando_Florida.html">Fairfield Inn Orlando Lake Buena Vista in the Marriott Village</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>333 Reviews</em>
+<div class="posted">Last reviewed Aug 7, 2010</div>
+</div>
+#44 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d84874-Reviews-Holiday_Inn_Main_Gate_East-Orlando_Florida.html">Holiday Inn Main Gate East</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>173 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#144 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34127-d88047-Reviews-Baymont_Inn_and_Suites_Celebration-Celebration_Florida.html">Baymont Inn and Suites Celebration</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>151 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#5 of 12 hotels in Celebration, FL<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34352-d270534-Reviews-Holiday_Inn_Express_Hotel_and_Suites_Orlando_Lake_Buena_Vista_East-Kissimmee_Florida.html">Holiday Inn Express Hotel and Suites Orlando-Lake Buena Vista East</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>61 Reviews</em>
+<div class="posted">Last reviewed Jul 27, 2010</div>
+</div>
+#28 of 187 hotels in Kissimmee<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34515-d87750-Reviews-Wingate_Inn_Orlando-Orlando_Florida.html">Wingate Inn - Orlando</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>48 Reviews</em>
+<div class="posted">Last reviewed Jul 18, 2010</div>
+</div>
+#146 of 348 hotels in Orlando<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34352-d88573-Reviews-Quality_Inn_Suites-Kissimmee_Florida.html">Quality Inn & Suites</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>7 Reviews</em>
+<div class="posted">Last reviewed Jul 15, 2010</div>
+</div>
+#43 of 187 hotels in Kissimmee<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g34352-d84808-Reviews-Quality_Inn_Suites_Eastgate-Kissimmee_Florida.html">Quality Inn & Suites Eastgate</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>35 Reviews</em>
+<div class="posted">Last reviewed Jul 7, 2010</div>
+</div>
+#111 of 187 hotels in Kissimmee<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g45963-d522124-Reviews-Draft_House_Barn_Casino-Las_Vegas_Nevada.html">Draft House Barn &amp; Casino in Las Vegas</a></li>
+<li><a href="/Restaurant_Review-g255073-d722877-Reviews-Cactus_Jack_s_Bar_Grill-Townsville_Queensland.html">Cactus Jack&#39;s Bar &amp; Grill in Townsville, Australia</a></li>
+<li><a href="/Restaurant_Review-g60893-d395270-Reviews-Dunn_s_Drive_In_Barbecue-Richmond_Virginia.html">Dunn&#39;s Drive In Barbecue in Richmond, VA</a></li>
+<li><a href="/Restaurant_Review-g150795-d1232888-Reviews-Salvador_s-Zihuatanejo_Ixtapa_Zihuatanejo_Pacific_Coast.html">Salvador&#39;s in Zihuatanejo, Mexico</a></li>
+<li><a href="/Restaurant_Review-g28969-d1086456-Reviews-Vinoteca_Wine_Bar_Bistro-District_of_Columbia.html">Vinoteca Wine Bar &amp; Bistro in District of Columbia</a></li>
+<li><a href="/Restaurant_Review-g154914-d805694-Reviews-Mongoli_Grill-Edmonton_Alberta.html">Mongoli Grill in Edmonton, Canada</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g274847-d300296-Reviews-Hotel_Royal-Poznan_Central_Poland.html">Hotel Royal in Poznan, Poland</a></li>
+<li><a href="/Hotel_Review-g33866-d235502-Reviews-Hilltop_Inn_Suites-North_Stonington_Connecticut.html">Hilltop Hotel North Stonington</a></li>
+<li><a href="/Hotel_Review-g60403-d283902-Reviews-Lake_Shore_Resort_Motel-Wisconsin_Dells_Wisconsin.html">Lake Shore Resort &amp; Motel in Wisconsin Dells, WI</a></li>
+<li><a href="/Hotel_Review-g51224-d1200705-Reviews-TownePlace_Stes_Marriott_Broken-Broken_Arrow_Oklahoma.html">TownePlace Stes Marriott Broken in Broken Arrow, OK</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Orlando resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g34515-Reviews-Orlando_Florida-Vacation_Rentals.html">Orlando Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g34515-Orlando_Florida.html" onclick="return setOneTimeCookie('mcreset','true')">Orlando Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g34515-Activities-Orlando_Florida.html">Things to Do in Orlando</a>
+</li>
+<li>
+<a href="/AllReviews-g34515-Orlando_Florida.html">Orlando Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g34515-Orlando-Area.html">Orlando Maps</a>
+</li>
+<li>
+<a href="/Travel-g34515-s208/Orlando:Florida:Weather.And.When.To.Go.html">Orlando Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolX" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.fl.orlando
+PageType=Restaurant_Review
+pool=X
+kw=Garden+Grill
+geo=34515
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Garden+Grill
+gname=Orlando
+sz=728X90
+tile=1
+ord=96963563
+area=NA.United_States.Florida.Central_Florida.Orlando
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Garden+Grill;gname=Orlando;sz=728X90;tile=1;ord=96963563?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=728X90;tile=1;ord=96963563?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=728X90;tile=1;ord=96963563?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28930-Florida-Vacations.html">Florida (FL)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g1591089-Central_Florida_Florida-Vacations.html">Central Florida</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g34515-Orlando_Florida-Vacations.html">Orlando</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g34515-Orlando_Florida.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Garden Grill </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "7D600A7F5EFB6BE44EF12769FA155774";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g34515-d492961-Garden_Grill-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 28.39116,
+lng: -81.6067,
+locId: 492961,
+title: "Garden Grill",
+url: "/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Garden Grill</span>
+<div class="addr">
+<span>Walt Disney World Resort</span>
+<span>The Land Pavilion, Epcot</span>
+<div>
+<span> Orlando, FL 32830</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=Walt+Disney+World+Resort+The+Land+Pavilion%2C+Epcot+Orlando%2C+FL+32830' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281958347178?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g34515-d492961-Garden_Grill-Area.html" class="pid1103">view map of Garden Grill</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Orlando.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Orlando Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#25033202" href="http://media-cdn.tripadvisor.com/media/photo-s/01/7d/f9/f2/orlando.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/7d/f9/f2/orlando.jpg" alt="View of Dale!"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#25033202" class="caption js_popGallery">View of Dale!</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuSMcJC">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuSMcJC')">widlan</span>
+</span>
+</div>
+<div class="location">Montreal, Canada</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#23100450" href="http://media-cdn.tripadvisor.com/media/photo-s/01/60/7c/22/orlando.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/60/7c/22/orlando.jpg" alt="mickey"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#23100450" class="caption js_popGallery">mickey</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLfiEHSCtaiaaJ">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLfiEHSCtaiaaJ')">Corbinsmomma</span>
+</span>
+</div>
+<div class="location">Fort Campbell, Kentucky</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#23100448" href="http://media-cdn.tripadvisor.com/media/photo-s/01/60/7c/20/orlando.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/60/7c/20/orlando.jpg" alt="character"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#23100448" class="caption js_popGallery">character</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLfiEHSCtaiaaJ">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLfiEHSCtaiaaJ')">Corbinsmomma</span>
+</span>
+</div>
+<div class="location">Fort Campbell, Kentucky</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#20307521" href="http://media-cdn.tripadvisor.com/media/photo-s/01/35/de/41/keith-and-dale.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/35/de/41/keith-and-dale.jpg" alt="Keith and Dale!"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#20307521" class="caption js_popGallery">Keith and Dale!</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGiHUAkm">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGiHUAkm')">Sarahob1973</span>
+</span>
+</div>
+<div class="location">London,England</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#20307520" href="http://media-cdn.tripadvisor.com/media/photo-s/01/35/de/40/jack-and-chip.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/35/de/40/jack-and-chip.jpg" alt="Jack and Chip!"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#20307520" class="caption js_popGallery">Jack and Chip!</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLhJEJGiHUAkm">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLhJEJGiHUAkm')">Sarahob1973</span>
+</span>
+</div>
+<div class="location">London,England</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859946" href="http://media-cdn.tripadvisor.com/media/photo-s/01/2f/09/ea/great-character-interaction.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/2f/09/ea/great-character-interaction.jpg" alt="Great character interaction (so Fun!!!)"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859946" class="caption js_popGallery">Great character interaction (so Fun!!!)</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLVCnGJCIVMVsVEJTIVE">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLVCnGJCIVMVsVEJTIVE')">enchantedeverafter</span>
+</span>
+</div>
+<div class="location">Truckee, California</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859945" href="http://media-cdn.tripadvisor.com/media/photo-s/01/2f/09/e9/view-of-farm-house-from.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/2f/09/e9/view-of-farm-house-from.jpg" alt="View of Farm House from resturaunt"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859945" class="caption js_popGallery">View of Farm House from resturaunt</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLVCnGJCIVMVsVEJTIVE">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLVCnGJCIVMVsVEJTIVE')">enchantedeverafter</span>
+</span>
+</div>
+<div class="location">Truckee, California</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859944" href="http://media-cdn.tripadvisor.com/media/photo-s/01/2f/09/e8/chocolate-birthday-cake.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/2f/09/e8/chocolate-birthday-cake.jpg" alt="Chocolate Birthday Cake"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html#19859944" class="caption js_popGallery">Chocolate Birthday Cake</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLVCnGJCIVMVsVEJTIVE">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLVCnGJCIVMVsVEJTIVE')">enchantedeverafter</span>
+</span>
+</div>
+<div class="location">Truckee, California</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g34515-d492961-Garden_Grill-Orlando_Florida.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g34515-d492961-e__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Garden_Grill-Orlando_Florida.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g34515-d492961-e__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Garden_Grill-Orlando_Florida.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.fl.orlando
+PageType=Restaurant_Review
+pool=X
+kw=Garden+Grill
+pos=top
+geo=34515
+u=Restaurant_Review%7CX
+rd=com
+hcm=false
+hname=Garden+Grill
+gname=Orlando
+sz=300X250
+tile=3
+ord=96963563
+area=NA.United_States.Florida.Central_Florida.Orlando
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.fl.orlando+250+300+NA.United_States.Florida.Central_Florida.Orlando+PageType=Restaurant_Review;pool=X;kw=Garden+Grill;pos=top;geo=34515;u=Restaurant_Review%7CX;rd=com;abr=!webtv;hcm=false;hname=Garden+Grill;gname=Orlando;sz=300X250;tile=3;ord=96963563"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;pos=top;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=300X250;tile=3;ord=96963563?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.fl.orlando;PageType=Restaurant_Review;pool=X;kw=Garden+Grill;pos=top;geo=34515;u=Restaurant_Review%7CX;rd=com;hcm=false;hname=Garden+Grill;gname=Orlando;sz=300X250;tile=3;ord=96963563?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Garden Grill</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g34352-d120242-Reviews-Holiday_Inn_Club_Vacations_Orlando_Orange_Lake_Resort-Kissimmee_Florida.html" class="pid907">Holiday Inn Club Vacations Orlando - Orange Lake Resort</a></td>
+<td class="priceColumn">
+$146
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g34515-d85990-Reviews-Disney_s_Polynesian_Resort-Orlando_Florida.html" class="pid907">Disney's Polynesian Resort</a></td>
+<td class="priceColumn">
+$464
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g34515-d120303-Reviews-Disney_s_Grand_Floridian_Resort_and_Spa-Orlando_Florida.html" class="pid907">Disney's Grand Floridian Resort and Spa</a></td>
+<td class="priceColumn">
+$519
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.9 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g34515-d120301-Reviews-Disney_s_Wilderness_Lodge-Orlando_Florida.html" class="pid907">Disney's Wilderness Lodge</a></td>
+<td class="priceColumn">
+$337
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g34515-d254239-Reviews-Villas_at_Disney_s_Wilderness_Lodge-Orlando_Florida.html" class="pid907">Villas at Disney's Wilderness Lodge</a></td>
+<td class="priceColumn">
+$527
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g34515-Orlando_Florida-Hotels.html">All Hotels in Orlando<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g34515-d451041-Reviews-50s_Prime_Time_Cafe-Orlando_Florida.html" rel="nofollow" class="pid908">'50s Prime Time Cafe</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g34515-d466070-Reviews-Rose_Crown_Pub_and_Dining_Room-Orlando_Florida.html" rel="nofollow" class="pid908">Rose & Crown Pub and Dining Room</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g34515-d477746-Reviews-Teppan_Edo-Orlando_Florida.html" rel="nofollow" class="pid908">Teppan Edo</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g34515-Orlando_Florida.html" rel="nofollow">All Restaurants in Orlando<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g34515-d640407-Reviews-Bibbidi_Bobbidi_Boutique-Orlando_Florida.html" rel="nofollow" class="pid909">Bibbidi Bobbidi Boutique</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.9 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g34515-d102469-Reviews-Richard_Petty_Driving_Experience-Orlando_Florida.html" rel="nofollow" class="pid909">Richard Petty Driving Experience</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">3.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g34515-d143395-Reviews-Magic_Kingdom-Orlando_Florida.html" rel="nofollow" class="pid909">Magic Kingdom</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">2.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">4.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g34515-Activities-Orlando_Florida.html" rel="nofollow">All Things to Do in Orlando<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Garden Grill</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 3,928 posts on Orlando from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g34515-i19-Orlando_Florida.html">Go to Orlando Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g34515-d492961-r2845651.html" class="js_popSmall" title="Garden Grill">&#x201c;Garden Grill&#x201d;</a></td>
+<td>
+<cite title="Frommer's">Frommer's</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>132</b></var> <span>of 1,243 <i><a href="/Restaurants-g34515-Orlando_Florida.html">restaurants in Orlando</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no35"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">55</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g34515-d492961-e__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html-fbefirst_Restaurant_Review_writeareview_top-Garden_Grill-Orlando_Florida.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">Walt Disney World Resort</span>, <span class="extended-address">The Land Pavilion, Epcot</span>, <span class="locality"><span property="v:locality">Orlando</span>, <span property="v:region">FL</span> <span property="v:postal-code">32830</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">407-939-3463</span>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Average price*:</b> $ 20 </li><!--/ price-->
+<li class="recommended"><b>Good for:</b> Families with children, Scenic view</li>
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>74% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:39px;"></div></div>
+<span class="total">27</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:11px;"></div></div>
+<span class="total">8</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:11px;"></div></div>
+<span class="total">8</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='2';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:10px;"></div></div>
+<span class="total">7</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:7px;"></div></div>
+<span class="total">5</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 54</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEUKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEoKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)">6</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEUKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g34515__2D__d492961__2D__Reviews__2D__Garden__5F__Grill__2D__Orlando__5F__Florida__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r73106844-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r73106844" rel="nofollow">Good character interation with average meal</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd73106844" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd73106844'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/hergeEurope"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/88/avatar009.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_FDD97687D68E776EC1F5590BECE2380C-SRC_73106844" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">hergeEurope</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">20 contributions</span> </div>
+<div class="location">europe</div>
+<div class="date ">
+Jul 31, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Just ok and kids really enjoyed character interaction - meal average.
+<span class="fkLnk hvrIE6 tr73106844" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r72077446-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r72077446" rel="nofollow">Just an ordinary restaurant that can revolve</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd72077446" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd72077446'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/orangeyellow"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/98/avatar024.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_6E0777DCB100A9A3AADEA2E3DCE67D9A-SRC_72077446" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">orangeyellow</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">19 contributions</span> </div>
+<div class="location">Hong Kong</div>
+<div class="date ">
+Jul 23, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Everything is average except that it's a restaurant that can move. This will open your kids eyes a bit. Plus it has Chip and Dale. My kids love them. It's a set meal with a bundance of food. We could not even finish them....
+<span class="fkLnk hvrIE6 tr72077446" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r70785410-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r70785410">Fantastic food, great relaxing atmosphere to meet Mickey and other characters.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd70785410" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd70785410'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Danbo61314"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/95/avatar021.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_C5CB2719E60FAAE0D47F6EC88A1697A2-SRC_70785410" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Danbo61314</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">11 contributions</span> </div>
+<div class="location">New York City, New York</div>
+<div class="date ">
+Jul 13, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My family has always dined at The Garden Grill over the years on our Disney trips. My husband and I decided to go for a weekend trip to Disney (our first trip there together). He was a cast member through the college program 20 years ago and hadn't been back since, so I knew that we had to eat at...
+<span class="fkLnk hvrIE6 tr70785410" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r65753816-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r65753816">Really nice family experience</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd65753816" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd65753816'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/4hughs"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/8c/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_ED4A08C690C74254D9B161F4C6B6738A-SRC_65753816" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">4hughs</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">10 contributions</span> </div>
+<div class="location">glen rose, TX</div>
+<div class="date ">
+May 29, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+We ate here on our last night at Disney.. I am glad we did. The kids really liked it. The character interaction was more low key not so hectic as the big buffets and they came around multiple times and joked with us and the kids. It was very enjoyable. The slow rotation of the restaurant is interesting and its...
+<span class="fkLnk hvrIE6 tr65753816" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r63652182-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r63652182">The best meal we had in Disney World!!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd63652182" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd63652182'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Smithkids5521"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/82/3a/3f/smithkids5521.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_5B32AF6B82865FA438E370D888B878AA-SRC_63652182" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Smithkids5521</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">15 contributions</span> </div>
+<div class="location">Baltimore, Maryland</div>
+<div class="date ">
+May 9, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Our meal at the Garden Grill was one of my favorite parts of our entire trip. Not only was the food delicious- but the character interaction was incredibile!!!
+The food is served family style- this means that they bring you a large platter filled with different things. Then if you would like more of a particular food you just ask...
+<span class="fkLnk hvrIE6 tr63652182" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r61931418-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r61931418">Average because I really like Chip n' Dale</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd61931418" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd61931418'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/widlan"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/62/avatar040.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_322E61FCCA1135417291AD4DDD3AA7F9-SRC_61931418" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">widlan</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">13 contributions</span> </div>
+<div class="location">Montreal, Canada</div>
+<div class="date ">
+Apr 19, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+The food was ok, no more. It's expensive (about 60$ for 2) for the kind of food. It's a buffet, but with table service. We (me and my girlfriend) don't eat a lot and we prefered "normal" portion and good food instead of average food "all-you-can eat buffet".
+The service was excellent and it was fun to see Chip n'...
+<span class="fkLnk hvrIE6 tr61931418" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g34515-d492961-r61931418-Garden_Grill-Orlando_Florida.html">1 Photo</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r61619983-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r61619983">Just awful, Over priced and poor quality.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd61619983" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd61619983'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/GardenGrill"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s10"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="1 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_A7FA8E6D56E16011529437C703647E55-SRC_61619983" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">GardenGrill</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Orlando, local</div>
+<div class="date ">
+Apr 15, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+This used to be a favorite place for us to dine. I understand that menus change seasonally but this ridicules. All of the food brought to the table was cold. The mashed potatoes were cold lumpy and greenish in color. The turkey dressing was too dry and cold. The turkey had a strange flavor and the beef was charred beyond...
+<span class="fkLnk hvrIE6 tr61619983" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r61333583-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r61333583" rel="nofollow">Delicious and fun</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd61333583" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd61333583'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/LAgrlzloveWDW"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/72/avatar054.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_FB4726AE5801DB02D180704701735587-SRC_61333583" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">LAgrlzloveWDW</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">6 contributions</span> </div>
+<div class="location">Louisiana</div>
+<div class="date ">
+Apr 14, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+We really enjoyed this place. The food was wonderful, and although they will bring you more, the first serving was plenty enough for us! We loved how they gave us a variety of foods to try. That was so much better than just picking one entree. I didn't expect to like the strawberry rubarb pie, but it was delicious!!!
+<span class="fkLnk hvrIE6 tr61333583" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r60652500-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r60652500" rel="nofollow">Too expensive for the kind of food offered</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd60652500" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd60652500'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/MiamiManacas"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/89/avatar010.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_F96B1055EF8450043D86278952E90C31-SRC_60652500" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">MiamiManacas</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">2 contributions</span> </div>
+<div class="location">miami</div>
+<div class="date ">
+Apr 7, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+We just visited the Garden Grill restaurant at Epcot and in our opinion it is too expensive for the kind of food they offer. There isn't a variety only 3 dishes and only 1 kind of dessert. The only thing we really enjoyed were the characters, but it was a very expensive price to pay for just enjoying the characters.
+<span class="fkLnk hvrIE6 tr60652500" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g34515-d492961-r57637973-Garden_Grill-Orlando_Florida.html" class="pid2168" id="r57637973">If it weren't for the characters it would be a waste</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd57637973" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html#savessd57637973'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/DSBawek"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/a2/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s20"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_727923CB88E6518CBAF62986EA74C4FA-SRC_57637973" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">DSBawek</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">5 contributions</span> </div>
+<div class="location">Tallahassee</div>
+<div class="date ">
+Mar 3, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I have been to this restaurant several times over the years and is has gone downhill consistently. I have 5 kids 19 down to 6 and have taken them all there over the years. The last trip being last weekend (2-2010) once again I was dissapointed..I guess I have learned my lesson now. The food is just awful with the...
+<span class="fkLnk hvrIE6 tr57637973" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 54</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEUKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEoKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)">6</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWymdoUoWMdAXA3UWxfWiEUKWzzJEMVCQzzESccWNEcJCMiQqnciESMJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_3' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g34515-d456667-Reviews-Crystal_Palace_Restaurant-Orlando_Florida.html" class="pid1020">Crystal Palace Restaurant</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g34515-d456667-Reviews-Crystal_Palace_Restaurant-Orlando_Florida.html" class="pid1020" rel="nofollow">
+153 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Orlando, Central Florida </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_4' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g34515-d493091-Reviews-Chef_Mickey_s-Orlando_Florida.html" class="pid1020">Chef Mickey's</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g34515-d493091-Reviews-Chef_Mickey_s-Orlando_Florida.html" class="pid1020" rel="nofollow">
+149 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Orlando, Central Florida </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_5' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g34515-d456664-Reviews-Coral_Reef_Restaurant-Orlando_Florida.html" class="pid1020">Coral Reef Restaurant</a></div>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g34515-d456664-Reviews-Coral_Reef_Restaurant-Orlando_Florida.html" class="pid1020" rel="nofollow">
+89 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Orlando, Central Florida </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g34515-Orlando_Florida.html" class="pid1021">
+All Restaurants in Orlando </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Garden Grill? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWymdoUoWMdAXA3UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WzzJEMVCQzzESccWNEcJCMiQqnciESMJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WymdoUoWMdAXA3UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WzzJEMVCQzzESccWNEcJCMiQqnciESMJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWymdoUoWMdAXA3UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WzzJEMVCQzzESccWNEcJCMiQqnciESMJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Orlando</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134505&amp;geo=34515&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Orlando: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComTIGMoreDealsGEO&amp;src=5779799&amp;geo=34515&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Orlando: Book Direct and Save</var><br/>
+<span><b>NickHotel.com</b> Check rates, specials and availability.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5569010&amp;geo=34515&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Orlando: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO5&amp;src=1787041&amp;geo=34515&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Orlando: Save on hotel + air</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g34515-Vacation-Package-Discount-Orlando_Florida.html">
+<b>View all deals for Orlando</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Garden Grill? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWymdoUoWMdAXA3UWzzJEMVCQzzESccWNEcJCMiQqnciESMJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g34515-d492961-Garden_Grill-Orlando_Florida.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Garden Grill Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">Walt Disney World Resort</span>, <span class="extended-address">The Land Pavilion, Epcot</span>, <span class="locality"><span property="v:locality">Orlando</span>, <span property="v:region">FL</span> <span property="v:postal-code">32830</span></span> </address>
+<span class="tel"><b>Tel:</b> 407-939-3463</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Garden Grill</b>, Orlando.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.co.uk/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.ca/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.it/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.es/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.de/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.fr/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Garden Grill, オーランド" href="http://www.tripadvisor.jp/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, オーランド"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Garden Grill, 奥兰多" href="http://www.daodao.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, 奥兰多"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.in/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.se/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Garden Grill, Orlando" href="http://nl.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.com.br/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.com.tr/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.dk/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.com.mx/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.ie/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.com.au/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Garden Grill, Orlando" href="http://www.tripadvisor.com.sg/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Garden Grill, Orlando" href="http://no.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Garden Grill, Orlando" href="http://pl.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, Orlando"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Garden Grill, ออร์แลนโด" href="http://th.tripadvisor.com/Restaurant_Review-g34515-d492961-Reviews-Garden_Grill-Orlando_Florida.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Garden Grill, ออร์แลนโด"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Orlando! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Orlando? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHymdoUoqHMdAXA3UqHxfqHzzJEMVCQQoqnQQzzESccqHNEcJCMiQQoqnQQqnciESMJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=28.39116,-81.6067&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "34515");
+ta.store('page.location', "492961");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 266 dc: 2 sc: 9 -->
+</html>

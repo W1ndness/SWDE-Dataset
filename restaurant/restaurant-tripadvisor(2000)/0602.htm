@@ -1,0 +1,2073 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Ten-01, Portland - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Ten-01, Portland, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Ten-01, Portland: See 12 unbiased reviews of Ten-01, rated 4.0 of 5 on TripAdvisor and ranked #121 of 1,811 restaurants in Portland."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "T";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "649661";
+var modelGeoId = "52024";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d649661-treviews.xml"/>
+<!-- web47b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Portland Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Ten-01, Portland</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g52024-d649661-e__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html-Ten_01-Portland_Oregon.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="52024"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Portland</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g52024-Portland_Oregon-Vacations.html">
+Portland Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g52024-Portland_Oregon-Hotels.html">
+Portland Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWyoXKXdWxfWwiEIcJCMQNEVyiCWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g52024-Portland_Oregon-Cheap_Discount_Airfares.html">
+Flights to Portland</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g52024-Portland_Oregon-Hotel-Deals.html">
+Portland Deals</a>
+</li>
+<li class=" navTitle">
+More On Portland
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWyoXKXdWwiEIcJCMQNEVyiCB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Ten-01</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWyoXKXdWbnISsSISVtWwiEIcJCMQNEVyiCB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g52024-i238-Portland_Oregon.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWyoXKXdWwiEIcJCMQNEVyiCB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g52024-Portland_Oregon.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g52024-Portland_Oregon.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Portland Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g52024-Portland_Oregon.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g52024-Portland_Oregon.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g52024-Vacation-Package-Discount-Portland_Oregon.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Portland</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Portland</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-T"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="52024"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd649661" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd649661'},{flow: 'SAVES'});">Save Ten-01</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIacWxErVCqHKU6XfjwiEIcJCMjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.or.portland
+PageType=Restaurant_Review
+pool=T
+kw=Ten-01
+geo=52024
+u=Restaurant_Review%7CT
+rd=com
+hcm=false
+hname=Ten-01
+gname=Portland
+sz=160X80
+tile=4
+ord=55491819
+area=NA.United_States.Oregon.Portland
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.or.portland+80+160+NA.United_States.Oregon.Portland+PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;abr=!webtv;hcm=false;hname=Ten-01;gname=Portland;sz=160X80;tile=4;ord=55491819"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=160X80;tile=4;ord=55491819?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=160X80;tile=4;ord=55491819?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.or.portland
+PageType=Restaurant_Review
+pool=T
+kw=Ten-01
+geo=52024
+u=Restaurant_Review%7CT
+rd=com
+hcm=false
+hname=Ten-01
+gname=Portland
+sz=160X600
+tile=2
+ord=55491819
+area=NA.United_States.Oregon.Portland
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.or.portland+600+160+NA.United_States.Oregon.Portland+PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;abr=!webtv;hcm=false;hname=Ten-01;gname=Portland;sz=160X600;tile=2;ord=55491819"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=160X600;tile=2;ord=55491819?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=160X600;tile=2;ord=55491819?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Portland restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g52024-d440005-Reviews-Andina_Restaurant-Portland_Oregon.html">Andina Restaurant</a></li>
+<li><a href="/Restaurant_Review-g52024-d809599-Reviews-Stumptown_Coffee_Roasters-Portland_Oregon.html">Stumptown Coffee Roasters</a></li>
+<li><a href="/Restaurant_Review-g52024-d649314-Reviews-Le_Pigeon-Portland_Oregon.html">Le Pigeon</a></li>
+<li><a href="/Restaurant_Review-g52024-d807935-Reviews-Screen_Door-Portland_Oregon.html">Screen Door</a></li>
+<li><a href="/Restaurant_Review-g52024-d440133-Reviews-Veritable_Quandary-Portland_Oregon.html">Veritable Quandary</a></li>
+<li><a href="/Restaurant_Review-g52024-d799716-Reviews-Toro_Bravo-Portland_Oregon.html">Toro Bravo</a></li>
+<li><a href="/Restaurant_Review-g52024-d439828-Reviews-Nicholas_Restaurant-Portland_Oregon.html">Nicholas' Restaurant</a></li>
+<li><a href="/Restaurant_Review-g52024-d439865-Reviews-Pambiche-Portland_Oregon.html">Pambiche</a></li>
+<li><a href="/Restaurant_Review-g52024-d461350-Reviews-Pazzo_Ristorante-Portland_Oregon.html">Pazzo Ristorante</a></li>
+<li><a href="/Restaurant_Review-g52024-d440164-Reviews-Nuestra_Cocina-Portland_Oregon.html">Nuestra Cocina</a></li>
+<li><a href="/Restaurant_Review-g52024-d804078-Reviews-Ken_s_Artisan_Pizza-Portland_Oregon.html">Ken's Artisan Pizza</a></li>
+<li><a href="/Restaurant_Review-g52024-d648921-Reviews-Apizza_Scholls-Portland_Oregon.html">Apizza Scholls</a></li>
+<li><a href="/Restaurant_Review-g52024-d439929-Reviews-Paley_s_Place-Portland_Oregon.html">Paley's Place</a></li>
+<li><a href="/Restaurant_Review-g52024-d461347-Reviews-Jake_s_Famous_Crawfish-Portland_Oregon.html">Jake's Famous Crawfish</a></li>
+<li><a href="/Restaurant_Review-g52024-d439874-Reviews-Piazza_Italia-Portland_Oregon.html">Piazza Italia</a></li>
+<li><a href="/Restaurant_Review-g52024-d439887-Reviews-Caffe_Mingo-Portland_Oregon.html">Caffe Mingo</a></li>
+<li><a href="/Restaurant_Review-g52024-d970321-Reviews-Pastini_Pastaria-Portland_Oregon.html">Pastini Pastaria</a></li>
+<li><a href="/Restaurant_Review-g52024-d1118473-Reviews-50_Plates-Portland_Oregon.html">50 Plates</a></li>
+<li><a href="/Restaurant_Review-g52024-d487568-Reviews-Park_Kitchen-Portland_Oregon.html">Park Kitchen</a></li>
+<li><a href="/Restaurant_Review-g52024-d940867-Reviews-Pix-Portland_Oregon.html">Pix</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g52024-Portland_Oregon.html">Portland restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g52024-oa20-Portland_Oregon.html">Portland restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g52024-oa70-Portland_Oregon.html">Portland restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g52024-oa120-Portland_Oregon.html">Portland restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g52024-oa170-Portland_Oregon.html">Portland restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g52024-oa220-Portland_Oregon.html">Portland restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g52024-oa270-Portland_Oregon.html">Portland restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g52024-oa320-Portland_Oregon.html">Portland restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g52024-oa370-Portland_Oregon.html">Portland restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g52024-oa420-Portland_Oregon.html">Portland restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g52024-oa470-Portland_Oregon.html">Portland restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g52024-oa520-Portland_Oregon.html">Portland restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g52024-oa570-Portland_Oregon.html">Portland restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g52024-oa620-Portland_Oregon.html">Portland restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g52024-oa670-Portland_Oregon.html">Portland restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g52024-oa720-Portland_Oregon.html">Portland restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g52024-oa770-Portland_Oregon.html">Portland restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g52024-oa820-Portland_Oregon.html">Portland restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g52024-oa870-Portland_Oregon.html">Portland restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g52024-oa920-Portland_Oregon.html">Portland restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g52024-oa970-Portland_Oregon.html">Portland restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g52024-oa1020-Portland_Oregon.html">Portland restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g52024-oa1070-Portland_Oregon.html">Portland restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g52024-oa1120-Portland_Oregon.html">Portland restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g52024-oa1170-Portland_Oregon.html">Portland restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g52024-oa1220-Portland_Oregon.html">Portland restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g52024-oa1270-Portland_Oregon.html">Portland restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g52024-oa1320-Portland_Oregon.html">Portland restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g52024-oa1370-Portland_Oregon.html">Portland restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g52024-oa1420-Portland_Oregon.html">Portland restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g52024-oa1470-Portland_Oregon.html">Portland restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g52024-oa1520-Portland_Oregon.html">Portland restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g52024-oa1570-Portland_Oregon.html">Portland restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g52024-oa1620-Portland_Oregon.html">Portland restaurants: 1621 - 1670</a></li>
+<li><a href="/Restaurants-g52024-oa1670-Portland_Oregon.html">Portland restaurants: 1671 - 1720</a></li>
+<li><a href="/Restaurants-g52024-oa1720-Portland_Oregon.html">Portland restaurants: 1721 - 1770</a></li>
+<li><a href="/Restaurants-g52024-oa1770-Portland_Oregon.html">Portland restaurants: 1771 - 1811</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g52024-Portland_Oregon-Hotels.html">Hotels around Portland</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g52024-d96157-Reviews-Hilton_Portland_Executive_Tower-Portland_Oregon.html">Hilton Portland & Executive Tower</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>166 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#52 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d112190-Reviews-Hotel_Fifty-Portland_Oregon.html">Hotel Fifty</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>159 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#16 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d217669-Reviews-Paramount_Hotel-Portland_Oregon.html">Paramount Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>71 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#53 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d112198-Reviews-Hotel_deLuxe-Portland_Oregon.html">Hotel deLuxe</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>300 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#6 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d571261-Reviews-The_Governor_Hotel-Portland_Oregon.html">The Governor Hotel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>94 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#25 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d96156-Reviews-The_Mark_Spencer-Portland_Oregon.html">The Mark Spencer</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>172 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#23 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d96164-Reviews-Westin_Portland-Portland_Oregon.html">Westin Portland</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>208 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#35 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d1144098-Reviews-The_Nines_Portland-Portland_Oregon.html">The Nines, Portland</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>244 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#20 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d653910-Reviews-Ace_Hotel_Portland-Portland_Oregon.html">Ace Hotel Portland</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>111 Reviews</em>
+<div class="posted">Last reviewed Aug 6, 2010</div>
+</div>
+#29 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d115541-Reviews-Benson_Hotel-Portland_Oregon.html">Benson Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>226 Reviews</em>
+<div class="posted">Last reviewed Aug 6, 2010</div>
+</div>
+#44 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d102028-Reviews-Portland_Marriott_City_Center-Portland_Oregon.html">Portland Marriott City Center</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>95 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#32 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d217668-Reviews-Crowne_Plaza_Portland_Downtown_Convention_Center-Portland_Oregon.html">Crowne Plaza Portland Downtown-Convention Center</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>48 Reviews</em>
+<div class="posted">Last reviewed Aug 1, 2010</div>
+</div>
+#48 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d223535-Reviews-Holiday_Inn_Express_Portland_Downtown-Portland_Oregon.html">Holiday Inn Express Portland Downtown</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>47 Reviews</em>
+<div class="posted">Last reviewed Jul 30, 2010</div>
+</div>
+#28 of 123 hotels in Portland, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g51972-d101948-Reviews-Econo_Lodge_Southeast-Milwaukie_Oregon.html">Econo Lodge Southeast</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>15 Reviews</em>
+<div class="posted">Last reviewed Jun 16, 2010</div>
+</div>
+#2 of 2 hotels in Milwaukie, OR<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g52024-d102058-Reviews-Econo_Lodge_Convention_Center-Portland_Oregon.html">Econo Lodge Convention Center</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>1 review</em>
+<div class="posted">Last reviewed Aug 5, 2009</div>
+</div>
+#88 of 123 hotels in Portland, OR<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g188113-d1127573-Reviews-Thai_Tawan-Zurich.html">Thai Tawan in Zurich, Switzerland</a></li>
+<li><a href="/Restaurant_Review-g147340-d1046560-Reviews-The_Sand_Bar-St_Jean_St_Barthelemy.html">The Sand Bar in St. Jean, St. Barthelemy</a></li>
+<li><a href="/Restaurant_Review-g188113-d1484315-Reviews-Zur_Kantine-Zurich.html">Zur Kantine in Zurich, Switzerland</a></li>
+<li><a href="/Restaurant_Review-g60845-d835858-Reviews-Logan_s_Roadhouse-Greensboro_North_Carolina.html">Logan&#39;s Roadhouse in Greensboro, NC</a></li>
+<li><a href="/Restaurant_Review-g34573-d904255-Reviews-Bridge_Market_Bistro-Ponte_Vedra_Beach_Florida.html">Bridge Market &amp; Bistro in Ponte Vedra Beach, FL</a></li>
+<li><a href="/Restaurant_Review-g35691-d463725-Reviews-Chevy_s_Fresh_Mex-Bloomington_Illinois.html">Chevy&#39;s Fresh Mex in Bloomington, IL</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g503889-d210044-Reviews-Farringford_Hotel-Freshwater_Isle_of_Wight_England.html">Farringford Hotel in Freshwater, United Kingdom</a></li>
+<li><a href="/Hotel_Review-g154913-d184482-Reviews-Delta_Calgary_Airport-Calgary_Alberta.html">Delta Calgary Airport in Calgary</a></li>
+<li><a href="/Hotel_Review-g274772-d626192-Reviews-Any_Time_Hostel-Krakow_Southern_Poland.html">Any Time Hostel in Krakow, Poland</a></li>
+<li><a href="/Hotel_Review-g34182-d224312-Reviews-Hilton_Sandestin_Beach_Golf_Resort_Spa-Destin_Florida.html">Hilton Sandestin Beach, Golf Resort &amp; Spa in Destin, FL</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Portland resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g52024-Reviews-Portland_Oregon-Vacation_Rentals.html">Portland Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g52024-Portland_Oregon.html" onclick="return setOneTimeCookie('mcreset','true')">Portland Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g52024-Activities-Portland_Oregon.html">Things to Do in Portland</a>
+</li>
+<li>
+<a href="/AllReviews-g52024-Portland_Oregon.html">Portland Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g52024-Portland-Area.html">Portland Maps</a>
+</li>
+<li>
+<a href="/Travel-g52024-s208/Portland:Oregon:Weather.And.When.To.Go.html">Portland Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolT" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.or.portland
+PageType=Restaurant_Review
+pool=T
+kw=Ten-01
+geo=52024
+u=Restaurant_Review%7CT
+rd=com
+hcm=false
+hname=Ten-01
+gname=Portland
+sz=728X90
+tile=1
+ord=55491819
+area=NA.United_States.Oregon.Portland
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;abr=!webtv;hcm=false;hname=Ten-01;gname=Portland;sz=728X90;tile=1;ord=55491819?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=728X90;tile=1;ord=55491819?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=728X90;tile=1;ord=55491819?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28958-Oregon-Vacations.html">Oregon (OR)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g52024-Portland_Oregon-Vacations.html">Portland</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g52024-Portland_Oregon.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Ten-01 </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "1E387976638F1126CEA13F8A93474485";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g52024-d649661-Ten_01-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 45.523697,
+lng: -122.68115,
+locId: 649661,
+title: "Ten-01",
+url: "/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Ten-01</span>
+<div class="addr">
+<span>1001 NW Couch St</span>
+<div>
+<span> Portland, OR 97209</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1001+NW+Couch+St+Portland%2C+OR+97209' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281956281681?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g52024-d649661-Ten_01-Area.html" class="pid1103">view map of Ten-01</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Portland.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="bx01 quickguide">
+<div class="content">
+<div class="h19">Free Portland Guide</div>
+<p>Get your quick guide to the top hotels, restaurants and things to do.</p>
+<div class="wrap">
+<div class="button">
+<span onclick="ta.overlays.registration.request('SIGNUP',{pid:826},{flow: 'QUICK_GUIDE_CALLOUT'});">Grab it and Go!</span>
+</div>
+</div>
+</div>
+</div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932302" href="http://media-cdn.tripadvisor.com/media/photo-s/01/7c/6f/ce/chocolate-bombe-4-12.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/7c/6f/ce/chocolate-bombe-4-12.jpg" alt="chocolate bombe 4-12"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932302" class="caption js_popGallery">chocolate bombe 4-12</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932301" href="http://media-cdn.tripadvisor.com/media/photo-s/01/7c/6f/cd/columbia-river-spring.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/7c/6f/cd/columbia-river-spring.jpg" alt="columbia river spring chinook salmon  yummy!"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932301" class="caption js_popGallery">columbia river spring chinook salmon yummy!</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932300" href="http://media-cdn.tripadvisor.com/media/photo-s/01/7c/6f/cc/salad-at-ten-01-4-10.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/7c/6f/cc/salad-at-ten-01-4-10.jpg" alt="salad at ten 01 4-10"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#24932300" class="caption js_popGallery">salad at ten 01 4-10</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914132" href="http://media-cdn.tripadvisor.com/media/photo-s/00/1d/35/14/ten-01.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/00/1d/35/14/ten-01.jpg" alt=""/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914132" class="caption js_popGallery">Untitled</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914133" href="http://media-cdn.tripadvisor.com/media/photo-s/00/1d/35/15/ten-01.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/00/1d/35/15/ten-01.jpg" alt=""/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914133" class="caption js_popGallery">Untitled</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914134" href="http://media-cdn.tripadvisor.com/media/photo-s/00/1d/35/16/ten-01.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/00/1d/35/16/ten-01.jpg" alt=""/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914134" class="caption js_popGallery">Untitled</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914135" href="http://media-cdn.tripadvisor.com/media/photo-s/00/1d/35/17/ten-01.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/00/1d/35/17/ten-01.jpg" alt=""/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914135" class="caption js_popGallery">Untitled</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914136" href="http://media-cdn.tripadvisor.com/media/photo-s/00/1d/35/18/ten-01.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/00/1d/35/18/ten-01.jpg" alt=""/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html#1914136" class="caption js_popGallery">Untitled</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLtgEJGySEc">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLtgEJGySEc')">syrahgirl</span>
+</span>
+</div>
+<div class="location">CA/Oregon Coast</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g52024-d649661-Ten_01-Portland_Oregon.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g52024-d649661-e__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Ten_01-Portland_Oregon.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g52024-d649661-e__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Ten_01-Portland_Oregon.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.or.portland
+PageType=Restaurant_Review
+pool=T
+kw=Ten-01
+pos=top
+geo=52024
+u=Restaurant_Review%7CT
+rd=com
+hcm=false
+hname=Ten-01
+gname=Portland
+sz=300X250
+tile=3
+ord=55491819
+area=NA.United_States.Oregon.Portland
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.or.portland+250+300+NA.United_States.Oregon.Portland+PageType=Restaurant_Review;pool=T;kw=Ten-01;pos=top;geo=52024;u=Restaurant_Review%7CT;rd=com;abr=!webtv;hcm=false;hname=Ten-01;gname=Portland;sz=300X250;tile=3;ord=55491819"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;pos=top;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=300X250;tile=3;ord=55491819?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.or.portland;PageType=Restaurant_Review;pool=T;kw=Ten-01;pos=top;geo=52024;u=Restaurant_Review%7CT;rd=com;hcm=false;hname=Ten-01;gname=Portland;sz=300X250;tile=3;ord=55491819?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Ten-01</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g52024-d250254-Reviews-Hotel_Lucia-Portland_Oregon.html" class="pid907">Hotel Lucia</a></td>
+<td class="priceColumn">
+$202
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g52024-d112196-Reviews-Hotel_Vintage_Plaza_a_Kimpton_Hotel-Portland_Oregon.html" class="pid907">Hotel Vintage Plaza - a Kimpton Hotel</a></td>
+<td class="priceColumn">
+$244
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g52024-d1238907-Reviews-Courtyard_by_Marriott_Portland_City_Center-Portland_Oregon.html" class="pid907">Courtyard by Marriott Portland City Center</a></td>
+<td class="priceColumn">
+$179
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g52024-d102033-Reviews-Hotel_Monaco_Portland_A_Kimpton_Hotel-Portland_Oregon.html" class="pid907">Hotel Monaco Portland - A Kimpton Hotel</a></td>
+<td class="priceColumn">
+$255
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g52024-d96154-Reviews-The_Heathman_Hotel-Portland_Oregon.html" class="pid907">The Heathman Hotel</a></td>
+<td class="priceColumn">
+$243
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g52024-Portland_Oregon-Hotels.html">All Hotels in Portland<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g52024-d1118473-Reviews-50_Plates-Portland_Oregon.html" rel="nofollow" class="pid908">50 Plates</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g52024-d1118346-Reviews-Roma_Ristorante-Portland_Oregon.html" rel="nofollow" class="pid908">Roma Ristorante</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g52024-d440005-Reviews-Andina_Restaurant-Portland_Oregon.html" rel="nofollow" class="pid908">Andina Restaurant</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g52024-Portland_Oregon.html" rel="nofollow">All Restaurants in Portland<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g52024-d123167-Reviews-Powell_s_City_of_Books-Portland_Oregon.html" rel="nofollow" class="pid909">Powell's City of Books</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g52024-d663253-Reviews-Portland_Walking_Tours-Portland_Oregon.html" rel="nofollow" class="pid909">Portland Walking Tours</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g52024-d1549942-Reviews-Pioneer_Place-Portland_Oregon.html" rel="nofollow" class="pid909">Pioneer Place</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g52024-Activities-Portland_Oregon.html" rel="nofollow">All Things to Do in Portland<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Ten-01</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 113 posts on Portland from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g52024-i238-Portland_Oregon.html">Go to Portland Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g52024-d649661-r9967831.html" class="js_popSmall" title="Ten-01">&#x201c;Ten-01&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g52024-d649661-a_area.Text__5F__HotelComment-r9967832.html" class="js_popSmall">&#x201c;Ten-01&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>121</b></var> <span>of 1,810 <i><a href="/Restaurants-g52024-Portland_Oregon.html">restaurants in Portland</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">30</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g52024-d649661-e__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html-fbefirst_Restaurant_Review_writeareview_top-Ten_01-Portland_Oregon.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1001 NW Couch St</span>, <span class="locality"><span property="v:locality">Portland</span>, <span property="v:region">OR</span> <span property="v:postal-code">97209</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(503) 226-3463</span>
+|
+<a rel="nofollow" class="url js_popup" href="http://www.ten-01.com/">
+www.ten-01.com/
+</a>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=16852670&geo=649661&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $41-$80 </li><!--/ price-->
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>100% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:10px;"></div></div>
+<span class="total">4</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:26px;"></div></div>
+<span class="total">10</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:37px;"></div></div>
+<span class="total">14</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:5px;"></div></div>
+<span class="total">2</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 12</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWyoXKXdWM3dA33UWxfWiEUKWrVCQKUWwiEIcJCMQNEVyiCBxyezsqilzsxdh',0)">2</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWyoXKXdWM3dA33UWxfWiEUKWrVCQKUWwiEIcJCMQNEVyiCBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g52024__2D__d649661__2D__Reviews__2D__Ten__5F__01__2D__Portland__5F__Oregon__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r70446722-Ten_01-Portland_Oregon.html" class="pid2168" id="r70446722">Food of perfection!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd70446722" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd70446722'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/DivineFoodDiva"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/5e/avatar036.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_B0856F07518709C4B7A001B0A91DB4AE-SRC_70446722" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">DivineFoodDiva</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">4 contributions</span> </div>
+<div class="location">Portland, Oregon</div>
+<div class="date ">
+Jul 11, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+We dined at Ten 01 last evening and if you want to have an over the top dining experience, look no further!
+We were seated upstairs at a window booth. View was lovely as you watched over the fast paced Pearl District. Our server was delightful and greeted us with a smile. The wine list is lovely and we ordered...
+<span class="fkLnk hvrIE6 tr70446722" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r67127371-Ten_01-Portland_Oregon.html" class="pid2168" id="r67127371">Food ok, but bring a book while waiting for the meal</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd67127371" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd67127371'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/shadowor"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/9c/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_EA766135C3D9B4B827849EDCDDF34FA4-SRC_67127371" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">shadowor</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">8 contributions</span> </div>
+<div class="location">portland or</div>
+<div class="date ">
+Jun 10, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+While the wait staff was excellent, they could not cover up the foibles of the kitchen, taking 90 minutes to deliver the entree after the order. Yes the restaurant was busy, but the chef should be able to do better. Our party thought the main courses were fine, but hardly worth the price and the intervening plates brought by the...
+<span class="fkLnk hvrIE6 tr67127371" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r61765845-Ten_01-Portland_Oregon.html" class="pid2168" id="r61765845">Excellent food, good wine list.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd61765845" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd61765845'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/nwmouse"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/69/1b/f2/nwmouse.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_511E40514FCC1546CDB92E0F233A225C-SRC_61765845" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">nwmouse</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">123 contributions</span> </div>
+<div class="location">nwmouse</div>
+<div class="date ">
+Apr 17, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+Ten 01 is one of Portland's best restaurants, with a small menu that serves dishes composed of sustainable ingredients from local farms. The portions are more European in size, which I think is a good thing, but for people expecting large American size dishes, you may be surprised. I ordered the lamb and it was a perfect 10. Best lamb...
+<span class="fkLnk hvrIE6 tr61765845" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r55610633-Ten_01-Portland_Oregon.html" class="pid2168" id="r55610633">!)</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd55610633" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd55610633'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/LiteSleepr"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/64/avatar042.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_18EB6A350E41B86E941E82C24F91A953-SRC_55610633" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">LiteSleepr</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">5 contributions</span> </div>
+<div class="location">Seattle, WA</div>
+<div class="date ">
+Feb 10, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My partner and I travel to Portland on weekends from Seattle a couple times a year. We have visited Ten-01 several times since they first opened, and we have never been disappointed. The service has been great, and there seems to always be something inventive on the menu. This last visit was particularly outstanding, so I had to write a...
+<span class="fkLnk hvrIE6 tr55610633" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r49144969-Ten_01-Portland_Oregon.html" class="pid2168" id="r49144969">The Slow Food movement at work in Portland's Pearl District</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd49144969" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd49144969'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/deborahj62"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_248172DE85EAD7F9AFC2B0F70E90559E-SRC_49144969" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">deborahj62</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">80 contributions</span> </div>
+<div class="location">Olympia, Wash.</div>
+<div class="date ">
+Nov 13, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I've visited Ten-01 twice now, once for lunch on a sunny summer business day and once for lunch on a rainy weekend day. During the business week, it was somewhat crowded. We had no trouble getting in because, since we were coming from out of town, I'd made reservations in advance (they use Open Table if I recall correctly). On...
+<span class="fkLnk hvrIE6 tr49144969" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r26314959-Ten_01-Portland_Oregon.html" class="pid2168" id="r26314959" rel="nofollow">Good power lunch</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd26314959" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd26314959'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_2' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Mar 16, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Good power lunch
+<span class="fkLnk hvrIE6 tr26314959" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r19883508-Ten_01-Portland_Oregon.html" class="pid2168" id="r19883508" rel="nofollow">Great Happy Hour and the...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd19883508" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd19883508'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/KyleDPDX"> <img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_3' height='74' alt='' width='74'/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_26CE82D694DA43892ABF2C975CF8ECA9-SRC_19883508" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">KyleDPDX</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">211 contributions</span> </div>
+<div class="date ">
+Sep 7, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Great Happy Hour and the fries can't be beat.
+<span class="fkLnk hvrIE6 tr19883508" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r19702867-Ten_01-Portland_Oregon.html" class="pid2168" id="r19702867">My wife and I had a great dinner here for our anniversary. The food was terrific, and the service was wonderful. Our...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd19702867" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd19702867'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_4' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Aug 8, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+My wife and I had a great dinner here for our anniversary. The food was terrific, and the service was wonderful. Our server, Teddy was very attentive, and took great care of us, as did the server assistants. We felt like VIP's. I enjoyed the lamb, and my wife had the pork tenderloin. Both were amazing. The lamb was perfectly...
+<span class="fkLnk hvrIE6 tr19702867" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r16108369-Ten_01-Portland_Oregon.html" class="pid2168" id="r16108369" rel="nofollow">Above par cocktails. Downtown convenience.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd16108369" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd16108369'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_5' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+May 15, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Above par cocktails. Downtown convenience.
+<span class="fkLnk hvrIE6 tr16108369" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g52024-d649661-r12282069-Ten_01-Portland_Oregon.html" class="pid2168" id="r12282069">pretty and pricey</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd12282069" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html#savessd12282069'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/EatSantaBarbarian"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_14FA009729D54B83378A67B1784C931A-SRC_12282069" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">EatSantaBarbarian</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">126 contributions</span> </div>
+<div class="location"></div>
+<div class="date ">
+Jan 3, 2008
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+The interior was lovely beige, black and glass. The service was professional yet, friendly. The cocktails were interesting and the appetizers appeared promptly. The menu had fois gras in several dishes and that seemed repetitive. The dishes were good but not spectacular. The butternut squash puree served with my beef was dull and overly sweet; the beef though perfect was...
+<span class="fkLnk hvrIE6 tr12282069" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 12</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWyoXKXdWM3dA33UWxfWiEUKWrVCQKUWwiEIcJCMQNEVyiCBxyezsqilzsxdh',0)">2</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWyoXKXdWM3dA33UWxfWiEUKWrVCQKUWwiEIcJCMQNEVyiCBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Ten-01? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWyoXKXdWM3dA33UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WrVCQKUWwiEIcJCMQNEVyiCB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WyoXKXdWM3dA33UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WrVCQKUWwiEIcJCMQNEVyiCB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWyoXKXdWM3dA33UWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WrVCQKUWwiEIcJCMQNEVyiCB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Portland</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134518&amp;geo=52024&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Portland: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComTIGPortalGEO&amp;src=6746174&amp;geo=52024&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Portland: Hotel Information, Book Direct</var><br/>
+<span><b>GrandHeritage.com</b> Plan your ultimate trip today.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComEsiteHotelsGEO&amp;src=15823321&amp;geo=52024&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Portland: Exclusive Rates & Offers</var><br/>
+<span><b>Skamania.com</b> Book at Official Site and save!</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=PerfectEscapesHotelsGEO&amp;src=17780933&amp;geo=52024&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Portland: Great Deals on Luxury Hotels</var><br/>
+<span><b>PerfectEscapes.com</b> Five-star luxury for less. Our experts review each and every hotel</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g52024-Vacation-Package-Discount-Portland_Oregon.html">
+<b>View all deals for Portland</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Ten-01? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWyoXKXdWM3dA33UWrVCQKUWwiEIcJCMQNEVyiCB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g52024-d649661-Ten_01-Portland_Oregon.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Ten-01 Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1001 NW Couch St</span>, <span class="locality"><span property="v:locality">Portland</span>, <span property="v:region">OR</span> <span property="v:postal-code">97209</span></span> </address>
+<span class="tel"><b>Tel:</b> (503) 226-3463</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Ten-01</b>, Portland.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.co.uk/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.ca/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.it/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.es/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.de/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.fr/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Ten-01, ポートランド" href="http://www.tripadvisor.jp/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, ポートランド"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Ten-01, 波特兰市" href="http://www.daodao.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, 波特兰市"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.in/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.se/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Ten-01, Portland" href="http://nl.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.com.br/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.com.tr/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.dk/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.com.mx/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.ie/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.com.au/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Ten-01, Portland" href="http://www.tripadvisor.com.sg/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Ten-01, Portland" href="http://no.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Ten-01, Portland" href="http://pl.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, Portland"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Ten-01, พอร์ตแลนด์" href="http://th.tripadvisor.com/Restaurant_Review-g52024-d649661-Reviews-Ten_01-Portland_Oregon.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Ten-01, พอร์ตแลนด์"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Portland! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Portland? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHyoXKXdqHM3dA33UqHxfqHrVCQQoqnQQKUqHwiEIcJCMQQoqnQQNEVyiCxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=45.523697,-122.68115&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "52024");
+ta.store('page.location', "649661");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 224 dc: 6 sc: 9 -->
+</html>

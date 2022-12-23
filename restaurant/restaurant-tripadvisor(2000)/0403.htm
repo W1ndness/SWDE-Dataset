@@ -1,0 +1,1582 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Verde, Durham - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Verde, Durham, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Verde, Durham: See unbiased reviews of Verde, rated 3.5 of 5 on TripAdvisor and ranked #101 of 388 restaurants in Durham."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "C";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "444932";
+var modelGeoId = "49092";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d444932-treviews.xml"/>
+<!-- web23b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Durham Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Verde, Durham</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g49092-d444932-e__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html-Verde-Durham_North_Carolina.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="49092"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Durham</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g49092-Durham_North_Carolina-Vacations.html">
+Durham Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g49092-Durham_North_Carolina-Hotels.html">
+Durham Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWydAKAXWxfWxMpEGJaQZiEIGQfJEicSCJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g49092-Durham_North_Carolina-Cheap_Discount_Airfares.html">
+Flights to Durham</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g49092-Durham_North_Carolina-Hotel-Deals.html">
+Durham Deals</a>
+</li>
+<li class=" navTitle">
+More On Durham
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWydAKAXWxMpEGJaQZiEIGQfJEicSCJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Verde</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWydAKAXWbnISsSISVtWxMpEGJaQZiEIGQfJEicSCJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g49092-i939-Durham_North_Carolina.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWydAKAXWxMpEGJaQZiEIGQfJEicSCJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g49092-Durham_North_Carolina.html">
+Photos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Durham Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g49092-Durham_North_Carolina.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g49092-Durham_North_Carolina.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g49092-Vacation-Package-Discount-Durham_North_Carolina.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Durham</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Durham</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-C"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="49092"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd444932" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html#savessd444932'},{flow: 'SAVES'});">Save Verde</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIacWxEqiVEMV6XfjxMpEGJajqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nc.durham
+PageType=Restaurant_Review
+pool=C
+kw=Verde
+geo=49092
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Verde
+gname=Durham
+sz=160X80
+tile=4
+ord=48439616
+area=NA.United_States.North_Carolina.Durham
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nc.durham+80+160+NA.United_States.North_Carolina.Durham+PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Verde;gname=Durham;sz=160X80;tile=4;ord=48439616"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=160X80;tile=4;ord=48439616?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=160X80;tile=4;ord=48439616?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nc.durham
+PageType=Restaurant_Review
+pool=C
+kw=Verde
+geo=49092
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Verde
+gname=Durham
+sz=160X600
+tile=2
+ord=48439616
+area=NA.United_States.North_Carolina.Durham
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nc.durham+600+160+NA.United_States.North_Carolina.Durham+PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Verde;gname=Durham;sz=160X600;tile=2;ord=48439616"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=160X600;tile=2;ord=48439616?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=160X600;tile=2;ord=48439616?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Durham restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g49092-d789761-Reviews-Metro_8-Durham_North_Carolina.html">Metro 8</a></li>
+<li><a href="/Restaurant_Review-g49092-d444910-Reviews-Four_Square_Restaurant-Durham_North_Carolina.html">Four Square Restaurant</a></li>
+<li><a href="/Restaurant_Review-g49092-d1147821-Reviews-Locopops_Gourmet_Popsicles-Durham_North_Carolina.html">Locopops Gourmet Popsicles</a></li>
+<li><a href="/Restaurant_Review-g49092-d821288-Reviews-Guglhupf_Cafe-Durham_North_Carolina.html">Guglhupf Cafe</a></li>
+<li><a href="/Restaurant_Review-g49092-d460337-Reviews-The_Q_Shack-Durham_North_Carolina.html">The Q Shack</a></li>
+<li><a href="/Restaurant_Review-g49092-d827183-Reviews-Rue_Cler_Restaurant-Durham_North_Carolina.html">Rue Cler Restaurant</a></li>
+<li><a href="/Restaurant_Review-g49092-d460345-Reviews-Magnolia_Grill-Durham_North_Carolina.html">Magnolia Grill</a></li>
+<li><a href="/Restaurant_Review-g49092-d444891-Reviews-Nana_s_Restaurant-Durham_North_Carolina.html">Nana's Restaurant</a></li>
+<li><a href="/Restaurant_Review-g49092-d460346-Reviews-Fairview-Durham_North_Carolina.html">Fairview</a></li>
+<li><a href="/Restaurant_Review-g49092-d967729-Reviews-Thai_Cafe-Durham_North_Carolina.html">Thai Cafe</a></li>
+<li><a href="/Restaurant_Review-g49092-d813733-Reviews-Piedmont_Restaurant-Durham_North_Carolina.html">Piedmont Restaurant</a></li>
+<li><a href="/Restaurant_Review-g49092-d1187749-Reviews-Parker_and_Otis-Durham_North_Carolina.html">Parker and Otis</a></li>
+<li><a href="/Restaurant_Review-g49092-d1053446-Reviews-Toast-Durham_North_Carolina.html">Toast</a></li>
+<li><a href="/Restaurant_Review-g49092-d1350963-Reviews-Mez-Durham_North_Carolina.html">Mez</a></li>
+<li><a href="/Restaurant_Review-g49092-d941393-Reviews-Six_Plates-Durham_North_Carolina.html">Six Plates</a></li>
+<li><a href="/Restaurant_Review-g49092-d460335-Reviews-Cosmic_Cantina-Durham_North_Carolina.html">Cosmic Cantina</a></li>
+<li><a href="/Restaurant_Review-g49092-d941951-Reviews-Watts_Grocery-Durham_North_Carolina.html">Watts Grocery</a></li>
+<li><a href="/Restaurant_Review-g49092-d489315-Reviews-Bullock_s_Barbecue-Durham_North_Carolina.html">Bullock's Barbecue</a></li>
+<li><a href="/Restaurant_Review-g49092-d444933-Reviews-Pop_s-Durham_North_Carolina.html">Pop's</a></li>
+<li><a href="/Restaurant_Review-g49092-d460364-Reviews-Foster_s_Market-Durham_North_Carolina.html">Foster's Market</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g49092-Durham_North_Carolina.html">Durham restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g49092-oa20-Durham_North_Carolina.html">Durham restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g49092-oa70-Durham_North_Carolina.html">Durham restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g49092-oa120-Durham_North_Carolina.html">Durham restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g49092-oa170-Durham_North_Carolina.html">Durham restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g49092-oa220-Durham_North_Carolina.html">Durham restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g49092-oa270-Durham_North_Carolina.html">Durham restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g49092-oa320-Durham_North_Carolina.html">Durham restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g49092-oa370-Durham_North_Carolina.html">Durham restaurants: 371 - 388</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g49092-Durham_North_Carolina-Hotels.html">Hotels around Durham</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g49463-d94709-Reviews-Raleigh_Marriott_Crabtree_Valley-Raleigh_North_Carolina.html">Raleigh Marriott Crabtree Valley</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>40 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#19 of 78 hotels in Raleigh, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d94277-Reviews-Washington_Duke_Inn_and_Golf_Club-Durham_North_Carolina.html">Washington Duke Inn and Golf Club</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>61 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#3 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d224962-Reviews-Millennium_Hotel_Durham-Durham_North_Carolina.html">Millennium Hotel Durham</a>
+<div class="rating">
+<span class="rate ss25"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="2.5 of 5"/></span>
+<em>67 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#29 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d100768-Reviews-Brookwood_Inn_Duke_University-Durham_North_Carolina.html">Brookwood Inn @ Duke University</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>17 Reviews</em>
+<div class="posted">Last reviewed Aug 7, 2010</div>
+</div>
+#25 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d94255-Reviews-Quality_Inn_and_Suites-Durham_North_Carolina.html">Quality Inn and Suites</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>20 Reviews</em>
+<div class="posted">Last reviewed Aug 6, 2010</div>
+</div>
+#21 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d94252-Reviews-Marriott_Durham_Civic_Center-Durham_North_Carolina.html">Marriott Durham Civic Center</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>42 Reviews</em>
+<div class="posted">Last reviewed Aug 3, 2010</div>
+</div>
+#2 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d121978-Reviews-Courtyard_by_Marriott_Durham_Duke_University_Downtown-Durham_North_Carolina.html">Courtyard by Marriott Durham Duke University/Downtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>22 Reviews</em>
+<div class="posted">Last reviewed Jul 29, 2010</div>
+</div>
+#12 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49021-d224324-Reviews-Hampton_Inn_and_Suites_Chapel_Hill_Durham_Area-Chapel_Hill_North_Carolina.html">Hampton Inn and Suites Chapel Hill / Durham Area</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>13 Reviews</em>
+<div class="posted">Last reviewed Jul 27, 2010</div>
+</div>
+#6 of 17 hotels in Chapel Hill, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d1742021-Reviews-SpringHill_Suites_Durham_Chapel_Hill-Durham_North_Carolina.html">SpringHill Suites Durham Chapel Hill</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>2 Reviews</em>
+<div class="posted">Last reviewed Jul 26, 2010</div>
+</div>
+#22 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49021-d100316-Reviews-Sheraton_Chapel_Hill_Hotel-Chapel_Hill_North_Carolina.html">Sheraton Chapel Hill Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>53 Reviews</em>
+<div class="posted">Last reviewed Jul 15, 2010</div>
+</div>
+#11 of 17 hotels in Chapel Hill, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d121975-Reviews-Comfort_Inn_Medical_Park-Durham_North_Carolina.html">Comfort Inn Medical Park</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>19 Reviews</em>
+<div class="posted">Last reviewed Jun 30, 2010</div>
+</div>
+#15 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49007-d121883-Reviews-Embassy_Suites_Hotel_Raleigh_Durham_Cary-Cary_North_Carolina.html">Embassy Suites Hotel Raleigh-Durham (Cary)</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>29 Reviews</em>
+<div class="posted">Last reviewed Jun 25, 2010</div>
+</div>
+#8 of 22 hotels in Cary, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d94254-Reviews-Super_8_Durham-Durham_North_Carolina.html">Super 8 Durham</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>4 Reviews</em>
+<div class="posted">Last reviewed Jun 22, 2010</div>
+</div>
+#32 of 50 hotels in Durham, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49369-d291412-Reviews-La_Quinta_Inn_Suites_Raleigh_Airport-Morrisville_North_Carolina.html">La Quinta Inn & Suites Raleigh Airport</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>6 Reviews</em>
+<div class="posted">Last reviewed Jun 7, 2010</div>
+</div>
+#12 of 19 hotels in Morrisville, NC<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g49092-d94275-Reviews-University_Inn_at_Duke-Durham_North_Carolina.html">University Inn at Duke</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>10 Reviews</em>
+<div class="posted">Last reviewed Oct 18, 2009</div>
+</div>
+#7 of 10 B&amp;Bs / inns in Durham, NC<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g58277-d418524-Reviews-Steinhilber_s_Thalia_Acres_Inn-Virginia_Beach_Virginia.html">Steinhilber&#39;s Thalia Acres Inn in Virginia Beach</a></li>
+<li><a href="/Restaurant_Review-g56181-d515509-Reviews-Cooper_s_Bar_B_Que-Llano_Texas.html">Cooper&#39;s Bar-B-Que in Llano, TX</a></li>
+<li><a href="/Restaurant_Review-g316066-d1477321-Reviews-El_Tirol-Caracas_Central_Venezuela.html">El Tirol in Caracas, Venezuela</a></li>
+<li><a href="/Restaurant_Review-g36942-d514262-Reviews-Yogi_s_Grill_Bar-Bloomington_Indiana.html">Yogi&#39;s Grill &amp; Bar in Bloomington, IN</a></li>
+<li><a href="/Restaurant_Review-g60120-d1129816-Reviews-The_Gingerbread_House-Muskego_Wisconsin.html">The Gingerbread House in Muskego, WI</a></li>
+<li><a href="/Restaurant_Review-g35805-d479912-Reviews-Dee_s_Restaurant-Chicago_Illinois.html">Dee&#39;s Restaurant in Chicago</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g1847113-d1847114-Reviews-Lyndhurst_Hotel_Motel-Lyndhurst_South_Australia.html">Lyndhurst Hotel-Motel in Lyndhurst, Australia</a></li>
+<li><a href="/Hotel_Review-g56032-d224824-Reviews-MainStay_Suites_Irv_Mall-Irving_Texas.html">MainStay Suites Irv / Mall in Irving, TX</a></li>
+<li><a href="/Hotel_Review-g55229-d73861-Reviews-Knights_Inn_Nashville-Nashville_Tennessee.html">Knights Inn Nashville in Nashville</a></li>
+<li><a href="/Hotel_Review-g32210-d82385-Reviews-Days_Inn_San_Diego_South_Bay-Chula_Vista_California.html">Days Inn San Diego/South Bay in Chula Vista, CA</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Durham resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g49092-Reviews-Durham_North_Carolina-Vacation_Rentals.html">Durham Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g49092-Durham_North_Carolina.html" onclick="return setOneTimeCookie('mcreset','true')">Durham Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g49092-Activities-Durham_North_Carolina.html">Things to Do in Durham</a>
+</li>
+<li>
+<a href="/AllReviews-g49092-Durham_North_Carolina.html">Durham Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g49092-Durham-Area.html">Durham Maps</a>
+</li>
+<li>
+<a href="/Travel-g49092-s208/Durham:North-Carolina:Weather.And.When.To.Go.html">Durham Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolC" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nc.durham
+PageType=Restaurant_Review
+pool=C
+kw=Verde
+geo=49092
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Verde
+gname=Durham
+sz=728X90
+tile=1
+ord=48439616
+area=NA.United_States.North_Carolina.Durham
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Verde;gname=Durham;sz=728X90;tile=1;ord=48439616?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=728X90;tile=1;ord=48439616?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=728X90;tile=1;ord=48439616?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28954-North_Carolina-Vacations.html">North Carolina (NC)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g49092-Durham_North_Carolina-Vacations.html">Durham</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g49092-Durham_North_Carolina.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Verde </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "F6D19226E246F161EF1D46056D455DEF";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g49092-d444932-Verde-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 36.007053,
+lng: -78.926155,
+locId: 444932,
+title: "Verde",
+url: "/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Verde</span>
+<div class="addr">
+<span>2200 W Main St</span>
+<div>
+<span> Durham, NC 27705</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=2200+W+Main+St+Durham%2C+NC+27705' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281952410757?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g49092-d444932-Verde-Area.html" class="pid1103">view map of Verde</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Durham.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="bx01 quickguide">
+<div class="content">
+<div class="h19">Free Durham Guide</div>
+<p>Get your quick guide to the top hotels, restaurants and things to do.</p>
+<div class="wrap">
+<div class="button">
+<span onclick="ta.overlays.registration.request('SIGNUP',{pid:826},{flow: 'QUICK_GUIDE_CALLOUT'});">Grab it and Go!</span>
+</div>
+</div>
+</div>
+</div>
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nc.durham
+PageType=Restaurant_Review
+pool=C
+kw=Verde
+pos=top
+geo=49092
+u=Restaurant_Review%7CC
+rd=com
+hcm=false
+hname=Verde
+gname=Durham
+sz=300X250
+tile=3
+ord=48439616
+area=NA.United_States.North_Carolina.Durham
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nc.durham+250+300+NA.United_States.North_Carolina.Durham+PageType=Restaurant_Review;pool=C;kw=Verde;pos=top;geo=49092;u=Restaurant_Review%7CC;rd=com;abr=!webtv;hcm=false;hname=Verde;gname=Durham;sz=300X250;tile=3;ord=48439616"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;pos=top;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=300X250;tile=3;ord=48439616?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nc.durham;PageType=Restaurant_Review;pool=C;kw=Verde;pos=top;geo=49092;u=Restaurant_Review%7CC;rd=com;hcm=false;hname=Verde;gname=Durham;sz=300X250;tile=3;ord=48439616?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Verde</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Accommodations
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g49092-d1441198-Reviews-The_King_s_Daughters_Inn-Durham_North_Carolina.html" class="pid907">The King's Daughters Inn</a></td>
+<td class="priceColumn">
+$215
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g49092-d80450-Reviews-Morehead_Manor_Bed_and_Breakfast-Durham_North_Carolina.html" class="pid907">Morehead Manor Bed and Breakfast</a></td>
+<td class="priceColumn">
+$172
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g49092-d223387-Reviews-Holiday_Inn_Express_Durham-Durham_North_Carolina.html" class="pid907">Holiday Inn Express Durham</a></td>
+<td class="priceColumn">
+$105
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g49092-d258687-Reviews-Duke_Tower_Hotel_Condominiums-Durham_North_Carolina.html" class="pid907">Duke Tower Hotel & Condominiums</a></td>
+<td class="priceColumn">
+$85
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.4 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g49092-d224964-Reviews-Red_Roof_Inn_Durham_Duke_University_Medical_Center-Durham_North_Carolina.html" class="pid907">Red Roof Inn Durham Duke University Medical Center</a></td>
+<td class="priceColumn">
+$65
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">1.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">2.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g49092-Durham_North_Carolina-Hotels.html">All Accommodations in Durham<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g49092-d907686-Reviews-Baghannouj_International_Incorporated-Durham_North_Carolina.html" rel="nofollow" class="pid908">Baghannouj International Incorporated</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.0 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g49092-d1147821-Reviews-Locopops_Gourmet_Popsicles-Durham_North_Carolina.html" rel="nofollow" class="pid908">Locopops Gourmet Popsicles</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g49092-d789761-Reviews-Metro_8-Durham_North_Carolina.html" rel="nofollow" class="pid908">Metro 8</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g49092-Durham_North_Carolina.html" rel="nofollow">All Restaurants in Durham<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g49092-d527148-Reviews-Sarah_P_Duke_Gardens-Durham_North_Carolina.html" rel="nofollow" class="pid909">Sarah P. Duke Gardens</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g49092-d102952-Reviews-Ninth_Street-Durham_North_Carolina.html" rel="nofollow" class="pid909">Ninth Street</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g49092-d532114-Reviews-Duke_Chapel-Durham_North_Carolina.html" rel="nofollow" class="pid909">Duke Chapel</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g49092-Activities-Durham_North_Carolina.html" rel="nofollow">All Things to Do in Durham<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Verde</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 5 posts on Durham from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g49092-i939-Durham_North_Carolina.html">Go to Durham Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g49092-d444932-r9904696.html" class="js_popSmall" title="Verde">&#x201c;Verde&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (1)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g49092-d444932-a_area.Text__5F__HotelComment-r2059275.html" class="js_popSmall">&#x201c;Verde&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>101</b></var> <span>of 388 <i><a href="/Restaurants-g49092-Durham_North_Carolina.html">restaurants in Durham</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no35"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">14</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g49092-d444932-e__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html-fbefirst_Restaurant_Review_writeareview_top-Verde-Durham_North_Carolina.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">2200 W Main St</span>, <span class="locality"><span property="v:locality">Durham</span>, <span property="v:region">NC</span> <span property="v:postal-code">27705</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(919) 286-9755</span>
+</li>
+</ul>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>Rating summary</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:11px;"></div></div>
+<span class="total">2</span>
+</li>
+<li class="row disabled">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:17px;"></div></div>
+<span class="total">3</span>
+</li>
+<li class="row disabled">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:45px;"></div></div>
+<span class="total">8</span>
+</li>
+<li class="row disabled">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:0px;"></div></div>
+<span class="total">0</span>
+</li>
+<li class="row disabled">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:5px;"></div></div>
+<span class="total">1</span>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g49092__2D__d444932__2D__Reviews__2D__Verde__2D__Durham__5F__North__5F__Carolina__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g49092-d444932-r11560018-Verde-Durham_North_Carolina.html" class="pid2168" id="r11560018">Always cool & yummy</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd11560018" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html#savessd11560018'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/YummyintheTummy"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_9CCD3F1772BBE3B096F29359E9D65C2A-SRC_11560018" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">YummyintheTummy</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Durham, NC</div>
+<div class="date ">
+Dec 14, 2007
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+This place always has great, interesting food. They've changed things over the last years, always keeping it new and fresh. They also have good wines and a great bar. And it's beautiful decorated in a hip, but accessible way. Everyone is always so friendly.
+I have a hunch that it is the (Mexican) guys in the kitchen that really keep...
+<span class="fkLnk hvrIE6 tr11560018" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-1</span> <i>of</i> 1</span>
+<div id="" class="pgLinks">
+<span class="paging pageDisplay">1</span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Verde? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWydAKAXWMdddAmXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WqiVEMVWxMpEGJaQZiEIGQfJEicSCJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WydAKAXWMdddAmXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WqiVEMVWxMpEGJaQZiEIGQfJEicSCJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWydAKAXWMdddAmXWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WqiVEMVWxMpEGJaQZiEIGQfJEicSCJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Durham</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134691&amp;geo=49092&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Durham: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5570721&amp;geo=49092&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Durham: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO5&amp;src=1787079&amp;geo=49092&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Durham: Save on hotel + air</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO6&amp;src=1524106&amp;geo=49092&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Durham: Great Rates on Hotels</var><br/>
+<span><b>Expedia.com</b> Get the lowest price on hotels with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g49092-Vacation-Package-Discount-Durham_North_Carolina.html">
+<b>View all deals for Durham</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Verde? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWydAKAXWMdddAmXWqiVEMVWxMpEGJaQZiEIGQfJEicSCJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g49092-d444932-Verde-Durham_North_Carolina.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Verde Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">2200 W Main St</span>, <span class="locality"><span property="v:locality">Durham</span>, <span property="v:region">NC</span> <span property="v:postal-code">27705</span></span> </address>
+<span class="tel"><b>Tel:</b> (919) 286-9755</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Verde</b>, Durham.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.co.uk/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.ca/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.it/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.es/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.de/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.fr/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Verde, ダーラム" href="http://www.tripadvisor.jp/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, ダーラム"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Verde, 达勒姆" href="http://www.daodao.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, 达勒姆"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.in/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.se/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Verde, Durham" href="http://nl.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.com.br/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.com.tr/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.dk/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.com.mx/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.ie/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.com.au/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Verde, Durham" href="http://www.tripadvisor.com.sg/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Verde, Durham" href="http://no.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Verde, Durham" href="http://pl.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, Durham"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Verde, เดอรัม" href="http://th.tripadvisor.com/Restaurant_Review-g49092-d444932-Reviews-Verde-Durham_North_Carolina.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Verde, เดอรัม"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Durham! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Durham? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydAKAXqHMdddAmXqHxfqHqiVEMVqHxMpEGJaQQoqnQQZiEIGQQoqnQQfJEicSCJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=36.007053,-78.926155&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "49092");
+ta.store('page.location', "444932");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 148 dc: 6 sc: 9 -->
+</html>

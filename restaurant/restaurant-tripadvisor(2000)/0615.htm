@@ -1,0 +1,2156 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>The Palm, Las Vegas - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="The Palm, Las Vegas, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="The Palm, Las Vegas: See 53 unbiased reviews of The Palm, rated 4.0 of 5 on TripAdvisor and ranked #129 of 1,767 restaurants in Las Vegas."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "A";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "491828";
+var modelGeoId = "45963";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d491828-treviews.xml"/>
+<!-- web09b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Las Vegas Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">The Palm, Las Vegas</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g45963-d491828-e__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html-The_Palm-Las_Vegas_Nevada.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="45963"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Las Vegas</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g45963-Las_Vegas_Nevada-Vacations.html">
+Las Vegas Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html">
+Las Vegas Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWydoA3mWxfWRJtQqiVyJtQZVsJMJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g45963-Las_Vegas_Nevada-Cheap_Discount_Airfares.html">
+Flights to Las Vegas</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g45963-Las_Vegas_Nevada-Hotel-Deals.html">
+Las Vegas Deals</a>
+</li>
+<li class=" navTitle">
+More On Las Vegas
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWydoA3mWRJtQqiVyJtQZVsJMJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">The Palm</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWydoA3mWbnISsSISVtWRJtQqiVyJtQZVsJMJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g45963-i10-Las_Vegas_Nevada.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWydoA3mWRJtQqiVyJtQZVsJMJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g45963-Las_Vegas_Nevada.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g45963-Las_Vegas_Nevada.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Las Vegas Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g45963-Las_Vegas_Nevada.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g45963-Las_Vegas_Nevada.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g45963-Vacation-Package-Discount-Las_Vegas_Nevada.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Las Vegas</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Las Vegas</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-A"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="45963"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd491828" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd491828'},{flow: 'SAVES'});">Save The Palm</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIacWxErGVjwJca6XfjRJtjqiVyJtjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nv.las_vegas
+PageType=Restaurant_Review
+pool=A
+kw=The+Palm
+geo=45963
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=The+Palm
+gname=Las+Vegas
+sz=160X80
+tile=4
+ord=51446870
+area=NA.United_States.Nevada.Las_Vegas
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nv.las_vegas+80+160+NA.United_States.Nevada.Las_Vegas+PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X80;tile=4;ord=51446870"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X80;tile=4;ord=51446870?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X80;tile=4;ord=51446870?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nv.las_vegas
+PageType=Restaurant_Review
+pool=A
+kw=The+Palm
+geo=45963
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=The+Palm
+gname=Las+Vegas
+sz=160X600
+tile=2
+ord=51446870
+area=NA.United_States.Nevada.Las_Vegas
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nv.las_vegas+600+160+NA.United_States.Nevada.Las_Vegas+PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X600;tile=2;ord=51446870"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X600;tile=2;ord=51446870?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=160X600;tile=2;ord=51446870?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Las Vegas restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g45963-d1108052-Reviews-Off_the_Strip_Just_Real_Food-Las_Vegas_Nevada.html">Off the Strip - Just Real Food</a></li>
+<li><a href="/Restaurant_Review-g45963-d614614-Reviews-Vic_Anthony_s_Steakhouse_Las_Vegas-Las_Vegas_Nevada.html">Vic & Anthony's Steakhouse - Las Vegas</a></li>
+<li><a href="/Restaurant_Review-g45963-d586852-Reviews-Tableau-Las_Vegas_Nevada.html">Tableau</a></li>
+<li><a href="/Restaurant_Review-g45963-d423063-Reviews-Casa_Di_Amore-Las_Vegas_Nevada.html">Casa Di Amore</a></li>
+<li><a href="/Restaurant_Review-g45963-d479451-Reviews-Del_Frisco_s-Las_Vegas_Nevada.html">Del Frisco's</a></li>
+<li><a href="/Restaurant_Review-g45963-d445516-Reviews-Roy_s-Las_Vegas_Nevada.html">Roy's</a></li>
+<li><a href="/Restaurant_Review-g45963-d422615-Reviews-Rosemary_s_Restaurant-Las_Vegas_Nevada.html">Rosemary's Restaurant</a></li>
+<li><a href="/Restaurant_Review-g45963-d1540278-Reviews-Jean_Philippe_Patisserie-Las_Vegas_Nevada.html">Jean-Philippe Patisserie</a></li>
+<li><a href="/Restaurant_Review-g45963-d1513478-Reviews-Firefly_Kitchen_Bar-Las_Vegas_Nevada.html">Firefly Kitchen & Bar</a></li>
+<li><a href="/Restaurant_Review-g45963-d422749-Reviews-Le_Cirque_Bellagio-Las_Vegas_Nevada.html">Le Cirque (Bellagio)</a></li>
+<li><a href="/Restaurant_Review-g45963-d422629-Reviews-Mon_Ami_Gabi_at_Paris_Las_Vegas-Las_Vegas_Nevada.html">Mon Ami Gabi at Paris Las Vegas</a></li>
+<li><a href="/Restaurant_Review-g45963-d422608-Reviews-Hugo_s_Cellar-Las_Vegas_Nevada.html">Hugo's Cellar</a></li>
+<li><a href="/Restaurant_Review-g45963-d556773-Reviews-Fleur_de_Lys-Las_Vegas_Nevada.html">Fleur de Lys</a></li>
+<li><a href="/Restaurant_Review-g45963-d422634-Reviews-Jamm_s_Restaurant-Las_Vegas_Nevada.html">Jamm's Restaurant</a></li>
+<li><a href="/Restaurant_Review-g45963-d492036-Reviews-The_Cheesecake_Factory-Las_Vegas_Nevada.html">The Cheesecake Factory</a></li>
+<li><a href="/Restaurant_Review-g45963-d569722-Reviews-Maggiano_s-Las_Vegas_Nevada.html">Maggiano's</a></li>
+<li><a href="/Restaurant_Review-g45963-d1051165-Reviews-Grand_Lux_Cafe-Las_Vegas_Nevada.html">Grand Lux Cafe</a></li>
+<li><a href="/Restaurant_Review-g45963-d735036-Reviews-Stripburger-Las_Vegas_Nevada.html">Stripburger</a></li>
+<li><a href="/Restaurant_Review-g45963-d1008164-Reviews-In_N_Out_Burger-Las_Vegas_Nevada.html">In-N-Out Burger</a></li>
+<li><a href="/Restaurant_Review-g45963-d598158-Reviews-Wynn_Buffet-Las_Vegas_Nevada.html">Wynn Buffet</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g45963-Las_Vegas_Nevada.html">Las Vegas restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g45963-oa20-Las_Vegas_Nevada.html">Las Vegas restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g45963-oa70-Las_Vegas_Nevada.html">Las Vegas restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g45963-oa120-Las_Vegas_Nevada.html">Las Vegas restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g45963-oa170-Las_Vegas_Nevada.html">Las Vegas restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g45963-oa220-Las_Vegas_Nevada.html">Las Vegas restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g45963-oa270-Las_Vegas_Nevada.html">Las Vegas restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g45963-oa320-Las_Vegas_Nevada.html">Las Vegas restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g45963-oa370-Las_Vegas_Nevada.html">Las Vegas restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g45963-oa420-Las_Vegas_Nevada.html">Las Vegas restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g45963-oa470-Las_Vegas_Nevada.html">Las Vegas restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g45963-oa520-Las_Vegas_Nevada.html">Las Vegas restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g45963-oa570-Las_Vegas_Nevada.html">Las Vegas restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g45963-oa620-Las_Vegas_Nevada.html">Las Vegas restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g45963-oa670-Las_Vegas_Nevada.html">Las Vegas restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g45963-oa720-Las_Vegas_Nevada.html">Las Vegas restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g45963-oa770-Las_Vegas_Nevada.html">Las Vegas restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g45963-oa820-Las_Vegas_Nevada.html">Las Vegas restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g45963-oa870-Las_Vegas_Nevada.html">Las Vegas restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g45963-oa920-Las_Vegas_Nevada.html">Las Vegas restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g45963-oa970-Las_Vegas_Nevada.html">Las Vegas restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g45963-oa1020-Las_Vegas_Nevada.html">Las Vegas restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g45963-oa1070-Las_Vegas_Nevada.html">Las Vegas restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g45963-oa1120-Las_Vegas_Nevada.html">Las Vegas restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g45963-oa1170-Las_Vegas_Nevada.html">Las Vegas restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g45963-oa1220-Las_Vegas_Nevada.html">Las Vegas restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g45963-oa1270-Las_Vegas_Nevada.html">Las Vegas restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g45963-oa1320-Las_Vegas_Nevada.html">Las Vegas restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g45963-oa1370-Las_Vegas_Nevada.html">Las Vegas restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g45963-oa1420-Las_Vegas_Nevada.html">Las Vegas restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g45963-oa1470-Las_Vegas_Nevada.html">Las Vegas restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g45963-oa1520-Las_Vegas_Nevada.html">Las Vegas restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g45963-oa1570-Las_Vegas_Nevada.html">Las Vegas restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g45963-oa1620-Las_Vegas_Nevada.html">Las Vegas restaurants: 1621 - 1670</a></li>
+<li><a href="/Restaurants-g45963-oa1670-Las_Vegas_Nevada.html">Las Vegas restaurants: 1671 - 1720</a></li>
+<li><a href="/Restaurants-g45963-oa1720-Las_Vegas_Nevada.html">Las Vegas restaurants: 1721 - 1767</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html">Hotels around Las Vegas</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g45963-d91925-Reviews-Aria_Hotel_and_Casino-Las_Vegas_Nevada.html">Aria Hotel and Casino</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>717 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#57 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d91844-Reviews-Flamingo_Hotel_Casino-Las_Vegas_Nevada.html">Flamingo Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>3,022 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#104 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d97737-Reviews-Mirage_Hotel_Casino-Las_Vegas_Nevada.html">Mirage Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>2,465 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#25 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d1200920-Reviews-SpringHill_Suites_Las_Vegas_Convention_Center-Las_Vegas_Nevada.html">SpringHill Suites Las Vegas Convention Center</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>32 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#10 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d97704-Reviews-Venetian_Resort_Hotel_Casino-Las_Vegas_Nevada.html">Venetian Resort Hotel Casino</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>3,107 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#26 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d91967-Reviews-Treasure_Island_TI_Hotel_Casino-Las_Vegas_Nevada.html">Treasure Island - TI Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>2,692 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#49 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d1474086-Reviews-Vdara_Hotel_Spa-Las_Vegas_Nevada.html">Vdara Hotel & Spa</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>323 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#30 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d91700-Reviews-Bill_s_Gamblin_Hall_Saloon-Las_Vegas_Nevada.html">Bill's Gamblin' Hall & Saloon</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>955 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#19 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d91762-Reviews-Caesars_Palace_Classic_Hotel-Las_Vegas_Nevada.html">Caesars Palace Classic Hotel</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>1,774 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#43 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d186114-Reviews-Imperial_Palace_Hotel_Casino-Las_Vegas_Nevada.html">Imperial Palace Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>2,289 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#131 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d97735-Reviews-Riviera_Hotel_Casino-Las_Vegas_Nevada.html">Riviera Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>896 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#139 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d114889-Reviews-Harrah_s_Las_Vegas_Casino_Hotel-Las_Vegas_Nevada.html">Harrah's Las Vegas Casino & Hotel</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>1,055 Reviews</em>
+<div class="posted">Last reviewed Aug 12, 2010</div>
+</div>
+#83 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d1396432-Reviews-Holiday_Inn_Las_Vegas-Las_Vegas_Nevada.html">Holiday Inn Las Vegas</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>17 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#27 of 289 hotels in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d1034728-Reviews-Luxury_Suites_International_at_The_Signature-Las_Vegas_Nevada.html">Luxury Suites International at The Signature</a>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5"/></span>
+<em>53 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#1 of 6 B&amp;Bs / inns in Las Vegas, NV<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g45963-d121312-Reviews-Bally_s_Las_Vegas_Hotel_Casino-Las_Vegas_Nevada.html">Bally's Las Vegas Hotel & Casino</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>1,736 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#69 of 289 hotels in Las Vegas, NV<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g60742-d444053-Reviews-Jerusalem_Garden_Cafe-Asheville_North_Carolina.html">Jerusalem Garden Cafe in Asheville, NC</a></li>
+<li><a href="/Restaurant_Review-g150793-d1032987-Reviews-Boca_Bento-Puerto_Vallarta_Pacific_Coast.html">Boca Bento in Puerto Vallarta, Mexico</a></li>
+<li><a href="/Restaurant_Review-g1066457-d1664565-Reviews-Kuressonieru-Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html">Kuressonieru in Shinjuku, Japan</a></li>
+<li><a href="/Restaurant_Review-g60721-d1124647-Reviews-Maggie_s_Restaurant-Bayfield_Wisconsin.html">Maggie&#39;s Restaurant in Bayfield, WI</a></li>
+<li><a href="/Restaurant_Review-g187265-d719138-Reviews-Le_Jardin_d_a_Cote-Lyon_Rhone_Alpes.html">Le Jardin d&#39;a Cote in Lyon, France</a></li>
+<li><a href="/Restaurant_Review-g150793-d1434779-Reviews-Victor_s_Place_Cafe_Tacuba-Puerto_Vallarta_Pacific_Coast.html">Victor&#39;s Place / Cafe Tacuba in Puerto Vallarta, Mexico</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g46812-d92600-Reviews-Hilton_Garden_Inn_Secaucus_Meadowlands-Secaucus_New_Jersey.html">Hilton Garden Inn Secaucus / Meadowlands in Secaucus, NJ</a></li>
+<li><a href="/Hotel_Review-g60885-d91495-Reviews-Doubletree_Hotel_Omaha_Downtown-Omaha_Nebraska.html">Doubletree Hotel Omaha-Downtown in Omaha, NE</a></li>
+<li><a href="/Hotel_Review-g45095-d575650-Reviews-Hilton_Garden_Inn_Bozeman-Bozeman_Montana.html">Hilton Garden Inn Bozeman in Bozeman, MT</a></li>
+<li><a href="/Hotel_Review-g1236967-d983375-Reviews-Radisson_Blu_Resort_Marina_Spa_St_Martin-Anse_Marcel_St_Maarten_St_Martin.html">Radisson Anse Marcel</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Las Vegas resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g45963-Reviews-Las_Vegas_Nevada-Vacation_Rentals.html">Las Vegas Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g45963-Las_Vegas_Nevada.html" onclick="return setOneTimeCookie('mcreset','true')">Las Vegas Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g45963-Activities-Las_Vegas_Nevada.html">Things to Do in Las Vegas</a>
+</li>
+<li>
+<a href="/AllReviews-g45963-Las_Vegas_Nevada.html">Las Vegas Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g45963-Las_Vegas-Area.html">Las Vegas Maps</a>
+</li>
+<li>
+<a href="/Travel-g45963-s208/Las-Vegas:Nevada:Weather.And.When.To.Go.html">Las Vegas Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolA" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nv.las_vegas
+PageType=Restaurant_Review
+pool=A
+kw=The+Palm
+geo=45963
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=The+Palm
+gname=Las+Vegas
+sz=728X90
+tile=1
+ord=51446870
+area=NA.United_States.Nevada.Las_Vegas
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=728X90;tile=1;ord=51446870?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=728X90;tile=1;ord=51446870?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=728X90;tile=1;ord=51446870?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28949-Nevada-Vacations.html">Nevada (NV)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g45963-Las_Vegas_Nevada-Vacations.html">Las Vegas</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g45963-Las_Vegas_Nevada.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+The Palm </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "7A64D671A907CE9DC77B6CCEEA915FCA";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g45963-d491828-The_Palm-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 36.117737,
+lng: -115.1732,
+locId: 491828,
+title: "The Palm",
+url: "/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">The Palm</span>
+<div class="addr">
+<span>3500 Las Vegas Boulevard South</span>
+<span>Forum Shops at Caesars</span>
+<div>
+<span> Las Vegas, NV 89109</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=3500+Las+Vegas+Boulevard+South+Forum+Shops+at+Caesars+Las+Vegas%2C+NV+89109' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281956504274?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g45963-d491828-The_Palm-Area.html" class="pid1103">view map of The Palm</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Las Vegas.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Las Vegas Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045311" href="http://media-cdn.tripadvisor.com/media/photo-s/01/5f/a4/bf/cheesecake.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/5f/a4/bf/cheesecake.jpg" alt="Cheesecake"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045311" class="caption js_popGallery">Cheesecake</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuVtISVX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuVtISVX')">westie2</span>
+</span>
+</div>
+<div class="location">Kensington, CT</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045309" href="http://media-cdn.tripadvisor.com/media/photo-s/01/5f/a4/bd/key-lime-pie.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/5f/a4/bd/key-lime-pie.jpg" alt="Key lime pie"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045309" class="caption js_popGallery">Key lime pie</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuVtISVX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuVtISVX')">westie2</span>
+</span>
+</div>
+<div class="location">Kensington, CT</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045307" href="http://media-cdn.tripadvisor.com/media/photo-s/01/5f/a4/bb/cottage-fries-and-onion.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/5f/a4/bb/cottage-fries-and-onion.jpg" alt="Cottage fries and onion rings"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045307" class="caption js_popGallery">Cottage fries and onion rings</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuVtISVX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuVtISVX')">westie2</span>
+</span>
+</div>
+<div class="location">Kensington, CT</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045297" href="http://media-cdn.tripadvisor.com/media/photo-s/01/5f/a4/b1/las-vegas.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/5f/a4/b1/las-vegas.jpg" alt="Twin tenderloin filets"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045297" class="caption js_popGallery">Twin tenderloin filets</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuVtISVX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuVtISVX')">westie2</span>
+</span>
+</div>
+<div class="location">Kensington, CT</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045296" href="http://media-cdn.tripadvisor.com/media/photo-s/01/5f/a4/b0/caesar-salad.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/5f/a4/b0/caesar-salad.jpg" alt="Caesar salad"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#23045296" class="caption js_popGallery">Caesar salad</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLuVtISVX">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLuVtISVX')">westie2</span>
+</span>
+</div>
+<div class="location">Kensington, CT</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#22395851" href="http://media-cdn.tripadvisor.com/media/photo-s/01/55/bb/cb/entrance.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/55/bb/cb/entrance.jpg" alt="Entrance"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#22395851" class="caption js_popGallery">Entrance</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitL9ESn9VIvv">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitL9ESn9VIvv')">kricket88</span>
+</span>
+</div>
+<div class="location">Austin</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#17647171" href="http://media-cdn.tripadvisor.com/media/photo-s/01/0d/46/43/filet-mignon.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/0d/46/43/filet-mignon.jpg" alt="Filet Mignon"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#17647171" class="caption js_popGallery">Filet Mignon</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitL7Ei9VCbcSnV">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitL7Ei9VCbcSnV')">BrokenAlice</span>
+</span>
+</div>
+<div class="location">Seattle, Washington</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#17647169" href="http://media-cdn.tripadvisor.com/media/photo-s/01/0d/46/41/cottage-fries.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/0d/46/41/cottage-fries.jpg" alt="Cottage Fries"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html#17647169" class="caption js_popGallery">Cottage Fries</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitL7Ei9VCbcSnV">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitL7Ei9VCbcSnV')">BrokenAlice</span>
+</span>
+</div>
+<div class="location">Seattle, Washington</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g45963-d491828-The_Palm-Las_Vegas_Nevada.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g45963-d491828-e__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-The_Palm-Las_Vegas_Nevada.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g45963-d491828-e__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-The_Palm-Las_Vegas_Nevada.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.nv.las_vegas
+PageType=Restaurant_Review
+pool=A
+kw=The+Palm
+pos=top
+geo=45963
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=The+Palm
+gname=Las+Vegas
+sz=300X250
+tile=3
+ord=51446870
+area=NA.United_States.Nevada.Las_Vegas
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.nv.las_vegas+250+300+NA.United_States.Nevada.Las_Vegas+PageType=Restaurant_Review;pool=A;kw=The+Palm;pos=top;geo=45963;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=300X250;tile=3;ord=51446870"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;pos=top;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=300X250;tile=3;ord=51446870?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.nv.las_vegas;PageType=Restaurant_Review;pool=A;kw=The+Palm;pos=top;geo=45963;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=The+Palm;gname=Las+Vegas;sz=300X250;tile=3;ord=51446870?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near The Palm</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g45963-d217597-Reviews-Hilton_Grand_Vacations_Club_at_the_Flamingo_Las_Vegas-Las_Vegas_Nevada.html" class="pid907">Hilton Grand Vacations Club at the Flamingo - Las Vegas</a></td>
+<td class="priceColumn">
+$168
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g45963-d91703-Reviews-Bellagio_Las_Vegas-Las_Vegas_Nevada.html" class="pid907">Bellagio Las Vegas</a></td>
+<td class="priceColumn">
+$266
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g45963-d567617-Reviews-Marriott_s_Grand_Chateau-Las_Vegas_Nevada.html" class="pid907">Marriott's Grand Chateau</a></td>
+<td class="priceColumn">
+$187
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g45963-d610513-Reviews-Platinum_Hotel_and_Spa-Las_Vegas_Nevada.html" class="pid907">Platinum Hotel and Spa</a></td>
+<td class="priceColumn">
+$181
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g45963-d1234445-Reviews-Jet_Luxury_Resorts_Platinum_Hotel_Spa-Las_Vegas_Nevada.html" class="pid907">Jet Luxury Resorts @ Platinum Hotel & Spa</a></td>
+<td class="priceColumn">
+$159
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.8 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html">All Hotels in Las Vegas<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g45963-d492036-Reviews-The_Cheesecake_Factory-Las_Vegas_Nevada.html" rel="nofollow" class="pid908">The Cheesecake Factory</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g45963-d422629-Reviews-Mon_Ami_Gabi_at_Paris_Las_Vegas-Las_Vegas_Nevada.html" rel="nofollow" class="pid908">Mon Ami Gabi at Paris Las Vegas</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.5 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g45963-d422685-Reviews-Bally_s_Steakhouse-Las_Vegas_Nevada.html" rel="nofollow" class="pid908">Bally's Steakhouse</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g45963-Las_Vegas_Nevada.html" rel="nofollow">All Restaurants in Las Vegas<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g45963-d1774863-Reviews-Imperial_Palace_Theater_Human_Nature-Las_Vegas_Nevada.html" rel="nofollow" class="pid909">Imperial Palace Theater - Human Nature</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g45963-d127003-Reviews-Bellagio_Fountains-Las_Vegas_Nevada.html" rel="nofollow" class="pid909">Bellagio Fountains</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g45963-d1081728-Reviews-Jersey_Boys-Las_Vegas_Nevada.html" rel="nofollow" class="pid909">Jersey Boys</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.6 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.0 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g45963-Activities-Las_Vegas_Nevada.html" rel="nofollow">All Things to Do in Las Vegas<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on The Palm</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 7,575 posts on Las Vegas from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g45963-i10-Las_Vegas_Nevada.html">Go to Las Vegas Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (5)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-r2446580.html" class="js_popSmall" title="The Palm">&#x201c;The Palm&#x201d;</a></td>
+<td>
+<cite title="GAYOT.com">GAYOT.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-r2447431.html" class="js_popSmall" title="The Palm">&#x201c;The Palm&#x201d;</a></td>
+<td>
+<cite title="Frommer's">Frommer's</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-r3093873.html" class="js_popSmall" title="Palm Restaurant">&#x201c;Palm Restaurant&#x201d;</a></td>
+<td>
+<cite title="chefmoz.org">chefmoz.org</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-r3219553.html" class="js_popSmall" title="Palm Restaurant">&#x201c;Palm Restaurant&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-r3463903.html" class="js_popSmall" title="Palm Restaurant">&#x201c;Palm Restaurant&#x201d;</a></td>
+<td>
+<cite title="Wcities.com">Wcities.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (5)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-a_area.Text__5F__HotelComment-r3222051.html" class="js_popSmall">&#x201c;Best steaks in town A must. An...&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-a_area.Text__5F__HotelComment-r3374920.html" class="js_popSmall">&#x201c;The Palm&#x201d;</a></td>
+<td>
+<cite title="RealEats.com">RealEats.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-a_area.Text__5F__HotelComment-r3222050.html" class="js_popSmall">&#x201c;Larry Close is a...&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-a_area.Text__5F__HotelComment-r3222049.html" class="js_popSmall">&#x201c;Absolut-ely the best Absolut L...&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g45963-d491828-a_area.Text__5F__HotelComment-r3222048.html" class="js_popSmall">&#x201c;Never disappointed! Perfectly...&#x201d;</a></td>
+<td>
+<cite title="DineSite.com">DineSite.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig3"><sup>#</sup><b>129</b></var> <span>of 1,764 <i><a href="/Restaurants-g45963-Las_Vegas_Nevada.html">restaurants in Las Vegas</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">73</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g45963-d491828-e__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html-fbefirst_Restaurant_Review_writeareview_top-The_Palm-Las_Vegas_Nevada.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: American, Barbecue, Seafood, Steakhouse
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">3500 Las Vegas Boulevard South</span>, <span class="extended-address">Forum Shops at Caesars</span>, <span class="locality"><span property="v:locality">Las Vegas</span>, <span property="v:region">NV</span> <span property="v:postal-code">89109</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">702 732 7256</span>
+|
+<a rel="nofollow" class="url js_popup" href="http://www.thepalm.com/sitemain.cfm?site_id=15">
+www.thepalm.com/sitemain.cfm?site_id=15
+</a>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=17113505&geo=491828&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $40-$60 </li><!--/ price-->
+<li class="options"><b>Dining options:</b> Late Night</li>
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>84% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:35px;"></div></div>
+<span class="total">32</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:25px;"></div></div>
+<span class="total">23</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:10px;"></div></div>
+<span class="total">10</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='2';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:2px;"></div></div>
+<span class="total">2</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:6px;"></div></div>
+<span class="total">6</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:56px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 53</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEUKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEoKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)">6</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEUKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g45963__2D__d491828__2D__Reviews__2D__The__5F__Palm__2D__Las__5F__Vegas__5F__Nevada__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+<option value="de">
+German first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r66082383-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r66082383">I would rate service to zero if that option is available</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd66082383" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd66082383'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/DGK65"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/5b/avatar033.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s10"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="1 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_1D243F0D471B12CE38F084565B5DF579-SRC_66082383" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">DGK65</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">3 contributions</span> </div>
+<div class="location">Scottsdale</div>
+<div class="date ">
+Jun 1, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Food is good, in a traditional way. No surprise. There are so many steak house in the trip to choose. But the receiption desk was the place need to get improve. The check in process is painfully slow, the guests are blocking the entrance. I guess they assume that their customers get the whole night to give to the dinner....
+<span class="fkLnk hvrIE6 tr66082383" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r57544408-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r57544408">Sub standard service at a high price</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd57544408" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd57544408'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/AWisconsintravler"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/99/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_A7033DACA8B27EEB873B9BB5CD446B92-SRC_57544408" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">AWisconsintravler</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">3 contributions</span> </div>
+<div class="location">Wisconsin traveler</div>
+<div class="date ">
+Mar 2, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+Seating was almost immediate (with reservation). Food selection and taste were very good. Service was very slow, 1 hour from seating to food arriving. A second serving of bread was required to keep our group from rioting. Prices as expected, high. I would not return to this restaurant as there as so many high quality options out there that I...
+<span class="fkLnk hvrIE6 tr57544408" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r52885003-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r52885003">Very nice lunch spot</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd52885003" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd52885003'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/simmie17"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/68/avatar046.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_4742707A5F1DAFCBF39B143D47F7D5E5-SRC_52885003" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">simmie17</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">225 contributions</span> </div>
+<div class="location">wayne,pa</div>
+<div class="date ">
+Jan 7, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">2</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+We had a wonderful lunch on a Saturday on the patio. The lobster salad was very good. Service was exceptional. When waitress learned my daughter had turned 21, she brought out a piece of cheesecake with a candle! (This happened at a few places over the weekend, and more than compensated for a lousy birthday dinner at a high end...
+<span class="fkLnk hvrIE6 tr52885003" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r51849594-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r51849594">Unimpressive atmosphere and food</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd51849594" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd51849594'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/westie2"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_3E6A0CDED0FAB29D9B80CB8175BDE106-SRC_51849594" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">westie2</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">155 contributions</span> </div>
+<div class="location">Kensington, CT</div>
+<div class="date ">
+Dec 25, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+This was our first visit and I was unimpressed by both the restaurant itself and the food given the favorable comments I have read. We each ordered the 3-course business lunch, selecting Caesar salads (fair) and the twin tenderloin filets served with caramelized onions, wild mushrooms and bordelaise sauce. In addition we received a large plate of cottage fries and...
+<span class="fkLnk hvrIE6 tr51849594" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g45963-d491828-r51849594-The_Palm-Las_Vegas_Nevada.html">5 Photos</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r51713865-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r51713865">The Best of The Best</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd51713865" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd51713865'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/phsteve"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_00531B8A730B13560B0256D5E35E0DEA-SRC_51713865" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">phsteve</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Las Vegas, NV</div>
+<div class="date ">
+Dec 23, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">5</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+I started eating at the original first Palm in New York City over 50 years. As the restaurant expanded , across the street (on second avenue) to the Palm 2, to meet the demand ,then to LA, DC, Chicago,etc. I have followed. Now that I live in Las Vegas I can honestly say that I have never had a meal...
+<span class="fkLnk hvrIE6 tr51713865" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r49065126-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r49065126" rel="nofollow">Great affordable restaurant</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd49065126" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd49065126'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/CTTraveler56"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/66/avatar044.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_0DC9F7F913D1857B342794BB5E009F3C-SRC_49065126" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">CTTraveler56</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">19 contributions</span> </div>
+<div class="location">Greenwich, ct</div>
+<div class="date ">
+Nov 12, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">2</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+Located just at the beginning (from the Caesar Park Casino) of the Forum Shops, it has a menu which is not vast, but enough to satisfy all guests. Nice decor inside and great dining "outside", under the frescoed ceilings.
+Food is good and well priced and service super
+<span class="fkLnk hvrIE6 tr49065126" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r48281427-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r48281427">Great as always!!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd48281427" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd48281427'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<div class="facebookAvatar" style="width:74px; height:74px">
+<a rel="nofollow" href="/members/kricket88"> <img id='lazyload_UNIQUE_3' height='74px' width='74px' class='facebookAvatarIcon'/>
+<img class="sprite-facebookAvatarLogo facebookAvatarLogo" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</a> </div>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_C89AA0FB429C21FB78387094CF412308-SRC_48281427" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">kricket88</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">25 contributions</span> </div>
+<div class="location">Austin</div>
+<div class="date ">
+Nov 1, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">2</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+Went to The Palm for lunch upon arrival in Vegas. It's my favorite lunch spot. The food is great and I love people watching from the patio. You never know what you are going to see as this restaurant is right at the entrance to the casino at Ceasar's Palace. They have a great business lunch 3 course meal menu...
+<span class="fkLnk hvrIE6 tr48281427" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+<ul class="userTools inline">
+<li class="sprite-camera icn photo first"><a rel="nofollow" class="js_popGallery" href="/ReviewPhotos-g45963-d491828-r48281427-The_Palm-Las_Vegas_Nevada.html">1 Photo</a></li>
+</ul> </div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r47110094-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r47110094">It was just ok</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd47110094" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd47110094'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/shawn88c"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/9f/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_40E106128DFB451746A6F8ECFB53459B-SRC_47110094" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">shawn88c</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">26 contributions</span> </div>
+<div class="location">upper state south carolina</div>
+<div class="date ">
+Oct 17, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+Tehy had to re-fire my steak 3 times to get it to a medium rare. Teh first sauce I had tasted heavily of oregano although he said it was tarregon. The cheese potatoes we had were a little to aldente for my tastes although the flavor of the dish was great. If you order a drink like Jack and Coke-...
+<span class="fkLnk hvrIE6 tr47110094" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r45503187-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r45503187">Great Place to Stop In For a Lunch</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd45503187" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd45503187'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Wiley12"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/4a/bc/f7/wiley12.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_334C2E04BE047DFB164F9E90CA3B343F-SRC_45503187" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Wiley12</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">180 contributions</span> </div>
+<div class="location">Temecula, California</div>
+<div class="date ">
+Sep 30, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">3</div> <div class="hlpTxt">people found this review helpful</div></div> <div class="entry">
+<p>
+We were walking through the Forum Shops hungry for some lunch when we saw the Palm Restaurant. After taking a look at the menu we continued into Caesar’s to check out the food court options. After being greatly under whelmed by the food options and the prices and the lines we went back to the Palm for lunch. It turned...
+<span class="fkLnk hvrIE6 tr45503187" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g45963-d491828-r45435511-The_Palm-Las_Vegas_Nevada.html" class="pid2168" id="r45435511">Best Palm in the country!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd45435511" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html#savessd45435511'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/SCCobras"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/54/avatar027.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_BAB7AF4487A266A045F19C9FB4BB401A-SRC_45435511" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">SCCobras</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">15 contributions</span> </div>
+<div class="location">Greenville, SC</div>
+<div class="date ">
+Sep 29, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="fndhlp"><div class="hlpNmbr">1</div> <div class="hlpTxt">person found this review helpful</div></div> <div class="entry">
+<p>
+My wife and I have been to most if not all of their restaurants and we think this is the best. It is not for the romantics. It can get noisy. However, the service is great and the food first rate. The clams oreganata and the shrimp bruno are our favorite apps, the caesar and gigi salad are great too....
+<span class="fkLnk hvrIE6 tr45435511" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 53</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEUKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEoKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)">6</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWydoA3mWMdAUvXvWxfWiEUKWrGVQwJcaWRJtQqiVyJtQZVsJMJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_4' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g45963-d479451-Reviews-Del_Frisco_s-Las_Vegas_Nevada.html" class="pid1020">Del Frisco's</a></div>
+<div class="rating">
+<span class="rate ss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g45963-d479451-Reviews-Del_Frisco_s-Las_Vegas_Nevada.html" class="pid1020" rel="nofollow">
+94 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Las Vegas, NV </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g45963-Las_Vegas_Nevada.html" class="pid1021">
+All Restaurants in Las Vegas </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to The Palm? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWydoA3mWMdAUvXvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WrGVQwJcaWRJtQqiVyJtQZVsJMJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3WydoA3mWMdAUvXvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WrGVQwJcaWRJtQqiVyJtQZVsJMJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWydoA3mWMdAUvXvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WrGVQwJcaWRJtQqiVyJtQZVsJMJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Las Vegas</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134453&amp;geo=45963&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Las Vegas: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComTIGMoreDealsGEO&amp;src=5825639&amp;geo=45963&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Las Vegas: Book Direct and Save</var><br/>
+<span><b>LVHilton.com</b> Check rates, specials and availability.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=HotelsComCNGEO&amp;src=5571122&amp;geo=45963&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Las Vegas: 在世界100,000 多的旅馆都得到优惠！</var><br/>
+<span><b>Hotels.com</b> 正式网页 信任酒店的专家。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=ExpediaHotelsGEO5&amp;src=1787033&amp;geo=45963&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Las Vegas: Save on hotel + air</var><br/>
+<span><b>Expedia Vacations</b> Get the lowest price on your vacation with our Best Price Guarantee</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g45963-Vacation-Package-Discount-Las_Vegas_Nevada.html">
+<b>View all deals for Las Vegas</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own The Palm? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWydoA3mWMdAUvXvWrGVQwJcaWRJtQqiVyJtQZVsJMJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g45963-d491828-The_Palm-Las_Vegas_Nevada.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">The Palm Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">3500 Las Vegas Boulevard South</span>, <span class="extended-address">Forum Shops at Caesars</span>, <span class="locality"><span property="v:locality">Las Vegas</span>, <span property="v:region">NV</span> <span property="v:postal-code">89109</span></span> </address>
+<span class="tel"><b>Tel:</b> 702 732 7256</span>
+<span class="fax"><b>Fax:</b> 702 732 0229</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>The Palm</b>, Las Vegas.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.co.uk/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.ca/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.it/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.es/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.de/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.fr/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="The Palm, ラスベガス" href="http://www.tripadvisor.jp/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, ラスベガス"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="The Palm, 拉斯维加斯" href="http://www.daodao.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, 拉斯维加斯"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.in/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.se/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="The Palm, Las Vegas" href="http://nl.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.com.br/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.com.tr/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.dk/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.com.mx/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.ie/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.com.au/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="The Palm, Las Vegas" href="http://www.tripadvisor.com.sg/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="The Palm, Las Vegas" href="http://no.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="The Palm, Las Vegas" href="http://pl.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, Las Vegas"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="The Palm, ลาสเวกัส" href="http://th.tripadvisor.com/Restaurant_Review-g45963-d491828-Reviews-The_Palm-Las_Vegas_Nevada.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="The Palm, ลาสเวกัส"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Las Vegas! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Las Vegas? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHydoA3mqHMdAUvXvqHxfqHrGVQQoqnQQwJcaqHRJtQQoqnQQqiVyJtQQoqnQQZVsJMJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=36.117737,-115.1732&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://media-cdn.tripadvisor.com/media/photo-s/01/99/e6/5c/kricket88.jpg', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "45963");
+ta.store('page.location', "491828");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 288 dc: 4 sc: 9 -->
+</html>

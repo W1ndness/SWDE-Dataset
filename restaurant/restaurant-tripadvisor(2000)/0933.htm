@@ -1,0 +1,2087 @@
+﻿<base href="http://www.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Tequilas Restaurant, Philadelphia - Restaurant Reviews - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="keywords" content="Tequilas Restaurant, Philadelphia, restaurant, reviews of restaurants, food, dining"/>
+<meta name="description" content="Tequilas Restaurant, Philadelphia: See 50 unbiased reviews of Tequilas Restaurant, rated 4.0 of 5 on TripAdvisor and ranked #34 of 1,735 restaurants in Philadelphia."/> <script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var jsGlobalMonths =   new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalDaysAbbrev =   new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =   new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+var currencyLevel = new Array();
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencyLevel["USD"] = new Array("Any Price","9999999" ,"Under $100","100" ,"Under $200","200" ,"Under $300","300" );
+currencySymbol["EUR"] = new Array("€", false);
+currencyLevel["EUR"] = new Array("Any Price","9999999" ,"Under €75","75" ,"Under €150","150" ,"Under €225","225" );
+currencySymbol["GBP"] = new Array("£", false);
+currencyLevel["GBP"] = new Array("Any Price","9999999" ,"Under £50","50" ,"Under £100","100" ,"Under £150","150" );
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencyLevel["CAD"] = new Array("Any Price","9999999" ,"Under CAD 100","100" ,"Under CAD 200","200" ,"Under CAD 300","300" );
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencyLevel["AUD"] = new Array("Any Price","9999999" ,"Under AUD 100","100" ,"Under AUD 200","200" ,"Under AUD 300","300" );
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencyLevel["CHF"] = new Array("Any Price","9999999" ,"Under CHF 100","100" ,"Under CHF 200","200" ,"Under CHF 300","300" );
+currencySymbol["JPY"] = new Array("JPY", false);
+currencyLevel["JPY"] = new Array("Any Price","9999999" ,"Under JPY10000","10000" ,"Under JPY20000","20000" ,"Under JPY30000","30000" );
+currencySymbol["RMB"] = new Array("CNY", false);
+currencyLevel["RMB"] = new Array("Any Price","9999999" ,"Under CNY700","700" ,"Under CNY1400","1400" ,"Under CNY2000","2000" );
+currencySymbol["INR"] = new Array("INR", false);
+currencyLevel["INR"] = new Array("Any Price","9999999" ,"Under INR4000","4000" ,"Under INR8000","8000" ,"Under INR12000","12000" );
+currencySymbol["SEK"] = new Array("SEK", false);
+currencyLevel["SEK"] = new Array("Any Price","9999999" ,"Under SEK500","500" ,"Under SEK1000","1000" ,"Under SEK1500","1500" );
+currencySymbol["BRL"] = new Array("R$", false);
+currencyLevel["BRL"] = new Array("Any Price","9999999" ,"Under R$200","200" ,"Under R$400","400" ,"Under R$600","600" );
+currencySymbol["TRY"] = new Array("TL", false);
+currencyLevel["TRY"] = new Array("Any Price","9999999" ,"Under TL200","200" ,"Under TL400","400" ,"Under TL600","600" );
+currencySymbol["DKK"] = new Array("kr.", false);
+currencyLevel["DKK"] = new Array("Any Price","9999999" ,"Under kr.500","500" ,"Under kr.1000","1000" ,"Under kr.1500","1500" );
+currencySymbol["MXN"] = new Array("MXN", false);
+currencyLevel["MXN"] = new Array("Any Price","9999999" ,"Under MXN1000","1000" ,"Under MXN2000","2000" ,"Under MXN3000","3000" );
+currencySymbol["NOK"] = new Array("NOK", false);
+currencyLevel["NOK"] = new Array("Any Price","9999999" ,"Under NOK600","600" ,"Under NOK1200","1200" ,"Under NOK1800","1800" );
+currencySymbol["PLN"] = new Array("PLN", false);
+currencyLevel["PLN"] = new Array("Any Price","9999999" ,"Under PLN300","300" ,"Under PLN600","600" ,"Under PLN900","900" );
+currencySymbol["SGD"] = new Array("S$", false);
+currencyLevel["SGD"] = new Array("Any Price","9999999" ,"Under S$100","100" ,"Under S$200","200" ,"Under S$300","300" );
+currencySymbol["THB"] = new Array("THB", false);
+currencyLevel["THB"] = new Array("Any Price","9999999" ,"Under THB4000","4000" ,"Under THB8000","8000" ,"Under THB12000","12000" );
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe're sorry for the inconvenience... we'll be back soon."; var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://cdn.tripadvisor.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away."; var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var qcErrorImage = '<center><img src="http://cdn.tripadvisor.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://cdn.tripadvisor.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://cdn.tripadvisor.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://cdn.tripadvisor.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var IS_MPU_ENABLED = false;
+var IS_DDPU_ENABLED = false
+var IS_AWPU_ENABLED = false;
+var IS_LPU_ENABLED = false;
+var blockPU =  false;
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var serverPool = "A";
+var reg_overhaul = true;
+var wof_pm_send = "Send";
+var wof_pm_preview = "Preview";
+var wof_pm_your_message_will_be_sent_to_someone_by_email = "Your message will be sent to 12345 by e-mail.";
+var wof_pm_your_message_will_be_sent_to_someone_on_facebook = "Your message will be sent to 12345 on Facebook.";
+var wof_streampublish_caption = "{*actor*} is exploring 12345 on TripAdvisor and is looking for your advice.";
+var wof_lightbox_whats_on_your_mind = "What's on your mind?";
+var wof_lightbox_map_your_travels = "Map your travels";
+var wof_lightbox_somewhere_on_tripadvisor = "12345 on TripAdvisor";
+var hideOnLoad = new Array();
+var IS_DEBUG = false;
+var CDNHOST = "http://cdn.tripadvisor.com";
+var VERSION_MAP = {
+}
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "294211";
+var pageServlet = "Restaurant_Review";
+var crPageServlet = "Restaurant_Review";
+var cdnHost = "http://cdn.tripadvisor.com";
+var arrowLeft     = "http://cdn.tripadvisor.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://cdn.tripadvisor.com/img/saves/saveIconArrow.gif";
+var example       = "http://cdn.tripadvisor.com/img/saves/saveButtonExample.gif";
+var save          = "http://cdn.tripadvisor.com/img/saves/folderSave.gif";
+var closedSub     = "http://cdn.tripadvisor.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://cdn.tripadvisor.com/img/saves/closedFolder.gif";
+var openFolder    = "http://cdn.tripadvisor.com/img/saves/openFolder.gif";
+var add           = "http://cdn.tripadvisor.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://cdn.tripadvisor.com/js2/saves-v3271511395b.js';
+var flagsUrl = '/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html';
+var flagsSettings = [
+];
+var lang_Close  = "Close";
+var img_loop    = "http://cdn.tripadvisor.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "common_detailgeo";
+var modelLocId = "433408";
+var modelGeoId = "60795";
+var gClient = 'gme-expedia';
+var gKey = 'ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia';
+var gLang = '';
+var mapsJs = 'http://cdn.tripadvisor.com/js2/ta_maps-v1670355009b.js';
+var mapsJsLite = 'http://cdn.tripadvisor.com/js2/lib/extensions/TAMap-v2825536320b.js';
+var memoverlayCSS = 'http://cdn.tripadvisor.com/css2/pages/memberoverlay-v393415179b.css';
+var wiFriHasMember =  false  ;
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/tripadvisor-v3151206304b.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src='http://cdn.tripadvisor.com/js2/foreignreview-v985784880b.js'></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/universal-v1754754466b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/singleRestaurant-v3854106029b.css"/>
+<!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE6-v4137420190b.css" />
+            <![endif]-->
+<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen, print" href="http://cdn.tripadvisor.com/css2/winIE7-v2880089664b.css" />
+            <![endif]-->
+<style type="text/css">
+body{}
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/Feeds-d433408-treviews.xml"/>
+<!-- web11b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://cdn.tripadvisor.com/js2/trsupp-v1577018553b.js"></script>
+</head>
+<body class="domn_en_US">
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Philadelphia Trip";
+if (SV_DEFAULT_FOLDER_NAME.length > $('savesWidgetNewFolder').maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div style="width:966px;margin:0 auto 20px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_top.gif) 0 0 no-repeat #ffe5a5;font-size:.75em;">
+<div style="padding:5px;background:url(http://cdn.tripadvisor.com/img2/boxes/bv_btm.gif) 0 100% no-repeat;">
+<div style="padding:6px 0 8px 79px;background: url(http://cdn.tripadvisor.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+</div>
+</div><!-- / BAD_VERSION -->
+<div id="iframediv"></div>
+<div id="PAGE" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+<div id="HEAD" class="globalNav">
+<div class="identity_rd">
+<h1 class="header">Tequilas Restaurant, Philadelphia</h1>
+<span class="topLogo">
+<a href="/" class="logoWrap"><img src="http://cdn.tripadvisor.com/img2/branding/idHead_Default.png" height="30" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+</div>
+<div class="tabsBar">
+<ul class="tabs sprite-gradientGrn">
+<li class="tabItem"><a href="/" class="tabLink sprite-tabPipe pid1571" rel="nofollow">Home</a></li>
+<li class="tabItem"><a href="/Hotels" class="tabLink sprite-tabPipe pid2972" rel="nofollow">Hotels</a></li>
+<li class="tabItem"><a href="/Flights" class="tabLink sprite-tabPipe" rel="nofollow">Flights</a></li>
+<li class="tabItem"><a href="/Restaurants" class="tabLink sprite-tabPipe pid2973" rel="nofollow">Restaurants</a></li>
+<li class="tabItem"><a href="/VacationRentals" class="tabLink sprite-tabPipe pid2795"><span class="newItem">Vacation Rentals</span><img class="newStub sprite-newStub" src="http://cdn.tripadvisor.com/img2/x.gif" alt="NEW!"/></a></li>
+<li class="tabItem"><a href="/Inspiration" class="tabLink sprite-tabPipe pid1337" rel="nofollow">Trip Ideas</a></li>
+<li class="tabItem"><a href="/UserReview-g60795-d433408-e__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="tabLink sprite-tabPipe pid1434 " rel="nofollow">Write a Review</a></li> </ul> </div>
+<div class="srchBar">
+<div class="navSrch" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.validate',event);">
+<fieldset>
+<input id="mainSearch" type="text" name="q" class="  text focusClear" onfocus="return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="City, hotel name, etc."/>
+<div class="button"><input id="mainSearchSubmit" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value="60795"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html"/>
+</fieldset>
+</form>
+</div>
+<img class="sprite-punchline" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Over 35 million trusted traveler reviews & opinions"/>
+</div>
+</div>
+<div id="MAIN" class="Restaurant_Review" rel="v:itemreviewed">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Philadelphia</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g60795-Philadelphia_Pennsylvania-Vacations.html">
+Philadelphia Tourism</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g60795-Philadelphia_Pennsylvania-Hotels.html">
+Philadelphia Hotels</a>
+</li>
+<li>
+<span class=" k_vacation_rentals fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqaqrtWy3KkAoWxfWwGScJMVc2GSJQwVCCtgcsJCSJWqaQqrtB',0)">
+Vacation Rentals</span>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g60795-Philadelphia_Pennsylvania-Cheap_Discount_Airfares.html">
+Flights to Philadelphia</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g60795-Philadelphia_Pennsylvania-Hotel-Deals.html">
+Philadelphia Deals</a>
+</li>
+<li class=" navTitle">
+More On Philadelphia
+</li>
+<li class=" mark">
+<span class=" k_dining fkLnk hvrIE6" onclick="setOneTimeCookie('mcreset','true');ta.util.ASDF.asdf('LeVtIJpEJCItWy3KkAoWwGScJMVc2GSJQwVCCtgcsJCSJB',0)">
+Restaurants</span>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Tequilas Restaurant</span>
+</li>
+</ul>
+</li>
+<li>
+<span class=" k_things_to_do fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbIIEJnISiCtWy3KkAoWbnISsSISVtWwGScJMVc2GSJQwVCCtgcsJCSJB',0)">
+Things to Do</span>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g60795-i113-Philadelphia_Pennsylvania.html">
+Travel Forum</a>
+</li>
+<li>
+<span class=" k_kbyg fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LbccxfWy3KkAoWwGScJMVc2GSJQwVCCtgcsJCSJB',0)">
+Travel Guide</span>
+</li>
+<li>
+<a class="js_popGallery k_photos" href="/LocationPhotos-g60795-Philadelphia_Pennsylvania.html">
+Photos</a>
+</li>
+<li>
+<a rel="nofollow" class="js_popGallery k_videos" href="/VideoGallery-g60795-Philadelphia_Pennsylvania.html">
+Videos</a>
+</li>
+<li>
+<span class=" k_maps fkLnk hvrIE6">
+Map</span>
+</li>
+<li class=" navTitle">
+Philadelphia Deals
+</li>
+<li>
+<a class="k_discount_hotels_top_level" href="/Discount_Hotels-g60795-Philadelphia_Pennsylvania.html">
+Discount Hotels</a>
+</li>
+<li>
+<a class="k_cheap_vacations" href="/Cheap_Vacations-g60795-Philadelphia_Pennsylvania.html">
+Hotel &amp; Air</a>
+</li>
+<li>
+<a class="k_packages" href="/Packages-g60795-Vacation-Package-Discount-Philadelphia_Pennsylvania.html">
+All Travel Offers</a>
+</li>
+</ul>
+</div>
+<div id="NEWSLETTER_CALLOUT" class="bx01">
+<dl>
+<dt class="title">Free Newsletter</dt> <dd class="content">
+<p>Interested in <b>Philadelphia</b>?</p>
+<p>We'll send you updates with <b>the latest deals, reviews and articles for Philadelphia</b> each week.</p>
+<form action="/twsubscriptions" method="get">
+<fieldset>
+<input type="hidden" name="subSrc" value="twhomepage-A"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html"/>
+<input type="hidden" name="from" value="twhomepage"/>
+<input type="hidden" name="pid" value="431"/>
+<input type="hidden" name="geo" value="60795"/>
+<input class="text focusClear" type="text" name="email" value="Enter your email" onfocus="return ta.call('ta.common.search.clearOnFocus',event);"/> <div class="button"><input class="submit" type="submit" name="sub-tw" value="Sign up"/></div> </fieldset>
+</form>
+</dd>
+</dl>
+</div><!--/ NEWSLETTER_CALLOUT.bx01-->
+<div class="bx01">
+<ul class="content utilities">
+<li class="sprite-save save01"> <span class="hvrIE6" id="ssd433408" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd433408'},{flow: 'SAVES'});">Save Tequilas Restaurant</span>
+</li>
+<li class="sprite-mail mail01">
+<span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(1486);ta.util.ASDF.asdfPopupEmail('LrVccqnESVCMtWuqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIacWxErVqQpScJtjeVtIJpEJCI6XfjwGScJMVc2GSJjqHjeVtIJpEJCIjxfjqHjrES2bMsStiE')">E-mail this page</span>
+</li>
+</ul> </div>
+<div class="ad iab_sideAd">
+<div id="160X80" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.pa.philadelphia
+PageType=Restaurant_Review
+pool=A
+kw=Tequilas+Restaurant
+geo=60795
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Tequilas+Restaurant
+gname=Philadelphia
+sz=160X80
+tile=4
+ord=69511490
+area=NA.United_States.Pennsylvania.Philadelphia
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe4" style="display: none">
+<script> var adiframe4 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.pa.philadelphia+80+160+NA.United_States.Pennsylvania.Philadelphia+PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X80;tile=4;ord=69511490"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X80;tile=4;ord=69511490?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X80;tile=4;ord=69511490?" width="160" height="80" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="ad iab_supSky">
+<div id="160X600" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.pa.philadelphia
+PageType=Restaurant_Review
+pool=A
+kw=Tequilas+Restaurant
+geo=60795
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Tequilas+Restaurant
+gname=Philadelphia
+sz=160X600
+tile=2
+ord=69511490
+area=NA.United_States.Pennsylvania.Philadelphia
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe2" style="display: none">
+<script> var adiframe2 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.pa.philadelphia+600+160+NA.United_States.Pennsylvania.Philadelphia+PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X600;tile=2;ord=69511490"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X600;tile=2;ord=69511490?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=160X600;tile=2;ord=69511490?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular Philadelphia restaurants</h2>
+<ul>
+<li><a href="/Restaurant_Review-g60795-d1026206-Reviews-Tommy_DiNic_s-Philadelphia_Pennsylvania.html">Tommy DiNic's</a></li>
+<li><a href="/Restaurant_Review-g60795-d668596-Reviews-Capogiro_Gelateria-Philadelphia_Pennsylvania.html">Capogiro Gelateria</a></li>
+<li><a href="/Restaurant_Review-g60795-d484853-Reviews-Reading_Terminal_Market-Philadelphia_Pennsylvania.html">Reading Terminal Market</a></li>
+<li><a href="/Restaurant_Review-g60795-d629008-Reviews-Franklin_Fountain-Philadelphia_Pennsylvania.html">Franklin Fountain</a></li>
+<li><a href="/Restaurant_Review-g60795-d858107-Reviews-Capogiro_Gelato-Philadelphia_Pennsylvania.html">Capogiro Gelato</a></li>
+<li><a href="/Restaurant_Review-g60795-d433418-Reviews-Alma_de_cuba-Philadelphia_Pennsylvania.html">alma de cuba</a></li>
+<li><a href="/Restaurant_Review-g60795-d1382109-Reviews-Union_Trust_Steakhouse-Philadelphia_Pennsylvania.html">Union Trust Steakhouse</a></li>
+<li><a href="/Restaurant_Review-g60795-d795061-Reviews-Amada-Philadelphia_Pennsylvania.html">amada</a></li>
+<li><a href="/Restaurant_Review-g60795-d433470-Reviews-Buddakan-Philadelphia_Pennsylvania.html">Buddakan</a></li>
+<li><a href="/Restaurant_Review-g60795-d433450-Reviews-Morimoto-Philadelphia_Pennsylvania.html">Morimoto</a></li>
+<li><a href="/Restaurant_Review-g60795-d433407-Reviews-Sabrina_s_Cafe-Philadelphia_Pennsylvania.html">Sabrina's Cafe</a></li>
+<li><a href="/Restaurant_Review-g60795-d827039-Reviews-Stock_s_Bakery-Philadelphia_Pennsylvania.html">Stock's Bakery</a></li>
+<li><a href="/Restaurant_Review-g60795-d433413-Reviews-Beau_Monde-Philadelphia_Pennsylvania.html">Beau Monde</a></li>
+<li><a href="/Restaurant_Review-g60795-d1107472-Reviews-Kanella-Philadelphia_Pennsylvania.html">Kanella</a></li>
+<li><a href="/Restaurant_Review-g60795-d461532-Reviews-Isgro_Pastries-Philadelphia_Pennsylvania.html">Isgro Pastries</a></li>
+<li><a href="/Restaurant_Review-g60795-d837306-Reviews-Di_Bruno_Bros-Philadelphia_Pennsylvania.html">Di Bruno Bros.</a></li>
+<li><a href="/Restaurant_Review-g60795-d518206-Reviews-Italian_Market-Philadelphia_Pennsylvania.html">Italian Market</a></li>
+<li><a href="/Restaurant_Review-g60795-d611577-Reviews-Sweet_Lucy_s_Smokehouse-Philadelphia_Pennsylvania.html">Sweet Lucy's Smokehouse</a></li>
+<li><a href="/Restaurant_Review-g60795-d1504987-Reviews-Max_Brenner_Chocolate_by_the_Bald_Man-Philadelphia_Pennsylvania.html">Max Brenner, Chocolate by the Bald Man</a></li>
+<li><a href="/Restaurant_Review-g60795-d461494-Reviews-Friday_Saturday_Sunday-Philadelphia_Pennsylvania.html">Friday Saturday Sunday</a></li>
+</ul>
+<ul>
+<li><a href="/Restaurants-g60795-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1 - 20</a></li>
+<li><a href="/Restaurants-g60795-oa20-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 21 - 70</a></li>
+<li><a href="/Restaurants-g60795-oa70-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 71 - 120</a></li>
+<li><a href="/Restaurants-g60795-oa120-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 121 - 170</a></li>
+<li><a href="/Restaurants-g60795-oa170-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 171 - 220</a></li>
+<li><a href="/Restaurants-g60795-oa220-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 221 - 270</a></li>
+<li><a href="/Restaurants-g60795-oa270-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 271 - 320</a></li>
+<li><a href="/Restaurants-g60795-oa320-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 321 - 370</a></li>
+<li><a href="/Restaurants-g60795-oa370-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 371 - 420</a></li>
+<li><a href="/Restaurants-g60795-oa420-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 421 - 470</a></li>
+<li><a href="/Restaurants-g60795-oa470-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 471 - 520</a></li>
+<li><a href="/Restaurants-g60795-oa520-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 521 - 570</a></li>
+<li><a href="/Restaurants-g60795-oa570-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 571 - 620</a></li>
+<li><a href="/Restaurants-g60795-oa620-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 621 - 670</a></li>
+<li><a href="/Restaurants-g60795-oa670-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 671 - 720</a></li>
+<li><a href="/Restaurants-g60795-oa720-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 721 - 770</a></li>
+<li><a href="/Restaurants-g60795-oa770-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 771 - 820</a></li>
+<li><a href="/Restaurants-g60795-oa820-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 821 - 870</a></li>
+<li><a href="/Restaurants-g60795-oa870-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 871 - 920</a></li>
+<li><a href="/Restaurants-g60795-oa920-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 921 - 970</a></li>
+<li><a href="/Restaurants-g60795-oa970-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 971 - 1020</a></li>
+<li><a href="/Restaurants-g60795-oa1020-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1021 - 1070</a></li>
+<li><a href="/Restaurants-g60795-oa1070-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1071 - 1120</a></li>
+<li><a href="/Restaurants-g60795-oa1120-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1121 - 1170</a></li>
+<li><a href="/Restaurants-g60795-oa1170-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1171 - 1220</a></li>
+<li><a href="/Restaurants-g60795-oa1220-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1221 - 1270</a></li>
+<li><a href="/Restaurants-g60795-oa1270-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1271 - 1320</a></li>
+<li><a href="/Restaurants-g60795-oa1320-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1321 - 1370</a></li>
+<li><a href="/Restaurants-g60795-oa1370-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1371 - 1420</a></li>
+<li><a href="/Restaurants-g60795-oa1420-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1421 - 1470</a></li>
+<li><a href="/Restaurants-g60795-oa1470-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1471 - 1520</a></li>
+<li><a href="/Restaurants-g60795-oa1520-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1521 - 1570</a></li>
+<li><a href="/Restaurants-g60795-oa1570-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1571 - 1620</a></li>
+<li><a href="/Restaurants-g60795-oa1620-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1621 - 1670</a></li>
+<li><a href="/Restaurants-g60795-oa1670-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1671 - 1720</a></li>
+<li><a href="/Restaurants-g60795-oa1720-Philadelphia_Pennsylvania.html">Philadelphia restaurants: 1721 - 1735</a></li>
+</ul>
+<h2>
+Recently Reviewed <a href="/Hotels-g60795-Philadelphia_Pennsylvania-Hotels.html">Hotels around Philadelphia</a>
+</h2>
+<div class="details">
+<ul>
+<li>
+<a href="/Hotel_Review-g60795-d142181-Reviews-Comfort_Inn_Downtown_Historic_Area-Philadelphia_Pennsylvania.html">Comfort Inn Downtown/Historic Area</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>207 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#29 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d96705-Reviews-Holiday_Inn_Express_Philadelphia_Midtown-Philadelphia_Pennsylvania.html">Holiday Inn Express Philadelphia Midtown</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>157 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#32 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d96737-Reviews-Radisson_Plaza_Warwick_Hotel_Philadelphia-Philadelphia_Pennsylvania.html">Radisson Plaza-Warwick Hotel Philadelphia</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>261 Reviews</em>
+<div class="posted">Last reviewed Aug 15, 2010</div>
+</div>
+#23 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d96688-Reviews-Embassy_Suites_Hotel_Philadelphia_Center_City-Philadelphia_Pennsylvania.html">Embassy Suites Hotel Philadelphia-Center City</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>204 Reviews</em>
+<div class="posted">Last reviewed Aug 14, 2010</div>
+</div>
+#21 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d96712-Reviews-Latham_Hotel-Philadelphia_Pennsylvania.html">Latham Hotel</a>
+<div class="rating">
+<span class="rate ss30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.0 of 5"/></span>
+<em>165 Reviews</em>
+<div class="posted">Last reviewed Aug 13, 2010</div>
+</div>
+#50 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d1479774-Reviews-Le_Meridien_Philadelphia-Philadelphia_Pennsylvania.html">Le Meridien Philadelphia</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>41 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#13 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d102463-Reviews-Courtyard_Philadelphia_Downtown-Philadelphia_Pennsylvania.html">Courtyard Philadelphia Downtown</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>259 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#9 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d247008-Reviews-Residence_Inn_Philadelphia_Center_City-Philadelphia_Pennsylvania.html">Residence Inn Philadelphia Center City</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>126 Reviews</em>
+<div class="posted">Last reviewed Aug 11, 2010</div>
+</div>
+#18 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d112129-Reviews-Holiday_Inn_Philadelphia_Historic_District-Philadelphia_Pennsylvania.html">Holiday Inn Philadelphia - Historic District</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>241 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#24 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d220059-Reviews-Westin_Philadelphia-Philadelphia_Pennsylvania.html">Westin Philadelphia</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>207 Reviews</em>
+<div class="posted">Last reviewed Aug 10, 2010</div>
+</div>
+#12 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d102480-Reviews-Doubletree_Hotel_Philadelphia-Philadelphia_Pennsylvania.html">Doubletree Hotel Philadelphia</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>255 Reviews</em>
+<div class="posted">Last reviewed Aug 9, 2010</div>
+</div>
+#22 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d217682-Reviews-Club_Quarters-Philadelphia_Pennsylvania.html">Club Quarters</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>334 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#37 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d224279-Reviews-Hampton_Inn_Philadelphia_Convention_Center-Philadelphia_Pennsylvania.html">Hampton Inn Philadelphia Convention Center</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>213 Reviews</em>
+<div class="posted">Last reviewed Aug 5, 2010</div>
+</div>
+#27 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d102510-Reviews-Hyatt_at_the_Bellevue-Philadelphia_Pennsylvania.html">Hyatt at the Bellevue</a>
+<div class="rating">
+<span class="rate ss35"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3.5 of 5"/></span>
+<em>114 Reviews</em>
+<div class="posted">Last reviewed Aug 2, 2010</div>
+</div>
+#45 of 85 hotels in Philadelphia, PA<br/>
+</li>
+<li>
+<a href="/Hotel_Review-g60795-d662409-Reviews-AKA_Rittenhouse_Square-Philadelphia_Pennsylvania.html">AKA Rittenhouse Square</a>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5"/></span>
+<em>19 Reviews</em>
+<div class="posted">Last reviewed Jun 28, 2010</div>
+</div>
+#17 of 85 hotels in Philadelphia, PA<br/>
+</li>
+</ul>
+</div>
+</div><!--/ bx01.deals-->
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div> <div class="swirllinkset">
+<div class="header">Restaurants</div>
+<ul>
+<li><a href="/Restaurant_Review-g1066442-d1686375-Reviews-Rotisserie_Maison_du_Chataigne-Bunkyo_Tokyo_Tokyo_Prefecture_Kanto.html">Rotisserie Maison du Chataigne in Bunkyo, Japan</a></li>
+<li><a href="/Restaurant_Review-g147296-d1046215-Reviews-The_Aquarium_Restaurant-St_George_s_St_George_Grenada.html">The Aquarium Restaurant in St. George&#39;s, Grenada</a></li>
+<li><a href="/Restaurant_Review-g34678-d388868-Reviews-Sam_Seltzer_s_Steakhouse-Tampa_Florida.html">Sam Seltzer&#39;s Steakhouse in Tampa</a></li>
+<li><a href="/Restaurant_Review-g181717-d702599-Reviews-Browns_Restaurant_Bar-North_Vancouver_British_Columbia.html">Browns Restaurant Bar in North Vancouver, Canada</a></li>
+<li><a href="/Restaurant_Review-g40894-d388188-Reviews-Applebee_s-South_Portland_Maine.html">Applebee&#39;s in South Portland, ME</a></li>
+<li><a href="/Restaurant_Review-g56691-d471051-Reviews-Amberjack_s-South_Padre_Island_Texas.html">Amberjack&#39;s in South Padre Island, TX</a></li>
+</ul>
+</div>
+<div class="swirllinkset">
+<div class="header">Hotels</div>
+<ul>
+<li><a href="/Hotel_Review-g34433-d86290-Reviews-Days_Inn_Melbourne-Melbourne_Florida.html">Days Inn Melbourne in Melbourne, FL</a></li>
+<li><a href="/Hotel_Review-g48261-d1502101-Reviews-The_Giacomo-Niagara_Falls_New_York.html">The Giacomo in Niagara Falls, NY</a></li>
+<li><a href="/Hotel_Review-g150800-d1645426-Reviews-Hilton_Mexico_City_Reforma-Mexico_City_Central_Mexico_and_Gulf_Coast.html">Hilton Mexico City Reforma in Mexico City</a></li>
+<li><a href="/Hotel_Review-g188633-d1203459-Reviews-Jorplace-The_Hague_Zuid_Holland.html">Jorplace in The Hague, The Netherlands</a></li>
+</ul>
+</div>
+</div>
+<div class="bx01 deals">
+<h3>
+Explore other Philadelphia resources:
+</h3>
+<ul>
+<li>
+<a href="/VacationRentals-g60795-Reviews-Philadelphia_Pennsylvania-Vacation_Rentals.html">Philadelphia Vacation Rentals</a>
+</li>
+<li>
+<a href="/Restaurants-g60795-Philadelphia_Pennsylvania.html" onclick="return setOneTimeCookie('mcreset','true')">Philadelphia Restaurants</a>
+</li>
+<li>
+<a href="/Attractions-g60795-Activities-Philadelphia_Pennsylvania.html">Things to Do in Philadelphia</a>
+</li>
+<li>
+<a href="/AllReviews-g60795-Philadelphia_Pennsylvania.html">Philadelphia Travel Guide</a>
+</li>
+<li>
+<a href="/LocalMaps-g60795-Philadelphia-Area.html">Philadelphia Maps</a>
+</li>
+<li>
+<a href="/Travel-g60795-s208/Philadelphia:Pennsylvania:Weather.And.When.To.Go.html">Philadelphia Weather</a>
+</li>
+</ul>
+</div><!--/ bx01.deals-->
+</div> <div id="BODYCON" class="col poolA" typeof="v:Organization">
+<div class="ad iab_leaBoa">
+<div id="728X90" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.pa.philadelphia
+PageType=Restaurant_Review
+pool=A
+kw=Tequilas+Restaurant
+geo=60795
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Tequilas+Restaurant
+gname=Philadelphia
+sz=728X90
+tile=1
+ord=69511490
+area=NA.United_States.Pennsylvania.Philadelphia
+
+-->
+<div class="adServer noFrame dom_en_US">
+<script language=Javascript1.1 src="http://ad.cn.doubleclick.net/adj/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=728X90;tile=1;ord=69511490?"></script>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=728X90;tile=1;ord=69511490?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=728X90;tile=1;ord=69511490?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div class="crumbs">
+<ul>
+<li>
+<a href="/">Home</a>
+<ul>
+<li class="sprite-breadcrumb"><a href="/Tourism-g191-United_States-Vacations.html">United States</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g28959-Pennsylvania-Vacations.html">Pennsylvania (PA)</a></li>
+<li class="sprite-breadcrumb"><a href="/Tourism-g60795-Philadelphia_Pennsylvania-Vacations.html">Philadelphia</a></li>
+<li class="sprite-breadcrumb"><a href="/Restaurants-g60795-Philadelphia_Pennsylvania.html" onclick="return setOneTimeCookie('mcreset','true')">Restaurants</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="wrpHeader">
+<div id="HEADING_GROUP">
+<h1 id="HEADING" property="v:name">
+Tequilas Restaurant </h1>
+<span class="btn fbLikeButton"><!-- http://www.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html --></span>
+</div>
+</div>
+<script src="http://cdn.tripadvisor.com/js/util/TALSO.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+function setUpFootprint(x)
+{
+var defaultFootprint = "AC355CFBE1B032598AED5E0AB9B3EC5E";
+try
+{
+var footprint = TALSO.get('CookieId');
+if(footprint == "")
+{
+TALSO.set( 'CookieId', defaultFootprint );
+footprint = TALSO.get('CookieId');
+}
+if(footprint != "" && !x.href.contains("footprint"))
+{
+x.href = x.href + "&footprint=" + footprint;
+}
+}
+catch (e)
+{
+if( $('LsoId') ) $('LsoId').value = '';
+}
+return true;
+}
+function closeLightbox()
+{
+var lb = ta.retrieve('overlays.current');
+if (lb)
+lb.hide();
+}
+function toggleOwner() {
+//alert("calculate");
+var ele = document.getElementById("linkToOwnerCenter");
+if(ele.style.display == "block") {
+ele.style.display = "none";
+}
+else {
+ele.style.display = "block";
+}
+}
+</script>
+<br class="br"/>
+<div id="EAT_DETAIL" class="gridA">
+<div class="col sidebar">
+<script type="text/javascript">
+registerOnLoad(function() {
+eval('ta.maps.floatmap.setupFloatMap')();
+});
+</script>
+<div class="box typeB interactive med js_floatableMap" id="FLOATMAP">
+<div class="interior object js_floatMap">
+<div class="staticMap js_mapThumb">
+<a href="/LocalMaps-g60795-d433408-Tequilas_Restaurant-Area.html">
+<img id='lazyload_UNIQUE_0' alt=''/>
+<img class="sprite-orangeMarker marker" src="http://cdn.tripadvisor.com/img2/x.gif"/> </a>
+</div>
+<div class="js_floatContent" title="Map">
+<script type="text/javascript">
+window.mapDivId = 'map0Div';
+window.map0Div = {
+lat: 39.94862,
+lng: -75.16797,
+locId: 433408,
+title: "Tequilas Restaurant",
+url: "/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html",
+minPins: [
+['hotel',       20],
+['restaurant',  30],
+['attraction',  10]
+],
+geoMap: false    };
+</script>
+<div class="whatsNearby">
+<div class="sidebar">
+<div class="pNameDir">
+<span class="sprite-pinHeader pName hvrIE6 js_mapHome">Tequilas Restaurant</span>
+<div class="addr">
+<span>1602 Locust Street</span>
+<div>
+<span> Philadelphia, PA 19103-6305</span>
+</div>
+<div>
+<a class="js_trackDirPop ar_getDirectionsCorner js_popup sz800x600 " href='http://maps.google.com/maps?daddr=1602+Locust+Street+Philadelphia%2C+PA+19103-6305' rel="nofollow">Get Directions</a>
+</div>
+</div>
+</div>
+<form class="fNear">
+<fieldset>
+<legend>What's Nearby:</legend>
+<span class="chkSet lHac js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx1" class="hotel"/>
+<label for="cbx1">Hotels</label>
+</span>
+<span class="chkSet lRest js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx2" class="restaurant"/>
+<label for="cbx2">Restaurants</label>
+</span>
+<span class="chkSet lAtt js_markerClass cur">
+<input type="checkbox" checked="checked" id="cbx3" class="attraction"/>
+<label for="cbx3">Things to Do</label>
+</span>
+</fieldset>
+</form>
+<div class="sponsorActivate">
+<form class="fNear">
+<fieldset class="sponsors">
+<span class="lbstWst sponsor_BEST_WESTERN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-bstWst" class="sponsor_BEST_WESTERN"/>
+<label for="cbx-bstWst">Best Western</label>
+<span class="sponsorTrkHolder" style="display:none">view.atdmt.com/IWC/view/194120300/direct/01/</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.TripAdvisor/B4241835.3;sz=1x1</span>
+</span>
+<span class="lhampton sponsor_HAMPTON_INN chkSet js_markerClassSponsor ">
+<input type="checkbox" id="cbx-hampton" class="sponsor_HAMPTON_INN"/>
+<label for="cbx-hampton">Hampton</label>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N5552.TripAdvisor.com_Swaffo/B4585108.10;sz=1x1;ord=1281962214918?</span>
+<span class="sponsorTrkHolder" style="display:none">ad.doubleclick.net/ad/N4764.125687.6844102986321/B4509839.2;sz=1x1</span>
+</span>
+</fieldset>
+</form>
+</div>
+<div class="nfo">Click map pins for more information.</div>
+<div class="js_error" style="display:none;">You are zoomed out too far to see location pins. Please zoom back in.</div>
+</div>
+<div class="balance">
+<div id="FM_BANNER_CONTAINER">
+</div>
+<div id="map0Div" class="js_map"></div>
+</div> </div> </div> </div>
+<div class="all"><a href="/LocalMaps-g60795-d433408-Tequilas_Restaurant-Area.html" class="pid1103">view map of Tequilas Restaurant</a></div>
+</div>
+<div id="WoF-wrapper">
+<div class="WoF-header WoF-heading-text">
+<table><tbody><tr>
+<td class="WoF-facebook-logo-container-cell">
+<img class="sprite-fbConnect_sm-gif" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Facebook Connect" style="height: 16px"/>&nbsp;
+</td>
+<td>Find restaurants your friends like</td>
+</tr></tbody></table>
+</div>
+<div id="WoF-guts" class="WoF-body WoF-button-size-large">
+<div style="float:right; padding: 1em">
+<img id='lazyload_UNIQUE_1'/>
+</div>
+<div style="padding: 1em; line-height: 1.25em">
+<div id="WoF-normal-CTA-content">Get restaurant advice from your friends who've been to Philadelphia.</div>
+<br>
+<fb:login-button v="2" id="WOFREST" size="large" onlogin="ta.overlays.registration.connectFB(null, null, 'WOF')">Sign in with Facebook</fb:login-button>
+</div>
+</div>
+</div>
+<script>
+ta.keep("facebook.onSessionAvail", ta.common.wisdomoffriends.initiateCTAForLoggedOutUser);
+ta.keep("facebook.onSessionUnavail", ta.common.wisdomoffriends.initiateLoggedOut);
+</script>
+<div class="box typeA guide">
+<div class="interior">
+<h3>Free Philadelphia Guide</h3>
+<div class="wrap">
+<span class="guide48x58"><img id='lazyload_UNIQUE_2' height='58' alt='Download your guide now!' width='48'/></span>
+<p>Get the best picks for where to eat, sleep, and play.</p>
+<ul>
+<li class="icn pdf b">
+<span class="fkLnk hvrIE6 sprite-pdfIcon" onclick="ta.util.cookie.setPIDCookie(933); ta.overlays.registration.connect({flow: 'DESTINATION_GUIDE'},'SIGNUP');">
+Download pdf
+</span>
+</li> </ul>
+</div>
+</div> </div>
+<div class="box typeA cap media" id="THUMBBOX">
+<div class="interior">
+<h4>Traveler Photos &#x26; Videos</h4>
+<div class="thumbnails">
+<ul>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#17247826" href="http://media-cdn.tripadvisor.com/media/photo-s/01/07/2e/52/philadelphia.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/07/2e/52/philadelphia.jpg" alt="Salsa Shrimp"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#17247826" class="caption js_popGallery">Salsa Shrimp</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLZVuaJCUoUo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLZVuaJCUoUo')">Newman1515</span>
+</span>
+</div>
+<div class="location">Philadelphia</div>
+</div>
+</div>
+</li>
+<li onmouseover="return ta.call('ta.overlays.Factory.relBelowH_Media', event, this);">
+<a class="u_/LocationPhotos-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#17247825" href="http://media-cdn.tripadvisor.com/media/photo-s/01/07/2e/51/philadelphia.jpg" onclick="return ta.call('ta.servlet.Popup.photoGallery', event);">
+<img src="http://media-cdn.tripadvisor.com/media/photo-t/01/07/2e/51/philadelphia.jpg" alt="Entree"/>
+</a>
+<div class="overlayContents"> <div class="media">
+<a rel="nofollow" href="/LocationPhotos-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#17247825" class="caption js_popGallery">Entree</a>
+<div class="name">
+<span id="blah" class="LxOW2GiIitLZVuaJCUoUo">
+By <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LxOW2GiIitLZVuaJCUoUo')">Newman1515</span>
+</span>
+</div>
+<div class="location">Philadelphia</div>
+</div>
+</div>
+</li>
+</ul>
+</div><!--/ thumbnails-->
+<div class="mediaLinks">
+<span><a href="/LocationPhotos-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" rel="nofollow" class="js_popGalleryComm">View all photos</a></span> </div><!--/ all-->
+<div class="wrpBtn">
+<div class="button"><a rel="nofollow" class="pid453" href="/PostPhotos-g60795-d433408-e__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html-fbefirst_Restaurant_Review_postphotosonly_top-Tequilas_Restaurant-Philadelphia_Pennsylvania.html">Add Photos</a></div>
+<div class="button"><a rel="nofollow" class="pid457" href="/PostVideo-g60795-d433408-e__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html-fbefirst_Restaurant_Review_postvideosonly_top-Tequilas_Restaurant-Philadelphia_Pennsylvania.html">Add Videos</a></div>
+</div><!--/ wrpBtn-->
+</div><!--/ interior-->
+</div><!--/ box.typeA.cap.media-->
+<div class="ad iab_medRec">
+<div id="300X250" style="position:relative"><!-- Ad tags: doubleclick
+domain=ad.cn.doubleclick.net
+site=ta.ta.cn.s
+zone=na.us.pa.philadelphia
+PageType=Restaurant_Review
+pool=A
+kw=Tequilas+Restaurant
+pos=top
+geo=60795
+u=Restaurant_Review%7CA
+rd=com
+hcm=false
+hname=Tequilas+Restaurant
+gname=Philadelphia
+sz=300X250
+tile=3
+ord=69511490
+area=NA.United_States.Pennsylvania.Philadelphia
+
+-->
+<div class="adServer dom_en_US">
+<div class="details" id="adiframe3" style="display: none">
+<script> var adiframe3 = "ad.cn.doubleclick.net+ta.ta.cn.s+na.us.pa.philadelphia+250+300+NA.United_States.Pennsylvania.Philadelphia+PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;pos=top;geo=60795;u=Restaurant_Review%7CA;rd=com;abr=!webtv;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=300X250;tile=3;ord=69511490"; adpHtml = "adp/adp-v2329525822b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.cn.doubleclick.net/jump/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;pos=top;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=300X250;tile=3;ord=69511490?" rel="nofollow">
+<img src="http://ad.cn.doubleclick.net/ad/ta.ta.cn.s/na.us.pa.philadelphia;PageType=Restaurant_Review;pool=A;kw=Tequilas+Restaurant;pos=top;geo=60795;u=Restaurant_Review%7CA;rd=com;hcm=false;hname=Tequilas+Restaurant;gname=Philadelphia;sz=300X250;tile=3;ord=69511490?" width="300" height="250" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="NEARBY" class="box typeA cap travRe">
+<div class="interior">
+<input type="hidden" id="nearbyDistanceUnits" value="0"/>
+<h2>What's Near Tequilas Restaurant</h2>
+<dl class="first simHotel">
+<dt>
+<span>
+Top-Rated Nearby Hotels
+</span> </dt>
+<dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="accommodationOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="accommodationOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Hotel</th> <th class="priceColumn">USD*</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60795-d226730-Reviews-Rittenhouse_1715_A_Boutique_Hotel-Philadelphia_Pennsylvania.html" class="pid907">Rittenhouse 1715, A Boutique Hotel</a></td>
+<td class="priceColumn">
+$299
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60795-d122343-Reviews-Sofitel_Philadelphia_Hotel-Philadelphia_Pennsylvania.html" class="pid907">Sofitel Philadelphia Hotel</a></td>
+<td class="priceColumn">
+$207
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60795-d1510002-Reviews-Hotel_Palomar_Philadelphia_a_Kimpton_Hotel-Philadelphia_Pennsylvania.html" class="pid907">Hotel Palomar Philadelphia - a Kimpton Hotel</a></td>
+<td class="priceColumn">
+$255
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60795-d96735-Reviews-The_Rittenhouse-Philadelphia_Pennsylvania.html" class="pid907">The Rittenhouse</a></td>
+<td class="priceColumn">
+$278
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.3 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.6 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Hotel_Review-g60795-d122315-Reviews-Alexander_Inn-Philadelphia_Pennsylvania.html" class="pid907">Alexander Inn</a></td>
+<td class="priceColumn">
+$118
+</td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.5 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.8 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid907" href="/Hotels-g60795-Philadelphia_Pennsylvania-Hotels.html">All Hotels in Philadelphia<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <div class="disclaimer">Average price/night*</div> </dd>
+<dt>Top-Rated Nearby Restaurants</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="eateryOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="eateryOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">restaurant</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60795-d1504987-Reviews-Max_Brenner_Chocolate_by_the_Bald_Man-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid908">Max Brenner, Chocolate by the Bald Man</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60795-d668596-Reviews-Capogiro_Gelateria-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid908">Capogiro Gelateria</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Restaurant_Review-g60795-d858107-Reviews-Capogiro_Gelato-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid908">Capogiro Gelato</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.4 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.7 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid908" href="/Restaurants-g60795-Philadelphia_Pennsylvania.html" rel="nofollow">All Restaurants in Philadelphia<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> </dd>
+<dt>Top-Rated Nearby Things to Do</dt> <dd>
+<div class="disType">
+Distance in:
+<input type="radio" name="attractionOption" value="0" class="milesOption js_miOp" onclick="ta.call('ta.servlet.Location.showMi', event)" checked/> <span class="milesLabel selected">mi</span>
+<input type="radio" name="attractionOption" value="1" class="kmOption js_kmOp" onclick="ta.call('ta.servlet.Location.showKm', event);"/> <span class="kmLabel ">km</span>
+</div>
+<table>
+<thead>
+<tr>
+<th class="titleColumn">Thing to Do</th> <th class="distanceColumn">Distance</th> <th class="ratingColumn">Rating</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60795-d605311-Reviews-Monk_s_Cafe-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid909">Monk's Cafe</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.1 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.1 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60795-d605315-Reviews-Nodding_Head_Brewery-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid909">Nodding Head Brewery</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.2 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">0.3 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss45"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.5 of 5 stars"/></span>
+</td>
+</tr>
+<tr>
+<td class="titleColumn"><a href="/Attraction_Review-g60795-d1098514-Reviews-City_Food_Tours_Philadelphia-Philadelphia_Pennsylvania.html" rel="nofollow" class="pid909">City Food Tours Philadelphia</a></td>
+<td class="distanceColumn">
+<span class="distanceMiles ">0.7 <em>mi</em></span>
+<span class="distanceKm  nonDefUnits">1.2 <em>km</em></span>
+</td>
+<td class="ratingColumn">
+<span class="rate sss50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="more pid909" href="/Attractions-g60795-Activities-Philadelphia_Pennsylvania.html" rel="nofollow">All Things to Do in Philadelphia<img class="sprite-arrowRgt arrowRgt" src="http://cdn.tripadvisor.com/img2/x.gif" alt=""/></a> <dd>
+</dl> </div> </div>
+<div class="box typeA cap travRe">
+<div class="interior">
+<h2>Traveler Advice on Tequilas Restaurant</h2>
+<dl class="first">
+<dt>Traveler Forum</dt>
+<dd>
+<ul>
+<li class="noLinks">
+Ask a question or view 206 posts on Philadelphia from this week. </li>
+</ul>
+</dd>
+<dd class="b">
+<ul><li><a href="/ShowForum-g60795-i113-Philadelphia_Pennsylvania.html">Go to Philadelphia Forum &#xbb;</a></li></ul> </dd>
+</dl>
+<dl class="bestLinks">
+<dt id="WEBLINKS">The Best Web Links</dt>
+<dd>
+<table>
+<caption><b>Professional Advice</b> (4)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-r2050805.html" class="js_popSmall" title="Los Catrines & Tequila's Bar">&#x201c;Los Catrines & Tequila's Bar&#x201d;</a></td>
+<td>
+<cite title="Wcities.com">Wcities.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-r2079894.html" class="js_popSmall" title="Los Catrines Restaurant, Tequila's Bar">&#x201c;Los Catrines Restaurant, Tequila's Bar&#x201d;</a></td>
+<td>
+<cite title="Fodors.com">Fodors.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-r3119543.html" class="js_popSmall" title="Tequilas">&#x201c;Tequilas&#x201d;</a></td>
+<td>
+<cite title="restaurantrow.com">restaurantrow.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-r9883773.html" class="js_popSmall" title="Los Catrines/Tequila's Bar">&#x201c;Los Catrines/Tequila's Bar&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+<dd>
+<table>
+<caption><b>Web Comments from Travelers</b> (3)</caption>
+<thead>
+<tr>
+<th>Title</th> <th>Source</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-a_area.Text__5F__HotelComment-r2054377.html" class="js_popSmall">&#x201c;Los Catrines/Tequila's Bar&#x201d;</a></td>
+<td>
+<cite title="CitySearch.com">CitySearch.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-a_area.Text__5F__HotelComment-r2106517.html" class="js_popSmall">&#x201c;Los Catrines Restaurant, Tequila's Bar&#x201d;</a></td>
+<td>
+<cite title="Fodors.com">Fodors.com</cite>
+</td></tr>
+<tr>
+<td><a rel="nofollow" href="/ShowUrl-g60795-d433408-a_area.Text__5F__HotelComment-r3167059.html" class="js_popSmall">&#x201c;Tequilas&#x201d;</a></td>
+<td>
+<cite title="restaurantrow.com">restaurantrow.com</cite>
+</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div> </div>
+</div><!--/ col.sidebar -->
+<div class="col balance">
+<div id="EAT_DETAIL_DETAILS" class="all_details">
+<div class="details">
+<div class="rs popularity">
+<var class="dig2"><sup>#</sup><b>34</b></var> <span>of 1,734 <i><a href="/Restaurants-g60795-Philadelphia_Pennsylvania.html">restaurants in Philadelphia</a></i></span>
+</div><!--/ rs.popularity-->
+<div class="wrap">
+<div class="rs rating" rel="v:rating">
+<span class="rate no40"><img class="sprite-ratings" property="v:average" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4.0 of 5 stars"/></span>
+<span class="more">
+<var property="v:count">120</var> ratings </span>
+&nbsp;|&nbsp;
+<a rel="nofollow" href="/UserReview-g60795-d433408-e__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html-fbefirst_Restaurant_Review_writeareview_top-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid1485">Write a review</a>
+</div>
+</div><!--/ wrap-->
+<div class="information textual">
+<ul class="addtlDetail">
+<li class="cuisine">
+Cuisines: Mexican
+</li>
+</ul>
+<ul class="vcard">
+<li class="adr"> <span class="street-address" property="v:street-address">1602 Locust Street</span>, <span class="locality"><span property="v:locality">Philadelphia</span>, <span property="v:region">PA</span> <span property="v:postal-code">19103-6305</span></span> </li>
+<li class="tel otNoRsrv"><span class="value">(215) 546-0181</span>
+|
+<a rel="nofollow" class="url js_popup" href="http://www.tequilasphilly.com">
+www.tequilasphilly.com
+</a>
+</li>
+</ul>
+<div class="otRsrvLink">
+<a rel="nofollow" class="url js_popSmall otRsrvLink sz800x600" href="/Commerce?p=OpenTableRestaurants&src=16852480&geo=433408&matchID=1&from=Restaurant_Review&area=reservation_button&oos=4">Reserve with OpenTable</a>
+</div>
+</div>
+</div><!--/ DETAILS-->
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li class='price'>
+<b>Price range:</b> $18-$30 </li><!--/ price-->
+<li class="recommended"><b>Good for:</b> Families with children, Large groups</li>
+</ul>
+</div>
+<div class="restDetail ">
+<div class="infoCol">
+<ul>
+<li>
+<span class="fkLnk" onclick="login(['tt', 'ajax', 'returnTo', '__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html']);">Update property details</span><br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="REVIEWS" class="deckB">
+<h3 class="sprite-ollie ollie">Reviews you can trust</h3>
+<form id="REVIEW_FILTER_FORM" class="review_filter" method="post" action="/SortReviews#REVIEWS">
+<fieldset class="review_filter_eatery">
+<div class="content wrap">
+<div class="col1of2 segments">
+<div class="title_segments">
+<b>84% Recommend</b>
+</div>
+<ul class="barChart">
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='5';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Excellent</span>
+<div class="line"><div class="fill" style="width:30px;"></div></div>
+<span class="total">46</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='4';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Very Good</span>
+<div class="line"><div class="fill" style="width:31px;"></div></div>
+<span class="total">47</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='3';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Average</span>
+<div class="line"><div class="fill" style="width:12px;"></div></div>
+<span class="total">18</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='2';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Poor</span>
+<div class="line"><div class="fill" style="width:3px;"></div></div>
+<span class="total">5</span>
+</li>
+<li class="row fkLnk" onclick="document.forms.REVIEW_FILTER_FORM.filterRating.value='1';document.forms.REVIEW_FILTER_FORM.submit();">
+<span class="text">Terrible</span>
+<div class="line"><div class="fill" style="width:2px;"></div></div>
+<span class="total">4</span>
+</li>
+</ul>
+</div>
+<div class="col2of2 segments summary">
+<div class="title_segments">
+<b>Rating summary</b> </div>
+<ul class="barChart">
+<li class="row">
+<span class="text">Food</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Service</span>
+<div class="line"><div class="fill" style="width:72px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Value</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+<li class="row">
+<span class="text">Atmosphere</span>
+<div class="line"><div class="fill" style="width:64px;"></div></div>
+</li>
+</ul>
+</div>
+</div>
+<input name="returnTo" type="hidden" value="__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html"/>
+<input name="filterSegment" type="hidden" value="0"/>
+<input name="filterRating" type="hidden" value="0"/>
+</fieldset>
+</form>
+<div class="deckTools">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 50</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEUKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEdKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)">5</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEUKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+<div class="srtTools">
+<form action="/SortEateries" method="post" id="SORT_FORM">
+<fieldset class="inlineFldst">
+<label for="sortOrder">Sort by</label> <input name="sortOrder" type="hidden"/>
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html"/>
+[ <span class="fkLnk hvrIE6 sprite-sortArrowDn sortArrow" onclick="document.forms.SORT_FORM.sortOrder.value='2';document.forms.SORT_FORM.submit();">Date</span> ]
+[ <span class="fkLnk hvrIE6" onclick="document.forms.SORT_FORM.sortOrder.value='3';document.forms.SORT_FORM.submit();">Rating</span> ]
+</fieldset>
+</form>
+<form id="LANG_FORM" action="/SetLangFilter" method="post">
+<fieldset class="split">
+<input type="hidden" name="returnTo" value="__2F__Restaurant__5F__Review__2D__g60795__2D__d433408__2D__Reviews__2D__Tequilas__5F__Restaurant__2D__Philadelphia__5F__Pennsylvania__2E__html"/>
+<div class="show language">
+<select name="filterLang" id="filterLang" onchange="this.form.submit()">
+<option value="en" selected="selected">
+English first </option>
+<option value="ja">
+Japanese first </option>
+</select>
+</div>
+</fieldset>
+</form>
+</div><!--/ srtTools-->
+</div><!--/ deckTools-->
+<div class="review first">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r66564566-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r66564566">Wow.</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd66564566" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd66564566'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<div class="facebookAvatar" style="width:74px; height:74px">
+<a rel="nofollow" href="/members/WilMor8213"> <img id='lazyload_UNIQUE_3' height='74px' width='74px' class='facebookAvatarIcon'/>
+<img class="sprite-facebookAvatarLogo facebookAvatarLogo" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</a> </div>
+</div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_59E8618E048CFA8869657947AD3AFF01-SRC_66564566" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">WilMor8213</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">1 contribution</span> </div>
+<div class="location">Raleigh</div>
+<div class="date ">
+Jun 5, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I must say simply Outstanding. I'm not one for mexican food but this just simply blew my mind. I never would go out of my way to even bother with a review but everything from the food , people and atmosphere was just out of this world. We had a group of 7 people and a Server by the name...
+<span class="fkLnk hvrIE6 tr66564566" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r65935460-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r65935460" rel="nofollow">Now thats some good Mexican</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd65935460" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd65935460'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/CyclingTravel"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/87/cd/f9/cyclingtravel.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_AB1ECE9E59CFBAEE54AF07F187163EDC-SRC_65935460" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">CyclingTravel</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">23 contributions</span> </div>
+<div class="location">Philadelphia</div>
+<div class="date ">
+May 31, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Best Mexican in philly! Great casual place. Don't go here if your looking for tacos and burritos.
+<span class="fkLnk hvrIE6 tr65935460" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r58572597-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r58572597">I liked it better before they moved to new location</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd58572597" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd58572597'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/JodiDiamond"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2a/fd/97/avatar.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s30"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="3 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_40E6BECAD41F3834D1DCDCD6A8443D50-SRC_58572597" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">JodiDiamond</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">23 contributions</span> </div>
+<div class="location">Bucks County</div>
+<div class="date ">
+Mar 14, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I loved the old Tequillas -- it felt like a very special place, the owner was there and would visit your table and talk about growing up in Mexico, food was spectacular; now that they've moved into their new space -- it's really grand and beautiful -- they seemed to have left behind that sense that you were almost in...
+<span class="fkLnk hvrIE6 tr58572597" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r58296864-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r58296864">Expensive Mexican Food</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd58296864" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd58296864'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/echo218"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/6f/avatar052.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_9C5C1AE88C5383B6302781115F1C1490-SRC_58296864" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">echo218</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">21 contributions</span> </div>
+<div class="location">Long Island, NY</div>
+<div class="date ">
+Mar 11, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+If you are looking for an upscale Mexican restaurant in the heart of Philadelphia, Tequilas is the place to go. The restaurant has a large bar in the front where you can wait for a table and enjoy a delicious margarita. We arrived at the restaurant about 6pm on a Friday night though and did not have to wait for...
+<span class="fkLnk hvrIE6 tr58296864" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r56428102-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r56428102">Traditional and Authentic</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd56428102" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd56428102'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/refined"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/70/avatar053.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_CAD95B092FFC97FACA33969A0364558F-SRC_56428102" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">refined</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">6 contributions</span> </div>
+<div class="location">Adelaide</div>
+<div class="date ">
+Feb 18, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Wow! A truly classic mexican restaurant in north eastern USA. I would not have thought it! Here is a place of one mans extraordinary vision. Every time I travel to the US I do seek out mexican food. At Tequillas traditional mexican cuisine done with care and elegance on the palate is the order of the day. This is not...
+<span class="fkLnk hvrIE6 tr56428102" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r55651115-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r55651115">Excellent choice for dining</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd55651115" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd55651115'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/Tim990"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/a3/avatar074.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_D5020B31A55BFB1EB59752182132FC32-SRC_55651115" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">Tim990</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">2 contributions</span> </div>
+<div class="location">PA</div>
+<div class="date ">
+Feb 10, 2010
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+This is the fourth time in Tequila's.
+Every time has been a very good experience.
+The food is always good and their margarita are excellent (even though the last time they were not as good. However, whatever may have been wrong then, was certainly corrected at this visit). I did not find much difference in the special margarita compared to...
+<span class="fkLnk hvrIE6 tr55651115" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r48287072-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r48287072">Upscale Mexican, pricey but delicous!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd48287072" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd48287072'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/chrisd"> <img src="http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/86/avatar007.jpg" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_471FA3A296E8680B7C5A46CF1DA10D99-SRC_48287072" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">chrisd</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">76 contributions</span> </div>
+<div class="location">McLean, Va</div>
+<div class="date ">
+Nov 1, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+The atmosphere at Tequila is elegant and quiet compared to most Mexican restaurants. I am fairly certain that this is not one of the ubiqitous Steven Starr restaurants...the atmosphere felt more calm and peaceful than one of his restaurants. The quality of the food was excellent. I ate a chicken mole dish and felt like the mole sauce was well...
+<span class="fkLnk hvrIE6 tr48287072" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r41114596-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r41114596" rel="nofollow">Very nice bar area, only...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd41114596" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd41114596'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_4' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Sep 11, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+Very nice bar area, only sampled the appetizers which are well done, flavorful and well- portioned. Have the ceviche, sopes and chipotle oysters. Tequila assortment is impressive and the bartenders are excellent. Lighting is dim in some areas to the point reading the menu required use of cellphone screen lighting to illuminate.
+<span class="fkLnk hvrIE6 tr41114596" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r33560124-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r33560124" rel="nofollow">LOVE the food! Guacamole...</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd33560124" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd33560124'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<img class="fbConnect" alt="Facebook Connect" src="http://cdn.tripadvisor.com/img/facebook/connect/fb_14x14.gif"/>
+<img id='lazyload_UNIQUE_5' height='74' alt='' width='74'/>
+</div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="CATID_3" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">A TripAdvisor reviewer on Facebook</span>
+<span class="contribs">&nbsp;</span>
+</span>
+</div>
+<div class="date ">
+Jun 29, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+LOVE the food! Guacamole bar is fantastic. Always a treat. Great margaritas!
+<span class="fkLnk hvrIE6 tr33560124" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="review">
+<div class="quote"> <i>&#x201c;</i><a href="/ShowUserReviews-g60795-d433408-r29389688-Tequilas_Restaurant-Philadelphia_Pennsylvania.html" class="pid2168" id="r29389688">Best Mexican food!</a><i>&#x201d;</i></div>
+<div class="wrap forSave">
+<div class="profile">
+<div class="saveReview">
+<span id="ssd29389688" onclick="ta.overlays.registration.request('SIGNIN',{PostSuccessUrl:'/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html#savessd29389688'},{flow: 'SAVES'});"><img class="sprite-saveReviewGrn90x20" src="http://cdn.tripadvisor.com/img2/x.gif" alt="Save Review"/></span>
+</div>
+<div class="avatar">
+<a rel="nofollow" href="/members/middle_of_nowhere23"> <img src="http://cdn.tripadvisor.com/img/rego/no_user_photo.gif" alt=""/>
+</a> </div> <div class="rating">
+<span class="rate s50"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="5 of 5 stars"/></span>
+</div>
+<div class="username mo">
+<span id="UID_AFE319C6D4DD7D0E2C4869D578DF000A-SRC_29389688" onmouseover="ta.call('ta.common.flyout.memberOverlay', event, this)">
+<span class="scrname hvrIE6">middle_of_nowhere23</span>
+<span class="sprite-arrowDnOverlay dn_arrow">&nbsp;</span>
+</span>
+<span class="contribs">3 contributions</span> </div>
+<div class="location">Central Pennsylvania</div>
+<div class="date ">
+May 5, 2009
+</div> </div> </div>
+<div class="summary">
+<div class="entry">
+<p>
+I'm originally from CA, so I was surprised to find such good, authentic Mexican food in Philly. Very good chips & salsa. I had the "filete grito" which was a filet mignon with a tamarind sauce. The filet wasn't as tender as I would expect, but it was still very good and the tamarind sauce was muy excellente! I also...
+<span class="fkLnk hvrIE6 tr29389688" onclick="ta.util.cookie.setPIDCookie(2169);ta.call('ta.servlet.Reviews.findLink',event)">more</span>
+</p>
+</div><!--/ entry-->
+</div>
+</div>
+<div class="deckTools btm">
+<div class="pagination">
+<span class="pgCount"><span>1-10</span> <i>of</i> 50</span>
+<div id="" class="pgLinks">
+<span class="guiArw pageEndPrev"></span>
+<span class="paging pageDisplay">1</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEUKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)">2</span>
+<span class="paging pagePause">...</span>
+<span class="paging  fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEdKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)">5</span>
+<span class="ie_rgt"><span class="guiArw sprite-pageNext fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LeVtIJpEJCIQeVsSVuWy3KkAoWMdmmdKvWxfWiEUKWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJBxyezsqilzsxdh',0)"></span></span>
+</div> </div><!--/ pagination-->
+</div><!--/ deckTools.btm-->
+</div>
+<div id="ALSO_VIEWED" class="bx01">
+<div class="title">Travelers Who Viewed This Restaurant Also Viewed</div> <dl>
+<dd class="first eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_6' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60795-d433470-Reviews-Buddakan-Philadelphia_Pennsylvania.html" class="pid1020">Buddakan</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60795-d433470-Reviews-Buddakan-Philadelphia_Pennsylvania.html" class="pid1020" rel="nofollow">
+134 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Philadelphia, PA </div> </div>
+<div class="pricing">
+<div class="price">
+$30<span>*</span>
+</div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_7' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60795-d433418-Reviews-Alma_de_cuba-Philadelphia_Pennsylvania.html" class="pid1020">alma de cuba</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60795-d433418-Reviews-Alma_de_cuba-Philadelphia_Pennsylvania.html" class="pid1020" rel="nofollow">
+150 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Philadelphia, PA </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+<dd class="eatery">
+<div class="thumbnail">
+<img id='lazyload_UNIQUE_8' alt='No photo provided'/> </div>
+<div class="data">
+<div class="propertyLink"><a href="/Restaurant_Review-g60795-d433485-Reviews-Monk_s_Cafe-Philadelphia_Pennsylvania.html" class="pid1020">Monk's Cafe</a></div>
+<div class="rating">
+<span class="rate ss40"><img class="sprite-ratings" src="http://cdn.tripadvisor.com/img2/x.gif" alt="4 of 5 stars"/></span>
+<em>
+<a href="/Restaurant_Review-g60795-d433485-Reviews-Monk_s_Cafe-Philadelphia_Pennsylvania.html" class="pid1020" rel="nofollow">
+144 Reviews </a>
+</em>
+</div><!--/ rating-->
+<div class="location"><em>Location:</em> Philadelphia, PA </div> </div>
+<div class="pricing">
+<div class="noprice">
+Price not available </div>
+</div>
+</dd>
+</dl>
+<div class="more">
+<a href="/Restaurants-g60795-Philadelphia_Pennsylvania.html" class="pid1021">
+All Restaurants in Philadelphia </a>
+</div>
+</div>
+<div class="bx01 writeOwn">
+<dl>
+<dt class="title">
+Write Your Own Restaurant Review
+</dt>
+<dd class="content">
+<p><b>Been to Tequilas Restaurant? Share your experiences!</b></p>
+<div class="wrpBtn">
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(458);ta.util.ASDF.asdf('LqdWy3KkAoWMdmmdKvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQuESIVJEVsSVuQIi2WrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJB')">Write a Review</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(459);ta.util.ASDF.asdf('LxTq3Wy3KkAoWMdmmdKvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itI2GiIitiCcgQIi2WrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJB')">Add Photos</span></div>
+<div class="button"><span onclick="ta.util.cookie.setPIDCookie(460);ta.util.ASDF.asdf('LxTqiSMViWy3KkAoWMdmmdKvWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIacWTHVTSEtIQeVtIJpEJCIQeVsSVuQ2itIsSMVitiCcgQIi2WrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJB')">Add Videos</span></div>
+</div>
+</dd> </dl>
+</div>
+<div id="COMMERCE_MID" class="box typeB commerce v3"> <div class="interior">
+<h2 id="COMMERCE_MID_TITLE">Travel deals: Philadelphia</h2>
+<dl>
+<dd>
+<ul>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=GenComHotelPlannerHotelsGEO&amp;src=8134511&amp;geo=60795&amp;from=Restaurant_Review&amp;area=MID&amp;slot=1&amp;cnt=4&amp;oos=4"><var>Philadelphia: Groups: Need 3+ Rooms?</var><br/>
+<span><b>HotelPlanner.com</b> Group Hotel Rates. Did you lock in a group rate yet?</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=StarwoodFMCentralGEO&amp;src=5042717&amp;geo=60795&amp;from=Restaurant_Review&amp;area=MID&amp;slot=2&amp;cnt=4&amp;oos=4"><var>Philadelphia: The Thrills of Summer are in Philadelphia</var><br/>
+<span><b>Starwood.com</b> Plan your summer getaway with great rates and packages in Philadelphia.</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=BookingsOrgHotelsGEOZH&amp;src=20758295&amp;geo=60795&amp;from=Restaurant_Review&amp;area=MID&amp;slot=3&amp;cnt=4&amp;oos=4"><var>Philadelphia: 酒店半价 !</var><br/>
+<span><b>Booking.com</b> 在网上预订，在酒店付款。</span></a>
+</li>
+<li>
+<a rel="nofollow" class="js_popComm" href="/Commerce?p=PerfectEscapesHotelsGEO&amp;src=17780971&amp;geo=60795&amp;from=Restaurant_Review&amp;area=MID&amp;slot=4&amp;cnt=4&amp;oos=4"><var>Philadelphia: Great Deals on Luxury Hotels</var><br/>
+<span><b>PerfectEscapes.com</b> Five-star luxury for less. Our experts review each and every hotel</span></a>
+</li>
+</ul>
+</dd>
+<dd class="b"><a rel="nofollow" href="/Packages-g60795-Vacation-Package-Discount-Philadelphia_Pennsylvania.html">
+<b>View all deals for Philadelphia</b>
+</a></dd>
+<dt class="note">Sponsored links *</dt>
+</dl>
+</div><!--/ interior-->
+</div><!--/ box.commerce-->
+<div class="bx01 owners">
+<h2 class="title">
+Do You Own Tequilas Restaurant? </h2>
+<div class="content">
+<p class="restext">TripAdvisor has free and easy resources to help you enhance your listing and promote your property.</p>
+<ul class="arrows">
+<li><span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LqNWy3KkAoWMdmmdKvWrVqQpScJtQeVtIJpEJCIWwGScJMVc2GSJQwVCCtgcsJCSJB')">Start Here - Visit Your Owners' Center</span></li> <li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(476);showOwnersDHTMLPopup('OwnersSignupPopup', '/OwnersSignupPopup-g60795-d433408-Tequilas_Restaurant-Philadelphia_Pennsylvania.html?product=upd');return false;">Add Photo</span></li>
+<li><span class="fkLnk hvrIE6" onclick="ta.util.cookie.setPIDCookie(477);ta.util.ASDF.asdf('LxTqiSMVi')">Add Video</span></li>
+</ul>
+</div> </div>
+<div class="bx01 address">
+<h2 class="title">Tequilas Restaurant Address</h2>
+<div class="content">
+<address class="adr"> <span class="street-address" property="v:street-address">1602 Locust Street</span>, <span class="locality"><span property="v:locality">Philadelphia</span>, <span property="v:region">PA</span> <span property="v:postal-code">19103-6305</span></span> </address>
+<span class="tel"><b>Tel:</b> (215) 546-0181</span>
+</div> </div>
+<div class="note fOs">* Restaurant price information is based on meal cost per person, excluding drinks, tax and tip.</div>
+</div><!--/ col.balance -->
+</div><!-- / gridA -->
+</div><!--/ BODYCON-->
+</div><!--/ MAIN-->
+<div id="FOOT">
+<div class="corporate">
+<div class="col sidebar">
+<div class="block">
+<dl class="about">
+<dt>About TripAdvisor&#174;</dt> <dd> TripAdvisor&#8482; provides unbiased reviews, articles, recommendations and opinions on <b>Tequilas Restaurant</b>, Philadelphia.</dd>
+</dl>
+</div><!--/ block-->
+</div><!--/ col.sidebar-->
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://cdn.tripadvisor.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">Recommendations for hotels, resorts, inns, vacations, travel packages, travel guides and lots more!</dd>
+</dl>
+<dl class="sep flags">
+<dt>Select a TripAdvisor site:</dt>
+<dd>
+<ul id="FLAGS">
+<li>
+<a id="flag_uk" class="flag_uk js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.co.uk/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_ca" class="flag_ca js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.ca/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_it" class="flag_it js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.it/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_es" class="flag_es js_noTAPD" title="Tequilas Restaurant, Filadelfia" href="http://www.tripadvisor.es/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Filadelfia"/></a>
+</li>
+<li>
+<a id="flag_de" class="flag_de js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.de/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_fr" class="flag_fr js_noTAPD" title="Tequilas Restaurant, Philadelphie" href="http://www.tripadvisor.fr/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphie"/></a>
+</li>
+<li>
+<a id="flag_ja" class="flag_ja js_noTAPD" title="Tequilas Restaurant, フィラデルフィア" href="http://www.tripadvisor.jp/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, フィラデルフィア"/></a>
+</li>
+<li>
+<a id="flag_cn" class="flag_cn js_noTAPD" title="Tequilas Restaurant, 费城" href="http://www.daodao.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, 费城"/></a>
+</li>
+<li>
+<a id="flag_in" class="flag_in js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.in/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_sv" class="flag_sv js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.se/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_nl" class="flag_nl js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://nl.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_pt" class="flag_pt js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.com.br/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_tr" class="flag_tr js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.com.tr/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_da" class="flag_da js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.dk/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_mx" class="flag_mx js_noTAPD" title="Tequilas Restaurant, Filadelfia" href="http://www.tripadvisor.com.mx/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Filadelfia"/></a>
+</li>
+<li>
+<a id="flag_ie" class="flag_ie js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.ie/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_au" class="flag_au js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.com.au/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_sg" class="flag_sg js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://www.tripadvisor.com.sg/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_no" class="flag_no js_noTAPD" title="Tequilas Restaurant, Philadelphia" href="http://no.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Philadelphia"/></a>
+</li>
+<li>
+<a id="flag_pl" class="flag_pl js_noTAPD" title="Tequilas Restaurant, Filadelfia" href="http://pl.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, Filadelfia"/></a>
+</li>
+<li>
+<a id="flag_th" class="flag_th js_noTAPD" title="Tequilas Restaurant, ฟิลาเดลเฟีย" href="http://th.tripadvisor.com/Restaurant_Review-g60795-d433408-Reviews-Tequilas_Restaurant-Philadelphia_Pennsylvania.html"><img class="flag" src="http://cdn.tripadvisor.com/img2/sprites/posFlags-V1.gif" alt="Tequilas Restaurant, ฟิลาเดลเฟีย"/></a>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="sep internal">
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LzFLJHipIQptB')">About Us</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('Lqd')">Write a review</span> |
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LxIL')">Careers</span> | <span><a href="/pages/site_map_lodging.html">Site Map</a></span> | <span><a href="/pages/top200.html">Top Cities</a></span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">Owners</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('Lqo')">Help Center</span>
+| <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('L7ptSCVttRStISCyt')">Business Listings</span> | <span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdf('LqN')">DMO/CVB</span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2010 TripAdvisor LLC All rights reserved. TripAdvisor <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFLIVEatB')">Terms of Use</span> and <span class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdf('LzFL2ESsJngB')">Privacy Policy</span>.</div>
+<div class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="fkLnk hvrIE6" onclick="ta.util.ASDF.asdfPopupTerms('LzFL2ESnSCyQIVEatB')">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>.
+<b>Mac:</b>
+<span class="fkLnk hvrIE6" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem fbConnect">
+<fb:login-button v="2" size="small" onlogin="ta.util.cookie.setPIDCookie(1882);ta.overlays.registration.connectFB(null, null, 'MASTHEAD')">Sign&nbsp;in&nbsp;with&nbsp;Facebook</fb:login-button>
+</li>
+<li class="optItem login"><span class="fkLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427); ta.overlays.registration.connect({flow: 'MASTHEAD'}, 'SIGNUP');"><span class="fkLnk hvrIE6">Register Now!</span>
+<li id="INTLPOP" class="optItem intSites last" onclick="ta.call('ta.common.flyout.intlPopup', event, this)"><span class="sprite-arrowDn arrowDn"><img class="sprite-flag" src="http://cdn.tripadvisor.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div>
+<div id="tamgFooter" class="tamgFooterShell">
+<div class="tamgFooter sprite-BarBk">
+<!--Close button--><div class="extRight ecs"><div class="extRightBtn" onclick="setTAMGFooterCookie('Yes'); return false;"><div class="xBtn sprite-X"></div></div></div><!--More great sites--><div class="extRight mgs"><div class="extRightBtn" onclick="_openOverlay();">See all sites</div></div>
+<div class="tamgBar" style="height: 27px;">
+<div class="siteBtn">
+<div class="siteBtnImg TA sprite-TA"></div>
+</div>
+<div class="clBoth"></div>
+</div>
+</div>
+</div>
+<div id="tamgFooterBackdrop" class="tamgFooterBackdrop" style="display: none;"></div>
+<div id="tamgFooterOverlay" class="tamgFooterOverlayShell" style="display: none;"></div>
+<script type="text/javascript">
+var ajaxDomain = "http://" + document.domain;
+</script>
+<script type="text/javascript">
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('TFDC', '1'); }, 500 ) } );
+</script>
+<div id="FTR_TO_DIV" class="tamgFtr_Takeover" style="" onmouseover="return ta.call('ta.overlays.Factory.relAboveTAMGFooter', event, this);">
+<div id="FTR_TO_BTN" class="ftrBtn ftrWof">
+<span style="font:normal 12px Verdana,Arial,sans-serif;text-decoration:none;" class="fkLnk hvrIE6" onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIac','3547')}">Need travel help? Ask your Facebook friends!</span>
+</div>
+<div class="overlayContents">
+<div class="overlayHdr">
+Ask your friends about Philadelphia! </div>
+<p>
+<img class="inlineFBLogo sprite-ftr-wof-fblogo" height="16" width="16" src="http://cdn.tripadvisor.com/img2/x.gif"/> Who's been to Philadelphia? Find out &amp; get their best advice.
+</p>
+<div class="wrap">
+<div class="button org">
+<span onclick="if(ta.util){ ta.util.ASDF.asdf('LrES2qnESVCMtWVqgeVtIJpEJCIQQoqnQQeVsSVuqHy3KkAoqHMdmmdKvqHxfqHrVqQpScJtQQoqnQQeVtIJpEJCIqHwGScJMVc2GSJQQoqnQQwVCCtgcsJCSJxiGIac','3561')}">Go</span>
+</div>
+</div>
+<img alt="" class="sprite-ftr-wof-arrow" height="13" width="18" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<img alt="" onmouseover="$('FTR_TO_BTN').addClass('hvrd')" onmouseout="$('FTR_TO_BTN').removeClass('hvrd')" class="luft-plane sprite-ftr-wof-pix" height="57" width="141" src="http://cdn.tripadvisor.com/img2/x.gif"/>
+</div>
+<script type="text/javascript">
+var lazyImgs = [
+{ id: 'lazyload_UNIQUE_0', src: 'http://maps.google.com/staticmap?center=39.94862,-75.16797&zoom=15&size=268x133&key=ABQIAAAAbrotionfLoNjvl0WlUPGSRTFRR2s4c7gY80NVirDrP_sOnqrLBSVVtzIxnDoL1UdRNciXk9sobP9EQ&client=gme-expedia', scroll: false }
+, { id: 'lazyload_UNIQUE_4', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_3', src: 'http://media-cdn.tripadvisor.com/media/photo-s/01/94/c8/8e/wilmor8213.jpg', scroll: true }
+, { id: 'lazyload_UNIQUE_2', src: 'http://cdn.tripadvisor.com/img2/generic/site/guide48x58_generic.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_1', src: 'http://static.ak.fbcdn.net/pics/q_silhouette.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_8', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_7', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_6', src: 'http://cdn.tripadvisor.com/img/pce/hotel_nophoto44x44.gif', scroll: true }
+, { id: 'lazyload_UNIQUE_5', src: 'http://cdn.tripadvisor.com/img2/generic/site/no_user_photo-v1.gif', scroll: true }
+]
+var lazyHtml = [
+]
+var lazyloader = new LazyLoad({ range: 200 }, lazyImgs, lazyHtml);
+</script>
+<script type="text/javascript">
+ta.store('facebook.apiKey', "98e1fc4356ac6f65ce1254859e1fcd2b");
+ta.keep('facebook.onAvail', function () {
+$$('.fbLikeButton').each(function (n) {
+var parent = n.parentNode;
+var iframe = document.createElement("iframe");
+iframe.setAttribute("id", "fbLikeButton");
+iframe.setAttribute("class", "like-iframe");
+iframe.setAttribute("scrolling", "no");
+iframe.setAttribute("frameBorder", "0");
+var url = n.childNodes[0].data;
+iframe.setAttribute("src", "http://www.facebook.com/widgets/like.php?href=" + encodeURIComponent(url.replace(/^\s*/, "").replace(/\s*$/, "")) + "&width=300&height=23&show_faces=False&layout=standard");
+parent.insertBefore(iframe, n);
+parent.removeChild(n);
+});
+var styleElement = document.createElement('style');
+styleElement.type = 'text/css';
+styleElement.id   = 'facebookLikeButton';
+document.getElementsByTagName('head')[0].appendChild(styleElement);
+var styleText = "#homepageLikeButton { display: block; } #fbLikeButton { display: inline; }";
+if (window.isIE) {
+if (fIEVersion < 7) {
+// this is horrible, but IE6 doesn't seem to pay attention otherwise (fb/like.css)
+styleText += " h1#HEADING.fbShowLike { display: inline !important; }";
+}
+if (fIEVersion < 8)
+{
+styleText += "#fbLikeButton {height:27px;}";
+}
+styleElement.styleSheet.cssText = styleText;
+} else {
+styleElement.appendChild(document.createTextNode(styleText));
+}
+});
+ta.store('page.geo', "60795");
+ta.store('page.location', "433408");
+ta.store('pending.ignore.facebook', true);
+ta.store('pending.callback.facebook', function(){
+ta.support.Facebook.setup(function(){
+ta.support.Facebook.markAvailable();
+ta.support.Facebook.checkSession();
+});
+});
+ta.queueForLoad(function(){
+new Asset.javascript("http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php");
+ta.util.pending.waitForFn('facebook', 'FB_RequireFeatures');
+});
+function getFBCookieVal() {
+var fbInHist = sniffFacebook();
+var fbCookieVal = 2;
+if( fbInHist ) {
+fbCookieVal = 1;
+}
+return fbCookieVal;
+}
+ta.queueForLoad( function() { setTimeout( function() { Cookie.writeSession('FBH', getFBCookieVal()); }, 500 ) } );
+</script>
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px; left:-10000px; width:0px; height:0px"></div>
+</body>
+<!-- st: 245 dc: 6 sc: 9 -->
+</html>
